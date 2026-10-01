@@ -112,7 +112,8 @@ export async function textbookSideForSection(code: string, title: string): Promi
   const unit = Number(/_U(\d+)_/.exec(code)?.[1]);
   const subs = await loadSubchapters(grade);
 
-  if (/overview|summary|introduction|^unit \d+/i.test(title)) {
+  // Not "introduction": "Introduction to Information Systems" is a topic section.
+  if (/overview|summary|^unit \d+/i.test(title)) {
     const unitSubs = subs.filter((s) => s.unit === unit).sort((a, b) => Number(a.id.split(".")[1]) - Number(b.id.split(".")[1]));
     if (unitSubs.length) {
       return {

@@ -23,7 +23,13 @@ import type { Page } from "playwright";
 export const COVERAGE_DIR = path.join(process.cwd(), "output", "coverage");
 
 /** Reusable from the batch: page must be able to open the draft URL. */
-export async function checkSectionCoverage(page: Page, code: string, draftUrl: string): Promise<SectionCoverageReport> {
+export async function checkSectionCoverage(
+  page: Page,
+  code: string,
+  draftUrl: string,
+  /** Report file name (e.g. "ICT_G11_U01_S01_v2"); defaults to the section code. */
+  reportName = code,
+): Promise<SectionCoverageReport> {
   if (!/^ICT_G1[12]_/.test(code)) throw new Error(`Not an ICT section code: ${code}`);
   const { title, items: lms } = await lmsItems(code);
   const side = await textbookSideForSection(code, title);
@@ -34,8 +40,8 @@ export async function checkSectionCoverage(page: Page, code: string, draftUrl: s
 
   const report = evaluateCoverage(code, draftUrl, side.label, side.items, lms, draft);
   await fs.mkdir(COVERAGE_DIR, { recursive: true });
-  await fs.writeFile(path.join(COVERAGE_DIR, `${code}.json`), JSON.stringify(report, null, 2), "utf8");
-  await fs.writeFile(path.join(COVERAGE_DIR, `${code}.md`), formatCoverageReport(report), "utf8");
+  await fs.writeFile(path.join(COVERAGE_DIR, `${reportName}.json`), JSON.stringify(report, null, 2), "utf8");
+  await fs.writeFile(path.join(COVERAGE_DIR, `${reportName}.md`), formatCoverageReport(report), "utf8");
   return report;
 }
 

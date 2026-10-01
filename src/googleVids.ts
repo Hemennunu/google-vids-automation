@@ -806,7 +806,7 @@ export async function attachDriveDocument(page: Page, instruction: string, drive
     offered = await option.waitFor({ state: "visible", timeout: 15_000 }).then(() => true, () => false);
     if (!offered) {
       log("info", `"${driveName}" not in the @ picker yet (attempt ${attempt}/8) — waiting for Drive to index it…`);
-      await page.keyboard.press("Escape").catch(() => undefined);
+      // No Escape here: it closes the whole Gemini dialog, not just the suggestions.
       await input.click();
       await page.keyboard.press("Control+End");
       for (let i = 0; i < search.length + 2; i++) await page.keyboard.press("Backspace");

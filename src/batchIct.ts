@@ -97,6 +97,17 @@ async function appendLog(row: Record<string, unknown>): Promise<void> {
   await fs.appendFile(LOG_PATH, (exists ? "" : `${LOG_COLUMNS.join(",")}\n`) + LOG_COLUMNS.map((c) => csv(row[c])).join(",") + "\n", "utf8");
 }
 
+/** X.mp4 if free, else X_v2.mp4, X_v3.mp4 … — earlier versions are never overwritten. */
+async function nextVersionPath(file: string): Promise<string> {
+  const exists = (p: string) => fs.access(p).then(() => true, () => false);
+  if (!(await exists(file))) return file;
+  const { dir, name, ext } = path.parse(file);
+  for (let v = 2; ; v++) {
+    const candidate = path.join(dir, `${name}_v${v}${ext}`);
+    if (!(await exists(candidate))) return candidate;
+  }
+}
+
 /** Upload only if this exact document version has not been uploaded before. */
 async function ensureUploaded(docxPath: string): Promise<boolean> {
   const hash = createHash("sha256").update(await fs.readFile(docxPath)).digest("hex").slice(0, 16);
@@ -120,6 +131,8 @@ async function main(): Promise<void> {
   const limitRaw = cliValue(argv, "limit") ?? "1";
   const only = cliValue(argv, "sections")?.split(",").map((s) => s.trim());
   const dryRun = cliFlag(argv, "dry-run");
+  // --redo: generate again even if done (new files get _v2, _v3… so earlier versions are kept).
+  const redo = cliFlag(argv, "redo") || process.env.ICT_REDO === "1";
   const delaySec = Number.parseInt(cliValue(argv, "delay") ?? "30", 10);
   const limit = limitRaw === "all" ? Number.POSITIVE_INFINITY : Math.max(1, Number.parseInt(limitRaw, 10) || 1);
   if (!["11", "12", "all"].includes(grade)) throw new Error("--grade must be 11, 12 or all");
@@ -127,7 +140,7 @@ async function main(): Promise<void> {
   let sections = await listSections(grade as "11" | "12" | "all", unitRaw ? Number(unitRaw) : undefined);
   if (only) sections = sections.filter((s) => only.includes(s.code));
   const done = await doneCodes();
-  const queue = sections.filter((s) => !done.has(s.code)).slice(0, limit);
+  const queue = sections.filter((s) => redo || !done.has(s.code)).slice(0, limit);
   log("info", `ICT sections selected: ${sections.length} (${done.size} already done) — this run: ${queue.length}.`);
 
   if (dryRun) {
@@ -150,6 +163,9 @@ async function main(): Promise<void> {
       log("info", `Section document: ${doc.mustCover.length} must-cover items (sub-chapter: ${doc.subchapter ?? "none"}).`);
       if (await ensureUploaded(doc.docxPath)) await new Promise((r) => setTimeout(r, 15_000)); // let Drive index it for "@"
 
+      const videoPath = await nextVersionPath(
+        path.join(OUTPUT_DIR, "ICT", `G${s.grade}`, `U${String(s.unit).padStart(2, "0")}`, `${s.code}.mp4`),
+      );
       const result = await runGoogleVidsDraftFlow({
         headless: false,
         useCdp: true,
@@ -160,7 +176,7 @@ async function main(): Promise<void> {
         driveDocName: doc.driveName,
         storyboardInstruction: sectionStoryboardInstruction(s.grade, s.title),
         exporter,
-        outputPath: path.join(OUTPUT_DIR, "ICT", `G${s.grade}`, `U${String(s.unit).padStart(2, "0")}`, `${s.code}.mp4`),
+        outputPath: videoPath,
       });
       row.editor_url = result.editorUrl;
       row.result = result.outputPath;
@@ -169,7 +185,7 @@ async function main(): Promise<void> {
       if (result.editorUrl) {
         const launch = await launchBrowserViaCdp(undefined, { newPage: true });
         try {
-          const cov = await checkSectionCoverage(launch.page, s.code, result.editorUrl);
+          const cov = await checkSectionCoverage(launch.page, s.code, result.editorUrl, path.parse(videoPath).name);
           Object.assign(row, {
             coverage_pct: cov.coveragePercent,
             textbook_items: `${cov.textbook.covered}/${cov.textbook.total}`,
