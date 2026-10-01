@@ -216,7 +216,9 @@ export function evaluateCoverage(
     covered: items.filter((i) => i.source === src && i.covered).length,
     total: items.filter((i) => i.source === src).length,
   });
-  const credits = draft.stock.filter((s) => !s.startsWith("query: "));
+  // Judge Gemini's stock search terms (one per visual); fall back to credits if none recorded.
+  const queries = draft.stock.filter((s) => s.startsWith("query: "));
+  const visuals = queries.length ? queries : draft.stock;
   return {
     code,
     draftUrl,
@@ -228,8 +230,8 @@ export function evaluateCoverage(
     missing: items.filter((i) => !i.covered),
     items,
     stock: {
-      total: credits.length,
-      ethiopiaOrAfrica: draft.stock.filter((s) => ETHIOPIA_AFRICA.test(s)).length,
+      total: visuals.length,
+      ethiopiaOrAfrica: visuals.filter((s) => ETHIOPIA_AFRICA.test(s)).length,
       samples: draft.stock.slice(0, 12),
     },
   };

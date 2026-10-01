@@ -65,9 +65,30 @@ const csv = (v: unknown) => {
   return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 };
 
+/** One CSV line → cells (handles quoted cells containing commas, e.g. section titles). */
+function parseCsvLine(line: string): string[] {
+  const cells: string[] = [];
+  let cur = "";
+  let quoted = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i]!;
+    if (quoted) {
+      if (ch === '"' && line[i + 1] === '"') { cur += '"'; i++; }
+      else if (ch === '"') quoted = false;
+      else cur += ch;
+    } else if (ch === '"') quoted = true;
+    else if (ch === ",") { cells.push(cur); cur = ""; }
+    else cur += ch;
+  }
+  cells.push(cur);
+  return cells;
+}
+
 async function doneCodes(): Promise<Set<string>> {
   const text = await fs.readFile(LOG_PATH, "utf8").catch(() => "");
-  return new Set(text.split(/\r?\n/).slice(1).map((l) => l.split(",")).filter((c) => c[3] === "done").map((c) => c[1]!));
+  return new Set(
+    text.split(/\r?\n/).slice(1).filter(Boolean).map(parseCsvLine).filter((c) => c[3] === "done").map((c) => c[1]!),
+  );
 }
 
 async function appendLog(row: Record<string, unknown>): Promise<void> {
