@@ -45,13 +45,14 @@ async function runSuite() {
   // Test 3: Storyboard Prompt Instruction Configuration
   console.log("[TEST 3] Testing Storyboard Prompt Configuration...");
   const instruction = getStoryboardInstruction();
+  const coverageFirstInstruction = getStoryboardInstruction("coverage-first");
   const legacyInstruction = getStoryboardInstruction("legacy");
   if (
-    instruction.includes("FIRST PRIORITY: COVERAGE") &&
-    instruction.includes("MUST-COVER CONTENT") &&
+    instruction.includes("TEACHING VIDEO") &&
+    coverageFirstInstruction.includes("FIRST PRIORITY: COVERAGE") &&
     legacyInstruction.includes("Treat the complete source document as the authoritative educational content")
   ) {
-    console.log(`  ✓ Storyboard instruction matches coverage-first and legacy requirements.\n`);
+    console.log(`  ✓ Storyboard instruction matches ICT teaching, coverage-first, and legacy requirements.\n`);
   } else {
     throw new Error("Storyboard instruction missing mandatory requirements.");
   }

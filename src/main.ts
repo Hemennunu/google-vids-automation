@@ -60,8 +60,19 @@ function parseArgs(argv: string[]): {
     cliFlag(argv, "test") ||
     process.env.TEST_MODE === "true";
 
+  // A bare path argument works through npm unchanged:
+  //   npm run start outputs/ict-prepared/Grade_11_ICT_Unit_02_Section_04_master.md
+  // (npm 11 rewrites `--script=` to its own `--script-shell`, so prefer this or --file=.)
+  const positionalPath = argv.find((a) => !a.startsWith("-") && /\.(md|txt|docx)$/i.test(a));
+
   const scriptPath =
-    cliValue(argv, "script") ?? path.join("input", "biology-001.txt");
+    positionalPath ??
+    cliValue(argv, "script") ??
+    cliValue(argv, "file") ??
+    cliValue(argv, "input") ??
+    cliValue(argv, "section") ??
+    process.env.SCRIPT_PATH ??
+    path.join("outputs", "ict-prepared", "Grade_11_ICT_Unit_02_Section_04_master.md");
 
   const formatRaw = cliValue(argv, "format") ?? "Landscape";
   const videoFormat = (
@@ -205,6 +216,47 @@ async function main(): Promise<void> {
     const driveService = new BrowserDriveService();
     const driveRes = await driveService.uploadFile(prepResult.docxPath);
     log("info", `Drive Status [${driveRes.status}]: ${driveRes.message || driveRes.fileName}`);
+  } else if (args.scriptPath && args.scriptPath.endsWith(".md")) {
+    try {
+      const fsSync = await import("node:fs");
+      const content = fsSync.readFileSync(args.scriptPath, "utf8");
+      preparedMarkdown = content;
+      const extracted: string[] = [];
+
+      // Extract MUST-TEACH concepts
+      const conceptMatches = content.match(/### Concept \d+:\s*(.*)/g);
+      if (conceptMatches) {
+        conceptMatches.forEach((m) => {
+          const c = m.replace(/### Concept \d+:\s*/, "").trim();
+          if (c) extracted.push(c);
+        });
+      }
+
+      // Extract MUST-COVER items
+      const mustCoverMatch = content.match(/MUST-COVER CONTENT\s*\n=+\s*\n([\s\S]*?)(?=\n=+|$)/);
+      if (mustCoverMatch) {
+        const lines = mustCoverMatch[1].split("\n").filter((l) => /^\d+\.\s+/.test(l.trim()));
+        lines.forEach((l) => extracted.push(l.replace(/^\d+\.\s+/, "").trim()));
+      }
+
+      // Extract ADDED GAPs
+      const gapMatches = content.match(/\[ADDED GAP\][\s\S]*?Topic:\s*(.*)[\s\S]*?\[\/ADDED GAP\]/g);
+      if (gapMatches) {
+        gapMatches.forEach((gm) => {
+          const tm = gm.match(/Topic:\s*(.*)/);
+          if (tm && tm[1]?.trim()) {
+            extracted.push(`[Gap Concept] ${tm[1].trim()}`);
+          }
+        });
+      }
+
+      if (extracted.length > 0) {
+        mustCoverItems = Array.from(new Set(extracted));
+        log("info", `Extracted ${mustCoverItems.length} MUST-TEACH & Gap items for coverage analysis from ${path.basename(args.scriptPath)}.`);
+      }
+    } catch {
+      // fallback
+    }
   }
 
   // PART 9, 10, 11, 12, 13: Google Vids Storyboard Automation Flow

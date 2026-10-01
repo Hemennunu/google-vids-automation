@@ -1,0 +1,213 @@
+{
+  "timestamp": "20261001-181531",
+  "totalMustCover": 20,
+  "taughtCount": 1,
+  "underExplainedCount": 14,
+  "missingCount": 5,
+  "coveredCount": 15,
+  "coveragePercentage": 5,
+  "items": [
+    {
+      "concept": "Etymological and scientific definition of biology",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [],
+      "matchedSnippet": "Mentioned but under-explained (67% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "The eight universal characteristics of living organisms",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        2
+      ],
+      "matchedSnippet": "Mentioned but under-explained (40% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Cellular organization as the fundamental structural and functional criterion of life",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        2
+      ],
+      "matchedSnippet": "Mentioned but under-explained (43% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Metabolism: Catabolism versus anabolism and cellular energy transformations",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        2
+      ],
+      "matchedSnippet": "Mentioned but under-explained (57% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Homeostasis and physiological regulatory feedback mechanisms",
+      "covered": false,
+      "status": "missing",
+      "statusSymbol": "✗",
+      "matchedScenes": [],
+      "matchedSnippet": "No significant keywords found",
+      "explanationDepth": "Omitted"
+    },
+    {
+      "concept": "Response to environmental stimuli and behavioral adaptation",
+      "covered": false,
+      "status": "missing",
+      "statusSymbol": "✗",
+      "matchedScenes": [],
+      "matchedSnippet": "No significant keywords found",
+      "explanationDepth": "Omitted"
+    },
+    {
+      "concept": "Growth, development, and cellular differentiation",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [],
+      "matchedSnippet": "Mentioned but under-explained (50% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Reproduction, genetic transmission, DNA replication, and hereditary variation",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        3
+      ],
+      "matchedSnippet": "Mentioned but under-explained (67% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Evolutionary adaptation and natural selection in biological populations",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [],
+      "matchedSnippet": "Mentioned but under-explained (67% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Borderline entities: Structural and functional status of viruses",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        4
+      ],
+      "matchedSnippet": "Mentioned but under-explained (50% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Hierarchical levels of biological organization: Molecular to Biospheric scale",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        5
+      ],
+      "matchedSnippet": "Mentioned but under-explained (43% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Emergent properties at successive hierarchical biological levels",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        5
+      ],
+      "matchedSnippet": "Mentioned but under-explained (67% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Major branches and sub-disciplines of biological inquiry",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [],
+      "matchedSnippet": "Mentioned but under-explained (60% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "The scientific method as applied to biological investigations",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        7
+      ],
+      "matchedSnippet": "Mentioned but under-explained (40% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "Key biological terminology and definitions",
+      "covered": false,
+      "status": "missing",
+      "statusSymbol": "✗",
+      "matchedScenes": [],
+      "matchedSnippet": "No significant keywords found",
+      "explanationDepth": "Omitted"
+    },
+    {
+      "concept": "Common misconceptions regarding living versus non-living matter",
+      "covered": false,
+      "status": "missing",
+      "statusSymbol": "✗",
+      "matchedScenes": [],
+      "matchedSnippet": "No significant keywords found",
+      "explanationDepth": "Omitted"
+    },
+    {
+      "concept": "Real-world applications and Ethiopian biological examples",
+      "covered": false,
+      "status": "missing",
+      "statusSymbol": "✗",
+      "matchedScenes": [],
+      "matchedSnippet": "No significant keywords found",
+      "explanationDepth": "Omitted"
+    },
+    {
+      "concept": "[Gap Concept] Endemic Afroalpine Wildlife Conservation and Evolutionary Genetics in the Ethiopian Highlands",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        8
+      ],
+      "matchedSnippet": "Mentioned but under-explained (63% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "[Gap Concept] Crop Wild Relatives, Vavilov Centers of Diversity, and Indigenous Agrobiodiversity in Ethiopia",
+      "covered": true,
+      "status": "under_explained",
+      "statusSymbol": "⚠",
+      "matchedScenes": [
+        9
+      ],
+      "matchedSnippet": "Mentioned but under-explained (67% keyword match; brief summary only)",
+      "explanationDepth": "High-level mention"
+    },
+    {
+      "concept": "[Gap Concept] Empirical Biological Inquiry, Controlled Variable Design, and Laboratory Bio-Safety Standards",
+      "covered": true,
+      "status": "taught",
+      "statusSymbol": "✓",
+      "matchedScenes": [],
+      "matchedSnippet": "Substantively taught (78% keyword match with explanatory detail)",
+      "explanationDepth": "In-depth teaching"
+    }
+  ],
+  "reportText": "ICT MUST-TEACH CONTENT COVERAGE DIAGNOSTIC REPORT\n=================================================\nTotal Must-Teach Concepts: 20\n✓ Substantively Taught: 1 / 20 (5%)\n⚠ Mentioned but Under-Explained: 14 / 20\n✗ Missing / Omitted: 5 / 20\n\nConcept Status Detail:\n⚠ [UNDER_EXPLAINED] Etymological and scientific definition of biology\n⚠ [UNDER_EXPLAINED] The eight universal characteristics of living organisms [Scenes: 2]\n⚠ [UNDER_EXPLAINED] Cellular organization as the fundamental structural and functional criterion of life [Scenes: 2]\n⚠ [UNDER_EXPLAINED] Metabolism: Catabolism versus anabolism and cellular energy transformations [Scenes: 2]\n✗ [MISSING] Homeostasis and physiological regulatory feedback mechanisms\n✗ [MISSING] Response to environmental stimuli and behavioral adaptation\n⚠ [UNDER_EXPLAINED] Growth, development, and cellular differentiation\n⚠ [UNDER_EXPLAINED] Reproduction, genetic transmission, DNA replication, and hereditary variation [Scenes: 3]\n⚠ [UNDER_EXPLAINED] Evolutionary adaptation and natural selection in biological populations\n⚠ [UNDER_EXPLAINED] Borderline entities: Structural and functional status of viruses [Scenes: 4]\n⚠ [UNDER_EXPLAINED] Hierarchical levels of biological organization: Molecular to Biospheric scale [Scenes: 5]\n⚠ [UNDER_EXPLAINED] Emergent properties at successive hierarchical biological levels [Scenes: 5]\n⚠ [UNDER_EXPLAINED] Major branches and sub-disciplines of biological inquiry\n⚠ [UNDER_EXPLAINED] The scientific method as applied to biological investigations [Scenes: 7]\n✗ [MISSING] Key biological terminology and definitions\n✗ [MISSING] Common misconceptions regarding living versus non-living matter\n✗ [MISSING] Real-world applications and Ethiopian biological examples\n⚠ [UNDER_EXPLAINED] [Gap Concept] Endemic Afroalpine Wildlife Conservation and Evolutionary Genetics in the Ethiopian Highlands [Scenes: 8]\n⚠ [UNDER_EXPLAINED] [Gap Concept] Crop Wild Relatives, Vavilov Centers of Diversity, and Indigenous Agrobiodiversity in Ethiopia [Scenes: 9]\n✓ [TAUGHT] [Gap Concept] Empirical Biological Inquiry, Controlled Variable Design, and Laboratory Bio-Safety Standards\n\nNote: This is an educational diagnostic check, not a formal completeness guarantee.",
+  "jsonPath": "C:\\Users\\hp\\OneDrive\\Desktop\\google-vids-automation\\outputs\\storyboard-coverage-20261001-181531.json"
+}
