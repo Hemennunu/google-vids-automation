@@ -572,7 +572,7 @@ export async function openFileMenu(page: Page): Promise<void> {
   await fileMenu.click();
 }
 
-async function openFileStoryboard(page: Page): Promise<void> {
+export async function openFileStoryboard(page: Page): Promise<void> {
   await openFileMenu(page);
 
   const storyboardItem = await firstVisible(page, "Storyboard menu item", [
@@ -583,7 +583,7 @@ async function openFileStoryboard(page: Page): Promise<void> {
   log("info", "Opened File → Storyboard.");
 }
 
-async function waitForStoryboardPromptSurface(page: Page): Promise<void> {
+export async function waitForStoryboardPromptSurface(page: Page): Promise<void> {
   log("info", "Waiting for Storyboard prompt UI (Gemini)…");
   await firstVisible(
     page,
@@ -729,7 +729,7 @@ async function openStoryboardWorkflow(
   await waitForStoryboardPromptSurface(page);
 }
 
-async function findPromptInput(page: Page): Promise<Locator> {
+export async function findPromptInput(page: Page): Promise<Locator> {
   return firstVisible(
     page,
     "storyboard prompt input",
@@ -852,7 +852,7 @@ export async function attachDocumentAndInstruction(
   log("warn", "Next button is still disabled after entering prompt.");
 }
 
-async function clickNext(page: Page): Promise<void> {
+export async function clickNext(page: Page): Promise<void> {
   const nextInDialog = geminiDialog(page).getByRole("button", { name: /^next$/i });
   const next = (await nextInDialog.isVisible().catch(() => false))
     ? nextInDialog
@@ -963,7 +963,7 @@ async function clickFooterNextWhenReady(
   throw new Error(`No enabled Next button found (${stepLabel}).`);
 }
 
-async function waitForOutlineReady(page: Page): Promise<void> {
+export async function waitForOutlineReady(page: Page): Promise<void> {
   log("info", "Waiting for outline (blue Next or design step)…");
 
   const deadline = Date.now() + GEMINI_STEP_TIMEOUT_MS;
@@ -1211,7 +1211,7 @@ async function selectDesignTemplate(page: Page): Promise<void> {
   await confirmDesignSelection(page);
 }
 
-async function createDraftFromOutline(page: Page): Promise<void> {
+export async function createDraftFromOutline(page: Page): Promise<void> {
   log("info", "Selecting a design and creating the draft (if design step appears)…");
 
   if (
