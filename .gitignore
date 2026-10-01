@@ -22,6 +22,10 @@ Thumbs.db
 *.swp
 
 # Exported videos
+*.mp4
+*.part
+output/**/*.mp4
+output/**/*.part
 output/*.mp4
 output/*.part
 
