@@ -1,0 +1,82 @@
+# ICT_G12_U08_S01 — SECTION A: MULTIPLE CHOICE QUESTIONS [30 Marks]
+
+Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: none matched.
+
+## MUST-COVER CHECKLIST (teach every item)
+- used for secure web communication
+- Information Network Security Administration
+
+## LMS LESSON (authoritative)
+LEAD
+
+Instructions: Choose the best answer (A, B, C, or D) for each question. Each question carries 1 mark. [30 Marks Total]
+
+PARAGRAPHS
+
+1. Which programming paradigm treats a program as a collection of reusable objects?
+
+A) Procedural B) Functional C) Object-Oriented D) Declarative
+
+2. In Python, which keyword is used to create a class?
+
+3. Which data structure stores elements in LIFO (Last In, First Out) order?
+
+A) Queue B) Stack C) Linked List D) Array
+
+4. What is the time complexity of a binary search algorithm on a sorted array?
+
+A) Runs on multiple processors simultaneously
+
+B) Calls itself as part of its own definition
+
+6. In network communication, the OSI model has how many layers?
+
+7. Which protocol is used for secure web communication (HTTPS)?
+
+A) Back up data to a remote server B) Encrypt sensitive records
+
+C) Speed up data retrieval operations D) Normalise table relationships
+
+9. What does CRUD stand for in database operations?
+
+A) Create, Read, Update, Delete B) Copy, Restore, Undo, Delete
+
+C) Connect, Retrieve, Update, Deploy D) Create, Run, Use, Distribute
+
+10. Which cybersecurity attack involves tricking users into revealing credentials via fake websites?
+
+A) Brute force attack B) SQL injection C) Phishing D) DDoS attack
+
+11. In Python, what does the len() function return when applied to a list?
+
+A) The sum of all elements B) The largest element
+
+C) The number of elements in the list D) The first element
+
+12. Which sorting algorithm has the best average-case time complexity?
+
+A) Bubble sort — O(n²) B) Selection sort — O(n²)
+
+C) Merge sort — O(n log n) D) Insertion sort — O(n²)
+
+13. What is the purpose of a firewall in network security?
+
+B) To monitor and control incoming and outgoing network traffic based on rules
+
+D) To back up data to cloud storage automatically
+
+14. In object-oriented programming, "encapsulation" means:
+
+A) Inheriting methods from a parent class B) Running code on multiple threads
+
+C) Bundling data and methods together within a class, hiding internal implementation
+
+D) Overriding a parent class method in a subclass
+
+15. Which Ethiopian institution regulates data protection and cybersecurity?
+
+A) Ethiopian Investment Commission B) National Bank of Ethiopia
+
+C) Information Network Security Administration (INSA) D) Ethio Telecom
+
+[Questions 16–30 cover advanced programming, systems analysis, and ICT project management topics.]

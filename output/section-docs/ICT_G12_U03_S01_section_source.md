@@ -1,0 +1,46 @@
+# ICT_G12_U03_S01 — Unit 3: Database Management System
+
+Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 3: 3.1, 3.2.
+
+## MUST-COVER CHECKLIST (teach every item)
+- Overview of Relational Database Management System
+- Database Manipulation Using SQL
+- on relational database management systems
+- manipulation using Structured Query Language
+- will explore Data Definition Language
+- Data Manipulation Language
+- and Data Query Language
+- unit
+- Ethiopia Commodity Exchange
+- Educational Assessment and Examinations Agency
+- relational database management system
+
+## LMS LESSON (authoritative)
+LEAD
+
+In today's data-driven world, the ability to store, organize, retrieve, and manage information efficiently is a critical skill. Unit 3 of the Grade 12 ICT curriculum introduces students to the fundamental concepts of database management systems, with a particular focus on relational database management systems (RDBMS). This unit builds upon the foundational knowledge of data and information covered in earlier grades and extends it into the practical domain of structured data management using database technologies.
+
+PARAGRAPHS
+
+A database management system is a collection of programs that enables users to create, maintain, and manipulate databases. Unlike traditional file-based systems where data is stored in separate files with significant redundancy, a DBMS provides a centralized, controlled environment for data storage and retrieval. The advantages of using a DBMS include reduced data redundancy, improved data integrity, enhanced security, and the ability to share data among multiple users and applications concurrently.
+
+The unit is organized into several key sections. It begins with an overview of relational database management systems, covering essential concepts such as tables, records, fields, primary keys, foreign keys, and the various types of relationships that can exist between tables. Students will learn how relational databases address the limitations of flat-file systems and why normalization is an important design principle. The second major section focuses on database manipulation using Structured Query Language (SQL), the standard language for interacting with relational databases. Here, students will explore Data Definition Language (DDL) commands for creating and modifying database structures, Data Manipulation Language (DML) commands for adding, updating, and deleting data, and Data Query Language (DQL) commands for retrieving data using powerful filtering, sorting, and grouping techniques.
+
+Ethiopian students will find particular relevance in the examples provided throughout the unit, which draw from familiar contexts such as the national student registry system used by the Ministry of Education, the Ethiopia Commodity Exchange (ECX) market data systems, and the National Educational Assessment and Examinations Agency (NEAEA) examination results database. These real-world applications demonstrate how database systems underpin many of the essential services and institutions in Ethiopia's digital transformation journey.
+
+Check Your Understanding: Think about the various systems you interact with daily that rely on databases. These might include your school's student record system, a mobile money service like Telebirr, or the Ethiopian Airlines booking system. What kind of information do you think is stored in each of these databases, and how is that information organized?
+
+ETHIOPIAN CONTEXT
+
+🇧🇪 Ethiopian Context Ethiopia's Digital Ethiopia 2025 strategy emphasizes the importance of data-driven decision-making across all sectors of the economy. The Ethiopian Ministry of Education maintains a nationwide student information system that tracks millions of students from primary through secondary education. Similarly, the National Bank of Ethiopia and the Ethiopian Revenue Service operate large-scale database systems that manage financial and taxation data for the entire country. Understanding database management principles is therefore not merely an academic exercise but a practical skill that prepares students to participate in Ethiopia's growing digital economy.
+
+KEY CONCEPTS
+
+Key Concept A relational database management system (RDBMS) is a software system that manages data stored in tables with defined relationships between them. It provides a structured, efficient, and secure way to store and retrieve data, forming the backbone of most modern information systems.
+
+## TEXTBOOK CONTENT (authoritative)
+3.1 Overview of Relational Database Management System
+Brainstorming 3.1  What is a relational database management system? The term Relational Database Management System (RDBMS) usually refers to various types of software systems developed in order to manage databases. RDBMS is used to create, maintain, and provide controlled access to a relational database. A relational database is based on a relational data model. Data are stored in a two- dimensional table, which contains columns or fields and rows or records. Each
+
+3.2 Database Manipulation Using SQL
+Brainstorming 3.2  What are the similarities and differences between SQL and other programming languages? SQL (Structured Query Language) is a standard language for accessing and manipulating a database. SQL is a special-purpose query language meant for interacting with relational databases such as Microsoft Access. Understanding how SQL works can help create better queries and make it easier to understand how to

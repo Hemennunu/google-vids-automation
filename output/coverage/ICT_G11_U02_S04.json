@@ -1,0 +1,353 @@
+{
+  "code": "ICT_G11_U02_S04",
+  "draftUrl": "https://docs.google.com/videos/d/1EUZFBPNxT5rNXH3imTOfs1_XUN2yycwvt4UVe0lqjQc/edit",
+  "subchapter": "2.1 Artificial Intelligence",
+  "scenes": 15,
+  "textbook": {
+    "covered": 20,
+    "total": 23
+  },
+  "lms": {
+    "covered": 11,
+    "total": 11
+  },
+  "coveragePercent": 91,
+  "missing": [
+    {
+      "item": "Branches of AI",
+      "source": "textbook",
+      "covered": false,
+      "matched": []
+    },
+    {
+      "item": "Text Summarization",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "text"
+      ]
+    },
+    {
+      "item": "Space Exploration",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "space"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Branches of AI",
+      "source": "textbook",
+      "covered": false,
+      "matched": []
+    },
+    {
+      "item": "Machine Learning",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "machine",
+        "learn"
+      ]
+    },
+    {
+      "item": "Robotics",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "robotic"
+      ]
+    },
+    {
+      "item": "Natural Language Processing",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "natural",
+        "language",
+        "process"
+      ]
+    },
+    {
+      "item": "Spam Detection",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "spam",
+        "detection"
+      ]
+    },
+    {
+      "item": "Machine Translation",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "machine",
+        "translation"
+      ]
+    },
+    {
+      "item": "Virtual Assistant",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "virtual",
+        "assistant"
+      ]
+    },
+    {
+      "item": "Sentiment Analysis",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "sentiment",
+        "analysi"
+      ]
+    },
+    {
+      "item": "Fake News Identification",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "fake",
+        "new"
+      ]
+    },
+    {
+      "item": "Text Summarization",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "text"
+      ]
+    },
+    {
+      "item": "Expert Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "expert",
+        "system"
+      ]
+    },
+    {
+      "item": "Application of AI",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application"
+      ]
+    },
+    {
+      "item": "Online Shopping",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "online",
+        "shopp"
+      ]
+    },
+    {
+      "item": "Autonomous Cars",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "autonomou",
+        "car"
+      ]
+    },
+    {
+      "item": "Social Media",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "social",
+        "media"
+      ]
+    },
+    {
+      "item": "Surveillance",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "surveillance"
+      ]
+    },
+    {
+      "item": "Agriculture",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "agriculture"
+      ]
+    },
+    {
+      "item": "Customer Service",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "customer",
+        "service"
+      ]
+    },
+    {
+      "item": "Healthcare",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "healthcare"
+      ]
+    },
+    {
+      "item": "Space Exploration",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "space"
+      ]
+    },
+    {
+      "item": "Smart Homes",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "smart",
+        "hom"
+      ]
+    },
+    {
+      "item": "Banks",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "bank"
+      ]
+    },
+    {
+      "item": "Search Engine",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "search",
+        "engine"
+      ]
+    },
+    {
+      "item": "Artificial Intelligence",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "artificial",
+        "intelligence"
+      ]
+    },
+    {
+      "item": "Machine learning",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "machine",
+        "learn"
+      ]
+    },
+    {
+      "item": "Data science",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Internet of Things",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "internet",
+        "thing"
+      ]
+    },
+    {
+      "item": "Ethical considerations",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "ethical",
+        "consideration"
+      ]
+    },
+    {
+      "item": "Algorithmic bias",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "algorithmic",
+        "bia"
+      ]
+    },
+    {
+      "item": "Natural Language Processing",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "natural",
+        "language",
+        "process"
+      ]
+    },
+    {
+      "item": "Robotics",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "robotic"
+      ]
+    },
+    {
+      "item": "Robots",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "robot"
+      ]
+    },
+    {
+      "item": "Expert systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "expert",
+        "system"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 4,
+    "samples": [
+      "Artificial Intelligence Quantum Computer Technology Concept (Provided by Getty Images)",
+      "query: diverse Ethiopian professionals using AI technology",
+      "Technology Internet of Things and Networking Concept (Provided by Getty Images)",
+      "query: Digital ethical considerations concept icons",
+      "Highly Detailed Neural Network / Artificial Intelligence (Blue) - Loop (Provided by Getty Images)",
+      "query: Machine learning visualization with neural network nodes",
+      "robot machine on artificial intelligence (Provided by Getty Images)",
+      "query: Industrial robotic arm in an assembly line setting",
+      "Chatbot with digital technology concept (Provided by Getty Images)",
+      "query: automated customer service chatbot interface on laptop",
+      "Big data Internet of Things animation viral videos, apps, social media profiles visualizations flying through space, seamless loop, concept of blockchain, IoT, Influencers network metaverse, AI, communities (Provided by Getty Images)",
+      "query: Social media digital icons and analytics dashboard"
+    ]
+  }
+}

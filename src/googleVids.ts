@@ -88,6 +88,8 @@ export type RunOptions = {
   gapsSourceFile?: string;
   /** Custom storyboard prompt instruction */
   storyboardInstruction?: string;
+  /** Attach this Drive document (by name) with "@" instead of pasting the source text. */
+  driveDocName?: string;
 };
 
 export type FlowResult = {
@@ -773,6 +775,51 @@ async function fillPrompt(page: Page, script: string): Promise<void> {
   }
 
   log("warn", "Next is still disabled after entering the prompt.");
+}
+
+/**
+ * Instruction text + an "@" attachment of a Drive document. The attachment is
+ * added last and verified (a file chip in the prompt); nothing clears the prompt
+ * afterwards. `driveName` must match the file name shown in the "@" picker.
+ */
+export async function attachDriveDocument(page: Page, instruction: string, driveName: string): Promise<void> {
+  await waitForStoryboardPromptSurface(page).catch(() => undefined);
+  const input = await findPromptInput(page);
+  await input.click();
+  await page.keyboard.press("Control+a");
+  await page.keyboard.press("Backspace");
+  await input.fill(instruction);
+
+  // Search by the section code; a freshly uploaded file can take a minute or two
+  // to appear in Drive search, so clear and retype until the picker offers it.
+  const search = /^[A-Z]+_G\d+_U\d+_S\d+/.exec(driveName)?.[0] ?? driveName.slice(0, 20);
+  const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const option = page
+    .locator('[role="option"], [role="menuitem"]')
+    .filter({ hasText: new RegExp(escape(driveName.slice(0, 24)), "i") })
+    .first();
+  let offered = false;
+  for (let attempt = 1; attempt <= 8 && !offered; attempt++) {
+    await input.click();
+    await page.keyboard.press("Control+End");
+    await page.keyboard.type(` @${search}`, { delay: 40 });
+    offered = await option.waitFor({ state: "visible", timeout: 15_000 }).then(() => true, () => false);
+    if (!offered) {
+      log("info", `"${driveName}" not in the @ picker yet (attempt ${attempt}/8) — waiting for Drive to index it…`);
+      await page.keyboard.press("Escape").catch(() => undefined);
+      await input.click();
+      await page.keyboard.press("Control+End");
+      for (let i = 0; i < search.length + 2; i++) await page.keyboard.press("Backspace");
+      await page.waitForTimeout(20_000);
+    }
+  }
+  if (!offered) throw new Error(`"${driveName}" not offered in the Storyboard @ picker after ~5 minutes.`);
+  await option.click();
+  await page.waitForTimeout(1_500);
+
+  const chips = await input.locator('[contenteditable="false"], a, [data-file-id], [role="link"]').count();
+  if (!chips) throw new Error("Drive document chip missing from the Storyboard prompt after selecting it.");
+  log("info", `Attached Drive document "${driveName}" to the Storyboard prompt.`);
 }
 
 export async function attachDocumentAndInstruction(
@@ -1696,7 +1743,11 @@ export async function runGoogleVidsDraftFlow(
       const docName = options.preparedDocPath || options.scriptPath || "course_document";
       const instruction = options.storyboardInstruction || getStoryboardInstruction();
 
-      await attachDocumentAndInstruction(page, path.basename(docName), script, instruction);
+      if (options.driveDocName) {
+        await attachDriveDocument(page, instruction, options.driveDocName);
+      } else {
+        await attachDocumentAndInstruction(page, path.basename(docName), script, instruction);
+      }
       await captureCheckpoint(page, "checkpoint-2-source-document-attached");
 
       await clickNext(page);
@@ -1762,6 +1813,7 @@ export async function runGoogleVidsDraftFlow(
           editorUrl: page.url(),
           baseName: path.parse(options.scriptPath || "video").name,
           outputPath: options.outputPath,
+          cdpDownloads: launch.kind === "cdp",
         });
         exportedPath = describeExportResult(result);
         log("info", `FINAL MP4: ${exportedPath}`);

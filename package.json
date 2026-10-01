@@ -20,7 +20,9 @@
     "ocr:textbooks": "tsx src/ocrTextbooks.ts",
     "enrich:ict": "tsx src/enrichIct.ts",
     "figures:extract": "python scripts/extract_textbook_figures.py",
-    "figures:match": "tsx src/matchFigures.ts"
+    "figures:match": "tsx src/matchFigures.ts",
+    "coverage:draft": "tsx src/checkCoverage.ts",
+    "batch:ict": "tsx src/batchIct.ts"
   },
   "engines": {
     "node": ">=20"

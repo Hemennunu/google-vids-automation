@@ -129,6 +129,27 @@ Do not artificially shorten the lesson.
 
 The goal is student understanding and complete teaching coverage, not brevity.`;
 
+/**
+ * For the per-section source document attached from Drive with "@"
+ * (src/lms/sectionDocument.ts). Kept short: the document carries the content.
+ */
+export const ICT_SECTION_STORYBOARD_INSTRUCTION = [
+  "Create a complete teaching video for Grade {GRADE} ICT students in Ethiopia on \"{TITLE}\",",
+  "using the attached source document as the complete and authoritative content.",
+  "Teach EVERY item in its MUST-COVER CHECKLIST, each with a clear explanation and an example;",
+  "use as many scenes as needed and do not merge or skip items to shorten the video.",
+  "Follow the LMS lesson and the textbook content; do not invent facts.",
+  "Visuals: prefer stock footage that shows people using the technology rather than abstract graphics,",
+  "and for every image or clip with people or places, search with the word \"Ethiopian\" or \"African\"",
+  "(e.g. \"Ethiopian students in a computer lab\", \"African farmer using a smartphone\", \"Addis Ababa office workers\").",
+  "Do not mention textbook figure or page numbers.",
+  "Source document:",
+].join(" ");
+
+export function sectionStoryboardInstruction(grade: string, title: string): string {
+  return ICT_SECTION_STORYBOARD_INSTRUCTION.replace("{GRADE}", grade).replace("{TITLE}", title.replace(/"/g, "'"));
+}
+
 export const DEFAULT_STORYBOARD_INSTRUCTION = ICT_TEACHING_STORYBOARD_INSTRUCTION;
 
 /**

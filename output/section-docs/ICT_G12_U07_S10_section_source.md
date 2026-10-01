@@ -1,0 +1,39 @@
+# ICT_G12_U07_S10 — Unit Summary
+
+Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: none matched.
+
+## MUST-COVER CHECKLIST (teach every item)
+- studying the Software Development Lifecycle
+
+## LMS LESSON (authoritative)
+LEAD
+
+In this unit, we explored the discipline of software engineering from foundational principles to advanced professional practice. We began by studying the Software Development Lifecycle (SDLC) and three major models — Waterfall, Agile, and Spiral — understanding that structured software development requires systematic approaches to requirements, design, implementation, testing, deployment, and maintenance.
+
+PARAGRAPHS
+
+We examined three programming paradigms — procedural, object-oriented, and functional — understanding that each reflects a distinct way of organising and reasoning about software. The majority of our study focused on the object-oriented paradigm, exploring its four core principles in depth: encapsulation, inheritance, polymorphism, and abstraction. We implemented these principles in Python, using constructors, property decorators, single and double underscore privacy conventions, method overriding, and the super() function.
+
+We studied software testing as a systematic discipline, distinguishing between black-box and white-box testing strategies, understanding unit, integration, and system testing levels, and exploring the principles of Test-Driven Development. We learned to use Python's pdb debugger and understand strategies for diagnosing and correcting logic, syntax, and runtime errors. We studied Git version control — repositories, commits, branches, and merges — and understood how Git-based workflows support collaborative professional software development.
+
+Principle / Concept — Core Meaning — Python Implementation
+
+Encapsulation — Bundle data + methods; protect internal state — _attr (protected), __attr (private), @property
+
+Inheritance — Child class acquires parent attributes and methods — class Child(Parent), super().init()
+
+Polymorphism — Same method name, different behaviour per class — Method overriding in subclasses
+
+Abstraction — Expose essential interface, hide implementation — Abstract base classes (abc module), docstrings
+
+SDLC Waterfall — Sequential phases; fixed requirements — Requirements → Design → Code → Test → Deploy
+
+SDLC Agile — Iterative sprints; evolving requirements — Sprint planning → develop → review → repeat
+
+Git workflow — Track changes; collaborate safely — init → add → commit → branch → merge
+
+Black-box testing — Test from requirements; no code knowledge — Equivalence partitioning, boundary value analysis
+
+White-box testing — Test internal code structure; maximise coverage — Statement, branch, path coverage
+
+TDD — Write tests before code — Red → Green → Refactor cycle
