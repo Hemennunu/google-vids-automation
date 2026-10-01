@@ -302,6 +302,60 @@ KNOWLEDGE CHECKS
 4. 4. What is algorithmic bias, and how can training data curation prevent it in medical diagnostic AI?
 
 ================================================
+TEXTBOOK FIGURES (SHOW THESE IN THE VIDEO)
+==========================================
+
+Use these official textbook figures as on-screen visuals in the scenes that teach the matching concept. Prefer them over stock footage, and keep the figure caption as on-screen text.
+
+Figure 2.1: Fraud detection using machine learning (textbook page 35)
+![Figure 2.1: Fraud detection using machine learning](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.1_fraud-detection-using-machine-learning.png)
+
+Figure 2.2: Robots in car manufacturing assembly line (textbook page 36)
+![Figure 2.2: Robots in car manufacturing assembly line](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.2_robots-in-car-manufacturing-assembly-line.png)
+
+Figure 2.3: Robot vacuum cleaner (textbook page 36)
+![Figure 2.3: Robot vacuum cleaner](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.3_robot-vacuum-cleaner.png)
+
+Figure 2.4: Applications of natural language processing (textbook page 37)
+![Figure 2.4: Applications of natural language processing](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.4_applications-of-natural-language-processing.png)
+
+Figure 2.5: Expert system (textbook page 38)
+![Figure 2.5: Expert system](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.5_expert-system.png)
+
+Figure 2.6: Online shopping (textbook page 39)
+![Figure 2.6: Online shopping](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.6_online-shopping.png)
+
+Figure 2.7: Autonomous car (textbook page 40)
+![Figure 2.7: Autonomous car](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.7_autonomous-car.png)
+
+Figure 2.8: Facial recognition using AI (textbook page 40)
+![Figure 2.8: Facial recognition using AI](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.8_facial-recognition-using-ai.png)
+
+Figure 2.9: AI application in surveillance (textbook page 41)
+![Figure 2.9: AI application in surveillance](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.9_ai-application-in-surveillance.png)
+
+Figure 2.10: AI based agriculture Precision Farming (textbook page 41)
+![Figure 2.10: AI based agriculture Precision Farming](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.10_ai-based-agriculture-precision-farming.png)
+
+Figure 2.11: Chatbot (textbook page 42)
+![Figure 2.11: Chatbot](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.11_chatbot.png)
+
+Figure 2.12: AI application in surgery (textbook page 42)
+![Figure 2.12: AI application in surgery](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.12_ai-application-in-surgery.png)
+
+Figure 2.13: Robonaut and an astronaut (textbook page 43)
+![Figure 2.13: Robonaut and an astronaut](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.13_robonaut-and-an-astronaut.png)
+
+Figure 2.14: Smart home (textbook page 43)
+![Figure 2.14: Smart home](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.14_smart-home.png)
+
+Figure 2.15: Application of AI in banks (textbook page 43)
+![Figure 2.15: Application of AI in banks](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.15_application-of-ai-in-banks.png)
+
+Figure 2.16: Google Rankbrain: Google’s application of AI (textbook page 44)
+![Figure 2.16: Google Rankbrain: Google’s application of AI](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U02/G11_F2.16_google-rankbrain-google-s-application-of-ai.png)
+
+================================================
 SECTION SUMMARY
 ===============
 

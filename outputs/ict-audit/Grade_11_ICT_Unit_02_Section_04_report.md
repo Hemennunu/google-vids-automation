@@ -24,7 +24,7 @@
 
 ## 2. Section Diagnostics
 
-* **Total Master Teaching Word Count:** 2561 words
+* **Total Master Teaching Word Count:** 2831 words
 * **Must-Teach Concepts Defined:** 4
 * **Structured Comparisons Included:** 1 table(s)
 * **Concrete Examples Walkthroughs:** 1

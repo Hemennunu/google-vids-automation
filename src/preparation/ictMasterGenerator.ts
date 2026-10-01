@@ -7,6 +7,7 @@ import path from "node:path";
 import {
   Document,
   HeadingLevel,
+  ImageRun,
   Packer,
   Paragraph,
   Table,
@@ -15,6 +16,7 @@ import {
   TextRun,
   WidthType,
 } from "docx";
+import type { SectionFigureFile } from "../figures/sectionFigures.js";
 
 export interface IctMustTeachConcept {
   concept: string;
@@ -104,7 +106,13 @@ export interface IctMasterTeachingDocument {
     gapSource: string;
     pageRange: string;
   };
+  /** Official textbook figures for this section (see src/figures/sectionFigures.ts). */
+  textbookFigures?: SectionFigureFile[];
 }
+
+/** Tells Gemini (Storyboard / Docs to video) to show these on screen. */
+const FIGURES_INSTRUCTION =
+  "Use these official textbook figures as on-screen visuals in the scenes that teach the matching concept. Prefer them over stock footage, and keep the figure caption as on-screen text.";
 
 /** Formats the Master Teaching Document into the standardized Markdown structure. */
 export function formatIctMasterMarkdown(doc: IctMasterTeachingDocument): string {
@@ -328,6 +336,20 @@ export function formatIctMasterMarkdown(doc: IctMasterTeachingDocument): string 
   });
   lines.push("");
 
+  if (doc.textbookFigures?.length) {
+    lines.push("================================================");
+    lines.push("TEXTBOOK FIGURES (SHOW THESE IN THE VIDEO)");
+    lines.push("==========================================");
+    lines.push("");
+    lines.push(FIGURES_INSTRUCTION);
+    lines.push("");
+    for (const f of doc.textbookFigures) {
+      lines.push(`Figure ${f.figure}: ${f.caption} (textbook page ${f.page})`);
+      lines.push(`![Figure ${f.figure}: ${f.caption}](${f.imagePath.replace(/\\/g, "/")})`);
+      lines.push("");
+    }
+  }
+
   // 17. SECTION SUMMARY
   lines.push("================================================");
   lines.push("SECTION SUMMARY");
@@ -416,6 +438,29 @@ export async function formatIctMasterDocx(doc: IctMasterTeachingDocument): Promi
 
   children.push(h1("KEY TERMINOLOGY"));
   doc.keyTerminology.forEach((kt) => children.push(p(`${kt.term}: ${kt.definition}`)));
+
+  if (doc.textbookFigures?.length) {
+    children.push(h1("TEXTBOOK FIGURES (SHOW THESE IN THE VIDEO)"));
+    children.push(p(FIGURES_INSTRUCTION));
+    for (const f of doc.textbookFigures) {
+      const maxWidth = 560; // px, fits a portrait page with margins
+      const scale = Math.min(1, maxWidth / f.widthPx);
+      children.push(
+        new Paragraph({
+          children: [
+            new ImageRun({
+              type: "png",
+              data: await fs.readFile(f.imagePath),
+              transformation: { width: Math.round(f.widthPx * scale), height: Math.round(f.heightPx * scale) },
+              altText: { name: `Figure ${f.figure}`, title: `Figure ${f.figure}`, description: f.caption },
+            }),
+          ],
+          spacing: { before: 120, after: 40 },
+        }),
+      );
+      children.push(p(`Figure ${f.figure}: ${f.caption} (textbook page ${f.page})`, true));
+    }
+  }
 
   children.push(h1("SECTION SUMMARY"));
   doc.sectionSummary.forEach((s) => children.push(p(`• ${s}`)));

@@ -281,6 +281,27 @@ KNOWLEDGE CHECKS
 3. 3. Explain why wisdom cannot be automated by standard relational database management software.
 
 ================================================
+TEXTBOOK FIGURES (SHOW THESE IN THE VIDEO)
+==========================================
+
+Use these official textbook figures as on-screen visuals in the scenes that teach the matching concept. Prefer them over stock footage, and keep the figure caption as on-screen text.
+
+Figure 1.1: Different forms of data (textbook page 8)
+![Figure 1.1: Different forms of data](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U01/G11_F1.1_different-forms-of-data.png)
+
+Figure 1.2: Different forms of information representation (textbook page 9)
+![Figure 1.2: Different forms of information representation](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U01/G11_F1.2_different-forms-of-information-representation.png)
+
+Figure 1.3: Example of knowledge acquisition (textbook page 10)
+![Figure 1.3: Example of knowledge acquisition](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U01/G11_F1.3_example-of-knowledge-acquisition.png)
+
+Figure 1.4: Wisdom (textbook page 10)
+![Figure 1.4: Wisdom](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U01/G11_F1.4_wisdom.png)
+
+Figure 1.5: Data, Information, Knowledge and Wisdom (textbook page 11)
+![Figure 1.5: Data, Information, Knowledge and Wisdom](C:/Users/hp/OneDrive/Desktop/google-vids-automation/output/ict_figures/G11/U01/G11_F1.5_data-information-knowledge-and-wisdom.png)
+
+================================================
 SECTION SUMMARY
 ===============
 

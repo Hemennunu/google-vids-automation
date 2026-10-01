@@ -18,7 +18,9 @@
     "start:cdp": "tsx src/main.ts --cdp",
     "ocr": "tsx src/ocrCommand.ts",
     "ocr:textbooks": "tsx src/ocrTextbooks.ts",
-    "enrich:ict": "tsx src/enrichIct.ts"
+    "enrich:ict": "tsx src/enrichIct.ts",
+    "figures:extract": "python scripts/extract_textbook_figures.py",
+    "figures:match": "tsx src/matchFigures.ts"
   },
   "engines": {
     "node": ">=20"

@@ -6,6 +6,7 @@ import {
   formatIctMasterMarkdown,
 } from "../src/preparation/ictMasterGenerator.js";
 import { matchSectionToTextbook, parseTextbookOcr } from "../src/lms/textbookMatcher.js";
+import { getSectionFigures, sectionCodeFromSource } from "../src/figures/sectionFigures.js";
 
 async function main() {
   console.log("================================================================================");
@@ -798,6 +799,9 @@ async function main() {
 
   for (const item of pilotDocs) {
     console.log(`  Writing Master Teaching Document: ${item.id}...`);
+    const code = sectionCodeFromSource(item.doc.courseInfo.sourceLms);
+    item.doc.textbookFigures = code ? getSectionFigures(code) : [];
+    console.log(`    Textbook figures: ${item.doc.textbookFigures.length}`);
     const mdText = formatIctMasterMarkdown(item.doc);
     const mdPath = path.join(prepDir, `${item.id}_master.md`);
     await fs.writeFile(mdPath, mdText, "utf8");

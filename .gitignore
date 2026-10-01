@@ -32,3 +32,6 @@ output/*.part
 # Local SharePoint source config (contains sharing link)
 sharepoint.local.json
 output/**/.downloading/
+
+# Cropped textbook figures (regenerate: npm run figures:extract)
+output/ict_figures/**/*.png
