@@ -36,3 +36,5 @@ output/**/.downloading/
 # Cropped textbook figures (regenerate: npm run figures:extract)
 output/ict_figures/**/*.png
 output/experiments/
+output/ict-dryrun.log
+output/**/*.uploaded
