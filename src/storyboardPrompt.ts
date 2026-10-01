@@ -139,9 +139,10 @@ export const ICT_SECTION_STORYBOARD_INSTRUCTION = [
   "Teach EVERY item in its MUST-COVER CHECKLIST, each with a clear explanation and an example;",
   "use as many scenes as needed and do not merge or skip items to shorten the video.",
   "Follow the LMS lesson and the textbook content; do not invent facts.",
-  "Visuals: prefer stock footage that shows people using the technology rather than abstract graphics,",
-  "and for every image or clip with people or places, search with the word \"Ethiopian\" or \"African\"",
-  "(e.g. \"Ethiopian students in a computer lab\", \"African farmer using a smartphone\", \"Addis Ababa office workers\").",
+  "Visuals: choose each image or clip to show the concept the scene teaches (e.g. a database table,",
+  "a network diagram, a robot arm, code on a screen); do not add people where the concept does not need them.",
+  "Only when a scene shows people or places, make them Ethiopian or African",
+  "(e.g. \"Ethiopian students in a computer lab\", \"African farmer using a smartphone\").",
   "Do not mention textbook figure or page numbers.",
   "Source document:",
 ].join(" ");
