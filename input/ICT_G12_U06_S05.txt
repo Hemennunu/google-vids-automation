@@ -1,0 +1,31 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5: Loops and Iteration
+Unit: Unit 06 - Fundamentals Of Programming
+Section: 2 Loops Iteration
+
+Key idea: The flowchart shows repeated execution: check the loop condition, run the block when true, return to the test, and exit when false.
+
+Key definitions:
+- Definition: A loop is a set of statements that runs repeatedly for a fixed number of times or until a condition is satisfied. Loop statements control a block of code to be executed iteratively, making them one of the most powerful tools in a programmer's toolkit. Without loops, even simple repetitive tasks would require enormous amounts of code. With loops, a few lines of code can process thousands of data items, making programming an efficient solution for data processing, automation, and analysis.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Most real-world problems involve actions that must be repeated multiple times. Consider a teacher who needs to calculate the average mark for each of the fifty students in a class. Writing the same calculation fifty times in code would be tedious, error-prone, and inefficient. Loops solve this problem by allowing a programmer to write a block of code once and execute it repeatedly. In programming, this repeated execution of a set of statements is called iteration. Python provides two primary loop constructs: the for loop and the while loop, each suited to different types of repetition scenarios.
+
+The for loop in Python is used to iterate over a sequence, such as a list, a string, or a range of numbers. It is a count-controlled loop, meaning it executes a known number of times based on the length of the sequence. The general syntax of a for loop assigns each element of the sequence to a temporary variable and executes the loop body once for each element.
+
+This program prints each regional state of Ethiopia on a separate line. The temporary variable region takes on a new value in each iteration, cycling through the list until all elements have been processed.
+
+Python's built-in range() function is used extensively with for loops to generate sequences of numbers. The range() function can take one, two, or three parameters. With one parameter, range(n) generates numbers from 0 to n-1. With two parameters, range(start, stop) generates numbers from start to stop-1. With three parameters, range(start, stop, step) generates numbers from start to stop-1, incrementing by step each time.
+
+The while loop is a condition-controlled loop: it continues executing as long as a specified condition remains true. This type of loop is ideal for situations where the number of iterations is not known in advance. The while loop checks the condition at the beginning of each iteration; if the condition is false initially, the loop body never executes.
+
+The statement count += 1 is essential in the loop above because it increments the counter each time the loop runs. Without this increment, the value of count would never reach 6, and the loop would continue indefinitely.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🌍 Ethiopian ContextThe ability to process repetitive data efficiently through loops is particularly valuable in Ethiopia's public sector, where large datasets must be analysed regularly. For example, a programmer could use a loop to process population data across all Ethiopian regional states, calculate average rainfall from weather station data, or generate report cards for every student in a school system. Mastering loops enables you to handle such tasks with minimal code.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

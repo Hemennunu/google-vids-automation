@@ -1,0 +1,32 @@
+# Section 6: Fog Computing
+
+
+
+## Definition
+
+The diagram shows how fog nodes process urgent data near devices before forwarding summaries to the cloud.
+
+
+
+## Lead
+
+Fog Computing, a term coined by Cisco Systems, is a decentralised computing infrastructure in which data, compute, storage, and applications are distributed between the data source and the cloud. The name derives from the analogy that a fog is a cloud that is close to the ground, reflecting the role of fog computing as an intermediate layer that sits between cloud data centres and edge devices. Fog computing extends the cloud paradigm to the network edge, enabling local processing and storage that reduces the volume of data that must be transmitted to the cloud and minimises latency for time-sensitive applications. In a fog computing architecture, fog nodes are deployed at various points within the network, such as routers, switches, base stations, or dedicated servers, and they provide computing, storage, and networking services to nearby edge devices.
+
+
+
+## Paragraphs
+
+Fog computing is especially valuable in scenarios that require low latency, real-time processing, or operation in bandwidth-constrained environments. In industrial automation, fog nodes can process sensor data from manufacturing equipment locally, enabling immediate detection of anomalies and rapid shutdown to prevent accidents. In autonomous vehicles, fog computing supports split-second decision-making by processing data from cameras, lidar, and radar sensors within the vehicle itself or from nearby roadside fog nodes. In smart grid applications, fog computing enables real-time monitoring and control of electricity distribution, allowing utilities to balance loads, integrate renewable energy sources, and respond to faults within milliseconds. In healthcare, fog nodes in hospitals can process patient monitoring data locally, generating alerts for medical staff without the delays inherent in sending data to a distant cloud server.
+
+
+
+## Ethiopian context
+
+🇪🇩 Ethiopian Context Fog computing holds particular promise for Ethiopian agriculture, where smallholder farmers face challenges related to unreliable internet connectivity, limited access to electricity, and the need for timely, locally relevant information. In a typical smart agriculture deployment, IoT sensors deployed across farm fields collect data on soil moisture, temperature, humidity, and nutrient levels. Rather than transmitting all raw data to a distant cloud server, a local fog node can process this data on-site, generating immediate recommendations for irrigation scheduling or fertiliser application. The fog node then transmits only condensed summaries and alerts to the cloud for long-term analysis and record-keeping. This architecture is especially valuable in rural Ethiopian farming communities where internet connectivity may be intermittent and expensive. Projects such as the Ethiopian Institute of Agricultural Research's smart farming initiatives could benefit significantly from fog computing architectures that enable real-time decision support even in areas with limited cloud connectivity. Furthermore, fog nodes can continue operating during network outages, ensuring that critical monitoring and alerting functions remain available.
+
+
+
+## Key concepts
+
+Fog Computing versus Cloud Computing. While both fog computing and cloud computing involve virtualised computing resources and support multi-tenancy, they differ in several critical respects. Cloud computing typically operates in large, centralised data centres that may be located far from end users, resulting in higher latency for data transmission. Fog computing operates closer to the data source, often within the local area network, providing response times measured in milliseconds rather than seconds. Cloud computing offers virtually unlimited storage and processing capacity, whereas fog computing has more limited resources due to the smaller form factor of fog nodes. Cloud computing is better suited for historical data analysis and long-term storage, while fog computing excels at real-time processing and immediate decision-making. Fog computing also reduces bandwidth consumption by processing data locally and sending only aggregated summaries to the cloud, which is particularly important in environments with limited or expensive network connectivity.
+

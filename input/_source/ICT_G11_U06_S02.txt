@@ -1,0 +1,28 @@
+# Section 2: Learning Objectives
+
+
+
+## Definition
+
+The path turns the objectives into a sequence from writing Python statements to controlling flow, testing, and debugging.
+
+
+
+## Lead
+
+By the end of this unit, we will be able to classify programming languages by level and by translation method, explaining the advantages and limitations of each category. We will set up a Python development environment and write, save, and run Python programs, declare variables using appropriate names and data types, and apply arithmetic, comparison, and logical operators in Python expressions. We will also use the input() and print() functions to interact with users, implement conditional logic using if, elif, and else statements, implement iteration using for and while loops, and apply a structured problem-solving process including decomposition, pseudocode, implementation, testing, and debugging. Finally, we will identify and correct syntax errors, runtime errors, and logical errors in Python programs.
+
+
+
+## Paragraphs
+
+Python is a high-level, interpreted, general-purpose programming language designed for readability and simplicity. Created by Guido van Rossum and first released in 1991, Python has become one of the most widely used programming languages, particularly in data science, artificial intelligence, web development, and automation.
+
+Python programs are executed line by line by the Python interpreter. This interpreted nature makes Python highly interactive: students can test code snippets immediately in the Python shell (REPL: Read-Evaluate-Print Loop) without the compile-link-run cycle required by languages like C++. Variables in Python are dynamically typed: their type is determined at runtime and can change. Fundamental data types include int (whole numbers: 5, -100), float (decimal numbers: 3.14), str (strings: "Hello"), and bool (True or False). Variables are assigned using the = operator: age = 16; name = "Abebe"; gpa = 3.75.
+
+Arithmetic operators perform calculations: + (addition), - (subtraction), * (multiplication), / (division, always returns float), // (integer division), % (modulo/remainder), ** (exponentiation). Comparison operators return boolean values: == (equal), != (not equal), < > <= >=. Logical operators combine boolean expressions: and, or, not.
+
+Control flow structures determine execution order. The if-elif-else statement executes different code blocks based on conditions. Indentation (4 spaces) is mandatory in Python and defines code blocks. For loops iterate over sequences: for i in range(10): print(i) prints 0 through 9. While loops repeat while a condition is true. Functions are defined with def: def calculate_area(length, width): return length * width. Functions promote code reuse and modularity.
+
+Lists are ordered, mutable sequences: fruits = ["mango", "banana", "avocado"]. Items are accessed by zero-based index: fruits[0] returns "mango". Dictionaries store key-value pairs: student = {"name": "Tigist", "grade": 11, "score": 85}. Python is the primary language for data science, with NumPy for array operations, Pandas for tabular data, Matplotlib and Seaborn for visualisation, and Scikit-learn for machine learning — libraries used by data professionals worldwide.
+

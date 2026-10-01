@@ -1,0 +1,28 @@
+# Section 5.3: Tools to Speed Up a Computer
+
+
+
+## Definition
+
+The diagram shows common maintenance tools that improve performance by freeing storage, reducing startup load, scanning malware, and monitoring memory.
+
+
+
+## Lead
+
+Over time, computer performance can degrade due to various factors including file fragmentation, accumulation of temporary files, outdated software, and unnecessary programs running in the background. Modern operating systems include built-in tools that help maintain and improve system performance. Understanding how to use these tools is an essential skill for any computer user.
+
+
+
+## Paragraphs
+
+When files are saved, modified, and deleted over time, they can become fragmented. This means that individual files are broken into pieces scattered across different areas of the hard disk. When the computer needs to open a fragmented file, it must search for and assemble all the pieces, which slows down performance. Disk Defragmenter is a system tool that rearranges files so that each file is stored in one continuous sequence. This reduces the time required to read and write files, improving overall system responsiveness. On Windows, you can access Disk Defragmenter by typing "Disk Defragment" into the search box. It is recommended to run defragmentation monthly for optimal performance.
+
+The hard disk naturally accumulates files that are no longer needed: temporary files created by applications, Internet cache files, recycled files in the Recycle Bin, and system log files. Disk Cleanup is a tool that identifies these unnecessary files and safely deletes them to free up disk space. By removing these files, you can improve system performance and prevent the disk from becoming full. Disk Cleanup can be accessed by typing "Disk Cleanup" into the Windows search box. It should be performed at least weekly on systems that are heavily used, such as school laboratory computers.
+
+Windows Update ensures that your computer remains up to date with the latest security patches, bug fixes, and feature improvements from Microsoft. This tool connects to Microsoft servers, downloads available updates, and installs them on your system. Keeping Windows updated is one of the most important maintenance tasks, as it protects your computer from security vulnerabilities. Type "Windows Update" into the search box to access this feature, and configure updates to install automatically when possible.
+
+System Restore is a valuable recovery tool that creates snapshots of system settings at points in time when the computer is functioning normally. These snapshots are called restore points. If the system later malfunctions due to a problematic software installation or configuration change, you can revert the system to a previous restore point, effectively undoing the changes that caused the problem. To create a restore point, navigate through Start, Programs, Accessories, System Tools, and then System Restore. It is good practice to create a restore point before installing new software or making significant system changes.
+
+A regular maintenance schedule helps keep computers running smoothly. Recommended tasks include running Disk Cleanup weekly, running Disk Defragmenter monthly, checking for Windows updates weekly, creating restore points before major changes, and running antivirus scans weekly. Following this schedule in school laboratories can significantly extend the useful life of the equipment and reduce the need for technical support.
+

@@ -1,0 +1,28 @@
+# Section 8: 5. Conditional Statements: if, elif, else
+
+
+
+## Definition
+
+The branch diagram shows how Boolean conditions decide which block of Python code runs.
+
+
+
+## Lead
+
+This unit covers Programming with Python as part of the Grade 11 ICT curriculum, aligned with the Ethiopian MoE 2023 standard textbook.
+
+
+
+## Ethiopian context
+
+Ethiopian Curriculum ContextThis content is assessed in the Grade 11 national examinations. Ethiopian examples, data, and contexts are integrated throughout each section.
+
+
+
+## Key concepts
+
+Core TopicsPython syntax, variables, data types, operators, conditions, loops, functions.
+
+How to Use This UnitWork through the sections in order. Master the Key Vocabulary before the main content. Attempt each Worked Example independently before checking the solution. Complete the Interactive Tools and Assessment sections to consolidate your understanding.
+

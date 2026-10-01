@@ -1,0 +1,25 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: SECTION D: EXTENDED RESPONSE / ESSAY [15 Marks]
+Unit: Unit 08 - Semester Exam
+Section: SECTION D EXTENDED RESPONSE ESSAY 15 Mar
+
+Key idea: Answer ONE question only — either D1 or D2.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Instructions: Answer ONE question only — either D1 or D2. Your essay should be well-structured, with a clear introduction, developed arguments supported by evidence or examples, and a conclusion. Ethiopian and global ICT examples are expected. Aim for approximately 500–700 words.
+
+"The rapid adoption of artificial intelligence, cloud computing, and the Internet of Things presents Ethiopia with transformative economic opportunities but also poses significant risks to privacy, employment, and national security.
+
+Using your knowledge of ICT and examples drawn from Ethiopia and other countries, evaluate the extent to which the benefits of these three emerging technologies outweigh their risks for Ethiopian society and the economy.
+
+"Securing Ethiopia's Critical Digital Infrastructure"
+
+The Ethiopian government is planning to digitise core public services — including land registration, tax collection, national ID management, and health records — into a unified national digital platform. The system will be hosted in a hybrid cloud environment (partly on government-owned servers, partly on a public cloud provider).
+
+As a senior ICT consultant, write a report evaluating the cybersecurity challenges and system design considerations for this platform.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

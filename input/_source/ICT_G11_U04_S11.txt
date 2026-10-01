@@ -1,0 +1,26 @@
+# Section 11: 8. Practical Investigation: Build a Multi-Page School Website
+
+
+
+## Definition
+
+The site map shows how shared navigation connects home, about, clubs, timetable, and contact pages.
+
+
+
+## Lead
+
+Practical investigation for Web Development, applying theoretical concepts to real-world problems.
+
+
+
+## Ethiopian context
+
+Ethiopian ContextUse locally available resources and Ethiopian contexts where possible.
+
+
+
+## Key concepts
+
+Scientific MethodState aim → Form hypothesis → Identify variables → Describe procedure → Record results → Analyse data → Conclude with evidence.
+

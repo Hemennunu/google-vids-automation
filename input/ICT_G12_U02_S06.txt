@@ -1,0 +1,23 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 6: Fog Computing
+Unit: Unit 02 - Emerging Technologies
+Section: 3 Fog Computing
+
+Key idea: The diagram shows how fog nodes process urgent data near devices before forwarding summaries to the cloud.
+
+Key concepts:
+- Fog Computing versus Cloud Computing. While both fog computing and cloud computing involve virtualised computing resources and support multi-tenancy, they differ in several critical respects. Cloud computing typically operates in large, centralised data centres that may be located far from end users, resulting in higher latency for data transmission. Fog computing operates closer to the data source, often within the local area network, providing response times measured in milliseconds rather than seconds. Cloud computing offers virtually unlimited storage and processing capacity, whereas fog computing has more limited resources due to the smaller form factor of fog nodes. Cloud computing is better suited for historical data analysis and long-term storage, while fog computing excels at real-time processing and immediate decision-making. Fog computing also reduces bandwidth consumption by processing data locally and sending only aggregated summaries to the cloud, which is particularly important in environments with limited or expensive network connectivity.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Fog Computing, a term coined by Cisco Systems, is a decentralised computing infrastructure in which data, compute, storage, and applications are distributed between the data source and the cloud. The name derives from the analogy that a fog is a cloud that is close to the ground, reflecting the role of fog computing as an intermediate layer that sits between cloud data centres and edge devices. Fog computing extends the cloud paradigm to the network edge, enabling local processing and storage that reduces the volume of data that must be transmitted to the cloud and minimises latency for time-sensitive applications. In a fog computing architecture, fog nodes are deployed at various points within the network, such as routers, switches, base stations, or dedicated servers, and they provide computing, storage, and networking services to nearby edge devices.
+
+Fog computing is especially valuable in scenarios that require low latency, real-time processing, or operation in bandwidth-constrained environments. In industrial automation, fog nodes can process sensor data from manufacturing equipment locally, enabling immediate detection of anomalies and rapid shutdown to prevent accidents.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🇪🇩 Ethiopian Context Fog computing holds particular promise for Ethiopian agriculture, where smallholder farmers face challenges related to unreliable internet connectivity, limited access to electricity, and the need for timely, locally relevant information. In a typical smart agriculture deployment, IoT sensors deployed across farm fields collect data on soil moisture, temperature, humidity, and nutrient levels. Rather than transmitting all raw data to a distant cloud server, a local fog node can process this data on-site, generating immediate recommendations for irrigation scheduling or fertiliser application. The fog node then transmits only condensed summaries and alerts to the cloud for long-term analysis and record-keeping. This architecture is especially valuable in rural Ethiopian farming communities where internet connectivity may be intermittent and expensive.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

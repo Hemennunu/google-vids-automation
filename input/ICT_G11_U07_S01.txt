@@ -1,0 +1,113 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: PART A: MULTIPLE CHOICE QUESTIONS
+Unit: Unit 07 - Semester Exam
+Section: PART A MULTIPLE CHOICE QUESTIONS
+
+Key idea: Choose the best answer (A, B, C, or D) for each question.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Instructions: Choose the best answer (A, B, C, or D) for each question. Each question carries 1 mark.
+
+1. Which of the following best defines "information"?
+
+B) Data that has been processed and given meaning in context
+
+C) A set of instructions for a computer to follow
+
+D) The physical components of a computer system
+
+2.
+
+A) Write computer programs B) Store raw data without processing
+
+C) Support decision-making by producing structured reports for managers
+
+D) Connect computers in a local area network
+
+3. Which characteristic of good information ensures it is free from errors?
+
+A) Timely B) Accurate C) Complete D) Relevant
+
+4.
+
+A) Analyses large data sets to support executive decisions
+
+B) Records and processes routine business transactions in real time
+
+C) Provides expert advice in specialist fields using AI
+
+D) Produces long-range strategic plans for an organisation
+
+5.
+
+A) Design websites for government ministries
+
+B) Process and record tax transactions and customs data
+
+C) Manufacture computer hardware for government use
+
+D) Provide internet access to rural communities
+
+6.
+
+A) Hardware that runs faster than traditional processors
+
+B) The simulation of human intelligence processes by computer systems
+
+C) A programming language used for web development
+
+D) The process of connecting devices to the internet
+
+7.
+
+A) A network of websites accessible via a browser
+
+B) Physical devices embedded with sensors and connected to the internet
+
+D) The process of converting analogue signals to digital
+
+A) Store and access data and applications over the internet rather than on local hardware
+
+B) Speed up a computer's processor using external hardware
+
+C) Create 3D models using virtual reality headsets
+
+9. Which Ethiopian company provides the national cloud infrastructure?
+
+A) Safaricom Ethiopia B) Ethio Telecom C) CBE Digital D) Awash Bank
+
+10.
+
+A) Execute instructions exactly as programmed, without variation
+
+B) Learn and improve from experience without being explicitly programmed for each task
+
+C) Convert analogue data to digital signals
+
+11.
+
+A) Sort records in alphabetical order B) Uniquely identify each record in a table
+
+C) Link two tables using a common field D) Store images and multimedia
+
+12. Which SQL command retrieves data from a database table?
+
+13.
+
+B) Is a field in one table that refers to the primary key in another table
+
+C) Automatically generates unique record numbers
+
+D) Compresses the database to save storage space
+
+14.
+
+A) Converting a database from analogue to digital format
+
+B) Organising data to reduce redundancy and improve data integrity
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

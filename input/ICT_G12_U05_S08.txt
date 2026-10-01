@@ -1,0 +1,29 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5.5: Network Maintenance Tools
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: 5 Network Maintenance Tools
+
+Key idea: The tools map shows how commands, logs, monitoring, backups, and documentation support reliable network maintenance.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+While command-line tools and software applications are essential for diagnosing network problems, many network issues have hardware causes that require physical tools to diagnose and resolve. Network maintenance involves both preventive measures to avoid problems and reactive measures to fix them when they occur. This section covers the hardware tools used by network technicians and the importance of preventive network maintenance.
+
+Wire crimpers are tools used to attach connectors to the ends of network cables. A technician uses a wire crimper to create custom-length Ethernet cables by fastening RJ45 connectors to the individual wires inside the cable. This skill is useful when setting up a network in a school laboratory or office, as pre-made cables may not always be the correct length.
+
+Cable testers, also known as line testers, verify whether a signal is being transmitted correctly through a cable. When a network connection fails, the cable tester can quickly determine whether the cable itself is faulty. This saves time by ruling out cabling issues before investigating more complex causes.
+
+Punch-down tools are used in wiring closets to connect cable wires directly to a patch panel or punch-down block. The tool pushes the wire into the slot and trims the excess in one motion, creating a secure connection. This is a fundamental skill for anyone involved in network installation.
+
+Tone generators send an electrical signal through one pair of wires in a UTP cable. At the other end, a tone probe detects the signal, allowing the technician to identify which cable corresponds to which connection point. This is particularly useful in environments with many cables, such as server rooms or network closets.
+
+A multimeter is an electronic measuring instrument that takes electrical measurements such as voltage, current, and resistance. While not exclusively a network tool, the multimeter is useful for checking power supply voltages, testing cable continuity, and diagnosing electrical problems that may affect network equipment.
+
+Preventive maintenance is the practice of regularly inspecting and maintaining network components to prevent problems before they occur.
+
+Network performance monitoring involves tracking metrics such as bandwidth utilisation, packet loss, latency, and device availability over time. Software-based monitoring tools can generate alerts when performance degrades or devices go offline, allowing technicians to address issues proactively rather than reactively.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

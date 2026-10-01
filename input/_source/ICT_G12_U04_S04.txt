@@ -1,0 +1,32 @@
+# Section 4: Introduction to XML
+
+
+
+## Definition
+
+The diagram shows the rules of a well-formed XML document: one root, proper nesting, closing tags, and quoted attributes.
+
+
+
+## Lead
+
+XML, which stands for eXtensible Markup Language, is a versatile markup language designed to store and transport data in a structured, human-readable format. Unlike HTML, which focuses on how data looks when displayed in a browser, XML is concerned with what the data means. This fundamental difference makes XML an essential tool for data exchange between different systems, applications, and organisations, particularly in contexts where data needs to be shared across platforms that may use different operating systems, databases, or programming languages.
+
+
+
+## Paragraphs
+
+The most significant difference between XML and HTML is that HTML uses a predefined set of tags for formatting content visually, while XML allows you to create your own tags to describe your data. HTML tags such as <h1>, <p>, and <table> tell a browser how to display content, whereas XML tags such as <student>, <book>, or <invoice> describe the data itself. XML also requires stricter syntax: every opening tag must have a corresponding closing tag, tags must be properly nested, and attribute values must be enclosed in quotation marks. Documents that follow these rules are called well-formed XML documents.
+
+An XML document begins with an optional XML declaration that specifies the version and character encoding being used, written as <?xml version="1.0" encoding="UTF-8"?>. Following the declaration, every well-formed XML document must have exactly one root element that contains all other elements. Elements can contain text content, other nested elements, or a combination of both. Attributes provide additional information about elements and appear within the start tag. Consider the following example of a well-formed XML document representing a student record:
+
+In this example, student is the root element, name and grade contain attributes, and all elements are properly nested and closed. The document is well-formed because it follows all XML syntax rules: it has a single root element, all tags are closed, elements are properly nested, and attribute values are quoted.
+
+One of XML's most important applications is in data exchange between different systems. Because XML is platform-independent and uses plain text, data can be transferred between systems running different operating systems and software without losing its structure or meaning. Many organisations use XML to exchange data between their databases, web services, and partner systems. XML Schema and DTDs (Document Type Definitions) provide ways to validate the structure and content of XML documents, ensuring data consistency and accuracy when information is shared between different parties.
+
+
+
+## Ethiopian context
+
+🌍 Ethiopian Context XML plays a significant role i
+

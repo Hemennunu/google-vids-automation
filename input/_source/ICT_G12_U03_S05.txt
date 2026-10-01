@@ -1,0 +1,44 @@
+# Section 3.2: Database Manipulation Using SQL
+
+
+
+## Definition
+
+The visual separates SQL commands that define structure, modify data, and retrieve useful results.
+
+
+
+## Lead
+
+Structured Query Language (SQL) is the standard programming language used for managing and manipulating relational databases. Developed at IBM in the 1970s and later standardized by the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO), SQL has become the universal language for interacting with relational database systems. SQL commands are categorized into several groups based on their function: Data Definition Language (DDL) for defining database structures, Data Manipulation Language (DML) for managing data within those structures, and Data Query Language (DQL) for retrieving data. Mastery of SQL is an essential skill for anyone working with databases, from database administrators and developers to data analysts and researchers.
+
+
+
+## Paragraphs
+
+DDL commands are used to define, modify, and remove database structures such as tables, indexes, and schemas. The three primary DDL commands are CREATE, ALTER, and DROP. The CREATE statement is used to create new database objects. For example, to create a table that stores Ethiopian national examination results, a database administrator would write a CREATE TABLE statement specifying each column's name, data type, and any constraints such as primary keys or NOT NULL requirements. The ALTER statement modifies existing database objects, such as adding a new column to an existing table or modifying a column's data type. The DROP statement permanently removes an entire database object, such as a table or an index, along with all of its data. The following examples illustrate the syntax of DDL commands using an Ethiopian national exam results database as the context.
+
+DML commands are used to manage the data stored within database tables. The three primary DML commands are INSERT, UPDATE, and DELETE. The INSERT statement adds new rows of data to a table. When a new student's examination results are received by the National Educational Assessment and Examinations Agency (NEAEA), an INSERT statement would be executed to add that student's record to the database. The UPDATE statement modifies existing data in a table, such as correcting a student's name that was entered incorrectly or updating examination scores after a results review process. The DELETE statement removes specific rows from a table, for example, removing duplicate records or purging outdated data. It is important to note that UPDATE and DELETE statements should always be used with caution, as they can modify or remove large amounts of data if not properly restricted with a WHERE clause.
+
+The SELECT statement is the primary DQL command, used to retrieve data from one or more tables. SELECT queries can range from simple retrievals of all columns and rows to complex queries involving multiple tables, filtering conditions, sorting, and grouping. The basic syntax is SELECT column1, column2 FROM table WHERE condition. The WHERE clause filters records based on specified conditions, allowing users to retrieve only the data that meets certain criteria. The ORDER BY clause sorts the result set in ascending (ASC) or descending (DESC) order based on one or more columns. The GROUP BY clause groups rows that have the same values in specified columns, often used with aggregate functions like COUNT, SUM, AVG, MAX, and MIN to produce summary statistics.
+
+Check Your Understanding: Write a SQL query to retrieve the names and scores of all students from the Amhara region who scored above 75 in the national examination, sorted by score from highest to lowest. What DDL command would you use to add a new column called 'SchoolName' to the Students table?
+
+
+
+## Ethiopian context
+
+🇧🇪 Ethiopian Context The National Educational Assessment and Examinations Agency (NEAEA) administers the Ethiopian General Secondary Education Certificate Examination (EGSECE) to hundreds of thousands of students every year across all regions of Ethiopia, including Tigray, Afar, Amhara, Oromia, Somali, Benishangul-Gumuz, SNNPR, Gambela, Harari, Sidama, South West, and the Dire Dawa city administration, as well as the capital Addis Ababa. The examination results database is one of the largest and most important data systems in the Ethiopian education sector. Database administrators at NEAEA use SQL queries to manage student registrations, record examination scores, calculate regional and national statistics, generate school performance reports, and identify candidates for university placement. A query like SELECT Region, COUNT(*) AS TotalStudents, AVG(ExamScore) AS AverageScore FROM Results GROUP BY Region ORDER BY AverageScore DESC would reveal which regions performed best in a given academic year, providing valuable insights for educational policy planning.
+
+
+
+## Definitions
+
+Structured Query Language (SQL): A standardized programming language specifically designed for managing data in relational database management systems. SQL enables users to create, retrieve, update, and delete data, as well as to define and modify database structures.
+
+
+
+## Key concepts
+
+Remember SQL commands are categorized by their function: DDL (CREATE, ALTER, DROP) for structure, DML (INSERT, UPDATE, DELETE) for data management, and DQL (SELECT) for data retrieval. The WHERE clause filters, ORDER BY sorts, and GROUP BY aggregates results.
+

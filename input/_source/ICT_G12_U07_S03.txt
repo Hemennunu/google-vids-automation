@@ -1,0 +1,24 @@
+# Section 3: Learning Objectives
+
+
+
+## Definition
+
+The path turns the objectives into project work: compare lifecycle models, collect requirements, test the system, and evaluate the result.
+
+
+
+## Lead
+
+By the end of this unit, students will be able to:
+
+
+
+## Paragraphs
+
+Students will analyse the stages of the Software Development Lifecycle (SDLC) and evaluate the strengths and weaknesses of different SDLC — Software Development Lifecycle — models (Waterfall, Agile, Spiral) for given project scenarios. They will distinguish between procedural, object-oriented, and functional programming paradigms and justify the selection of an appropriate paradigm for a given problem. They will design class hierarchies using the principles of encapsulation, inheritance, and polymorphism, and produce UML — Unified Modelling Language — class diagrams to represent these relationships.
+
+Students will implement fully functional object-oriented programs in Python, applying constructors, instance methods, class attributes, inheritance chains, and method overriding. They will construct a Python OOP project relevant to an Ethiopian context — such as a school grade management system or a bank account simulator — demonstrating integration of multiple OOP principles. They will evaluate software quality using systematic testing strategies including white-box testing, black-box testing, unit testing, and integration testing, and apply debugging techniques to identify and correct logic errors, syntax errors, and runtime exceptions.
+
+Students will use Git version control to initialise repositories, commit changes, create branches, and merge code. They will produce software documentation — including requirements specifications, design documents, user manuals, and inline code comments — that meets professional standards. They will also evaluate the work of Ethiopian software companies (Gebeya, iCog Labs) in the context of global software engineering practice.
+

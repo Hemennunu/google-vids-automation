@@ -1,0 +1,24 @@
+# Section 9: Cambridge AS Level Extension
+
+
+
+## Definition
+
+The extension visual connects structure, presentation, data, validation, and publishing in advanced web authoring.
+
+
+
+## Lead
+
+This section provides extension content aligned with the Cambridge International AS Level ICT 9626 syllabus, focusing on web authoring, markup languages, and website publishing as covered in the syllabus topic on web development and data exchange.
+
+
+
+## Paragraphs
+
+The Cambridge AS ICT 9626 syllabus requires candidates to understand the principles of web authoring using markup languages, including the differences between HTML, XHTML, and XML. Candidates must be able to explain the structure of a web page, including the document type declaration, the head and body sections, and the use of tags, elements, and attributes. A key distinction in the syllabus is between content and presentation: candidates should understand that HTML is used to structure content, while CSS is used to control presentation. The syllabus also introduces the concept of separating data from its presentation, which is where XML becomes important.
+
+Candidates are expected to be able to create and edit simple web pages using a text editor rather than a WYSIWYG tool, demonstrating a thorough understanding of the underlying markup. They should be able to explain the purpose of the <!DOCTYPE> declaration, the importance of character encoding declarations, and the role of the meta tags in providing metadata about the page. When studying XML, candidates must understand the concept of well-formed documents, the rules for creating custom tags, and the purpose of DTDs and XML Schema for validating document structure. The syllabus also covers the use of XML in data exchange between systems, including RSS feeds, SOAP web services, and configuration files.
+
+In terms of website publishing, the syllabus requires candidates to understand the process of transferring files to a web server using FTP, the role of web hosting, and the importance of domain names and the Domain Name System. Candidates should be able to compare different types of web hosting, including shared hosting, dedicated hosting, and cloud hosting, and recommend appropriate solutions for different scenarios. The syllabus also covers the testing and maintenance of websites, including checking for broken links, ensuring cross-browser compatibility, and implementing backup procedures. Additionally, candidates should understand the legal and ethical considerations of web publishing, including copyright of web content, accessibility requireme
+

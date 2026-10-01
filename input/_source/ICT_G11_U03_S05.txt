@@ -1,0 +1,44 @@
+# Section 5: 2. Data Models
+
+
+
+## Definition
+
+The ladder shows how database design moves from conceptual meaning to logical table structure and physical implementation.
+
+
+
+## Lead
+
+This unit covers Database Management as part of the Grade 11 ICT curriculum, aligned with the Ethiopian MoE 2023 standard textbook.
+
+
+
+## Paragraphs
+
+A data model is a conceptual representation of the data structures required by a database, defining what data is stored, how it is organised, and the relationships among different data elements. Data models serve as blueprints for database design, providing a clear and precise description of the data requirements of an organisation before any actual database implementation begins. They help database designers, developers, and stakeholders communicate about data requirements without getting lost in technical implementation details. The most widely used data model in database design is the relational data model, which organises data into tables (relations) consisting of rows (tuples) and columns (attributes), with relationships between tables established through keys.
+
+An Entity-Relationship Diagram (ERD) is a graphical tool used to represent a data model visually. In an ERD, entities are real-world objects or concepts about which data must be stored, such as a Student, Course, or Department. Each entity is represented as a rectangle in the diagram. Attributes describe properties of entities, such as a student's name, ID number, date of birth, and address. Attributes are represented as ovals connected to their entity. Relationships describe how entities are associated with one another, represented as diamonds connecting the related entities. For example, a Student "enrols in" a Course, establishing a relationship between these two entities.
+
+Each entity in an ERD must have a primary key, an attribute or combination of attributes that uniquely identifies each record in the entity. For the Student entity, StudentID serves as the primary key because no two students share the same ID number. Foreign keys are attributes in one entity that reference the primary key of another entity, establishing relationships between them. For instance, in an Exam entity, including StudentID as a foreign key links each exam record to the specific student who took the exam. Relationships are further described by cardinality, which specifies how many instances of one entity relate to instances of another entity, a concept explored in detail in the following section on Entity-Relationship Diagrams.
+
+
+
+## Ethiopian context
+
+Ethiopian Curriculum ContextThis content is assessed in the Grade 11 national examinations. Ethiopian examples, data, and contexts are integrated throughout each section.
+
+
+
+## Key concepts
+
+Core Topicsrelational databases, SQL, ER diagrams, normalisation, Access/LibreOffice Base.
+
+How to Use This UnitWork through the sections in order. Master the Key Vocabulary before the main content. Attempt each Worked Example independently before checking the solution. Complete the Interactive Tools and Assessment sections to consolidate your understanding.
+
+
+
+## Examples
+
+Ethiopian Example: School Management System ERDConsider designing a database for an Ethiopian secondary school. The main entities would include: Student (with attributes: StudentID, FirstName, LastName, DateOfBirth, Grade, Section, ParentPhone); Teacher (TeacherID, FirstName, LastName, SubjectSpecialisation, PhoneNumber); Subject (SubjectCode, SubjectName, GradeLevel); Class (ClassID, Section, RoomNumber, AcademicYear); and Exam (ExamID, SubjectCode, ExamDate, MaxScore). Relationships between these entities might include: a Teacher "teaches" one or more Subjects; a Student "is enrolled in" a Class; a Student "takes" an Exam in a Subject and receives a Score; and a Subject "assigned to" a Grade. This data model captures the essential information needed to manage student records, teacher assignments, class scheduling, and examination results in an Ethiopian school context.
+

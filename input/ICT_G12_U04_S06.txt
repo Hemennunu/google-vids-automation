@@ -1,0 +1,21 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 6: Publishing a Website
+Unit: Unit 04 - Web Authoring
+Section: 3 Publishing Website
+
+Key idea: The workflow shows how local website files become a public site through hosting, domain setup, upload, and testing.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Creating a website is only part of the web authoring process. To make your site accessible to users around the world, you must publish it by uploading its files to a web server and connecting it to a registered domain name. This section explains the key steps and concepts involved in publishing a website, with specific attention to the Ethiopian web hosting environment.
+
+et. Domain names are registered through accredited organisations called domain registrars, which manage the reservation of domain names on behalf of the internet's Domain Name System. When you register a domain name, you are leasing the right to use that name for a specific period, typically one to ten years, and you must renew the registration before it expires. et for Ethiopia.
+
+Web hosting is a service that provides storage space on a web server where your website files reside. When a user types your domain name into their browser, the browser sends a request to the DNS, which translates the domain name into the IP address of your hosting server. The server then delivers your website files to the user's browser, which renders the page.
+
+FTP, or File Transfer Protocol, is the standard method for uploading website files from your local computer to your web hosting server. To use FTP, you need an FTP client such as FileZilla, which provides a graphical interface for transferring files. You will need your hosting provider's FTP server address, your username, and your password, all of which are provided when you set up your hosting account.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

@@ -1,0 +1,27 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 3.4: Practical Investigation
+Unit: Unit 03 - Database Management Systems
+Section: 4 Practical Investigation
+
+Key idea: The visual shows how to design, implement, populate, query, and explain a relational database investigation.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This practical investigation section provides students with hands-on activities designed to reinforce the concepts of relational database design and SQL programming. Students are encouraged to complete these activities using a real database management system such as MySQL, MariaDB, or SQLite, which are freely available for download and installation. If a full database server is not available, students may use online SQL editors or the DB Browser for SQLite, which is a lightweight, portable alternative.
+
+Visit your school's administration office or speak with a school administrator to learn about the database systems they use to manage student records, attendance, and grades. Alternatively, research online about how the Ethiopian Ministry of Education's Education Management Information System (EMIS) collects and manages data from schools across the country. Write a brief report that answers the following questions: What types of data are stored?
+
+Imagine you have been asked to design a database for a small Ethiopian business, such as a traditional coffee exporter in Addis Ababa that sources coffee beans from farmers in Yirgacheffe, Sidama, and Limu. The business needs to track information about farmers, coffee batches, quality grades, prices, and export shipments.
+
+2, write SQL queries to answer each of the following questions. Test your queries using a real database system if possible, or manually trace through the expected results.
+
+The following unnormalized table is used by a school to track teacher assignments. Identify the normalization problems and redesign the table to comply with Third Normal Form (3NF).
+
+After completing your redesign, write the SQL CREATE TABLE statements for each table and explain how your design addresses the issues of redundancy, insertion anomalies, update anomalies, and deletion anomalies that existed in the original flat-file structure.
+
+Check Your Understanding: Why is it important to store the DepartmentHead field in a separate Departments table rather than repeating it for every teacher record? What kind of update anomaly would occur if the department head changed and the field was stored redundantly in multiple teacher records?
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

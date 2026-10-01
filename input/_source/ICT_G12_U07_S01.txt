@@ -1,0 +1,26 @@
+# Section 1: ABOUT THIS DOCUMENT
+
+
+
+## Definition
+
+The guide diagram frames SDLC as a structured route from problem definition to a tested, maintained, and reviewed software product.
+
+
+
+## Lead
+
+This section introduces ABOUT THIS DOCUMENT as part of the Grade 12 curriculum, aligned with the Ethiopian MoE 2023 textbook.
+
+
+
+## Ethiopian context
+
+Ethiopian CurriculumContent assessed in the Grade 12 national examinations. Ethiopian contexts are integrated throughout.
+
+
+
+## Key concepts
+
+Unit: Output Circle area 7854 Rectangle area 2Work through sections in order. Master Key Vocabulary before the main content. Attempt Worked Examples independently. Complete Interactive Tools and the Assessment to consolidate learning.
+

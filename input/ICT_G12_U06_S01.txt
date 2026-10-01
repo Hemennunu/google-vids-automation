@@ -1,0 +1,28 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 1: Unit Overview
+Unit: Unit 06 - Fundamentals Of Programming
+Section: Unit Overview
+
+Key idea: The unit map previews how control flow, Python execution, comments, testing, tracing, and debugging combine to create reliable programs.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Welcome to Unit 6 of the Grade 12 Information Technology curriculum: Fundamentals of Programming. This unit represents a critical milestone in your journey as a computer science student, as it introduces the core building blocks that underpin all modern software development. Programming is no longer a niche skill reserved for computer specialists; it has become an essential competency for professionals across virtually every sector of the economy. In Ethiopia, the demand for skilled programmers and software developers is growing rapidly as the nation pursues its digital transformation agenda under initiatives such as Digital Ethiopia 2025 and the expansion of the ICT park in Addis Ababa and other regional hubs.
+
+This unit focuses on the Python programming language, which has emerged as one of the most popular and accessible languages for beginners and professionals alike. Python's clean syntax, readability, and wide range of applications make it the ideal language for learning fundamental programming concepts.
+
+Program flow controls are the mechanisms by which a programmer dictates the order in which instructions are executed. In Python, these include sequential execution, conditional branching using if-elif-else statements, and iteration using for and while loops. Understanding how to control the flow of a program is the first step toward writing code that can make decisions and repeat tasks automatically.
+
+Comments are explanatory notes embedded within source code that are ignored by the Python interpreter but are invaluable for human readers. They help you and other programmers understand what a particular section of code is intended to do, making maintenance and collaboration far more efficient. The Python interpreter itself is the program that reads your source code and executes it line by line.
+
+Testing and debugging are perhaps the most practical skills a programmer can develop. No code is perfect on the first attempt, and the ability to systematically identify, isolate, and fix errors is what separates novice programmers from experienced ones.
+
+Throughout this unit, you will encounter practical examples that connect programming concepts to real-world Ethiopian scenarios, from grade calculation systems for Ethiopian schools to data analysis of regional populations. These examples are designed to demonstrate that programming is not an abstract academic exercise but a practical tool for solving meaningful problems in your community and beyond.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🌍 Ethiopian ContextProgramming skills are increasingly valuable in the Ethiopian job market. Technology hubs such as the Ethio ICT Village in Addis Ababa, the Bahir Dar ICT Park, and emerging innovation centres in Hawassa and Dire Dawa are actively seeking graduates with Python programming skills. Fields ranging from fintech and agricultural technology to e-governance and healthcare informatics all require programmers who can write clean, debugged, and efficient code. By mastering the fundamentals covered in this unit, you are laying the groundwork for a career in one of Ethiopia’s fastest-growing employment sectors.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1–2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

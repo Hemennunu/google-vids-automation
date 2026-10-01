@@ -1,0 +1,44 @@
+# Section 6: 3. HTML Fundamentals
+
+
+
+## Definition
+
+The diagram shows how a valid HTML document is organised before the browser renders the page.
+
+
+
+## Lead
+
+This unit covers Web Development as part of the Grade 11 ICT curriculum, aligned with the Ethiopian MoE 2023 standard textbook.
+
+
+
+## Paragraphs
+
+HTML, or HyperText Markup Language, is the standard language used to create web pages. Every HTML document follows a basic structure that consists of a Document Type Declaration (DOCTYPE), which tells the browser which version of HTML is being used, followed by the root HTML element that contains two main sections: the head and the body. The head section contains metadata about the document, such as the page title displayed in the browser tab, character encoding declaration, links to CSS stylesheets, and meta tags for search engine optimisation. The body section contains all the visible content that users see in their web browser, including text, images, links, and multimedia elements.
+
+A basic HTML document begins with <!DOCTYPE html> to declare HTML5, followed by the opening <html> tag. Inside the HTML tags, the <head> element contains the <title> tag, which sets the page title. The <body> element holds all visible content. Common HTML tags for structuring content include six levels of headings from <h1> (the most important) to <h6> (the least important). Headings create a hierarchical structure for the page content, with <h1> typically used for the main page title and subsequent headings for subsections. Paragraphs are created with the <p> tag, and line breaks within paragraphs can be inserted using <br>.
+
+Text formatting tags allow authors to emphasise or style content. The <strong> tag indicates strong importance and typically renders as bold text, while the <em> tag indicates emphasis and typically renders as italic. Other formatting tags include <u> for underlined text, <mark> for highlighted text, and <small> for smaller text such as disclaimers and side comments. Images are inserted using the <img> tag, which is a self-closing tag that requires the src attribute to specify the image file path and the alt attribute to provide alternative text for accessibility. Lists can be created using <ul> for unordered (bulleted) lists and <ol> for ordered (numbered) lists, with each list item wrapped in <li> tags.
+
+
+
+## Ethiopian context
+
+Ethiopian Curriculum ContextThis content is assessed in the Grade 11 national examinations. Ethiopian examples, data, and contexts are integrated throughout each section.
+
+
+
+## Key concepts
+
+Core TopicsHTML, CSS, website design principles, hyperlinks, forms, web publishing.
+
+How to Use This UnitWork through the sections in order. Master the Key Vocabulary before the main content. Attempt each Worked Example independently before checking the solution. Complete the Interactive Tools and Assessment sections to consolidate your understanding.
+
+
+
+## Examples
+
+Example: Basic HTML Document <!DOCTYPE html> <html> <head> <title>My School - Ethiopia</title> </head> <body> <h1>Welcome to Addis Ababa Secondary School</h1> <p>This is the official website of our school. We provide quality education for Grade 11 students in Ethiopia.</p> <h2>Our Mission</h2> <p>We aim to <strong>empower</strong> students with the knowledge and skills needed for the <em>digital future</em>.</p> <img src="school-logo.jpg" alt="School logo"> <h2>Departments</h2> <ul> <li>ICT Department</li> <li>Science Department</li> <li>Mathematics Department</li> </ul> </body> </html>
+

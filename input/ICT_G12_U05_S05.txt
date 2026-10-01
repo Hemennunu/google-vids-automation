@@ -1,0 +1,26 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5.2: Software Troubleshooting
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: 2 Software Troubleshooting
+
+Key idea: The flow models a disciplined software repair: observe the symptom, isolate the likely cause, test one fix, and verify normal operation.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Software troubleshooting is the systematic process of identifying, isolating, and resolving problems that occur in computer software. As you use computers, you will inevitably encounter software problems. Understanding how to approach these problems methodically will save you time and frustration.
+
+There are several common software problems that computer users frequently encounter. " Programs may crash unexpectedly, displaying error messages before closing. Compatibility issues can arise when software designed for one operating system version is run on another. Malware infections, including viruses and worms, can cause a wide range of symptoms including slow performance, pop-up advertisements, and data loss.
+
+Troubleshooting follows a logical sequence of steps. The first step is to identify the problem by gathering information about the symptoms. Ask questions such as: When did the problem start? What were you doing when it occurred? Does it happen every time or only occasionally? The second step is to isolate the cause. This may involve trying to reproduce the problem, checking system logs, or testing different components.
+
+Operating systems provide several built-in tools to assist with troubleshooting. The Task Manager, accessible by pressing Ctrl+Alt+Delete, allows you to view running processes, monitor system performance, and terminate unresponsive applications. The System Configuration utility (msconfig) enables you to manage startup programs and services, which is useful for identifying conflicts that occur during boot.
+
+While troubleshooting helps resolve problems after they occur, preventive maintenance aims to avoid problems altogether. Regular practices such as keeping software updated, running antivirus scans, cleaning up disk space, and creating restore points can significantly reduce the frequency of software issues.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🇪🇩 Ethiopian ContextIn Ethiopian school computer laboratories, slow performance is a common issue. Many laboratories operate with older hardware that may struggle with modern software. Students and teachers can apply troubleshooting techniques such as closing unnecessary programs, running Disk Cleanup to free space, using Task Manager to identify resource-heavy processes, and scheduling regular maintenance. When laboratories share an Internet connection through Ethio Telecom services, network-related slowdowns may also affect software performance, requiring coordination with the school's network administrator.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

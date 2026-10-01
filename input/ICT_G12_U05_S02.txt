@@ -1,0 +1,23 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 5: Learning Objectives
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: Learning Objectives
+
+Key idea: The path turns the objectives into a practical sequence: identify the fault, choose a tool, apply a fix, verify the result, and record evidence.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Upon completing this unit, you will be able to demonstrate a comprehensive understanding of computer maintenance and troubleshooting concepts. The learning outcomes for Unit 5 are designed to build both theoretical knowledge and practical skills that you can apply in real-world situations.
+
+By the end of this unit, you should be able to explain the common steps involved in installing and uninstalling software on a computer system. This includes understanding the differences between clean installations, upgrade installations, and silent installations, as well as recognising the importance of using authorised and licenced software.
+
+You will learn to identify common software-related problems and propose alternative solutions for each. This includes recognising symptoms such as application freezing, system crashes, error messages, and compatibility conflicts, and applying systematic troubleshooting techniques to resolve them.
+
+The unit also aims to equip you with the skills to perform system restore operations and understand when and why they are necessary. You will explore network troubleshooting concepts, learning the basic steps and tools used by network technicians to diagnose and resolve connectivity issues. This includes becoming proficient with command-line tools such as ipconfig, ping, tracert, and nslookup.
+
+Additionally, you will be introduced to common network troubleshooting applications and hardware maintenance tools, including wire crimpers, cable testers, punch-down tools, tone generators, and multimeters. By mastering these objectives, you will be well-prepared to maintain computer systems and networks in school laboratories, at home, and in future professional environments.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

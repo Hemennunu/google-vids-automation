@@ -1,0 +1,14 @@
+# Section 5.7: Practical Investigation
+
+
+
+## Definition
+
+The investigation flow connects inspection, recorded CPU RAM disk and network evidence, diagnostic tests, and a justified recommendation.
+
+
+
+## Lead
+
+This practical investigation will help you apply the troubleshooting concepts you have learned in a real-world scenario. You will work through a series of activities designed to build your confidence and competence in maintaining and troubleshooting computer systems and networks.
+

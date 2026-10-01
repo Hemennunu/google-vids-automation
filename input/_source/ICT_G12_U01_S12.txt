@@ -1,0 +1,30 @@
+# Section 9: Unit Summary
+
+
+
+## Definition
+
+The review web consolidates the unit around ethics, intellectual property, digital identity, collaboration, citizenship, and law.
+
+
+
+## Lead
+
+This unit has explored the ethical, legal, social, and environmental issues surrounding the use of information systems, providing Grade 12 students with a comprehensive understanding of responsible technology use in the Ethiopian context and beyond.
+
+
+
+## Paragraphs
+
+In Topic 1 on ethical and legal issues, we examined the core ethical principles that should guide the use of information technology, including honesty, integrity, respect for privacy, and accountability. We explored how Ethiopian law addresses computer misuse through the Computer Crime Proclamation and discussed the importance of acceptable use policies in schools and workplaces. The relationship between what is legal and what is ethical was emphasised, recognising that ethical behaviour often exceeds what law minimally requires.
+
+Topic 2 covered intellectual property, introducing students to the concepts of copyright, patents, trademarks, and Creative Commons licensing. We discussed the importance of respecting others' creative work and the legal consequences of copyright infringement in Ethiopia, including penalties under the Copyright and Neighbouring Rights Protection Proclamation. The topic highlighted how digital technologies have made it easier both to share and to misuse intellectual property, requiring greater vigilance from all users.
+
+Topic 3 addressed digital identity management, explaining what a digital identity is, how it is created through online activities, and why it matters for personal and professional life. We discussed the risks of identity theft, phishing, and social engineering, as well as practical strategies for protecting one's digital identity, including strong passwords, two-factor authentication, and careful management of privacy settings. The emerging Ethiopian national ID system was presented as a case study in national-level digital identity management.
+
+Topic 4 examined collaboration through digital technologies, exploring how tools such as cloud computing, shared documents, video conferencing, and project management platforms enable effective teamwork. We discussed the benefits of digital collaboration, including increased productivity and access to diverse perspectives, alongside challenges such as coordination difficulties, digital distractions, and unequal access to technology. Ethiopian students were encouraged to develop collaboration skills that will serve them in higher education and the workplace.
+
+Topic 5 focused on engaging in citizenship through digital technologies, covering the concept of digital citizenship and its nine elements as defined by Ribble and Bailey. We explored how Ethiopian youth can participate in civic life through social media, online petitions, and digital advocacy while practising respectful online communication. The topic emphasised that digital citizenship is not just about avoiding harm but about actively contributing to a better online community and using digital tools to address real societal challenges in Ethiopia.
+
+✅ Key Takeaway: As information systems continue to transform every aspect of Ethiopian society, from education and healthcare to banking and government services, the knowledge and skills gained in this unit will empower you to use technology ethically, protect your digital identity, collaborate effectively, and participate meaningfully as a responsible digital citizen.
+

@@ -1,0 +1,34 @@
+# Section 4: Big Data
+
+
+
+## Definition
+
+The diagram shows how large, fast, varied, and trustworthy data becomes useful through analytics.
+
+
+
+## Lead
+
+The term Big Data refers to datasets whose size, complexity, and rate of growth exceed the capabilities of traditional database management systems and data processing tools. Every day, humanity generates approximately 2.5 quintillion bytes of data from sources including social media posts, digital photographs, sensor readings, financial transactions, GPS signals, and video surveillance footage. The explosion in data generation has been driven by the proliferation of internet-connected devices, the digitisation of business processes, and the expansion of social media platforms. Big Data is not merely about the volume of data, however; it encompasses a broader set of characteristics that fundamentally distinguish it from conventional data processing.
+
+
+
+## Paragraphs
+
+When properly harnessed, Big Data offers transformative benefits across numerous domains. In business, organisations can analyse customer behaviour patterns to personalise marketing, optimise pricing strategies, and improve customer retention. In healthcare, Big Data analytics enables predictive modelling for disease outbreaks, personalised treatment plans based on patient history, and improved diagnostic accuracy through pattern recognition in medical imaging. In agriculture, data from weather stations, soil sensors, and satellite imagery can inform irrigation scheduling, pest management, and crop yield prediction. In the public sector, governments can use Big Data to improve traffic management, enhance public safety, monitor environmental conditions, and deliver more responsive social services.
+
+Despite its enormous potential, Big Data presents significant challenges that organisations must address. Data storage and processing infrastructure requires substantial investment in hardware, software, and skilled personnel. Data privacy and security are critical concerns, particularly when handling personal information, as breaches can lead to financial loss and reputational damage. Data quality remains a persistent issue: incomplete, inconsistent, or erroneous data can produce misleading analytical results. In Ethiopia and other developing countries, additional challenges include limited broadband connectivity in rural areas, shortages of data scientists and analysts, and the need for regulatory frameworks that protect citizen privacy while enabling data-driven innovation. Furthermore, the energy costs associated with powering large data centres can be prohibitive, making energy-efficient data processing strategies essential for sustainable Big Data adoption.
+
+
+
+## Ethiopian context
+
+🇪🇩 Ethiopian Context Ethiopia is increasingly engaging with Big Data across several key sectors. Ethio Telecom, the national telecommunications provider, manages call detail records, mobile money transactions through Telebirr, and internet usage data for millions of subscribers. This data, when properly anonymised and analysed, can provide valuable insights into population mobility patterns, economic activity, and digital inclusion across different regions of the country. The Ethiopian Commodity Exchange (ECX) processes transaction data for coffee, sesame, maize, wheat, and other agricultural commodities, tracking quality grades, prices, volumes, and trade flows from thousands of farmers and traders across the value chain. The ECX data enables market transparency, helps farmers obtain fair prices, and supports the government in formulating agricultural policy. Additionally, the National Bank of Ethiopia collects and analyses financial data from commercial banks and microfinance institutions to monitor monetary policy, financial stability, and credit growth across the economy.
+
+
+
+## Key concepts
+
+The Four Vs of Big Data. Big Data is commonly described using four defining characteristics. Volume refers to the sheer quantity of data generated, which now reaches the zettabyte scale globally. Velocity describes the speed at which data is generated and must be processed; some data streams, such as stock market trades or social media feeds, require real-time or near-real-time analysis. Variety captures the different forms that data can take, including structured data such as database records, semi-structured data such as JSON or XML files, and unstructured data such as text documents, images, and video. Veracity refers to the quality, accuracy, and trustworthiness of the data; ensuring data veracity is a significant challenge when dealing with data from diverse and sometimes unreliable sources.
+

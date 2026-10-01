@@ -1,0 +1,30 @@
+# Section 3.5: Cambridge AS Level Extension
+
+
+
+## Definition
+
+The extension diagram connects advanced database design issues with more demanding SQL query techniques.
+
+
+
+## Lead
+
+Cambridge International AS Level Information Technology (9626): This section extends the Ethiopian Grade 12 curriculum with additional depth aligned to the Cambridge AS Level syllabus, particularly focusing on advanced database concepts and SQL techniques that are assessed in the Cambridge examinations.
+
+
+
+## Paragraphs
+
+The Cambridge AS Level Information Technology syllabus requires students to demonstrate a deeper understanding of database concepts than the standard Grade 12 curriculum. In particular, students are expected to understand advanced normalization beyond the basic concepts, including the identification and resolution of different types of anomalies, the use of composite keys and compound keys, and the implementation of more sophisticated SQL queries involving multiple table joins, subqueries, and complex aggregate functions.
+
+While the Ethiopian curriculum covers normalization through the first three normal forms, the Cambridge syllabus may also introduce the concept of Boyce-Codd Normal Form (BCNF), which is a stricter version of 3NF. A table is in BCNF if, for every functional dependency X → Y, X is a candidate key. In practice, any table that is in 3NF and has no overlapping candidate keys is also in BCNF. Cambridge students should also understand the distinction between functional dependencies and transitive dependencies and be able to identify and eliminate both during the normalization process. For instance, consider an Ethiopian school database where each teacher teaches in only one department, and each department has one department head. If the Department field functionally determines DepartmentHead, and TeacherID determines Department, then there is a transitive dependency: TeacherID → Department → DepartmentHead. This transitive dependency must be eliminated to achieve 3NF and BCNF compliance.
+
+Cambridge AS Level candidates are expected to write SQL queries that go beyond basic SELECT statements. They must be proficient in multi-table joins using both INNER JOIN and LEFT JOIN syntax, correlated and non-correlated subqueries, the use of aliases to improve query readability, and the application of aggregate functions combined with the HAVING clause for filtering grouped data. The HAVING clause is particularly important as it allows filtering of groups after aggregation, which cannot be accomplished using the WHERE clause alone.
+
+In Cambridge AS Level examination papers on database topics, students are frequently asked to interpret given table structures and write SQL queries to answer specific questions. The examiners expect precise syntax: keywords such as SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY must appear in the correct sequence. Students should also be careful with punctuation, using commas between column names, single quotes around string values, and parentheses around subqueries. Practice writing queries by hand, as examinations are typically paper-based and do not provide a live database for testing. A common mistake is forgetting to include the GROUP BY clause when using aggregate functions with non-aggregated columns in the SELECT list, which causes errors in most database systems.
+
+Cambridge Practice Question: A school database contains two tables: Student (StudentID, FirstName, LastName, YearGroup) and SubjectResult (ResultID, StudentID, Subject, Score). Write SQL statements to: (a) list the first name, last name, and average score for each student who has taken more than three subjects; (b) find the subject with the highest average score for YearGroup 12 students; and (c) count how many students achieved a score of 80 or above in each subject, displaying only those subjects where at least ten students achieved this threshold.
+
+Check Your Understanding: Why does the HAVING clause exist separately from the WHERE clause? What is the fundamental difference in when these two clauses are evaluated during query execution? Explain using an example where using WHERE instead of HAVING would produce incorrect results.
+

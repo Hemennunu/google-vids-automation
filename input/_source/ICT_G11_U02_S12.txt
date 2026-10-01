@@ -1,0 +1,44 @@
+# 8 Unit Summary
+
+
+
+## Definition
+
+The final review visual connects narrow AI, AR and VR, data science, IoT, cloud, and blockchain applications.
+
+
+
+## Lead
+
+MyMarian Platform | Addis Ababa | ICT Grade 11 Lecture Notes
+
+
+
+## Paragraphs
+
+Artificial intelligence (AI) refers to the simulation of human intelligence processes by computer systems, including learning, reasoning, problem-solving, perception, and language understanding. AI has transitioned from a theoretical concept to a transformative force reshaping industries, professions, and daily life worldwide.
+
+Machine learning (ML) is the dominant paradigm within AI, enabling systems to learn from data rather than being explicitly programmed. In supervised learning, a model is trained on labelled examples and learns to predict outputs for new inputs. In unsupervised learning, the model discovers patterns in unlabelled data. In reinforcement learning, an agent learns by interacting with an environment and receiving rewards or penalties for its actions. Deep learning, using artificial neural networks with many layers, has achieved remarkable results in image recognition, natural language processing, and game-playing.
+
+Data science is the interdisciplinary field that extracts insights from large and complex datasets using statistical methods, machine learning, and computational tools. The data science workflow includes problem formulation, data collection, data cleaning and preprocessing, exploratory data analysis, model building, evaluation, and deployment. Python is the primary programming language, with key libraries including Pandas, Matplotlib, Scikit-learn, and TensorFlow.
+
+The Internet of Things (IoT) connects physical devices — sensors, appliances, vehicles — to the internet, enabling data collection and exchange. Smart agriculture applications use soil moisture sensors, weather stations, and drone imagery to optimise farming, directly relevant to Ethiopia's agricultural development challenges. Blockchain technology creates distributed, immutable ledgers without a trusted central authority; the Ethiopian government has partnered with IOHK to create blockchain-based digital student identity cards.
+
+Ethical considerations are inseparable from AI deployment. Algorithmic bias occurs when AI systems reflect or amplify biases present in training data, leading to discriminatory outcomes. Privacy concerns arise from massive data collection requirements. Job displacement from automation requires policy responses in education and social protection. Responsible AI development requires transparency, fairness, accountability, and human oversight — principles that must guide Ethiopia's digital transformation.
+
+
+
+## List items
+
+AI — Artificial Intelligence today is almost entirely Narrow AI — specialised systems that excel at one task. AGI remains a future aspiration.
+
+Machine learning teaches systems from data; deep learning uses multi-layered neural networks for complex pattern recognition.
+
+VR — Virtual Reality replaces reality; AR — Augmented Reality enhances it. Both offer transformative educational possibilities for Ethiopia.
+
+Data science is a six-stage process from problem definition to communication. Clean, relevant data is the foundation of all good analysis.
+
+Emerging technologies offer Ethiopia enormous opportunities, but realising them requires addressing bias, infrastructure, and digital literacy.
+
+Ethiopia has active AI — Artificial Intelligence development through EAII, Addis Ababa University, and iCog Labs — contributing to global AI development from an African perspective.
+

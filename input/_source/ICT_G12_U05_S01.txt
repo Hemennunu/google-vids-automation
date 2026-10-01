@@ -1,0 +1,24 @@
+# Unit 5: Maintenance and Troubleshooting — Unit Overview
+
+
+
+## Definition
+
+The unit map previews how installation, troubleshooting, optimization, and network maintenance work together to keep systems reliable.
+
+
+
+## Lead
+
+Welcome to Unit 5 of your Grade 12 Information Technology course. This unit introduces you to the essential skills and knowledge required to maintain computer systems and troubleshoot common problems that arise in both software and network environments. Computer maintenance and troubleshooting are fundamental competencies for any ICT professional, as they help ensure that systems remain operational, secure, and efficient.
+
+
+
+## Paragraphs
+
+The unit is structured around five major subtopics. First, you will learn about installing and uninstalling software, covering the various types of installations such as clean, upgrade, and silent installation, as well as proper methods for removing software from a system. Second, the unit addresses software troubleshooting, guiding you through the systematic process of identifying, isolating, fixing, and verifying solutions to common software problems such as application freezing, crashes, errors, and compatibility issues.
+
+Third, you will explore the tools available within operating systems to speed up computer performance. Tools such as Disk Defragmenter, Disk Cleanup, Windows Update, System Restore, and the Device Manager are explained with practical steps for their use. Fourth, the unit covers network troubleshooting, including common network issues such as connectivity loss, slow transmission, DNS failures, and the command-line tools used to diagnose these problems, including ipconfig, ping, tracert, and nslookup. Finally, the unit discusses network maintenance tools, both software-based and hardware-based, that help prevent problems before they occur and ensure ongoing network reliability.
+
+Throughout this unit, the Ethiopian context is considered, with references to the Ethiopian school computer laboratory environment, the Ministry of Innovation and Technology initiatives, and the ICT curriculum as implemented in Ethiopian secondary schools. By the end of this unit, you will have developed practical skills that will serve you in your academic journey, in the workplace, and in everyday use of technology.
+

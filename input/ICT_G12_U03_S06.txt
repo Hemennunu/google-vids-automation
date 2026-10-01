@@ -1,0 +1,35 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 3.3: Worked Examples
+Unit: Unit 03 - Database Management Systems
+Section: 3 Worked Examples
+
+Key idea: The path models how a scenario becomes tables, keys, SQL structure, and query output.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section presents step-by-step worked examples that demonstrate the practical application of relational database concepts and SQL commands covered in the previous sections. Each example is drawn from a realistic Ethiopian context to help students connect theoretical knowledge with real-world practice.
+
+Step 1: Identify the Tables and Their Fields. The library system requires three tables. The Books table stores information about each book in the library, including BookID (a unique identifier), Title, Author, ISBN, and PublicationYear. The Students table stores information about each student who is allowed to borrow books, including StudentID (a unique identifier), FirstName, LastName, and Grade.
+
+Step 2: Identify Primary Keys. The primary key for the Books table is BookID, as each book has a unique identification number. The primary key for the Students table is StudentID, as each student has a unique identification number from the school's registration system. The primary key for the Borrowing table is BorrowID, which is an auto-generated unique number for each borrowing transaction.
+
+Step 3: Identify Foreign Keys and Relationships. The Borrowing table contains two foreign keys: BookID references the primary key of the Books table, and StudentID references the primary key of the Students table. This creates two one-to-many relationships: one book can be borrowed many times (one-to-many from Books to Borrowing), and one student can borrow many books (one-to-many from Students to Borrowing).
+
+Question A: Find all students from the Sidama region who scored above 80 in Mathematics.
+
+Question B: Calculate the average score for each region across all subjects, ordered from highest to lowest.
+
+Question C: Count how many students took the examination in each region.
+
+Analysis: The flat-file design has several problems. It violates First Normal Form (1NF) because it has repeating groups of fields (Course1, Course2, Course3). It violates Second Normal Form (2NF) because course information depends only on the course, not on the student. It violates Third Normal Form (3NF) because teacher information depends on the course, not directly on the student.
+
+Normalized Design (3NF): The solution is to create three tables. A Students table with StudentID (primary key) and StudentName. A Courses table with CourseID (primary key), CourseName, and TeacherName. An Enrollments table with EnrollmentID (primary key), StudentID (foreign key), and CourseID (foreign key).
+
+Examples to use:
+- Worked Example 1: Creating a School Library Database A secondary school in Addis Ababa wants to create a database to manage its library system. The system needs to track books, students, and borrowing records. Design the tables, identify primary and foreign keys, and write the SQL statements to create the database structure.
+- Worked Example 2: Querying National Exam Results The NEAEA database contains a table called ExamResults with fields: StudentID, FirstName, LastName, Region, Subject, and Score. Write SQL queries to answer the following questions about the examination performance.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

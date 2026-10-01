@@ -1,0 +1,38 @@
+# Section 5: 2. Augmented Reality and Virtual Reality
+
+
+
+## Definition
+
+The comparison separates augmented reality, mixed reality, and virtual reality by how each relates to the real world.
+
+
+
+## Lead
+
+This unit covers Emerging Technologies as part of the Grade 11 ICT curriculum, aligned with the Ethiopian MoE 2023 standard textbook.
+
+
+
+## Paragraphs
+
+Augmented Reality (AR) and Virtual Reality (VR) are two closely related but distinct technologies that alter human perception of reality through computer-generated content. Virtual Reality creates a completely artificial environment that immerses the user in a simulated world, replacing the real-world environment entirely. The user wears a head-mounted display that blocks out physical surroundings and presents a three-dimensional computer-generated world, often accompanied by spatial audio and hand controllers that enable interaction with virtual objects. In contrast, Augmented Reality overlays digital information and virtual objects onto the real-world environment, allowing the user to see both the physical world and computer-generated enhancements simultaneously. AR typically uses a smartphone camera, tablet, or specialised smart glasses to blend digital content with the real environment.
+
+The key difference between AR and VR lies in their relationship with the real world. VR completely replaces reality with a simulated environment, requiring immersive headsets such as the Oculus Rift, HTC Vive, or PlayStation VR. AR enhances reality by adding digital elements to the live view, requiring only a camera-equipped device such as a smartphone or tablet. A third category, Mixed Reality (MR), combines elements of both AR and VR, allowing virtual objects to interact with real-world objects in real time. For example, in MR, a virtual ball could bounce off a real table, whereas in AR, the virtual ball would simply float above the table without physical interaction.
+
+The applications of AR and VR span numerous fields. In education, VR enables students to take virtual field trips to historical sites, explore the human body in three dimensions, or conduct virtual science experiments without the need for expensive laboratory equipment. AR enhances textbooks with interactive 3D models that appear when scanned with a smartphone. In healthcare, VR is used for surgical simulation training, pain management, and exposure therapy for phobias, while AR assists surgeons by overlaying patient data and anatomical guides during procedures. In architecture and construction, both technologies allow designers and clients to walk through virtual buildings before construction begins. In Ethiopia, educational institutions are beginning to explore AR applications for science education, creating interactive anatomy and chemistry lessons that can be accessed on basic smartphones, which are far more common in Ethiopian classrooms than specialised VR equipment.
+
+
+
+## Ethiopian context
+
+Ethiopian Curriculum ContextThis content is assessed in the Grade 11 national examinations. Ethiopian examples, data, and contexts are integrated throughout each section.
+
+
+
+## Key concepts
+
+Core Topicsartificial intelligence, machine learning, IoT, cloud computing, AR/VR, blockchain.
+
+How to Use This UnitWork through the sections in order. Master the Key Vocabulary before the main content. Attempt each Worked Example independently before checking the solution. Complete the Interactive Tools and Assessment sections to consolidate your understanding.
+

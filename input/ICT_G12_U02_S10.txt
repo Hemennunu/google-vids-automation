@@ -1,0 +1,23 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 10: Cambridge AS Level Extension
+Unit: Unit 02 - Emerging Technologies
+Section: 7 Cambridge AS Level Extension
+
+Key idea: The extension visual connects distributed architecture with privacy, bias, security, latency, and reliability issues.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Cambridge International AS Level Information Technology — Extended Study. This section provides additional depth for students preparing for the Cambridge AS Level examination, focusing on advanced concepts related to data management, distributed systems, and the ethical implications of emerging technologies.
+
+The Cambridge AS Level syllabus requires students to understand the challenges of managing data in distributed environments, which is directly relevant to the cloud and fog computing architectures studied in this unit. In a distributed system, data is stored across multiple nodes that may be geographically dispersed, introducing challenges related to consistency, availability, and partition tolerance.
+
+Virtualisation is the foundational technology that enables cloud computing, and the Cambridge syllabus expects students to understand its principles in depth. Virtualisation allows a single physical server to host multiple virtual machines, each running its own operating system and applications, by using a hypervisor that abstracts the underlying hardware resources.
+
+The Cambridge AS Level syllabus emphasises the importance of understanding the ethical, legal, and social implications of information technology. Emerging technologies raise particularly significant ethical questions that students must consider. Data privacy is a paramount concern: as IoT sensors and Big Data analytics become more pervasive, individuals may not be fully aware of what data is being collected about them or how it is being used.
+
+Exam Focus. Cambridge AS Level examination questions on this topic typically assess candidates' ability to explain the characteristics of Big Data, compare cloud service models, evaluate the advantages and disadvantages of cloud and fog computing architectures, and discuss the social and ethical implications of IoT and Big Data technologies. Practice writing structured answers that define key terms, provide examples, and evaluate trade-offs.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

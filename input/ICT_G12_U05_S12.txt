@@ -1,0 +1,23 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 5: Unit Summary
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: 9 Unit Summary
+
+Key idea: The summary map reviews the unit's maintenance cycle: care for software, improve performance, check networks, prevent faults, and keep records.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+In this unit, you have learnt about the essential concepts and practices of computer maintenance and troubleshooting. The unit began with installing and uninstalling software, where you explored the different types of installations including clean, upgrade, and silent installations, as well as the importance of proper uninstallation to maintain system health. You also learned about software licensing and the guidelines provided by the Ethiopian Ministry of Innovation and Technology for educational institutions.
+
+You studied software troubleshooting, gaining an understanding of common software problems such as freezing, crashes, and compatibility issues. The systematic troubleshooting process of identifying, isolating, fixing, and verifying was introduced, along with essential tools including the Task Manager, System Configuration utility (msconfig), and Safe Mode.
+
+The unit covered tools for speeding up a computer system, including Disk Defragmenter, Disk Cleanup, Windows Update, System Restore, and the importance of regular maintenance schedules. You explored network troubleshooting, learning about common network issues such as connectivity loss, slow performance, and DNS failures, and how to use command-line tools including ipconfig, ping, tracert, and nslookup to diagnose these problems.
+
+Finally, you were introduced to network maintenance tools, both software and hardware. The hardware tools discussed included wire crimpers, cable testers, punch-down tools, tone generators, and multimeters. The importance of preventive maintenance and performance monitoring was emphasised as a strategy for reducing downtime and extending the life of network equipment.
+
+The skills you have developed in this unit are practical and immediately applicable. Whether you are maintaining a home computer, a school laboratory, or an office network, the systematic approach to troubleshooting and the knowledge of maintenance tools will serve you well.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

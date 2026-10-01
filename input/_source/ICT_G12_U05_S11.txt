@@ -1,0 +1,28 @@
+# Section 5.8: Cambridge AS Level Extension
+
+
+
+## Definition
+
+The extension map relates advanced troubleshooting evidence from boot checks, logs, services, backups, and controlled changes.
+
+
+
+## Lead
+
+This section provides supplementary content aligned with the Cambridge AS Level Information Technology syllabus. It extends the Grade 12 Ethiopian curriculum to cover additional depth expected at the Cambridge AS Level.
+
+
+
+## Paragraphs
+
+The Cambridge AS Level syllabus expects students to understand not only the basic troubleshooting process but also the theoretical frameworks that underpin systematic problem-solving. One such framework is the OSI (Open Systems Interconnection) model, which divides network communication into seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. When troubleshooting network problems at the AS Level, technicians use the OSI model to isolate issues by testing each layer systematically, starting from the Physical layer and working upward.
+
+Another important concept is the difference between fault management and performance management. Fault management focuses on detecting, isolating, and correcting abnormal network operations, while performance management involves monitoring and optimising network performance to meet service level agreements. AS Level students are expected to understand how monitoring tools such as Simple Network Management Protocol (SNMP) can be used to collect data from network devices for both fault and performance management.
+
+Beyond the basic tools covered in the Grade 12 curriculum, AS Level students should also be familiar with the arp command, which displays and modifies the Address Resolution Protocol cache used to map IP addresses to physical MAC addresses. The route command displays and modifies the local IP routing table. The pathping command combines the functionality of ping and tracert, providing detailed information about packet loss at each hop along the route. Understanding these additional tools provides a more comprehensive toolkit for network diagnosis.
+
+At the Cambridge AS Level, preventive maintenance is approached strategically. Students learn to develop maintenance schedules based on factors such as equipment age, usage patterns, criticality of systems, and manufacturer recommendations. A preventive maintenance plan includes regular inspection schedules, software update policies, backup procedures, and documentation standards. The plan should also define roles and responsibilities, escalation procedures for unresolved issues, and a budget for replacement parts and consumables. This strategic approach ensures that maintenance activities are cost-effective and aligned with organisational needs.
+
+Consider a school with 200 computers distributed across four laboratories, connected by a wired network with wireless access points in common areas. A preventive maintenance plan for this school would include weekly checks of server health and backup completion, monthly cleaning of computer cases and network equipment, quarterly review of software updates and patch levels, and annual replacement of consumable items such as keyboard and mouse batteries. The plan would also document network topology, device configurations, and vendor contact information. Such structured planning reduces downtime and ensures that the school's investment in ICT infrastructure is protected.
+

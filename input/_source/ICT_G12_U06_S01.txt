@@ -1,0 +1,34 @@
+# Section 1: Unit Overview
+
+
+
+## Definition
+
+The unit map previews how control flow, Python execution, comments, testing, tracing, and debugging combine to create reliable programs.
+
+
+
+## Lead
+
+Welcome to Unit 6 of the Grade 12 Information Technology curriculum: Fundamentals of Programming. This unit represents a critical milestone in your journey as a computer science student, as it introduces the core building blocks that underpin all modern software development. Programming is no longer a niche skill reserved for computer specialists; it has become an essential competency for professionals across virtually every sector of the economy. In Ethiopia, the demand for skilled programmers and software developers is growing rapidly as the nation pursues its digital transformation agenda under initiatives such as Digital Ethiopia 2025 and the expansion of the ICT park in Addis Ababa and other regional hubs.
+
+
+
+## Paragraphs
+
+This unit focuses on the Python programming language, which has emerged as one of the most popular and accessible languages for beginners and professionals alike. Python's clean syntax, readability, and wide range of applications make it the ideal language for learning fundamental programming concepts. The unit is structured around four major pillars: program flow controls, comments and documentation, the Python interpreter, and testing and debugging. Each of these pillars is essential for developing the skills and mindset of a competent programmer.
+
+Program flow controls are the mechanisms by which a programmer dictates the order in which instructions are executed. In Python, these include sequential execution, conditional branching using if-elif-else statements, and iteration using for and while loops. Understanding how to control the flow of a program is the first step toward writing code that can make decisions and repeat tasks automatically. This is where programming truly becomes powerful: instead of writing the same instruction over and over, you write a loop; instead of guessing which output to produce, you write a condition that evaluates the input and responds accordingly.
+
+Comments are explanatory notes embedded within source code that are ignored by the Python interpreter but are invaluable for human readers. They help you and other programmers understand what a particular section of code is intended to do, making maintenance and collaboration far more efficient. The Python interpreter itself is the program that reads your source code and executes it line by line. Understanding how the interpreter works, including the distinction between compiled bytecode and interpreted execution, gives you deeper insight into how your programs actually run on a computer.
+
+Testing and debugging are perhaps the most practical skills a programmer can develop. No code is perfect on the first attempt, and the ability to systematically identify, isolate, and fix errors is what separates novice programmers from experienced ones. This unit introduces the built-in debugging tools available in Python IDLE, including breakpoints and the debug control window, as well as general strategies such as print debugging and trace tables.
+
+Throughout this unit, you will encounter practical examples that connect programming concepts to real-world Ethiopian scenarios, from grade calculation systems for Ethiopian schools to data analysis of regional populations. These examples are designed to demonstrate that programming is not an abstract academic exercise but a practical tool for solving meaningful problems in your community and beyond.
+
+
+
+## Ethiopian context
+
+🌍 Ethiopian ContextProgramming skills are increasingly valuable in the Ethiopian job market. Technology hubs such as the Ethio ICT Village in Addis Ababa, the Bahir Dar ICT Park, and emerging innovation centres in Hawassa and Dire Dawa are actively seeking graduates with Python programming skills. Fields ranging from fintech and agricultural technology to e-governance and healthcare informatics all require programmers who can write clean, debugged, and efficient code. By mastering the fundamentals covered in this unit, you are laying the groundwork for a career in one of Ethiopia’s fastest-growing employment sectors.
+

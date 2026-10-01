@@ -1,0 +1,26 @@
+# Section 10: 7. Practical Investigation: Build a Student Results Database
+
+
+
+## Definition
+
+The schema shows how student and subject records link through a results table to produce grade reports.
+
+
+
+## Lead
+
+Practical investigation for Database Management, applying theoretical concepts to real-world problems.
+
+
+
+## Ethiopian context
+
+Ethiopian ContextUse locally available resources and Ethiopian contexts where possible.
+
+
+
+## Key concepts
+
+Scientific MethodState aim → Form hypothesis → Identify variables → Describe procedure → Record results → Analyse data → Conclude with evidence.
+

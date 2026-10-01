@@ -1,0 +1,56 @@
+Scene 1: The Scope of Biology & Etymological Foundations
+Etymological definition of biology from Greek bios (life) and logos (study). Introduction to biological inquiry across spatial scales (molecular to biospheric) and temporal scales.
+
+Scene 2: Universal Criteria of Life: Cellular Organization & Unicellular vs Multicellular Structure
+Cellular organization as the fundamental structural and functional criterion of life. Differentiating unicellular organisms (Amoeba, bacteria) from complex multicellular organisms with specialized tissues. Explaining why non-living matter lacks cellular structure.
+
+Scene 3: Bioenergetics & Metabolism: Anabolism vs Catabolism
+Metabolism defined as the total network of enzyme-catalyzed reactions. Comparing anabolism (endergonic macromolecular synthesis like photosynthesis) and catabolism (exergonic energy release via cellular respiration producing ATP).
+
+Scene 4: Homeostasis: Dynamic Physiological Regulation & Feedback Mechanisms
+Homeostasis defined as a dynamic internal steady-state rather than static equilibrium. Negative feedback regulation: Cytosolic pH buffering, osmotic water balance, and endothermic thermoregulation.
+
+Scene 5: Biological Irritability: Environmental Stimuli & Behavioral Responses
+Response to environmental stimuli and behavioral adaptation. Sensory receptors and adaptive movements: Plant phototropism (stems bending toward sunlight) and bacterial chemotaxis.
+
+Scene 6: Biological Growth vs Physical Accretion & Developmental Differentiation
+Growth defined as permanent irreversible increase in dry biomass via internal anabolic assimilation and cell division, contrasted with non-living crystal growth by external accretion. Development as programmed cellular differentiation from zygote to adult.
+
+Scene 7: Reproduction Modalities, Genetic Code & DNA Transmission
+Asexual reproduction (binary fission, budding, vegetative cloning) vs sexual reproduction (meiosis, gametes, diploid zygotes). Universal DNA triplet genetic code, hereditary transmission, and sources of genetic variation.
+
+Scene 8: Population Evolutionary Adaptation & Natural Selection Mechanisms
+Evolutionary adaptation and natural selection in biological populations across generations. Structural, physiological, and behavioral adaptations. Clarifying that populations evolve, not single individuals during their lifespans.
+
+Scene 9: Borderline Entities: Structural Status of Viruses, Viroids & Prions
+Borderline entities: Structural and functional status of viruses. Virion anatomy (nucleic acid core + capsid + optional envelope). Why viruses are obligate intracellular parasites with zero autonomous metabolism. Agricultural viroids and infectious proteinaceous prions.
+
+Scene 10: Hierarchical Architecture of Biological Organization: Subatomic to Organismal
+Hierarchical levels of biological organization: Subatomic particles, atoms (CHNOPS bioelements), biological macromolecules (carbohydrates, lipids, proteins, nucleic acids), organelles, cells, tissues, organs, and organ systems.
+
+Scene 11: Ecological Hierarchy & Emergent Properties Across Scales
+Ecological organization: Organisms, populations, communities, ecosystems, biomes, and global biosphere. Emergent properties at successive hierarchical biological levels, where novel capabilities emerge at higher tiers that do not exist at subordinate levels.
+
+Scene 12: Major Branches & Multidisciplinary Interfaces of Modern Biology
+Major branches and sub-disciplines of biological inquiry: Cytology, histology, anatomy, physiology, genetics, ecology, botany, zoology, microbiology, and biotechnology. Intersections with chemistry, physics, and computational genomics.
+
+Scene 13: The Empirical Scientific Method: Variables & Experimental Controls
+The scientific method as applied to biological investigations: Systematic observation, falsifiable hypothesis formulation, experimental design isolating independent, dependent, and controlled variables, control groups, and replicate trials.
+
+Scene 14: Key Biological Terminology & Core Definitions Glossary
+Key biological terminology and definitions: Essential definitions of Biology, Cell, Homeostasis, Metabolism, Anabolism, Catabolism, Emergent Property, Prokaryote, Eukaryote, Biodiversity, and Virion.
+
+Scene 15: Debunking Common Biological Misconceptions
+Common misconceptions regarding living versus non-living matter: Debunking non-living movement/growth as life, clarifying virus non-cellular status, correcting the static view of homeostasis, and explaining that hypotheses are reasoned empirical explanations rather than guesses.
+
+Scene 16: Added Gap 1: Endemic Afroalpine Wildlife Conservation in the Ethiopian Highlands
+[Gap Concept] Endemic Afroalpine Wildlife Conservation and Evolutionary Genetics in the Ethiopian Highlands: Walia ibex (Capra walie) cliff adaptations and demographic bottleneck; Ethiopian wolf (Canis simensis) rodent specialist ecology, rabies threats, and EWCP vaccinations; Gelada baboon (Theropithecus gelada) graminivorous diet, opposable thumbs, and multi-tier social bands in Semien, Bale, and Guassa ecosystems.
+
+Scene 17: Added Gap 2: Crop Wild Relatives, Vavilov Centers & Indigenous Agrobiodiversity
+[Gap Concept] Crop Wild Relatives, Vavilov Centers of Diversity, and Indigenous Agrobiodiversity in Ethiopia: Nikolai Vavilov's Ethiopian diversity center; Teff (Eragrostis tef) C4 drought resilience and nutrition; wild Coffee Arabica afromontane cloud forest disease-resistance alleles; Enset (Ensete ventricosum) false banana Kocho lactic acid fermentation; and Ethiopian Biodiversity Institute (EBI) gene bank seed cryopreservation.
+
+Scene 18: Added Gap 3: Controlled Biological Inquiry & Laboratory Bio-Safety Protocols
+[Gap Concept] Empirical Biological Inquiry, Controlled Variable Design, and Laboratory Bio-Safety Standards: Light microscope optical train and total magnification formula (Ocular × Objective); PPE safety gear; international biohazard pictograms; autoclave steam sterilization (121°C, 15 psi); and sodium hypochlorite chemical hygiene.
+
+Scene 19: Real-World Applications, Ethiopian Ecosystems & Course Summary
+Real-world applications and Ethiopian biological examples: Lake Tana, Awash River, GERD Blue Nile basin ecology. Comprehensive section summary synthesizing living criteria, biological hierarchy, and national scientific stewardship.

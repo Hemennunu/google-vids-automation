@@ -1,0 +1,26 @@
+# Section 9: 6. Practical Investigation: Designing an IS for a School Library
+
+
+
+## Definition
+
+The design sketch shows how book and borrower records feed a library database that produces loans, returns, and reports.
+
+
+
+## Lead
+
+Practical investigation for Information Systems, applying theoretical concepts to real-world problems.
+
+
+
+## Ethiopian context
+
+Ethiopian ContextUse locally available resources and Ethiopian contexts where possible.
+
+
+
+## Key concepts
+
+Scientific MethodState aim → Form hypothesis → Identify variables → Describe procedure → Record results → Analyse data → Conclude with evidence.
+

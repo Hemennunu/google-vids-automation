@@ -1,0 +1,21 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 6: Worked Examples
+Unit: Unit 01 - Information Systems And Their Applications
+Section: 1 Worked Examples
+
+Key idea: The path models how to justify ICT decisions with policy, evidence, rights, risks, and Ethiopian context.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section presents worked examples that illustrate the practical application of key concepts from Unit 1, focusing on ethical issues, intellectual property, digital identity management, and digital citizenship in the Ethiopian context.
+
+A Grade 12 student at a secondary school in Addis Ababa discovers that a classmate has been using another student's login credentials to access the school computer lab after hours. The student who shared their password did so willingly, but the school's ICT policy clearly states that sharing passwords is prohibited and that each student is responsible for all activity conducted under their account.
+
+During an online collaborative project, a group of Ethiopian secondary school students from different regions use a shared document platform to prepare a presentation on Ethiopia's digital transformation initiatives. One student posts a comment that contains unverified statistics about internet penetration in Ethiopia, while another student copies text directly from a website without attribution.
+
+A recent graduate from a school in Bahir Dar creates a professional LinkedIn profile while also maintaining personal social media accounts on other platforms. A potential employer searches for the graduate's name online and discovers inappropriate public posts from several years earlier. The graduate must manage this digital identity crisis.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

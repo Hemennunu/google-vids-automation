@@ -1,0 +1,38 @@
+{
+  "name": "google-vids-automation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof-of-concept: create one Google Vids draft from a course script via Playwright",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "login": "tsx src/main.ts --login",
+    "login:cdp": "tsx src/main.ts --login-cdp",
+    "chrome:debug": "powershell -ExecutionPolicy Bypass -File scripts/open-chrome-for-login.ps1",
+    "start": "tsx src/main.ts",
+    "start:headless": "tsx src/main.ts --headless",
+    "typecheck": "tsc --noEmit",
+    "prepare:section": "tsx src/prepareSection.ts",
+    "batch": "tsx src/batch.ts",
+    "batch:cdp": "tsx src/batch.ts --cdp",
+    "start:cdp": "tsx src/main.ts --cdp",
+    "ocr": "tsx src/ocrCommand.ts",
+    "ocr:textbooks": "tsx src/ocrTextbooks.ts",
+    "enrich:ict": "tsx src/enrichIct.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@gradio/client": "^2.7.0",
+    "docx": "^9.8.1",
+    "dotenv": "^18.0.4",
+    "mammoth": "^1.13.0",
+    "playwright": "^1.49.1"
+  }
+}

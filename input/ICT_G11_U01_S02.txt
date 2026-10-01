@@ -1,0 +1,23 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 2: Learning Objectives
+Unit: Unit 01 - Information Systems
+Section: Learning Objectives
+
+Key idea: The diagram turns the objectives into a progression: define, compare, classify, and evaluate information systems.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+By the end of this unit, we will be able to differentiate clearly between data, information, knowledge, and wisdom, and justify why each level of the DIKW hierarchy is necessary for effective decision-making. We will analyse the five core components of an information system, classify the main types of information systems, and evaluate the impact of e-banking, e-government, e-learning, and e-health systems on Ethiopian citizens. We will also design a basic information system solution for a small Ethiopian business, construct a reasoned argument for how IT-enabled entrepreneurship contributes to Ethiopia's economic development, critique the limitations of information systems in low-connectivity environments, and analyse the role of Enterprise Resource Planning, Customer Relationship Management, and Supply Chain Management systems in large organisations.
+
+An information system (IS) is an integrated set of components for collecting, storing, processing, and communicating data and information. Information systems are the technological infrastructure through which organisations acquire, process, and deploy information to support decision-making, coordination, control, analysis, and the creation of new products and services.
+
+The DIKW Hierarchy provides a conceptual framework for understanding information and its value. Data consists of raw, unprocessed facts and figures: temperature readings, transaction amounts, student scores. Information is data that has been processed and organised to be meaningful and useful: a student's grade report, an average temperature for a season.
+
+Information systems can be classified by function and level of use. Transaction Processing Systems (TPS) handle routine operational transactions such as bank ATM networks and point-of-sale systems. Management Information Systems (MIS) aggregate transaction data and present structured reports to middle managers. Decision Support Systems (DSS) support analytical and ad hoc decisions by providing data, models, and analytical tools.
+
+Components of an information system include hardware (physical devices), software (programs and operating systems), data (the raw material), people (users and IT staff), and procedures (rules and policies for system use). Networks connect individual information systems into larger infrastructures: a Local Area Network (LAN) connects devices within a single building; a Wide Area Network (WAN) spans geographic distances.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

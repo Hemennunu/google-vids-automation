@@ -1,0 +1,20 @@
+# Section 5: Main Lesson Content
+
+
+
+## Definition
+
+The comparison shows how Waterfall suits stable requirements, Agile supports feedback and change, and programming paradigms shape implementation.
+
+
+
+## Lead
+
+A programming paradigm is a fundamental style of programming — a way of thinking about and structuring software — that shapes how a developer approaches a problem. Different paradigms are genuinely suited to different types of problems, and the most effective software engineers are those who can recognise which paradigm (or combination of paradigms) is most appropriate for a given challenge.
+
+
+
+## Paragraphs
+
+In Python, a class is defined using the class keyword, followed by the class name and a colon. By convention, class names in Python use PascalCase — each word begins with a capital letter, with no underscores between words (for example, BankAccount, StudentRecord, SchoolGradeManager).
+

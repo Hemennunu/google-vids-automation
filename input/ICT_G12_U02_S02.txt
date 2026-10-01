@@ -1,0 +1,27 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 2: Learning Objectives
+Unit: Unit 02 - Emerging Technologies
+Section: Learning Objectives
+
+Key idea: The path turns the objectives into a progression from definitions to evaluation in Ethiopian contexts.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Upon completing this unit, students will be able to achieve the following learning objectives, which are aligned with the Ethiopian Ministry of Education curriculum framework and the Cambridge International AS Level Information Technology syllabus. Each objective is designed to build both theoretical understanding and practical competence in emerging technologies.
+
+1. Define and explain the concept of Big Data. Students will be able to describe Big Data in terms of its defining characteristics, including the four Vs: volume, velocity, variety, and veracity. They will understand how Big Data differs from traditional data processing approaches and recognise the sources and scale of data generation in contemporary digital environments.
+
+2. Analyse the characteristics, benefits, and challenges of Big Data. Students will examine real-world Big Data applications across sectors such as agriculture, finance, healthcare, and telecommunications, with particular attention to Ethiopian examples including Ethio Telecom subscriber data and Ethiopian Commodity Exchange transaction records.
+
+3. Describe Cloud Computing and its service models. Students will explain the fundamental concepts of Cloud Computing, distinguish between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), and evaluate the benefits and limitations of cloud adoption in developing country contexts such as Ethiopia.
+
+4. Explain Fog Computing and differentiate it from Cloud Computing. Students will define Fog Computing as an intermediate layer between cloud data centres and edge devices, identify use cases where fog computing is preferable to cloud-only architectures, and recognise its relevance to latency-sensitive IoT applications.
+
+5. Describe the Internet of Things (IoT) architecture and applications. Students will explain how IoT systems operate, including sensing, communication, data processing, and actuation. They will evaluate IoT applications in Ethiopian agriculture, healthcare, and smart city initiatives, and discuss the associated benefits and challenges.
+
+6. Apply emerging technology concepts to practical scenarios. Students will analyse worked examples that integrate Big Data, Cloud Computing, Fog Computing, and IoT concepts, demonstrating the ability to recommend appropriate technology solutions for real-world problems.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

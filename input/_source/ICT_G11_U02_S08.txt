@@ -1,0 +1,26 @@
+# Section 8: 5. Practical Investigation: AI Ethics Debate and Data Visualisation
+
+
+
+## Definition
+
+The diagram links responsible AI debate to fairness, privacy, bias checks, and clear visual evidence.
+
+
+
+## Lead
+
+Practical investigation for Emerging Technologies, applying theoretical concepts to real-world problems.
+
+
+
+## Ethiopian context
+
+Ethiopian ContextUse locally available resources and Ethiopian contexts where possible.
+
+
+
+## Key concepts
+
+Scientific MethodState aim → Form hypothesis → Identify variables → Describe procedure → Record results → Analyse data → Conclude with evidence.
+

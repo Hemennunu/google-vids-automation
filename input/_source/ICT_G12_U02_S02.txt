@@ -1,0 +1,34 @@
+# Section 2: Learning Objectives
+
+
+
+## Definition
+
+The path turns the objectives into a progression from definitions to evaluation in Ethiopian contexts.
+
+
+
+## Lead
+
+Upon completing this unit, students will be able to achieve the following learning objectives, which are aligned with the Ethiopian Ministry of Education curriculum framework and the Cambridge International AS Level Information Technology syllabus. Each objective is designed to build both theoretical understanding and practical competence in emerging technologies.
+
+
+
+## Paragraphs
+
+1. Define and explain the concept of Big Data. Students will be able to describe Big Data in terms of its defining characteristics, including the four Vs: volume, velocity, variety, and veracity. They will understand how Big Data differs from traditional data processing approaches and recognise the sources and scale of data generation in contemporary digital environments.
+
+2. Analyse the characteristics, benefits, and challenges of Big Data. Students will examine real-world Big Data applications across sectors such as agriculture, finance, healthcare, and telecommunications, with particular attention to Ethiopian examples including Ethio Telecom subscriber data and Ethiopian Commodity Exchange transaction records.
+
+3. Describe Cloud Computing and its service models. Students will explain the fundamental concepts of Cloud Computing, distinguish between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), and evaluate the benefits and limitations of cloud adoption in developing country contexts such as Ethiopia.
+
+4. Explain Fog Computing and differentiate it from Cloud Computing. Students will define Fog Computing as an intermediate layer between cloud data centres and edge devices, identify use cases where fog computing is preferable to cloud-only architectures, and recognise its relevance to latency-sensitive IoT applications.
+
+5. Describe the Internet of Things (IoT) architecture and applications. Students will explain how IoT systems operate, including sensing, communication, data processing, and actuation. They will evaluate IoT applications in Ethiopian agriculture, healthcare, and smart city initiatives, and discuss the associated benefits and challenges.
+
+6. Apply emerging technology concepts to practical scenarios. Students will analyse worked examples that integrate Big Data, Cloud Computing, Fog Computing, and IoT concepts, demonstrating the ability to recommend appropriate technology solutions for real-world problems.
+
+7. Conduct a practical investigation using IoT simulation or data analysis tools. Students will gain hands-on experience by undertaking a guided investigation, such as analysing a sample dataset or simulating an IoT sensor network, and will present their findings in a structured report.
+
+8. Synthesise knowledge across the four technology domains. Students will be able to explain how Big Data, Cloud Computing, Fog Computing, and the Internet of Things work together as an integrated ecosystem, and discuss the implications of these technologies for Ethiopia's digital future.
+

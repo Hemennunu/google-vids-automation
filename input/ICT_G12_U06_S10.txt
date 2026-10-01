@@ -1,0 +1,25 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 10: Cambridge AS Level Extension (ICT 9626)
+Unit: Unit 06 - Fundamentals Of Programming
+Section: 7 Cambridge AS Level Extension
+
+Key idea: The extension map introduces structured programming ideas: procedures, functions, arrays, parameters, and modular problem decomposition.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section provides extension material that bridges the Ethiopian Grade 12 ICT curriculum with the Cambridge International AS Level ICT syllabus (9626). Cambridge AS Level ICT extends the programming concepts covered in this unit by introducing additional procedural programming techniques, more sophisticated data structures, and a stronger emphasis on structured programming methodology. Students who master the Ethiopian curriculum and supplement their learning with the Cambridge material will be well prepared for international certification and for university-level computer science programmes.
+
+Cambridge AS Level ICT 9626 – Programming Concepts: The Cambridge AS Level syllabus requires students to demonstrate a deeper understanding of programming beyond basic constructs. Students must be able to design, write, and test modular programs that use procedures and functions with parameters.
+
+One of the key extensions in the Cambridge syllabus is the use of procedures and functions to create modular code. A procedure is a named block of code that performs a specific task but does not return a value, while a function is a named block of code that performs a task and returns a value. Both are defined using the def keyword in Python.
+
+The Cambridge syllabus introduces file handling, which allows programs to read data from and write data to external text files. This is a significant extension because it enables programs to work with persistent data that survives beyond a single program execution. In Python, the open() function is used to open a file, and files can be opened in read mode ("r"), write mode ("w"), or append mode ("a").
+
+Another important topic in the Cambridge AS Level syllabus is the implementation of basic searching and sorting algorithms. The linear search algorithm examines each element in a list sequentially until the target value is found or the end of the list is reached. The bubble sort algorithm repeatedly steps through a list, compares adjacent elements, and swaps them if they are in the wrong order, until the list is sorted.
+
+Cambridge AS Level ICT emphasises the importance of validating and verifying input data. Validation checks whether data is reasonable and conforms to expected rules, such as ensuring that a student's age is between 5 and 25. Verification checks that data has been entered correctly, such as asking the user to confirm their input. Both concepts build on the conditional statements and comparison operators covered in this unit.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

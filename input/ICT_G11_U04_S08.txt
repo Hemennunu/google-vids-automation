@@ -1,0 +1,22 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 8: 5. HTML Tables
+Unit: Unit 04 - Web Development
+Section: 5 HTML Tables
+
+Key idea: The table sketch shows caption, rows, headers, and data cells used for genuine tabular information.
+
+Terms and facts to cover (from the lesson table — use these exact definitions):
+- (table data) — creates a data cell within a row.: (table header) — creates a header cell. Browsers render th cells in bold and centred by default. Should include scope attributes ("col" for column headers, "row" for row headers) for accessibility.
+- Monday: ICT Practical (double period): Mathematics
+- Tuesday: English: Biology: Physics
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Tables present data in a grid format of rows and columns. Modern web development confines tables to displaying genuinely tabular data — schedules, price lists, comparison charts, statistical data. Tables should NOT be used as a general-purpose layout tool.
+
+The colspan attribute allows a cell to span across multiple columns — merging several column positions into a single wider cell. The rowspan attribute allows a cell to span across multiple rows. Invaluable for complex tables with merged headers or grouped data. When using spanning, care must be taken to remove the corresponding cells being "consumed" by the span, otherwise the table structure will be corrupted.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

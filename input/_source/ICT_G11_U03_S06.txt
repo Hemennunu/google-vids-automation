@@ -1,0 +1,38 @@
+# Section 6: 3. Entity-Relationship (ER) Diagrams
+
+
+
+## Definition
+
+The ER diagram shows entities, key attributes, a relationship, and one-to-many cardinality.
+
+
+
+## Lead
+
+This unit covers Database Management as part of the Grade 11 ICT curriculum, aligned with the Ethiopian MoE 2023 standard textbook.
+
+
+
+## Paragraphs
+
+An Entity-Relationship Diagram (ERD) is a visual representation of the data model that uses standardised symbols to depict entities, attributes, and relationships. Creating an ERD follows a systematic process that begins with identifying the entities relevant to the system being modelled. Entities are represented as rectangles and should be nouns that represent real-world objects, such as Customer, Product, Order, or Employee. The next step is to identify attributes for each entity, shown as ovals connected to their entity. Attributes that are composite, such as Address (which contains Street, City, and Region), can be further subdivided into component attributes. Key attributes that serve as primary keys are underlined. Derived attributes, which can be calculated from other attributes, are shown with dashed ovals.
+
+Relationships are represented as diamonds connecting two or more entities. The cardinality of a relationship describes how many instances of one entity can be associated with instances of another entity. The three main types of cardinality are: one-to-one (1:1), where a single instance of Entity A is associated with exactly one instance of Entity B; one-to-many (1:M), where a single instance of Entity A can be associated with many instances of Entity B but each instance of Entity B is associated with only one instance of Entity A; and many-to-many (M:N), where many instances of Entity A can be associated with many instances of Entity B. In ERD notation, cardinality is typically indicated by marking "1" on the one side and "M" or "N" on the many side of the relationship line.
+
+To construct an ERD for an Ethiopian library management system as an example, one would identify the entities: Book, Member, and Loan. The Book entity would contain attributes such as BookID (primary key), Title, Author, ISBN, Publisher, and PublicationYear. The Member entity would include MemberID (primary key), FullName, Address, PhoneNumber, and MembershipDate. The Loan entity would record LoanID (primary key), LoanDate, DueDate, and ReturnDate, with BookID and MemberID serving as foreign keys linking to their respective entities. The relationship between Member and Loan is one-to-many, as a single member can borrow many books over time, but each loan record belongs to one member. Similarly, the relationship between Book and Loan is one-to-many, as each book can be loaned multiple times, but each loan record refers to one specific book. This ERD provides the blueprint for creating the underlying database tables in a database management system such as Microsoft Access or LibreOffice Base.
+
+
+
+## Ethiopian context
+
+Ethiopian Curriculum ContextThis content is assessed in the Grade 11 national examinations. Ethiopian examples, data, and contexts are integrated throughout each section.
+
+
+
+## Key concepts
+
+Core Topicsrelational databases, SQL, ER diagrams, normalisation, Access/LibreOffice Base.
+
+How to Use This UnitWork through the sections in order. Master the Key Vocabulary before the main content. Attempt each Worked Example independently before checking the solution. Complete the Interactive Tools and Assessment sections to consolidate your understanding.
+

@@ -1,0 +1,26 @@
+# Section 6: 3. Worked Examples
+
+
+
+## Definition
+
+The visual models how to use the reported symptom to choose tests before replacing parts.
+
+
+
+## Lead
+
+Step-by-step worked examples for Hardware Troubleshooting, modelling the approach expected in Grade 11 national examinations.
+
+
+
+## Paragraphs
+
+Always show all working. Marks are awarded for correct method even when the final answer contains an error.
+
+
+
+## Key concepts
+
+Problem-Solving Method(1) Identify given information. (2) Select the appropriate method or formula. (3) Apply it step by step with correct units. (4) State the answer clearly. (5) Verify the answer is logical and reasonable.
+

@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.env
+.env.*
+
+# Playwright auth state (cookies, local storage) — never commit
+playwright/.auth/
+playwright/.user-data/
+
+# Runtime screenshots (may show account UI or script content)
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.webp
+
+# Logs
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Exported videos
+output/*.mp4
+output/*.part
+
+# Local SharePoint source config (contains sharing link)
+sharepoint.local.json
+output/**/.downloading/

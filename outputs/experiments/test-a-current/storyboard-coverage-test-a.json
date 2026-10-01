@@ -1,0 +1,172 @@
+{
+  "timestamp": "test-a",
+  "totalMustCover": 20,
+  "coveredCount": 16,
+  "coveragePercentage": 80,
+  "items": [
+    {
+      "concept": "Etymological and scientific definition of biology",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        1
+      ],
+      "matchedSnippet": "Scene 1: Keywords referenced: etymological, biology (67%)"
+    },
+    {
+      "concept": "The eight universal characteristics of living organisms",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        2
+      ],
+      "matchedSnippet": "Scene 2: Keywords referenced: universal, characteristics, living, organisms (80%)"
+    },
+    {
+      "concept": "Cellular organization as the fundamental structural and functional criterion of life",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [],
+      "matchedSnippet": "Keywords referenced: cellular, organization, structural, life (57%)"
+    },
+    {
+      "concept": "Metabolism: Catabolism versus anabolism and cellular energy transformations",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        2
+      ],
+      "matchedSnippet": "Scene 2: Keywords referenced: metabolism, catabolism, anabolism, cellular, energy (71%)"
+    },
+    {
+      "concept": "Homeostasis and physiological regulatory feedback mechanisms",
+      "covered": false,
+      "statusSymbol": "⚠",
+      "matchedScenes": []
+    },
+    {
+      "concept": "Response to environmental stimuli and behavioral adaptation",
+      "covered": false,
+      "statusSymbol": "⚠",
+      "matchedScenes": []
+    },
+    {
+      "concept": "Growth, development, and cellular differentiation",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [],
+      "matchedSnippet": "Keywords referenced: growth, development, cellular (75%)"
+    },
+    {
+      "concept": "Reproduction, genetic transmission, DNA replication, and hereditary variation",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        3
+      ],
+      "matchedSnippet": "Scene 3: Keywords referenced: reproduction, genetic, transmission, hereditary (67%)"
+    },
+    {
+      "concept": "Evolutionary adaptation and natural selection in biological populations",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        3
+      ],
+      "matchedSnippet": "Scene 3: Keywords referenced: evolutionary, adaptation, biological, populations (67%)"
+    },
+    {
+      "concept": "Borderline entities: Structural and functional status of viruses",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        4
+      ],
+      "matchedSnippet": "Scene 4: Keywords referenced: borderline, entities, viruses (50%)"
+    },
+    {
+      "concept": "Hierarchical levels of biological organization: Molecular to Biospheric scale",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        5
+      ],
+      "matchedSnippet": "Scene 5: Keywords referenced: hierarchical, levels, biological, organization (57%)"
+    },
+    {
+      "concept": "Emergent properties at successive hierarchical biological levels",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        5
+      ],
+      "matchedSnippet": "Scene 5: Keywords referenced: emergent, properties, hierarchical, biological, levels (83%)"
+    },
+    {
+      "concept": "Major branches and sub-disciplines of biological inquiry",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        6
+      ],
+      "matchedSnippet": "Scene 6: Keywords referenced: major, branches, disciplines (60%)"
+    },
+    {
+      "concept": "The scientific method as applied to biological investigations",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        7
+      ],
+      "matchedSnippet": "Scene 7: Keywords referenced: scientific, method, biological, investigations (80%)"
+    },
+    {
+      "concept": "Key biological terminology and definitions",
+      "covered": false,
+      "statusSymbol": "⚠",
+      "matchedScenes": []
+    },
+    {
+      "concept": "Common misconceptions regarding living versus non-living matter",
+      "covered": false,
+      "statusSymbol": "⚠",
+      "matchedScenes": []
+    },
+    {
+      "concept": "Real-world applications and Ethiopian biological examples",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        11
+      ],
+      "matchedSnippet": "Scene 11: Keywords referenced: applications, ethiopian, biological (50%)"
+    },
+    {
+      "concept": "[Gap Concept] Endemic Afroalpine Wildlife Conservation and Evolutionary Genetics in the Ethiopian Highlands",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        8
+      ],
+      "matchedSnippet": "Scene 8: Keywords referenced: endemic, afroalpine, wildlife, conservation, ethiopian (63%)"
+    },
+    {
+      "concept": "[Gap Concept] Crop Wild Relatives, Vavilov Centers of Diversity, and Indigenous Agrobiodiversity in Ethiopia",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [
+        9
+      ],
+      "matchedSnippet": "Scene 9: Keywords referenced: crop, wild, relatives, vavilov, centers, diversity (67%)"
+    },
+    {
+      "concept": "[Gap Concept] Empirical Biological Inquiry, Controlled Variable Design, and Laboratory Bio-Safety Standards",
+      "covered": true,
+      "statusSymbol": "✓",
+      "matchedScenes": [],
+      "matchedSnippet": "Keywords referenced: empirical, biological, inquiry, controlled, variable, design, laboratory, safety (89%)"
+    }
+  ],
+  "reportText": "MUST-COVER CONTENT COVERAGE DIAGNOSTIC REPORT\n=============================================\nTotal Must-Cover Concepts: 20\nCovered in Outline: 16 / 20 (80%)\n\nConcept Status:\n✓ Etymological and scientific definition of biology [Scenes: 1]\n✓ The eight universal characteristics of living organisms [Scenes: 2]\n✓ Cellular organization as the fundamental structural and functional criterion of life\n✓ Metabolism: Catabolism versus anabolism and cellular energy transformations [Scenes: 2]\n⚠ Homeostasis and physiological regulatory feedback mechanisms\n⚠ Response to environmental stimuli and behavioral adaptation\n✓ Growth, development, and cellular differentiation\n✓ Reproduction, genetic transmission, DNA replication, and hereditary variation [Scenes: 3]\n✓ Evolutionary adaptation and natural selection in biological populations [Scenes: 3]\n✓ Borderline entities: Structural and functional status of viruses [Scenes: 4]\n✓ Hierarchical levels of biological organization: Molecular to Biospheric scale [Scenes: 5]\n✓ Emergent properties at successive hierarchical biological levels [Scenes: 5]\n✓ Major branches and sub-disciplines of biological inquiry [Scenes: 6]\n✓ The scientific method as applied to biological investigations [Scenes: 7]\n⚠ Key biological terminology and definitions\n⚠ Common misconceptions regarding living versus non-living matter\n✓ Real-world applications and Ethiopian biological examples [Scenes: 11]\n✓ [Gap Concept] Endemic Afroalpine Wildlife Conservation and Evolutionary Genetics in the Ethiopian Highlands [Scenes: 8]\n✓ [Gap Concept] Crop Wild Relatives, Vavilov Centers of Diversity, and Indigenous Agrobiodiversity in Ethiopia [Scenes: 9]\n✓ [Gap Concept] Empirical Biological Inquiry, Controlled Variable Design, and Laboratory Bio-Safety Standards\n\nNote: This is an educational diagnostic check, not a formal completeness guarantee.",
+  "jsonPath": "C:\\Users\\hp\\OneDrive\\Desktop\\google-vids-automation\\outputs\\experiments\\test-a-current\\storyboard-coverage-test-a.json"
+}

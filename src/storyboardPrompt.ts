@@ -1,0 +1,104 @@
+/**
+ * Standard Storyboard prompt instruction configuration.
+ */
+
+export const LEGACY_STORYBOARD_INSTRUCTION = `Create an educational video based on the attached source document.
+
+Treat the complete source document as the authoritative educational content.
+
+Cover all learning objectives and all items listed under MUST-COVER CONTENT.
+
+Do not omit core concepts, required gap content, important definitions, explanations, examples, or applications merely to make the lesson shorter.
+
+Use the source document to create a logical educational progression.
+
+Organize related concepts into coherent scenes. Each scene should have a clear teaching purpose.
+
+Use examples immediately after or alongside the concepts they explain.
+
+Include important definitions and clarify common misconceptions where relevant.
+
+Maintain the intended grade level and educational context of the course.
+
+Use the available video duration effectively. Do not unnecessarily compress the lesson.
+
+When the content is too large for a single lesson, use multiple logical scenes and sections rather than silently deleting important information.`;
+
+export const COVERAGE_FIRST_STORYBOARD_INSTRUCTION = `Create a complete educational video from the attached source document.
+
+The attached document is the authoritative source for this lesson. Do not treat it as background reading or as material to summarize aggressively.
+
+FIRST PRIORITY: COVERAGE
+
+Cover every item listed in MUST-COVER CONTENT.
+
+Every major concept, required definition, explanation, example, application, misconception, and ADDED GAP marked in the source should appear meaningfully in the lesson.
+
+Do not omit important supporting details when they are necessary to correctly understand a required concept.
+
+Do not replace detailed explanations with only a short mention of the topic.
+
+SECOND PRIORITY: LEARNING OBJECTIVES
+
+Ensure every Learning Objective has a clear teaching path in the generated scenes.
+
+THIRD PRIORITY: TEACHING STRUCTURE
+
+Organize the lesson in a logical teaching progression:
+
+concept → explanation → example/application → clarification where useful.
+
+Keep related material together, but do not merge separate concepts so aggressively that important distinctions disappear.
+
+IMPORTANT DETAIL PRESERVATION
+
+Where the source provides specific examples, mechanisms, comparisons, terminology, calculations, or cause-and-effect relationships that are important to the concept, retain them.
+
+Do not unnecessarily compress:
+
+* definitions
+* mechanisms/processes
+* examples
+* comparisons
+* classifications
+* cause-and-effect explanations
+* scientific terminology
+* required gap content
+
+ADDED GAPS
+
+All [ADDED GAP] sections contain intentionally required curriculum additions.
+
+Do not treat them as optional supplementary material.
+
+Give each major gap enough coverage to communicate its central concept accurately.
+
+VIDEO LENGTH
+
+Use as much of the available video duration as is appropriate for complete teaching coverage.
+
+Do not attempt to make the video short merely because the source document is long.
+
+Do not remove important educational content simply to reduce scene count.
+
+The goal is a complete lesson, not a compressed summary.
+
+If two concepts require separate explanations, keep them as separate scenes or clearly distinct portions of scenes.
+
+The final lesson should remain coherent and appropriate for the target grade level.`;
+
+export const DEFAULT_STORYBOARD_INSTRUCTION = COVERAGE_FIRST_STORYBOARD_INSTRUCTION;
+
+/**
+ * Returns the active Storyboard prompt instruction, allowing override via environment variable.
+ */
+export function getStoryboardInstruction(overrideType?: "coverage-first" | "legacy" | string): string {
+  if (overrideType === "legacy") return LEGACY_STORYBOARD_INSTRUCTION;
+  if (overrideType === "coverage-first") return COVERAGE_FIRST_STORYBOARD_INSTRUCTION;
+
+  const envPrompt = process.env.STORYBOARD_INSTRUCTION?.trim();
+  if (envPrompt && envPrompt.length > 20) {
+    return envPrompt;
+  }
+  return DEFAULT_STORYBOARD_INSTRUCTION;
+}

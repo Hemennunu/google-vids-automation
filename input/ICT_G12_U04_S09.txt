@@ -1,0 +1,21 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 9: Cambridge AS Level Extension
+Unit: Unit 04 - Web Authoring
+Section: 6 Cambridge AS Level Extension
+
+Key idea: The extension visual connects structure, presentation, data, validation, and publishing in advanced web authoring.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section provides extension content aligned with the Cambridge International AS Level ICT 9626 syllabus, focusing on web authoring, markup languages, and website publishing as covered in the syllabus topic on web development and data exchange.
+
+The Cambridge AS ICT 9626 syllabus requires candidates to understand the principles of web authoring using markup languages, including the differences between HTML, XHTML, and XML. Candidates must be able to explain the structure of a web page, including the document type declaration, the head and body sections, and the use of tags, elements, and attributes.
+
+Candidates are expected to be able to create and edit simple web pages using a text editor rather than a WYSIWYG tool, demonstrating a thorough understanding of the underlying markup. DOCTYPE> declaration, the importance of character encoding declarations, and the role of the meta tags in providing metadata about the page.
+
+In terms of website publishing, the syllabus requires candidates to understand the process of transferring files to a web server using FTP, the role of web hosting, and the importance of domain names and the Domain Name System. Candidates should be able to compare different types of web hosting, including shared hosting, dedicated hosting, and cloud hosting, and recommend appropriate solutions for different scenarios.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

@@ -1,0 +1,17 @@
+{
+  "time": "2026-09-28T14:23:26.746Z",
+  "error": "page.waitForTimeout: Target page, context or browser has been closed",
+  "url": "https://docs.google.com/videos/d/1MOEW-bFusWZpvIa38bnqV96uTC7CEZ3L6cLvP4ootpc/edit?scene=id.p#scene=id.p",
+  "title": "",
+  "dialogs": [],
+  "alerts": [],
+  "menuItems": [],
+  "buttons": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 400 ()",
+    "Access to XMLHttpRequest at 'https://youtube.googleapis.com/iframe_api' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Permissions policy violation: unload is not allowed in this document.",
+    "Permissions policy violation: unload is not allowed in this document."
+  ]
+}

@@ -1,0 +1,28 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 7: Testing and Debugging Programs
+Unit: Unit 06 - Fundamentals Of Programming
+Section: 4 Testing and Debugging
+
+Key idea: The cycle shows how programmers use test data, compare actual and expected output, fix bugs, and retest until the program behaves correctly.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Once you have written a program, you must test it to verify that it produces the expected output. Unfortunately, programs do not always run correctly on the first attempt. An unexpected problem in a program is called a bug, and the process of identifying, isolating, and fixing these problems is called debugging. Bugs can appear in many forms, and some are far more difficult to fix than others. Understanding the different types of errors and the tools available for debugging is essential for every programmer, whether you are writing a simple calculator or a complex data analysis system.
+
+Python programmers encounter three main categories of errors. The first type is the syntax error, which occurs when the code violates the grammatical rules of the Python language. A missing colon at the end of an if statement, a misplaced quotation mark, or inconsistent indentation are all examples of syntax errors.
+
+The second type is the runtime error, also known as an exception. Runtime errors occur during program execution when the program attempts an operation that is impossible to perform. Common runtime errors include dividing by zero (ZeroDivisionError), trying to convert a non-numeric string to an integer (ValueError), and accessing an index that does not exist in a list (IndexError).
+
+The third and most insidious type is the logic error. A logic error does not cause the program to crash, but it produces incorrect results. The program runs from start to finish without any error messages, but the output is wrong because the programmer's reasoning was flawed.
+
+The simplest and most widely used debugging technique is print debugging. By inserting print() statements at strategic points in your code, you can display the values of variables at each stage of execution. This allows you to verify that variables contain the expected values and that the program flow is following the intended path.
+
+A trace table is a manual debugging technique in which you create a table that records the value of each variable as the program executes step by step. For each line of code, you write down the current state of all variables. Trace tables are particularly useful for understanding how loops and conditionals affect the program state, and they are an excellent learning tool for beginners who are developing the mental models necessary for debugging.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🌍 Ethiopian ContextThe ability to debug programs systematically is highly valued in Ethiopian technology companies and government ICT departments. In a country where many organisations are building digital systems for the first time, software bugs can have serious consequences, from incorrect student grade reports to errors in financial transactions. Programmers who can efficiently find and fix bugs are essential to the success of Ethiopia's digital transformation. By developing strong debugging skills now, you are preparing yourself for the quality assurance standards expected in professional programming environments.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

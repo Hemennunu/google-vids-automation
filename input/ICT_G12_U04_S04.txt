@@ -1,0 +1,26 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 4: Introduction to XML
+Unit: Unit 04 - Web Authoring
+Section: 1 Introduction to XML
+
+Key idea: The diagram shows the rules of a well-formed XML document: one root, proper nesting, closing tags, and quoted attributes.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+XML, which stands for eXtensible Markup Language, is a versatile markup language designed to store and transport data in a structured, human-readable format. Unlike HTML, which focuses on how data looks when displayed in a browser, XML is concerned with what the data means. This fundamental difference makes XML an essential tool for data exchange between different systems, applications, and organisations, particularly in contexts where data needs to be shared across platforms that may use different operating systems, databases, or programming languages.
+
+The most significant difference between XML and HTML is that HTML uses a predefined set of tags for formatting content visually, while XML allows you to create your own tags to describe your data. HTML tags such as <h1>, <p>, and <table> tell a browser how to display content, whereas XML tags such as <student>, <book>, or <invoice> describe the data itself.
+
+>. Following the declaration, every well-formed XML document must have exactly one root element that contains all other elements. Elements can contain text content, other nested elements, or a combination of both. Attributes provide additional information about elements and appear within the start tag.
+
+In this example, student is the root element, name and grade contain attributes, and all elements are properly nested and closed. The document is well-formed because it follows all XML syntax rules: it has a single root element, all tags are closed, elements are properly nested, and attribute values are quoted.
+
+One of XML's most important applications is in data exchange between different systems. Because XML is platform-independent and uses plain text, data can be transferred between systems running different operating systems and software without losing its structure or meaning. Many organisations use XML to exchange data between their databases, web services, and partner systems.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🌍 Ethiopian Context XML plays a significant role i
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

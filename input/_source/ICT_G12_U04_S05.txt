@@ -1,0 +1,30 @@
+# Section 5: HTML vs XML
+
+
+
+## Definition
+
+The comparison separates HTML for browser presentation from XML for custom data storage, transport, and validation.
+
+
+
+## Lead
+
+Understanding the differences between HTML and XML is fundamental to web authoring. While both are markup languages that use tags to structure content, they serve entirely different purposes and follow different rules. This section provides a detailed comparison to help you choose the right tool for the right task.
+
+
+
+## Paragraphs
+
+The first major difference lies in the purpose of each language. HTML is designed for presenting information to human readers through a web browser, while XML is designed for transporting and storing data between computer systems. HTML uses a predefined set of approximately 100 tags that cannot be extended, whereas XML allows you to create any tags you need to describe your data. HTML is relatively forgiving of syntax errors: many browsers will still display a page even if tags are not properly closed or nested. XML, by contrast, is strict: a single syntax error will prevent an XML document from being parsed, and the document must be well-formed to be valid. HTML tags are primarily concerned with presentation, such as <b> for bold and <i> for italics, while XML tags describe the semantic meaning of data, such as <price> or <customerName>.
+
+HTML's main advantage is its simplicity and universality: every web browser understands HTML, and it requires minimal training to create basic web pages. However, HTML cannot describe the meaning of data, making it unsuitable for data exchange between systems. XML's main advantage is its flexibility and extensibility: you can create custom vocabularies for any domain, from mathematics to medicine to education. However, XML tends to be more verbose than HTML, and processing XML requires additional software tools such as parsers, XSLT transformers, and schema validators. XML documents are also larger in file size compared to equivalent data in other formats such as JSON.
+
+Use HTML when you need to create content for display in a web browser, such as building a website, writing a blog post, or designing an online course page. Use XML when you need to exchange structured data between different systems, such as transferring student records between a school's database and a national education ministry,
+
+
+
+## Definitions
+
+HTML (HyperText Markup Language) is a presentation-oriented markup language with a fixed set of tags used to structure and display content in web browsers. HTML tells the browser how content should look, including headings, paragraphs, images, links, and tables. XML (eXtensible Markup Language) is a data-oriented markup language that allows users to define their own custom tags to describe data. XML tells other systems what the data means, without any instructions about how it should be displayed.
+

@@ -1,0 +1,24 @@
+# Section 6: Publishing a Website
+
+
+
+## Definition
+
+The workflow shows how local website files become a public site through hosting, domain setup, upload, and testing.
+
+
+
+## Lead
+
+Creating a website is only part of the web authoring process. To make your site accessible to users around the world, you must publish it by uploading its files to a web server and connecting it to a registered domain name. This section explains the key steps and concepts involved in publishing a website, with specific attention to the Ethiopian web hosting environment.
+
+
+
+## Paragraphs
+
+A domain name is the unique address that users type into their browsers to visit your website, such as www.mariana-school.et. Domain names are registered through accredited organisations called domain registrars, which manage the reservation of domain names on behalf of the internet's Domain Name System. When you register a domain name, you are leasing the right to use that name for a specific period, typically one to ten years, and you must renew the registration before it expires. Domain names are organised hierarchically, with top-level domains such as .com, .org, and .edu, as well as country code top-level domains such as .et for Ethiopia. The .et domain is managed by EthioTelecom, the state-owned telecommunications provider, which serves as the official registry for Ethiopian domain names. To register a .et domain, you must submit an application to EthioTelecom with supporting documentation, including a valid business licence or organisational registration certificate.
+
+Web hosting is a service that provides storage space on a web server where your website files reside. When a user types your domain name into their browser, the browser sends a request to the DNS, which translates the domain name into the IP address of your hosting server. The server then delivers your website files to the user's browser, which renders the page. Web hosting comes in several types: shared hosting, where multiple websites share the same server resources and is the most affordable option; virtual private server hosting, which provides dedicated resources within a shared environment; dedicated hosting, where an entire physical server is reserved for a single website; and cloud hosting, which uses a network of virtual servers that can scale resources on demand. For Ethiopian users, local hosting providers such as EthioTelecom and other private companies offer hosting plans with local support and payment options in Ethiopian Birr. Choosing between local and international hosting depends on factors such as your target audience, budget, and technical requirements. Websites targeting Ethiopian users may benefit from local hosting due to faster loading times within the country, while international hosting providers often offer more features and lower prices.
+
+FTP, or File Transfer Protocol, is the standard method for uploading website files from your local computer to your web hosting server. To use FTP, you need an FTP client such as FileZilla, which provides a graphical interface for transferring files. You will need your hosting provider's FTP server address, your username, and your password, all of which are provided when you set up your hosting account. Once connected to the FTP server, you can drag and drop your website files from your local computer to the appropriate d
+

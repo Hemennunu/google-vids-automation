@@ -1,0 +1,24 @@
+# Section 6: Worked Examples
+
+
+
+## Definition
+
+The path models how to justify ICT decisions with policy, evidence, rights, risks, and Ethiopian context.
+
+
+
+## Lead
+
+This section presents worked examples that illustrate the practical application of key concepts from Unit 1, focusing on ethical issues, intellectual property, digital identity management, and digital citizenship in the Ethiopian context.
+
+
+
+## Paragraphs
+
+A Grade 12 student at a secondary school in Addis Ababa discovers that a classmate has been using another student's login credentials to access the school computer lab after hours. The student who shared their password did so willingly, but the school's ICT policy clearly states that sharing passwords is prohibited and that each student is responsible for all activity conducted under their account. The dilemma involves balancing friendship and trust against the school's security policy and the potential consequences of unauthorised access. To resolve this, the student should first report the incident to the ICT teacher or lab supervisor, explaining the situation without naming individuals initially. The school should then conduct a private discussion with both students, reminding them of the acceptable use policy signed at the start of the year. The student who shared the password should be advised to change it immediately, and both students should receive guidance on digital identity protection. This example demonstrates how ethical decision-making in digital environments requires understanding institutional policies, protecting personal data, and recognising that convenience should never override security.
+
+During an online collaborative project, a group of Ethiopian secondary school students from different regions use a shared document platform to prepare a presentation on Ethiopia's digital transformation initiatives. One student posts a comment that contains unverified statistics about internet penetration in Ethiopia, while another student copies text directly from a website without attribution. The teacher notices these issues and uses the opportunity to teach digital citizenship. The first step is to verify all statistics against official sources such as the Ethiopian Communications Authority or the Ministry of Innovation and Technology. The student who copied text without attribution must learn how to paraphrase correctly and provide proper citations using a standard referencing format. The group should also discuss respectful online communication, ensuring that all members have equal opportunity to contribute regardless of their internet connection quality or location. This example illustrates that digital citizenship involves verifying information before sharing it, respecting intellectual property through proper attribution, and practising inclusive and respectful online behaviour.
+
+A recent graduate from a school in Bahir Dar creates a professional LinkedIn profile while also maintaining personal social media accounts on other platforms. A potential employer searches for the graduate's name online and discovers inappropriate public posts from several years earlier. The graduate must manage this digital identity crisis. The solution involves several steps: first, reviewing all public social media accounts and removing or making private any inappropriate content. Second, creating a consistent professional identity across platforms using the same profile photo and professional summary. Third, adjusting privacy settings on personal accounts to limit public visibility. Fourth, posting positive content such as volunteer work, academic achievements, and professional interests to improve search results. The graduate should also set up Google Alerts for their name to monitor their online reputation going forward. This example shows that digital identity management is an ongoing process that requires intentional effort, particularly as Ethiopian youth increasingly participate in the global digital economy where first impressions often happen online.
+

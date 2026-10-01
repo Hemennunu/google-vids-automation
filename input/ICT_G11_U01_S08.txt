@@ -1,0 +1,23 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 8: 5. Worked Examples
+Unit: Unit 01 - Information Systems
+Section: 5 Worked Examples
+
+Key idea: The visual models how to unpack each scenario before writing a justified answer.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+An information system (IS) is an integrated set of components for collecting, storing, processing, and communicating data and information. Information systems are the technological infrastructure through which organisations acquire, process, and deploy information to support decision-making, coordination, control, analysis, and the creation of new products and services.
+
+The DIKW Hierarchy provides a conceptual framework for understanding information and its value. Data consists of raw, unprocessed facts and figures: temperature readings, transaction amounts, student scores. Information is data that has been processed and organised to be meaningful and useful: a student's grade report, an average temperature for a season.
+
+Information systems can be classified by function and level of use. Transaction Processing Systems (TPS) handle routine operational transactions such as bank ATM networks and point-of-sale systems. Management Information Systems (MIS) aggregate transaction data and present structured reports to middle managers. Decision Support Systems (DSS) support analytical and ad hoc decisions by providing data, models, and analytical tools.
+
+Components of an information system include hardware (physical devices), software (programs and operating systems), data (the raw material), people (users and IT staff), and procedures (rules and policies for system use). Networks connect individual information systems into larger infrastructures: a Local Area Network (LAN) connects devices within a single building; a Wide Area Network (WAN) spans geographic distances.
+
+Data security is a critical concern. Threats include unauthorised access (hacking), malware (viruses, ransomware), phishing (social engineering to steal credentials), and insider threats. Controls include access controls (passwords, biometrics, multi-factor authentication), encryption (scrambling data to prevent unauthorised reading), firewalls (filtering network traffic), regular backups, and security audits.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

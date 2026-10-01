@@ -1,0 +1,28 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 6: Comments and the Python Interpreter
+Unit: Unit 06 - Fundamentals Of Programming
+Section: 3 Comments and Python Interpreter
+
+Key idea: The visual separates human-readable comments from executable statements processed by the Python interpreter to produce output.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Two essential aspects of working with Python that every programmer must understand are how to annotate code with comments and how the Python interpreter processes and executes source code. These topics bridge the gap between writing code that merely works and writing code that is maintainable, understandable, and professionally crafted. While comments serve the human reader of your code, the interpreter is the engine that brings your code to life on the machine.
+
+Comments are descriptive texts that exist in program source code but are ignored by the compiler and interpreter. They are not executable statements and have no effect on the program's behaviour. Instead, comments serve the human reader: they explain what each part of the program is doing, document the purpose of variables and functions, and provide context for complex algorithms. In Python, single-line comments begin with the hash symbol (#).
+
+Comments are also valuable during the debugging process. By temporarily commenting out sections of code, you can isolate problematic areas and test whether a particular block is causing an error. IDLE, Python's integrated development environment, provides convenient features for commenting and uncommenting regions of code through the Format menu or using the shortcut keys Alt+3 to comment out and Alt+4 to uncomment.
+
+Python is an interpreted programming language, although compilation is a step in the Python interpreter process. The interpreter is the program that is responsible for executing each line of statements sequentially and running the Python code or script. pyc. This compilation is a simple translation process that converts your human-readable Python code into an intermediate representation that is more efficient for the machine to process.
+
+Python can be used in two modes: interactive mode and script mode. In interactive mode, you type Python commands directly into the Python shell (identified by the >>> prompt), and each command is executed immediately. This mode is useful for testing small snippets of code, experimenting with new functions, and learning the language. py extension and then run the entire file as a single unit.
+
+Several IDEs are available for Python development, each with its own strengths. IDLE (Integrated Development and Learning Environment) is the default IDE that comes with Python installations and is perfectly adequate for beginners. It provides a simple editor, syntax highlighting, and a built-in debugger.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🌍 Ethiopian ContextPython has been adopted as the primary programming language for the Ethiopian high school ICT curriculum, making it one of the most widely taught programming languages in the country. This official endorsement has created a large and growing community of Python learners and practitioners across Ethiopia. The availability of free tools such as IDLE, Thonny, and VS Code means that any student with access to a computer can begin programming without any financial investment. This democratisation of programming education is a key factor in Ethiopia's strategy to develop a skilled technology workforce capable of competing in the global digital economy.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

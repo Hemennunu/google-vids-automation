@@ -1,0 +1,32 @@
+Scene 1: Introduction and Definition of Biology
+Etymological origins from Greek bios (life) and logos (study). Biology as the empirical natural science investigating living organisms, their structure, function, and vital processes.
+
+Scene 2: Universal Characteristics of Living Organisms
+Cellular organization, metabolism (anabolism vs catabolism), and homeostasis. Living things maintain steady internal states and convert energy.
+
+Scene 3: Growth, Reproduction, and Genetic Transmission
+Irreversible biological growth, asexual vs sexual reproduction, DNA hereditary transmission, and evolutionary adaptation in populations.
+
+Scene 4: Borderline Entities: Viruses, Viroids, and Prions
+Virions as non-cellular macromolecular complexes. Obligate intracellular parasites with no independent metabolism outside hosts.
+
+Scene 5: Hierarchical Levels of Biological Organization
+Ascending biological hierarchy: Subatomic, atoms (CHNOPS), molecules, organelles, cells, tissues, organs, ecosystems, biosphere. Emergent properties.
+
+Scene 6: Major Branches and Sub-disciplines of Biology
+Structural (cytology, histology, anatomy, physiology), taxonomic (botany, zoology, microbiology), and integrative fields (genetics, ecology, biotechnology).
+
+Scene 7: The Scientific Method in Biological Investigations
+Systematic inquiry: Observation, question, falsifiable hypothesis, controlled experiments, independent/dependent/controlled variables, conclusion.
+
+Scene 8: Added Gap 1: Endemic Afroalpine Wildlife Conservation
+Walia ibex in Semien Mountains, Ethiopian wolf in Bale Mountains, Gelada baboon in Menz. High-altitude hypoxia adaptation, population bottlenecks, in situ conservation.
+
+Scene 9: Added Gap 2: Crop Wild Relatives & Vavilov Center
+Nikolai Vavilov's 8 diversity centers. Teff (Eragrostis tef), Coffee Arabica wild cloud forest alleles, Enset fermentation (Kocho), and EBI gene bank.
+
+Scene 10: Added Gap 3: Experimental Design & Laboratory Bio-Safety
+Compound light microscope optics, total magnification formula, PPE safety, international biohazard symbols, and autoclaving waste disposal.
+
+Scene 11: Section Summary & Ethiopian Biodiversity Heritage
+Synthesis of core biological concepts, living criteria, and practical applications for Ethiopian development and conservation.

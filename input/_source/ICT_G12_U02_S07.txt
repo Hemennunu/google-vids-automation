@@ -1,0 +1,30 @@
+# Section 7: Internet of Things (IoT)
+
+
+
+## Definition
+
+The architecture shows the flow from sensing to communication, processing, analysis, and action.
+
+
+
+## Lead
+
+The Internet of Things refers to the network of physical objects, or "things," that are embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems over the internet. The architecture of an IoT system can be understood as a layered structure comprising four fundamental components. The perception layer consists of sensors and actuators that interact with the physical environment; sensors collect data such as temperature, humidity, motion, or light levels, while actuators perform physical actions such as opening a valve or switching on a motor. The network layer transmits data from sensors to processing systems using communication protocols such as Wi-Fi, Bluetooth, Zigbee, LoRaWAN, or cellular networks. The processing layer analyses the data using cloud or fog computing resources, applying analytics algorithms to extract meaningful insights. Finally, the application layer delivers the results to end users through dashboards, mobile applications, or automated control systems, enabling informed decision-making or autonomous action.
+
+
+
+## Paragraphs
+
+By 2025, it is estimated that there will be more than 30 billion IoT-connected devices worldwide, generating over 79 zettabytes of data annually. In Ethiopia, the expansion of the 4G network and the impending rollout of 5G technology are expected to accelerate IoT adoption across agriculture, healthcare, transportation, and manufacturing sectors.
+
+In the healthcare sector, IoT is enabling remote patient monitoring, telemedicine, and improved healthcare delivery in both urban and rural settings. IoT-enabled medical devices can continuously monitor patient vital signs such as heart rate, blood pressure, and blood glucose levels, transmitting data to healthcare providers who can intervene when abnormalities are detected. This is particularly valuable in Ethiopia, where the doctor-to-patient ratio remains among the lowest in Africa, and where many patients in rural areas must travel long distances to access healthcare facilities. Telemedicine platforms powered by IoT devices allow specialists in Addis Ababa to consult with patients and healthcare workers in remote health centres, bridging the gap in access to specialised medical expertise. Cold chain monitoring systems using IoT temperature sensors ensure that vaccines and medicines are stored within required temperature ranges throughout the distribution network, a critical capability for Ethiopia's immunisation programmes.
+
+Ethiopian cities, particularly Addis Ababa, are exploring smart city applications of IoT to improve urban services and quality of life. Smart traffic management systems using IoT sensors and cameras can monitor traffic flow in real time, adjusting traffic signal timing to reduce congestion and emissions. Smart street lighting systems equipped with motion sensors can reduce electricity consumption by dimming lights when no pedestrians or vehicles are present. Waste management systems using fill-level sensors on garbage bins can optimise collection routes, reducing fuel consumption and improving city cleanliness. The Addis Ababa City Administration has begun deploying IoT-based environmental monitoring stations to measure air quality, noise levels, and weather conditions across different parts of the city, providing data that informs public health and urban planning decisions. These initiatives, while still in their early stages, illustrate the transformative potential of IoT for Ethiopian urban development.
+
+
+
+## Ethiopian context
+
+🇪🇩 Ethiopian Context Agriculture remains the backbone of the Ethiopian economy, contributing approximately 35 percent of the country's gross domestic product and employing more than 70 percent of the population. IoT technologies are beginning to transform this sector through precision agriculture applications. Soil moisture sensors deployed across farm fields can transmit real-time data to farmers via mobile applications, enabling them to optimise irrigation schedules and conserve water resources. Weather stations equipped with IoT sensors provide hyperlocal temperature, rainfall, and wind speed data that inform planting and harvesting decisions. Livestock monitoring systems using GPS-enabled collars and health sensors allow pastoralist communities to track the location, movement patterns, and health status of their herds, reducing losses from disease and theft. The Ethiopian Ministry of Agriculture has piloted IoT-based early warning systems that monitor crop health using satellite imagery and ground-level sensors, enabling rapid response to pest infestations such as desert locust swarms. These applications demonstrate how IoT can increase agricultural productivity, reduce resource waste, and improve food security for millions of Ethiopian smallholder farmers.
+

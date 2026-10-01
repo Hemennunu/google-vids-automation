@@ -1,0 +1,32 @@
+# Unit 3: Database Management System
+
+
+
+## Definition
+
+The path turns the objectives into a progression from explaining relational concepts to evaluating database integrity.
+
+
+
+## Lead
+
+Upon successful completion of this unit, students will be able to achieve the following learning objectives, which are aligned with the Ethiopian Ministry of Education's Grade 12 ICT curriculum standards and the Cambridge International AS Level syllabus where applicable.
+
+
+
+## Paragraphs
+
+Students will be able to explain the fundamental concepts of database management systems, including the definition and purpose of a DBMS, the distinction between file-based and database approaches to data management, and the roles and responsibilities of database administrators and users. They will describe the characteristics of relational databases, including tables, records, fields, primary keys, foreign keys, and the various types of relationships that can exist between tables. Students will also understand the importance of data integrity, data consistency, and data security within a database environment.
+
+Students will develop practical skills in using Structured Query Language (SQL) to interact with relational databases. This includes creating database tables using Data Definition Language (DDL) commands such as CREATE, ALTER, and DROP; manipulating data using Data Manipulation Language (DML) commands such as INSERT, UPDATE, and DELETE; and retrieving data using Data Query Language (DQL) commands, particularly the SELECT statement with WHERE, ORDER BY, and GROUP BY clauses. Students will also learn to apply normalization principles to design efficient and non-redundant database structures.
+
+Students will be able to compare and contrast relational database systems with flat-file systems, evaluating the advantages and disadvantages of each approach for different scenarios. They will analyse the relationships between tables in a relational database and determine appropriate primary and foreign key assignments. Students will also evaluate the effectiveness of SQL queries in retrieving specific information from a database and assess the quality of database designs based on normalization principles.
+
+These learning objectives directly support the Ethiopian General Education Framework's goal of producing digitally literate graduates who can contribute to the country's knowledge-based economy. By mastering database concepts and SQL skills, students prepare themselves for further studies in information technology, computer science, and related fields at Ethiopian higher education institutions, as well as for careers in Ethiopia's growing technology sector.
+
+
+
+## Key concepts
+
+Learning Outcomes By the end of this unit, you should be able to: define and explain database management system concepts; create and manipulate database tables using SQL; write SQL queries to retrieve and analyse data; apply normalization principles to database design; and appreciate the role of database systems in Ethiopian organizational contexts.
+

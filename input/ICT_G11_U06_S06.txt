@@ -1,0 +1,30 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 6: 3. Variables and Data Types
+Unit: Unit 06 - Fundamentals of Programming
+Section: 3 Variables and Data Types
+
+Key idea: The diagram shows how named variables store values and how Python classifies values into useful data types.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Python is a high-level, interpreted, general-purpose programming language designed for readability and simplicity. Created by Guido van Rossum and first released in 1991, Python has become one of the most widely used programming languages, particularly in data science, artificial intelligence, web development, and automation.
+
+Python programs are executed line by line by the Python interpreter. This interpreted nature makes Python highly interactive: students can test code snippets immediately in the Python shell (REPL: Read-Evaluate-Print Loop) without the compile-link-run cycle required by languages like C++. Variables in Python are dynamically typed: their type is determined at runtime and can change. 14), str (strings: "Hello"), and bool (True or False). 75.
+
+Arithmetic operators perform calculations: + (addition), - (subtraction), * (multiplication), / (division, always returns float), // (integer division), % (modulo/remainder), ** (exponentiation). = (not equal), < > <= >=. Logical operators combine boolean expressions: and, or, not.
+
+Control flow structures determine execution order. The if-elif-else statement executes different code blocks based on conditions. Indentation (4 spaces) is mandatory in Python and defines code blocks. For loops iterate over sequences: for i in range(10): print(i) prints 0 through 9. While loops repeat while a condition is true. Functions are defined with def: def calculate_area(length, width): return length * width.
+
+Lists are ordered, mutable sequences: fruits = ["mango", "banana", "avocado"]. Items are accessed by zero-based index: fruits[0] returns "mango". Dictionaries store key-value pairs: student = {"name": "Tigist", "grade": 11, "score": 85}.
+
+Python supports several built-in data types that determine what kind of data a variable can store and what operations can be performed on it. The integer data type (int) represents whole numbers without a fractional part, such as 5, -12, or 1024. Integers in Python can be arbitrarily large, limited only by the available memory, which distinguishes Python from many other programming languages where integers have fixed size limits. 0.
+
+The string data type (str) represents sequences of characters enclosed in either single quotes, double quotes, or triple quotes for multi-line strings. Strings support numerous operations including concatenation using the + operator, repetition using the * operator, and indexing using square brackets to access individual characters.
+
+Examples to use:
+- Example: Variables and Data Types in Python # Integer variable student_count = 45 print(type(student_count)) # Output: <class 'int'> # Float variable average_score = 78.5 print(type(average_score)) # Output: <class 'float'> # String variable school_name = "Addis Ababa School" print(type(school_name)) # Output: <class 'str'> # Boolean variable is_passed = True print(type(is_passed)) # Output: <class 'bool'> # Type conversion examples age_string = "16" age_integer = int(age_string) print(age_integer + 5) # Output: 21 marks_float = 85.7 marks_integer = int(marks_float) print(marks_integer) # Output: 85 (truncated, not rounded)
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

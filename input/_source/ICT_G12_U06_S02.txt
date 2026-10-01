@@ -1,0 +1,34 @@
+# Section 2: Learning Objectives
+
+
+
+## Definition
+
+The path turns the objectives into a programming workflow: read the logic, write code, trace values, test outputs, and debug faults.
+
+
+
+## Lead
+
+By the end of this unit, you will be able to achieve the following learning objectives. Each objective is designed to build upon the previous one, creating a coherent learning pathway from basic understanding to practical application. As you work through this unit, regularly revisit these objectives to assess your progress and identify areas that require additional focus.
+
+
+
+## Paragraphs
+
+Objective 1: Explain the concept of program flow control and distinguish between sequential, conditional, and iterative execution in Python programs. This foundational understanding will enable you to read and analyse any Python program by identifying the three types of language constructs that regulate how and when code executes.
+
+Objective 2: Implement conditional branching using the if, if-else, and if-elif-else statements to create programs that make decisions at runtime based on input values. You will learn to evaluate Boolean expressions using comparison and logical operators, enabling your programs to respond intelligently to different data values.
+
+Objective 3: Write for loops and while loops to automate repetitive tasks, using the range() function for count-controlled iteration and condition-controlled loops for scenarios where the number of repetitions is not known in advance. This objective includes the proper use of the break and continue keywords to control loop behaviour.
+
+Objective 4: Insert single-line and multi-line comments in Python source code using the hash symbol (#) and triple-quoted strings (""" """) to document program logic, explain complex algorithms, and temporarily disable code during testing. Effective commenting is a hallmark of professional programming practice.
+
+Objective 5: Describe the role of the Python interpreter in executing source code, including the compilation of source code to bytecode (.pyc) and the interpretation of bytecode by the Python Virtual Machine (PVM). You will also distinguish between interactive mode and script mode execution.
+
+Objective 6: Identify and correct syntax errors, runtime errors, and logic errors in Python programs using a systematic debugging approach. You will learn to use the Python IDLE debugger, set breakpoints, and apply print debugging techniques to trace and resolve issues in your code.
+
+Objective 7: Apply programming concepts to solve real-world problems relevant to the Ethiopian context, including grade calculation systems, arithmetic operations on Ethiopian data sets, and simple data analysis programs. This objective emphasises the practical value of programming skills in Ethiopia’s digital economy.
+
+Objective 8: Appreciate the value of programming skills for career development in Ethiopia, recognising the growing demand for Python programmers in sectors such as fintech, agricultural technology, e-governance, and education technology across the country.
+

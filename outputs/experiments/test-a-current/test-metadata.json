@@ -1,0 +1,8 @@
+{
+  "prompt_type": "current_legacy",
+  "prompt_instruction": "Create an educational video based on the attached source document.\n\nTreat the complete source document as the authoritative educational content.\n\nCover all learning objectives and all items listed under MUST-COVER CONTENT.\n\nDo not omit core concepts, required gap content, important definitions, explanations, examples, or applications merely to make the lesson shorter.\n\nUse the source document to create a logical educational progression.\n\nOrganize related concepts into coherent scenes. Each scene should have a clear teaching purpose.\n\nUse examples immediately after or alongside the concepts they explain.\n\nInclude important definitions and clarify common misconceptions where relevant.\n\nMaintain the intended grade level and educational context of the course.\n\nUse the available video duration effectively. Do not unnecessarily compress the lesson.\n\nWhen the content is too large for a single lesson, use multiple logical scenes and sections rather than silently deleting important information.",
+  "scene_count": 11,
+  "outline_word_count": 275,
+  "covered_count": 16,
+  "coverage_percentage": 80
+}

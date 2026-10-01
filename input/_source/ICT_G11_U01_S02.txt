@@ -1,0 +1,28 @@
+# Section 2: Learning Objectives
+
+
+
+## Definition
+
+The diagram turns the objectives into a progression: define, compare, classify, and evaluate information systems.
+
+
+
+## Lead
+
+By the end of this unit, we will be able to differentiate clearly between data, information, knowledge, and wisdom, and justify why each level of the DIKW hierarchy is necessary for effective decision-making. We will analyse the five core components of an information system, classify the main types of information systems, and evaluate the impact of e-banking, e-government, e-learning, and e-health systems on Ethiopian citizens. We will also design a basic information system solution for a small Ethiopian business, construct a reasoned argument for how IT-enabled entrepreneurship contributes to Ethiopia's economic development, critique the limitations of information systems in low-connectivity environments, and analyse the role of Enterprise Resource Planning, Customer Relationship Management, and Supply Chain Management systems in large organisations.
+
+
+
+## Paragraphs
+
+An information system (IS) is an integrated set of components for collecting, storing, processing, and communicating data and information. Information systems are the technological infrastructure through which organisations acquire, process, and deploy information to support decision-making, coordination, control, analysis, and the creation of new products and services.
+
+The DIKW Hierarchy provides a conceptual framework for understanding information and its value. Data consists of raw, unprocessed facts and figures: temperature readings, transaction amounts, student scores. Information is data that has been processed and organised to be meaningful and useful: a student's grade report, an average temperature for a season. Knowledge is information that has been contextualised and integrated with prior understanding to enable action. Wisdom is the ability to make sound judgements about what to do with knowledge, drawing on experience, values, and ethics.
+
+Information systems can be classified by function and level of use. Transaction Processing Systems (TPS) handle routine operational transactions such as bank ATM networks and point-of-sale systems. Management Information Systems (MIS) aggregate transaction data and present structured reports to middle managers. Decision Support Systems (DSS) support analytical and ad hoc decisions by providing data, models, and analytical tools. Executive Information Systems (EIS) present summarised, strategic information to senior management. Expert Systems apply encoded domain expertise to diagnose problems and recommend solutions.
+
+Components of an information system include hardware (physical devices), software (programs and operating systems), data (the raw material), people (users and IT staff), and procedures (rules and policies for system use). Networks connect individual information systems into larger infrastructures: a Local Area Network (LAN) connects devices within a single building; a Wide Area Network (WAN) spans geographic distances. Cloud computing delivers computing resources over the internet as a service.
+
+Data security is a critical concern. Threats include unauthorised access (hacking), malware (viruses, ransomware), phishing (social engineering to steal credentials), and insider threats. Controls include access controls (passwords, biometrics, multi-factor authentication), encryption (scrambling data to prevent unauthorised reading), firewalls (filtering network traffic), regular backups, and security audits. Organisations in Ethiopia — including the Commercial Bank of Ethiopia, Ethiopian Airlines, and government ministries — all rely on information systems and must maintain robust security practices.
+

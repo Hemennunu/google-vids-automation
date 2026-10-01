@@ -1,0 +1,34 @@
+# Unit 4: Web Authoring
+
+
+
+## Definition
+
+The visual previews how XML structures data, HTML displays content, validation checks syntax, and hosting publishes the site.
+
+
+
+## Lead
+
+The World Wide Web has transformed virtually every aspect of modern life, from education and commerce to communication and entertainment. For Ethiopian students, understanding how web content is created, structured, and published is not merely an academic exercise but a gateway to participating in the global digital economy. Unit 4 of the Grade 12 ICT curriculum introduces students to the fundamental concepts of web authoring, covering the markup languages that define web content, the distinction between different web technologies, and the practical steps involved in publishing a website on the internet.
+
+
+
+## Paragraphs
+
+The unit is organized into several key sections. It begins with an introduction to XML, the eXtensible Markup Language, which is widely used for data representation and exchange across the internet. Students will learn about XML structure, elements, attributes, the rules for creating well-formed XML documents, and the role of the XML declaration. The second section presents a detailed comparison between HTML and XML, exploring their respective strengths and weaknesses and helping students understand when each language is most appropriate. A comparison table highlights the key differences in syntax, purpose, and application of these two markup languages. The third section addresses the practical aspects of publishing a website, including domain name registration, web hosting services, file transfer methods, and basic web server configuration. Throughout the unit, examples are drawn from Ethiopian contexts, including the Ethiopian domain registry (.et), local web hosting providers, and the services offered by Ethio Telecom.
+
+By the end of this unit, students will have a solid understanding of how web content is structured using markup languages and how websites are made available to users around the world. This knowledge forms the foundation for more advanced studies in web development, including client-side scripting with JavaScript and server-side programming with technologies such as PHP or Node.js.
+
+
+
+## Ethiopian context
+
+🇧🇪 Ethiopian Context Ethiopia's internet landscape has grown significantly in recent years, with increasing numbers of government services, educational institutions, and businesses establishing an online presence. The Ethiopian Telecommunications Corporation (Ethio Telecom) provides internet connectivity to millions of subscribers, and the Ethiopian Internet Observatory (.et domain registry) manages the country's top-level domain. Organizations such as the Ethiopian Information Network Security Agency (INSA) oversee the security and governance of Ethiopia's cyberspace. Understanding web authoring and publishing is therefore essential for students who wish to contribute to Ethiopia's growing digital ecosystem, whether by creating educational content, building e-commerce platforms, or developing e-government services.
+
+
+
+## Key concepts
+
+Key Concept Web authoring encompasses the skills and technologies needed to create, structure, and publish content on the World Wide Web. XML provides a flexible framework for data representation, while HTML remains the standard for web page display. Understanding both languages, and knowing how to publish content online, are fundamental skills for any aspiring web professional.
+

@@ -1,0 +1,21 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 3: Learning Objectives
+Unit: Unit 07 - Software Development Lifecycle
+Section: Learning Objectives
+
+Key idea: The path turns the objectives into project work: compare lifecycle models, collect requirements, test the system, and evaluate the result.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+By the end of this unit, students will be able to:
+
+Students will analyse the stages of the Software Development Lifecycle (SDLC) and evaluate the strengths and weaknesses of different SDLC — Software Development Lifecycle — models (Waterfall, Agile, Spiral) for given project scenarios. They will distinguish between procedural, object-oriented, and functional programming paradigms and justify the selection of an appropriate paradigm for a given problem.
+
+Students will implement fully functional object-oriented programs in Python, applying constructors, instance methods, class attributes, inheritance chains, and method overriding. They will construct a Python OOP project relevant to an Ethiopian context — such as a school grade management system or a bank account simulator — demonstrating integration of multiple OOP principles.
+
+Students will use Git version control to initialise repositories, commit changes, create branches, and merge code. They will produce software documentation — including requirements specifications, design documents, user manuals, and inline code comments — that meets professional standards. They will also evaluate the work of Ethiopian software companies (Gebeya, iCog Labs) in the context of global software engineering practice.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

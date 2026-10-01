@@ -1,0 +1,29 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 3: Database Management System
+Unit: Unit 03 - Database Management Systems
+Section: Unit Overview
+
+Key idea: The visual previews how RDBMS work connects tables, keys, relationships, SQL commands, integrity, queries, and reports.
+
+Key concepts:
+- Key Concept A relational database management system (RDBMS) is a software system that manages data stored in tables with defined relationships between them. It provides a structured, efficient, and secure way to store and retrieve data, forming the backbone of most modern information systems.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+In today's data-driven world, the ability to store, organize, retrieve, and manage information efficiently is a critical skill. Unit 3 of the Grade 12 ICT curriculum introduces students to the fundamental concepts of database management systems, with a particular focus on relational database management systems (RDBMS). This unit builds upon the foundational knowledge of data and information covered in earlier grades and extends it into the practical domain of structured data management using database technologies.
+
+A database management system is a collection of programs that enables users to create, maintain, and manipulate databases. Unlike traditional file-based systems where data is stored in separate files with significant redundancy, a DBMS provides a centralized, controlled environment for data storage and retrieval.
+
+The unit is organized into several key sections. It begins with an overview of relational database management systems, covering essential concepts such as tables, records, fields, primary keys, foreign keys, and the various types of relationships that can exist between tables. Students will learn how relational databases address the limitations of flat-file systems and why normalization is an important design principle.
+
+Ethiopian students will find particular relevance in the examples provided throughout the unit, which draw from familiar contexts such as the national student registry system used by the Ministry of Education, the Ethiopia Commodity Exchange (ECX) market data systems, and the National Educational Assessment and Examinations Agency (NEAEA) examination results database.
+
+Check Your Understanding: Think about the various systems you interact with daily that rely on databases. These might include your school's student record system, a mobile money service like Telebirr, or the Ethiopian Airlines booking system. What kind of information do you think is stored in each of these databases, and how is that information organized?
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🇧🇪 Ethiopian Context Ethiopia's Digital Ethiopia 2025 strategy emphasizes the importance of data-driven decision-making across all sectors of the economy. The Ethiopian Ministry of Education maintains a nationwide student information system that tracks millions of students from primary through secondary education. Similarly, the National Bank of Ethiopia and the Ethiopian Revenue Service operate large-scale database systems that manage financial and taxation data for the entire country. Understanding database management principles is therefore not merely an academic exercise but a practical skill that prepares students to participate in Ethiopia's growing digital economy.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1–2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

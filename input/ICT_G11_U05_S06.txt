@@ -1,0 +1,20 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 6: 3. Worked Examples
+Unit: Unit 05 - Hardware Maintenance and Troubleshooting
+Section: 3 Worked Examples
+
+Key idea: The visual models how to use the reported symptom to choose tests before replacing parts.
+
+Key concepts:
+- Problem-Solving Method(1) Identify given information. (2) Select the appropriate method or formula. (3) Apply it step by step with correct units. (4) State the answer clearly. (5) Verify the answer is logical and reasonable.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Step-by-step worked examples for Hardware Troubleshooting, modelling the approach expected in Grade 11 national examinations.
+
+Always show all working. Marks are awarded for correct method even when the final answer contains an error.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

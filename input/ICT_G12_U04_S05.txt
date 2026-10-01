@@ -1,0 +1,24 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5: HTML vs XML
+Unit: Unit 04 - Web Authoring
+Section: 2 HTML vs XML
+
+Key idea: The comparison separates HTML for browser presentation from XML for custom data storage, transport, and validation.
+
+Key definitions:
+- HTML (HyperText Markup Language) is a presentation-oriented markup language with a fixed set of tags used to structure and display content in web browsers. HTML tells the browser how content should look, including headings, paragraphs, images, links, and tables. XML (eXtensible Markup Language) is a data-oriented markup language that allows users to define their own custom tags to describe data. XML tells other systems what the data means, without any instructions about how it should be displayed.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Understanding the differences between HTML and XML is fundamental to web authoring. While both are markup languages that use tags to structure content, they serve entirely different purposes and follow different rules. This section provides a detailed comparison to help you choose the right tool for the right task.
+
+The first major difference lies in the purpose of each language. HTML is designed for presenting information to human readers through a web browser, while XML is designed for transporting and storing data between computer systems. HTML uses a predefined set of approximately 100 tags that cannot be extended, whereas XML allows you to create any tags you need to describe your data.
+
+HTML's main advantage is its simplicity and universality: every web browser understands HTML, and it requires minimal training to create basic web pages. However, HTML cannot describe the meaning of data, making it unsuitable for data exchange between systems. XML's main advantage is its flexibility and extensibility: you can create custom vocabularies for any domain, from mathematics to medicine to education.
+
+Use HTML when you need to create content for display in a web browser, such as building a website, writing a blog post, or designing an online course page.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

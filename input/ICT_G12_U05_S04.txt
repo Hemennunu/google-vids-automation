@@ -1,0 +1,28 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5.1: Install and Uninstall Software
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: 1 Install and Uninstall Software
+
+Key idea: The workflow shows why software maintenance begins with a trusted source, continues through installation and configuration, and ends with clean uninstallation when needed.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Software installation is the process of making a program ready for execution on a computer system. When you install software, the necessary files are copied to the appropriate directories, system settings are configured, and the program is registered with the operating system so that it can run properly. Understanding the different types of installations is important for anyone who works with computers, whether at school, at home, or in a professional environment.
+
+There are several types of software installations. A clean installation involves installing a program on a system where it has never been installed before. This is the most straightforward type of installation, as there are no previous versions or configuration files to contend with. An upgrade installation, on the other hand, replaces an existing version of a program with a newer version.
+
+Software can be obtained from various sources, including physical media such as CDs or DVDs, direct downloads from the Internet, and app stores provided by operating system vendors. When downloading software from the Internet, it is essential to exercise caution. You should only download software from trusted and official sources to avoid malware and other security risks.
+
+Uninstalling software is the process of removing a program and its associated files from the computer. Proper uninstallation is important because leftover files and registry entries can clutter the system and potentially cause conflicts with other programs. " Many programs also include their own uninstaller, which can be accessed from the Start menu folder for that application.
+
+Some programs leave behind residual files even after uninstallation. These may include configuration files saved in the user's AppData folder, registry entries, or temporary files. Third-party uninstaller tools can help remove these leftovers to keep the system clean. It is generally recommended to restart the computer after uninstalling software to ensure that all changes take effect properly.
+
+Regular maintenance of installed software is part of good computer hygiene. Periodically reviewing installed programs and removing those that are no longer needed can help maintain system performance and free up disk space. This is especially important in shared computer environments such as school laboratories, where multiple users may install different programs over time.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🇪🇩 Ethiopian ContextIn Ethiopian schools, software licensing is governed by guidelines from the Ministry of Innovation and Technology (MinT). Schools are encouraged to use open-source and free educational software where possible to reduce costs while ensuring compliance with copyright laws. The ICT curriculum emphasises the importance of using licenced software and respecting intellectual property rights. Many Ethiopian school computer laboratories operate using open-source operating systems such as Ubuntu Linux alongside licenced Microsoft Windows installations, providing students with exposure to both environments.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

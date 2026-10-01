@@ -1,0 +1,58 @@
+# Section 8: 5. Creating a Relational Database in Microsoft Access
+
+
+
+## Definition
+
+The workflow shows the practical order for building a relational database in Access.
+
+
+
+## Lead
+
+Microsoft Access is a relational DBMS — Database Management System that is part of the Microsoft Office suite, widely used in schools, small businesses, and organisations needing to manage structured data without the complexity and cost of enterprise systems. Access provides a graphical interface making many database operations accessible without requiring SQL — Structured Query Language knowledge, while also supporting SQL queries for more advanced users.
+
+
+
+## Paragraphs
+
+Creating Tables: In Design View, define each field by giving it a name, specifying its data type, and setting field properties (field size, Required, validation rules, default values).
+
+Defining Relationships: In the Relationships window (Database Tools tab), drag the primary key field from one table to the corresponding foreign key field in the related table. Always check "Enforce Referential Integrity" to prevent orphaned records.
+
+Forms: Provide a user-friendly interface for entering and viewing data. Rather than entering data directly into the table grid, a well-designed form presents fields clearly labelled with appropriate input controls (text boxes, drop-down menus, date pickers, checkboxes), validation messages, and navigation buttons. Access forms can be created using the Form Wizard or designed manually in Design View.
+
+Queries: The most powerful tool for extracting specific information. A query is a question posed to the database, and the database returns only the records and fields satisfying the query's criteria. Access supports: Select queries (retrieve records meeting specified criteria); Action queries (append, update, and delete queries). Access provides the QBE grid (Query By Example) for visual query construction without writing SQL — Structured Query Language.
+
+Reports: Format and present data from tables or queries in a professional, print-ready layout. Reports can include grouping (students grouped by class), sorting (alphabetically by name), totals and subtotals (average score per class), conditional formatting (highlighting failing students in red), and headers and footers with organisation logos, report titles, page numbers, and generation dates.
+
+Your Future in Ethiopia: Database administration and development are among the most consistently in-demand ICT — Information and Communication Technology skills in Ethiopia. Every organisation that manages data — banks, hospitals, government agencies, NGOs, retailers, manufacturers — needs people who can design, build, maintain, and query databases. The skills learned in this unit are directly applicable to professional tools such as MySQL, PostgreSQL, Oracle, and Microsoft SQL Server.
+
+To build a practical student database in Microsoft Access for an Ethiopian secondary school, begin by opening Access and selecting Blank Database, naming it "SchoolRecords.accdb." The first table to create is the Students table. Switch to Design View and define the following fields: StudentID (set as the primary key with Data Type AutoNumber), FirstName (Short Text, field size 50, Required set to Yes), LastName (Short Text, field size 50, Required set to Yes), DateOfBirth (Date/Time, format Short Date), Gender (Short Text, field size 6), Grade (Number, Integer), Section (Short Text, field size 10), ParentName (Short Text, field size 100), ParentPhone (Short Text, field size 20, using text data type because phone numbers contain leading zeros and special characters), and EnrollmentDate (Date/Time, default value set to Date()). Save the table and switch to Datasheet View to enter sample data for several students, including Ethiopian names and contexts.
+
+Create a second table called Subjects with fields: SubjectCode (Short Text, primary key, field size 10), SubjectName (Short Text, field size 100, Required), GradeLevel (Number, Integer), and TeacherName (Short Text, field size 100). Create a third table called Marks with fields: MarkID (AutoNumber, primary key), StudentID (Number, Long Integer), SubjectCode (Short Text, field size 10), Term (Short Text, field size 20), MarksObtained (Number, Double), and TotalMarks (Number, Double).
+
+To define relationships, click the Database Tools tab and select Relationships. Drag StudentID from the Students table and drop it onto StudentID in the Marks table. In the Edit Relationships dialog, check Enforce Referential Integrity and Cascade Update Related Fields. This ensures that no mark record can exist without a corresponding student, and changing a StudentID automatically updates all related mark records. Similarly, create a relationship between SubjectCode in Subjects and SubjectCode in Marks. With the relationships established, use the Form Wizard to create a data entry form called "StudentMarksForm" that displays student information and allows entry of marks for each subject in a subform layout.
+
+To create a query, use the Query Design tool. Select Students, Subjects, and Marks tables. Drag fields such as FirstName, LastName, SubjectName, MarksObtained, and TotalMarks into the query grid. Add a criteria under Grade to filter for "Grade 11" students only. Save this query as "Grade11Results." Finally, use the Report Wizard to create a professional report based on this query, grouping students by section, sorting alphabetically by last name, and including a calculated field showing percentage (MarksObtained / TotalMarks * 100). This report could serve as an official term report card for an Ethiopian school.
+
+
+
+## List items
+
+Short Text: stores text up to 255 characters. Example use: student name, region name, phone number.
+
+Long Text: stores large blocks of text (up to 64,000 chars). Example use: patient medical notes, product description.
+
+Number: stores numerical values for calculation. Example use: age, quantity in stock, test score.
+
+Currency: stores monetary values with precision. Example use: transaction amount in Birr, salary.
+
+Date/Time: stores date and/or time values. Example use: date of birth, appointment date, transaction time.
+
+Yes/No: stores Boolean (true/false) values. Example use: Is the student a scholarship recipient?
+
+AutoNumber: automatically generates a unique sequential number. Example use: StudentID, CustomerID, TransactionID.
+
+Lookup Wizard: creates a drop-down list of valid values. Example use: Region (from list of Ethiopian regions).
+

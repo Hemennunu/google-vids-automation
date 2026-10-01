@@ -1,0 +1,21 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 8: Unit Summary
+Unit: Unit 06 - Fundamentals Of Programming
+Section: 8 Unit Summary
+
+Key idea: The summary map reviews selection, iteration, comments, interpreter execution, trace tables, testing, and debugging as one programming process.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This unit has introduced the fundamental concepts of programming using Python, beginning with program flow controls and progressing through loops, comments, the Python interpreter, and debugging techniques. These concepts form the essential foundation for anyone seeking to develop proficiency in computer programming, whether for academic study, professional software development, or solving real-world problems in Ethiopia.
+
+The study of program flow controls introduced the conditional statements that allow programs to make decisions based on different conditions. The if statement, if-else structure, and elif chain provide the mechanism by which a program can execute different blocks of code depending on whether specified conditions evaluate to true or false. Nested conditionals extend this capability to handle increasingly complex decision trees.
+
+The exploration of loops revealed how repetition is managed efficiently in programming. The for loop iterates over sequences such as lists, strings, or ranges, while the while loop continues execution as long as a specified condition remains true. The range() function provides precise control over the number of iterations, and the break and continue statements offer fine-grained control within loop bodies.
+
+Finally, the unit addressed testing and debugging, which are indispensable skills in programming. The three categories of programming errors were identified: syntax errors caused by violations of Python's grammatical rules, runtime errors that occur during program execution, and logic errors where the program runs without crashing but produces incorrect results.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

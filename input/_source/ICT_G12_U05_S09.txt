@@ -1,0 +1,24 @@
+# Section 5.6: Worked Examples
+
+
+
+## Definition
+
+The fault tree shows how worked examples use evidence to choose whether a reported problem is most likely software, hardware, or network related.
+
+
+
+## Lead
+
+The following worked examples demonstrate the application of troubleshooting techniques to common computer problems. Each example follows the systematic approach of identifying, isolating, fixing, and verifying the solution.
+
+
+
+## Examples
+
+Example 1: Application Running Slowly or Frozen
+
+Example 2: All Programs Run Slowly or Computer is Frozen
+
+Example 3: Sound Not Working
+

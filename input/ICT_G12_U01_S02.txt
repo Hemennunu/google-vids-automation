@@ -1,0 +1,31 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 1: Learning Objectives
+Unit: Unit 01 - Information Systems And Their Applications
+Section: Learning Objectives
+
+Key idea: The path turns the unit objectives into a sequence from analysis and protection to collaboration and citizenship.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+By the end of this unit, students will be able to:
+
+Identify and explain the ethical and legal issues in the use of information systems, including privacy, information security, digital ownership and information gathering.
+
+Analyse the social issues caused by information systems, including socialisation gaps, cyberbullying, social media and gaming addiction, and the impact of automation on employment.
+
+Describe the environmental and health issues arising from the use of information systems, such as e-waste, energy consumption and ergonomic health concerns.
+
+Define intellectual property and distinguish between the four main types of intellectual property rights: copyrights, patents, trademarks and trade secrets, with reference to the Ethiopian Intellectual Property Office.
+
+Explain the concept of digital identity management and describe how individuals and nations, including Ethiopia through the National ID project, manage digital identities securely.
+
+Demonstrate an understanding of digital collaboration and identify the key components, tools and technologies that facilitate effective collaboration in educational and professional settings.
+
+Evaluate the role of digital citizenship and describe how individuals can engage responsibly and effectively in civic and national affairs using digital technologies.
+
+Apply the knowledge gained to real-world scenarios, including the use of collaboration tools and the practice of ethical digital behaviour in the Ethiopian context.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

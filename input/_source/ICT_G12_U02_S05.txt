@@ -1,0 +1,28 @@
+# Section 5: Cloud Computing
+
+
+
+## Definition
+
+The stack separates infrastructure, platform, and software services delivered over the internet.
+
+
+
+## Lead
+
+Cloud Computing is a paradigm for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources including networks, servers, storage, applications, and services. Rather than owning and maintaining their own physical data centres and servers, organisations can rent access to computing resources from cloud service providers on a pay-as-you-go basis. This model fundamentally transforms the economics of information technology by converting capital expenditure on hardware into variable operational expenditure. The National Institute of Standards and Technology (NIST) defines five essential characteristics of cloud computing: on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
+
+
+
+## Paragraphs
+
+The benefits of cloud computing are substantial and well-documented. Organisations can achieve significant cost savings by eliminating the need to purchase, maintain, and upgrade expensive hardware. Cloud services offer virtually unlimited scalability, allowing businesses to scale their computing resources up or down in response to demand. Reliability is enhanced through redundant infrastructure distributed across multiple geographic locations, ensuring business continuity even in the event of localised failures. Security is often superior to what individual organisations can achieve, as cloud providers invest heavily in security technologies, encryption, and compliance certifications. However, cloud computing also has limitations. Dependence on internet connectivity means that organisations with unreliable network access may experience service disruptions. Data sovereignty and compliance concerns arise when data is stored in jurisdictions with different legal frameworks. Vendor lock-in can make it difficult to migrate between providers, and ongoing operational costs, while lower than capital expenditures, can accumulate over time.
+
+Cloud computing is typically categorised into three primary service models. Infrastructure as a Service (IaaS) provides virtualised computing resources over the internet, including virtual machines, storage, and networking. Users have control over operating systems, storage, and deployed applications but do not manage the underlying cloud infrastructure. Popular IaaS providers include Amazon Web Services (AWS), Microsoft Azure, and Google Compute Engine. Platform as a Service (PaaS) delivers a platform that includes the operating system, programming language execution environment, database, and web server, allowing developers to build and deploy applications without managing the underlying infrastructure. Examples include Google App Engine and Heroku. Software as a Service (SaaS) delivers complete software applications over the internet on a subscription basis. Users access the software through a web browser or client application, while the provider manages all underlying infrastructure, platform, and application maintenance. Examples include Google Workspace, Microsoft 365, and Salesforce.
+
+
+
+## Ethiopian context
+
+🇪🇩 Ethiopian Context Cloud computing adoption in Ethiopia is still in its early stages but is growing rapidly, driven by the government's Digital Ethiopia 2025 strategy and the expansion of mobile broadband services. Ethio Telecom has begun offering cloud hosting services to businesses, providing local data storage options that address data sovereignty concerns. Several Ethiopian banks have migrated their core banking systems to cloud platforms, enabling them to offer digital banking services to customers across the country. The Ministry of Education has explored cloud-based learning management systems for secondary schools and universities, particularly accelerated by the need for remote learning during the COVID-19 pandemic. Ethiopian start-ups, particularly in fintech and agritech, increasingly rely on global cloud providers to launch and scale their applications without large upfront infrastructure investments. Challenges to broader cloud adoption include the high cost of international bandwidth, intermittent electricity supply in some regions, and the need for more local data centre capacity. The recent establishment of locally hosted cloud services through partnerships between Ethiopian enterprises and global providers represents a promising step toward overcoming these barriers.
+

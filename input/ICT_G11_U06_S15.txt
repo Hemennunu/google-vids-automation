@@ -1,0 +1,35 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: 12 Unit Summary
+Unit: Unit 06 - Fundamentals of Programming
+Section: 12 Unit Summary
+
+Key idea: The final review connects IPO thinking, pseudocode, Python implementation, and error checking.
+
+Points to cover:
+- Programming languages range from low-level (machine code, assembly) to high-level (Python, Java). Python is a high-level, interpreted language — ideal as a first programming language.
+- Compiled languages translate the entire program before execution (faster execution); interpreted languages translate line by line (more flexible, easier debugging).
+- Python uses dynamic typing — variable types are inferred automatically from assigned values.
+- Four fundamental data types: int (whole numbers), float (decimals), str (text), bool (True/False).
+- The input() function always returns a string. Always convert to int() or float() before using for arithmetic.
+- Arithmetic operators: +, -, , / (returns float), // (integer division), % (remainder), * (power).
+- Comparison operators: ==, !=, >, <, >=, <=. Return boolean values (True or False).
+- Logical operators: and, or, not. Combine boolean expressions.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+MyMarian Platform | Addis Ababa | ICT Grade 11 Lecture Notes
+
+Python is a high-level, interpreted, general-purpose programming language designed for readability and simplicity. Created by Guido van Rossum and first released in 1991, Python has become one of the most widely used programming languages, particularly in data science, artificial intelligence, web development, and automation.
+
+Python programs are executed line by line by the Python interpreter. This interpreted nature makes Python highly interactive: students can test code snippets immediately in the Python shell (REPL: Read-Evaluate-Print Loop) without the compile-link-run cycle required by languages like C++. Variables in Python are dynamically typed: their type is determined at runtime and can change. 14), str (strings: "Hello"), and bool (True or False). 75.
+
+Arithmetic operators perform calculations: + (addition), - (subtraction), * (multiplication), / (division, always returns float), // (integer division), % (modulo/remainder), ** (exponentiation). = (not equal), < > <= >=. Logical operators combine boolean expressions: and, or, not.
+
+Control flow structures determine execution order. The if-elif-else statement executes different code blocks based on conditions. Indentation (4 spaces) is mandatory in Python and defines code blocks. For loops iterate over sequences: for i in range(10): print(i) prints 0 through 9. While loops repeat while a condition is true. Functions are defined with def: def calculate_area(length, width): return length * width.
+
+Lists are ordered, mutable sequences: fruits = ["mango", "banana", "avocado"]. Items are accessed by zero-based index: fruits[0] returns "mango". Dictionaries store key-value pairs: student = {"name": "Tigist", "grade": 11, "score": 85}.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

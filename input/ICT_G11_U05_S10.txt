@@ -1,0 +1,35 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: 7 Unit Summary
+Unit: Unit 05 - Hardware Maintenance and Troubleshooting
+Section: 7 Unit Summary
+
+Key idea: The final review connects major components with symptoms, diagnostic decisions, repair actions, and prevention.
+
+Points to cover:
+- Effective hardware troubleshooting follows a six-step systematic methodology: identify the problem → establish theories → test theories → plan and implement solution → verify → document.
+- Most common hardware problems have recognisable symptom patterns: no power, no display, slow performance, overheating, no sound, no network connectivity — each with a systematic diagnostic approach.
+- POST (Power-On Self-Test) runs at startup and communicates failures through beep codes. Beep code interpretation requires knowing the specific BIOS manufacturer.
+- Preventive maintenance prevents failures before they occur. Physical cleaning (compressed air), cable management, software updates, disk cleanup, and defragmentation (HDDs only) are the core maintenance activities.
+- The 3-2-1 backup rule: 3 copies, on 2 different media, with 1 off-site. Full, incremental, and differential backups offer different trade-offs between storage space and restoration speed.
+- Ethiopian schools face specific hardware challenges: power fluctuations (requiring UPS — Uninterruptible Power Supply), high dust levels (requiring more frequent cleaning), and high ambient temperatures (requiring careful cooling maintenance).
+- UPS — Uninterruptible Power Supply protects against power outages AND voltage spikes; surge protectors protect only against voltage spikes. In Ethiopia, a UPS — Uninterruptible Power Supply is strongly recommended.
+- ESD — Electrostatic Discharge can permanently destroy semiconductor components from charges too small to feel. Anti-static wrist straps, mats, and bags are essential when handling internal components.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+MyMarian Platform | Addis Ababa | ICT Grade 11 Lecture Notes
+
+Hardware troubleshooting is the systematic process of diagnosing and resolving problems with computer hardware components. Effective troubleshooting requires understanding how components function, common failure modes, and the tools available for diagnosis and repair.
+
+The Central Processing Unit (CPU) is the computational engine, executing instructions and performing arithmetic and logical operations. CPU problems include overheating (caused by fan failure or blocked vents), physical damage, and incompatibility with the motherboard. Thermal paste between the CPU and heatsink improves heat transfer; a failed heatsink fan causes rapid temperature rise and thermal shutdown.
+
+Random Access Memory (RAM) provides fast, temporary storage for programs and data. Insufficient RAM causes slow performance and excessive paging to disk. Defective RAM causes random crashes, BSOD errors, and application failures. Windows Memory Diagnostic or MemTest86 can detect RAM errors. Solutions include reseating RAM modules, replacing faulty modules, or adding additional RAM.
+
+3V). PSU failure causes random shutdowns, failure to power on, or component damage. Preventive maintenance includes cleaning dust from case interiors, checking and replacing thermal paste, updating firmware and drivers, and monitoring temperatures.
+
+The troubleshooting process follows a structured methodology: identify the problem, establish a theory of probable cause, test the theory, establish a plan of action, implement the solution, verify full system functionality, and document findings.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

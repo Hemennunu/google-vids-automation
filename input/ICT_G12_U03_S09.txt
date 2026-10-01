@@ -1,0 +1,26 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 3 Summary
+Unit: Unit 03 - Database Management Systems
+Section: 6 Unit Summary
+
+Key idea: The summary map reviews relational structure, keys, relationships, SQL command groups, integrity, and normalisation.
+
+Key concepts:
+- Key Takeaways Relational databases organize data into tables connected by relationships, using primary and foreign keys to maintain referential integrity. SQL is the standard language for creating, manipulating, and querying relational databases. Normalization is a systematic process for reducing data redundancy and improving data integrity. These concepts and skills are essential for anyone pursuing further studies or careers in information technology, particularly within Ethiopia's rapidly digitizing economy.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Unit 3 of the Grade 12 ICT curriculum has provided a comprehensive introduction to database management systems, with a particular focus on the relational database model. This unit has equipped students with both the theoretical knowledge and the practical skills necessary to understand, design, and interact with relational databases, which form the foundation of virtually every modern information system.
+
+The unit began with an overview of relational database management systems, introducing the core concepts of tables, records, and fields that form the structural basis of any relational database. Students learned about the critical distinction between primary keys, which uniquely identify each record within a table, and foreign keys, which establish relationships between tables.
+
+The second major section covered database manipulation using Structured Query Language, the universal language of relational databases.
+
+The worked examples section provided step-by-step solutions to realistic database design and query problems, including creating a school library database with properly defined primary keys, foreign keys, and relationships. The practical investigation section offered hands-on activities that encourage students to apply their learning through database design exercises, query writing, and normalization practice.
+
+Review Questions: 1. What are the advantages of a relational database over a flat-file system? 2. Explain the difference between a primary key and a foreign key, giving an example of each. 3. Write the SQL to create a table called 'Products' with fields ProductID (primary key), ProductName, Category, and Price. 4. What is normalization and why is it important? 5.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

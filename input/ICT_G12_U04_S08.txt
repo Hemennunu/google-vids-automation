@@ -1,0 +1,17 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 8: Practical Investigation
+Unit: Unit 04 - Web Authoring
+Section: 5 Practical Investigation
+
+Key idea: The investigation flow shows how a dataset becomes XML, is validated, and is displayed or transformed for users.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This practical investigation will guide you through creating a simple XML document, validating its structure, and preparing it for publication. The activity can be completed using a text editor and an XML validator, all of which are freely available online.
+
+✅ Check Your Understanding: After completing this investigation, you should be able to create a well-formed XML document from scratch, validate it using online tools, write a basic DTD to define document structure, and explain how XML can be used for data representation in Ethiopian organisations.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

@@ -1,0 +1,27 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: PART C: EXTENDED RESPONSE QUESTIONS
+Unit: Unit 07 - Semester Exam
+Section: PART C EXTENDED RESPONSE QUESTIONS
+
+Key idea: Write in full sentences with clear explanations.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Instructions: Answer ALL questions. Write in full sentences with clear explanations. Each question carries 10 marks.
+
+Question C1 — Information Systems and Emerging Technologies (10 marks)
+
+Ethiopia's Commercial Bank (CBE) has implemented a comprehensive digital banking system incorporating AI, cloud computing, and IoT. (a) Describe how a Decision Support System (DSS) could assist CBE's senior management in making strategic decisions. (3 marks) (b) Explain how cloud computing benefits CBE's digital operations, including at least TWO specific advantages.
+
+Question C2 — Database Design and Development (10 marks)
+
+Design a relational database for the Addis Ababa City Administration to manage its public library system. (a) Identify THREE entities needed for this database and list at least three attributes for each entity. (3 marks) (b) Draw or describe an Entity-Relationship (ER) diagram showing the relationships between your entities, clearly indicating primary keys and foreign keys.
+
+Question C3 — Web Development and Programming (10 marks)
+
+You have been asked to create a website for a local Ethiopian NGO that promotes digital literacy in rural communities. (a) Describe the key principles of good website design that you would apply, giving one specific example for each principle. (4 marks) (b) Write the HTML and CSS code for a webpage that displays the NGO's name as a styled heading, a brief description paragraph, and a navigation menu with three links.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

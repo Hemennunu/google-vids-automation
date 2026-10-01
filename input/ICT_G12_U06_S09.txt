@@ -1,0 +1,27 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 9: Practical Investigation
+Unit: Unit 06 - Fundamentals Of Programming
+Section: 6 Practical Investigation
+
+Key idea: The investigation flow shows how to plan an algorithm, implement it in Python, test cases, debug, and improve the solution.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section provides a structured practical investigation activity designed to assess your ability to apply the programming concepts covered in this unit. The activity follows a six-step problem-solving methodology that mirrors the approach used by professional software developers. You are encouraged to complete this investigation independently, using only the knowledge you have gained from the previous sections. The problem is set in the Ethiopian context and requires you to write a Python program that performs arithmetic operations and basic data analysis on real Ethiopian population data.
+
+The Central Statistical Agency of Ethiopia has published population estimates for the nine regional states and two chartered cities. Your task is to write a Python program that analyses this data. 5). Your program should calculate the total national population, the average regional population, the region with the highest population, and the region with the lowest population.
+
+Read the problem statement carefully and identify what the program needs to do. The program must store the population data for all eleven regions, calculate the sum of all populations to determine the national total, compute the average population by dividing the total by the number of regions, find the maximum and minimum population values, and identify which regions correspond to these extreme values.
+
+Before writing any code, plan your approach on paper or in comments.
+
+Implement your algorithm in Python. Begin with a comment block that describes the program and its purpose. Use meaningful variable names such as regions and populations. Use a for loop if you want to display the data in a tabular format before showing the analysis results. Include comments throughout the code to explain each major section of the program. Use consistent indentation and ensure that all statements are syntactically correct.
+
+Run your program and compare the output with your expected results. 2 million. 2 million. 3 million. If your output does not match these expected values, use print debugging or trace tables to identify where the computation is going wrong.
+
+Test your program with incorrect data to verify that it handles edge cases gracefully. For example, what happens if a population value is entered as a string instead of a number? What if one region's data is missing? Although this version of the program uses hard-coded values, reflect on how you could modify it to accept user input for each region.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

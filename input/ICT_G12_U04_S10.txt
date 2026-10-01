@@ -1,0 +1,23 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 10: Unit Summary
+Unit: Unit 04 - Web Authoring
+Section: 7 Unit Summary
+
+Key idea: The summary map reviews XML syntax, HTML and XHTML comparison, validation, hosting, domains, and website publishing.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This unit has explored the fundamental concepts of web authoring, focusing on markup languages, their structures, and the process of making web content available on the internet. By the end of this unit, you should have a solid understanding of XML, the differences between HTML and XHTML, and the steps required to publish a website.
+
+The first part of the unit introduced XML as a powerful markup language designed for storing and transporting structured data. Unlike HTML, which uses a fixed set of tags for displaying content in a browser, XML allows you to create custom tags that describe the meaning of your data.
+
+The second part of the unit examined the relationship between HTML, XHTML, and XML. HTML remains the standard for presenting content in web browsers, with its predefined tags for headings, paragraphs, links, and images. XHTML serves as a bridge, combining the strict syntax rules of XML with the familiar tag set of HTML.
+
+The final part of the unit covered the practical aspects of website publishing. et domains, how web hosting services provide server space for website files, and how FTP enables the transfer of files from a local computer to a hosting server. The publishing process requires careful planning, from choosing the right hosting type to ensuring that files are correctly organised and uploaded.
+
+✅ Unit Summary: This unit has equipped you with knowledge of XML for data representation, the distinctions between HTML, XHTML, and XML, and the complete process of publishing a website from domain registration to FTP upload. These skills form the foundation of professional web authoring and are increasingly valuable as Ethiopia's digital economy grows.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

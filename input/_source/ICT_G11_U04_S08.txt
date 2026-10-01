@@ -1,0 +1,36 @@
+# Section 8: 5. HTML Tables
+
+
+
+## Definition
+
+The table sketch shows caption, rows, headers, and data cells used for genuine tabular information.
+
+
+
+## Lead
+
+Tables present data in a grid format of rows and columns. Modern web development confines tables to displaying genuinely tabular data — schedules, price lists, comparison charts, statistical data. Tables should NOT be used as a general-purpose layout tool.
+
+
+
+## Paragraphs
+
+The colspan attribute allows a cell to span across multiple columns — merging several column positions into a single wider cell. The rowspan attribute allows a cell to span across multiple rows. Invaluable for complex tables with merged headers or grouped data. When using spanning, care must be taken to remove the corresponding cells being "consumed" by the span, otherwise the table structure will be corrupted.
+
+
+
+## List items
+
+— container for the entire table. (table row) — creates a row. (table data) — creates a data cell within a row. (table header) — creates a header cell. Browsers render th cells in bold and centred by default. Should include scope attributes ("col" for column headers, "row" for row headers) for accessibility. — placed immediately after the opening tag; provides a title for the table., , — group rows into a table header, body, and footer respectively.The colspan attribute allows a cell to span across multiple columns — merging several column positions into a single wider cell. The rowspan attribute allows a cell to span across multiple rows. Invaluable for complex tables with merged headers or grouped data. When using spanning, care must be taken to remove the corresponding cells being "consumed" by the span, otherwise the table structure will be corrupted.Example — timetable with colspan:`html Grade 11 ICT Weekly Timetable Day Period 1 Period 2 Period 3 Monday ICT Practical (double period) Mathematics Tuesday English Biology Physics
+
+
+
+## Table rows
+
+(table data) — creates a data cell within a row.: (table header) — creates a header cell. Browsers render th cells in bold and centred by default. Should include scope attributes ("col" for column headers, "row" for row headers) for accessibility.
+
+Monday: ICT Practical (double period): Mathematics
+
+Tuesday: English: Biology: Physics
+

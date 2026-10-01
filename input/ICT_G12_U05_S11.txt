@@ -1,0 +1,25 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5.8: Cambridge AS Level Extension
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: 8 Cambridge AS Level Extension
+
+Key idea: The extension map relates advanced troubleshooting evidence from boot checks, logs, services, backups, and controlled changes.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section provides supplementary content aligned with the Cambridge AS Level Information Technology syllabus. It extends the Grade 12 Ethiopian curriculum to cover additional depth expected at the Cambridge AS Level.
+
+The Cambridge AS Level syllabus expects students to understand not only the basic troubleshooting process but also the theoretical frameworks that underpin systematic problem-solving. One such framework is the OSI (Open Systems Interconnection) model, which divides network communication into seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+Another important concept is the difference between fault management and performance management. Fault management focuses on detecting, isolating, and correcting abnormal network operations, while performance management involves monitoring and optimising network performance to meet service level agreements.
+
+Beyond the basic tools covered in the Grade 12 curriculum, AS Level students should also be familiar with the arp command, which displays and modifies the Address Resolution Protocol cache used to map IP addresses to physical MAC addresses. The route command displays and modifies the local IP routing table.
+
+At the Cambridge AS Level, preventive maintenance is approached strategically. Students learn to develop maintenance schedules based on factors such as equipment age, usage patterns, criticality of systems, and manufacturer recommendations. A preventive maintenance plan includes regular inspection schedules, software update policies, backup procedures, and documentation standards.
+
+Consider a school with 200 computers distributed across four laboratories, connected by a wired network with wireless access points in common areas.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

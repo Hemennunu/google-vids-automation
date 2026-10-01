@@ -1,0 +1,25 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 8: Worked Examples
+Unit: Unit 02 - Emerging Technologies
+Section: 5 Worked Examples
+
+Key idea: The path models how to choose sensors, fog, cloud, or Big Data analytics based on the scenario.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+The following worked examples illustrate how the concepts of Big Data, Cloud Computing, Fog Computing, and the Internet of Things can be applied to realistic scenarios in the Ethiopian context. Each example presents a problem statement, followed by a step-by-step analysis and recommended solution.
+
+Analysis and Solution. This scenario demonstrates the integration of IoT, Fog Computing, and Cloud Computing. IoT soil moisture sensors and weather stations would be deployed across the farms to collect environmental data.
+
+Analysis and Solution. This is a classic Big Data problem. Ethio Telecom generates vast volumes of data at high velocity from its network infrastructure. The solution involves building a Big Data analytics platform on cloud infrastructure capable of ingesting, storing, and processing streaming network data.
+
+Analysis and Solution. The ECX processes structured transaction data including commodity grades, volumes, prices, buyer and seller information, and timestamps. This data, combined with external data sources such as satellite weather imagery, international coffee price indices from the New York and London exchanges, and production forecasts from the Ministry of Agriculture, constitutes a rich Big Data resource.
+
+Examples to use:
+- Scenario. A coffee cooperative in the Sidama region manages 500 smallholder farms spread across a mountainous area with limited internet connectivity. The cooperative wants to monitor soil moisture, temperature, and sunlight levels across all farms to optimise irrigation and improve coffee bean quality.
+- Scenario. Ethio Telecom wants to reduce network downtime and improve service quality for its seventy million subscribers. The network operations centre receives millions of call detail records and network performance metrics every hour, making manual analysis impractical.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

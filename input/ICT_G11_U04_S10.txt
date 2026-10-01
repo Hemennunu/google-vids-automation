@@ -1,0 +1,23 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 10: 7. Worked Examples
+Unit: Unit 04 - Web Development
+Section: 7 Worked Examples
+
+Key idea: The visual models how to read a task, choose elements, write markup, check links, and test browser output.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+The World Wide Web (WWW) is a global information system of hypertext documents accessible via the Internet using the Hypertext Transfer Protocol (HTTP). Invented by Tim Berners-Lee at CERN in 1989, the Web has transformed commerce, communication, education, and democracy worldwide.
+
+Web architecture follows the client-server model. A client (web browser) sends HTTP requests to a web server. The server processes the request and returns an HTTP response, typically an HTML document. et) into IP addresses.
+
+HyperText Markup Language (HTML) is the foundational language of web pages, using tags to structure content: headings (h1-h6), paragraphs (p), links (a), images (img), tables (table, tr, td), lists (ul, ol, li), forms (form, input, button), and layout divisions (div, span). HTML5 added semantic elements (header, nav, main, footer, article, section) improving accessibility and SEO.
+
+Cascading Style Sheets (CSS) control visual presentation. CSS rules select elements and apply property-value pairs: fonts, colours, spacing, layout. The CSS Box Model describes how elements occupy space: content, padding, border, and margin. CSS Flexbox and Grid provide powerful layout tools. Media queries enable responsive design, adapting layouts to different screen sizes and devices.
+
+JavaScript enables interactive and dynamic behaviour, responding to user events, manipulating the HTML Document Object Model (DOM), validating form data, and communicating with servers via AJAX. Good website design requires understanding visual design principles, usability, and accessibility. Web Content Accessibility Guidelines (WCAG) provide standards for making content accessible to users with disabilities.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

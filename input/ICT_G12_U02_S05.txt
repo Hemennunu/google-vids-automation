@@ -1,0 +1,22 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5: Cloud Computing
+Unit: Unit 02 - Emerging Technologies
+Section: 2 Cloud Computing
+
+Key idea: The stack separates infrastructure, platform, and software services delivered over the internet.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Cloud Computing is a paradigm for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources including networks, servers, storage, applications, and services. Rather than owning and maintaining their own physical data centres and servers, organisations can rent access to computing resources from cloud service providers on a pay-as-you-go basis. This model fundamentally transforms the economics of information technology by converting capital expenditure on hardware into variable operational expenditure. The National Institute of Standards and Technology (NIST) defines five essential characteristics of cloud computing: on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
+
+The benefits of cloud computing are substantial and well-documented. Organisations can achieve significant cost savings by eliminating the need to purchase, maintain, and upgrade expensive hardware. Cloud services offer virtually unlimited scalability, allowing businesses to scale their computing resources up or down in response to demand.
+
+Cloud computing is typically categorised into three primary service models. Infrastructure as a Service (IaaS) provides virtualised computing resources over the internet, including virtual machines, storage, and networking. Users have control over operating systems, storage, and deployed applications but do not manage the underlying cloud infrastructure.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🇪🇩 Ethiopian Context Cloud computing adoption in Ethiopia is still in its early stages but is growing rapidly, driven by the government's Digital Ethiopia 2025 strategy and the expansion of mobile broadband services. Ethio Telecom has begun offering cloud hosting services to businesses, providing local data storage options that address data sovereignty concerns. Several Ethiopian banks have migrated their core banking systems to cloud platforms, enabling them to offer digital banking services to customers across the country. The Ministry of Education has explored cloud-based learning management systems for secondary schools and universities, particularly accelerated by the need for remote learning during the COVID-19 pandemic.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

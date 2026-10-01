@@ -1,0 +1,38 @@
+# Section 7: Testing and Debugging Programs
+
+
+
+## Definition
+
+The cycle shows how programmers use test data, compare actual and expected output, fix bugs, and retest until the program behaves correctly.
+
+
+
+## Lead
+
+Once you have written a program, you must test it to verify that it produces the expected output. Unfortunately, programs do not always run correctly on the first attempt. An unexpected problem in a program is called a bug, and the process of identifying, isolating, and fixing these problems is called debugging. Bugs can appear in many forms, and some are far more difficult to fix than others. Understanding the different types of errors and the tools available for debugging is essential for every programmer, whether you are writing a simple calculator or a complex data analysis system.
+
+
+
+## Paragraphs
+
+Python programmers encounter three main categories of errors. The first type is the syntax error, which occurs when the code violates the grammatical rules of the Python language. A missing colon at the end of an if statement, a misplaced quotation mark, or inconsistent indentation are all examples of syntax errors. When Python encounters a syntax error, it refuses to run the program and displays an error message indicating the line where the problem was found. Syntax errors are usually the easiest type of error to fix because the interpreter clearly indicates what went wrong and where.
+
+The second type is the runtime error, also known as an exception. Runtime errors occur during program execution when the program attempts an operation that is impossible to perform. Common runtime errors include dividing by zero (ZeroDivisionError), trying to convert a non-numeric string to an integer (ValueError), and accessing an index that does not exist in a list (IndexError). Unlike syntax errors, a runtime error may occur only under certain conditions, making it more challenging to reproduce and fix. For example, a program that divides two numbers entered by the user will run successfully unless the user enters zero as the denominator.
+
+The third and most insidious type is the logic error. A logic error does not cause the program to crash, but it produces incorrect results. The program runs from start to finish without any error messages, but the output is wrong because the programmer's reasoning was flawed. For instance, a program that calculates a student's final grade using the wrong formula or that uses > instead of >= in a comparison will produce incorrect results without any warning. Logic errors are the most difficult to find because the programmer must trace through the code manually, checking each assumption against the expected behaviour.
+
+The simplest and most widely used debugging technique is print debugging. By inserting print() statements at strategic points in your code, you can display the values of variables at each stage of execution. This allows you to verify that variables contain the expected values and that the program flow is following the intended path. For example, if a loop is not producing the expected results, you can print the loop variable and the result of each iteration to see exactly what is happening.
+
+A trace table is a manual debugging technique in which you create a table that records the value of each variable as the program executes step by step. For each line of code, you write down the current state of all variables. Trace tables are particularly useful for understanding how loops and conditionals affect the program state, and they are an excellent learning tool for beginners who are developing the mental models necessary for debugging.
+
+Consider a program that calculates the average mark of three Ethiopian secondary school subjects and assigns a letter grade. The intended logic is: if the average is 80 or above, the grade is A; if 70 or above, the grade is B; if 60 or above, the grade is C; if 50 or above, the grade is D; otherwise, the grade is F. A student writes the code but uses > instead of >= in the conditions. A student with an average mark of exactly 80 would not receive an A; instead, the program would incorrectly fall through to the next condition and assign a B. Print debugging or a trace table would reveal that the condition mark > 80 excludes the boundary value of 80 itself, and the fix is to use mark >= 80.
+
+Python IDLE provides a built-in debugger that gives you complete control over program execution. To activate it, select Debug from the IDLE menu bar and then select Debugger. The interpreter displays [DEBUG ON] just before the prompt (>>>), indicating that the debugger is ready. When you run your Python file, the debugger window appears, allowing you to inspect the values of your variables as your code executes. You can set breakpoints by right-clicking on a line of code and selecting Set Breakpoint. A breakpoint is a line of code that you have selected as a place where the interpreter should pause while running your code. Once the program pauses at a breakpoint, you can use the Go, Step, and Over buttons to advance through the code one instruction at a time, observing how the data changes along the way.
+
+
+
+## Ethiopian context
+
+🌍 Ethiopian ContextThe ability to debug programs systematically is highly valued in Ethiopian technology companies and government ICT departments. In a country where many organisations are building digital systems for the first time, software bugs can have serious consequences, from incorrect student grade reports to errors in financial transactions. Programmers who can efficiently find and fix bugs are essential to the success of Ethiopia's digital transformation. By developing strong debugging skills now, you are preparing yourself for the quality assurance standards expected in professional programming environments.
+

@@ -1,0 +1,26 @@
+# Section 7: Worked Examples
+
+
+
+## Definition
+
+The visual models how to check markup rules step by step before deployment.
+
+
+
+## Lead
+
+This section presents worked examples that demonstrate the practical application of key concepts from Unit 4, including creating XML documents, converting HTML to XHTML, and the website publishing process.
+
+
+
+## Paragraphs
+
+A school in Addis Ababa wants to store student contact information in XML format so that it can be shared with the regional education bureau. The data must include each student's full name, phone number, email address, and home address. To create the XML document, we begin by writing the XML declaration to specify the version and encoding. We then create a root element called <students> that will contain individual <student> elements. Each student element contains nested elements for the relevant fields:
+
+The document is well-formed because it contains a single root element, all tags are properly closed and nested, and element names are meaningful. The school can now extend this document by adding more students or additional fields such as grade level or date of birth.
+
+A website created using older HTML practices needs to be updated to XHTML to ensure compliance with XML standards. Consider an original HTML snippet that contains unclosed tags and uppercase tag names: <P>Welcome to our school<BR>We offer ICT classes. The XHTML version must close all tags, use lowercase tag names, and quote all attribute values. The corrected version would be: <p>Welcome to our school<br />We offer ICT classes.</p>. Notice that the <br> tag is written as <br /> with a self-closing syntax, and the paragraph tag has an opening and closing pair. This conversion ensures that the web page can be parsed by XML processors while remaining compatible with web browsers.
+
+A student at a school in Bahir Dar has created a personal portfolio website using HTML and CSS. To make the site avail
+

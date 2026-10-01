@@ -1,0 +1,23 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 7: Worked Examples
+Unit: Unit 04 - Web Authoring
+Section: 4 Worked Examples
+
+Key idea: The visual models how to check markup rules step by step before deployment.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This section presents worked examples that demonstrate the practical application of key concepts from Unit 4, including creating XML documents, converting HTML to XHTML, and the website publishing process.
+
+A school in Addis Ababa wants to store student contact information in XML format so that it can be shared with the regional education bureau. The data must include each student's full name, phone number, email address, and home address. To create the XML document, we begin by writing the XML declaration to specify the version and encoding. We then create a root element called <students> that will contain individual <student> elements.
+
+The document is well-formed because it contains a single root element, all tags are properly closed and nested, and element names are meaningful. The school can now extend this document by adding more students or additional fields such as grade level or date of birth.
+
+A website created using older HTML practices needs to be updated to XHTML to ensure compliance with XML standards. Consider an original HTML snippet that contains unclosed tags and uppercase tag names: <P>Welcome to our school<BR>We offer ICT classes. The XHTML version must close all tags, use lowercase tag names, and quote all attribute values. </p>.
+
+A student at a school in Bahir Dar has created a personal portfolio website using HTML and CSS.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

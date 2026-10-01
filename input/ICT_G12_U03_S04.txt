@@ -1,0 +1,34 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 3.1: Overview of Relational Database Management Systems
+Unit: Unit 03 - Database Management Systems
+Section: 1 Overview of RDBMS
+
+Key idea: The diagram shows how tables store records and how primary and foreign keys enforce relationships.
+
+Key definitions:
+- Relational Database Management System (RDBMS): A software application that stores, retrieves, and manages data organized in tables with predefined relationships. Examples include MySQL, Oracle Database, Microsoft SQL Server, and PostgreSQL. The RDBMS enforces data integrity rules and provides a structured environment for multi-user data access and manipulation.
+
+Key concepts:
+- Key Point A relational database organizes data into tables connected by relationships defined through primary and foreign keys. This structure reduces redundancy, improves data integrity, and allows complex queries across multiple related tables.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+The relational database management system (RDBMS) represents one of the most significant developments in the history of information technology. Conceived by Edgar F. Codd in 1970 while working at IBM, the relational model introduced a mathematically elegant approach to data management that would eventually become the dominant paradigm for organizing and manipulating structured data. An RDBMS is a software system that manages data stored in tables, or relations, and allows users to define relationships between those tables. The relational model is founded on the principle that data should be organized in a way that is independent of its physical storage, making it accessible and manageable through a logical structure that users can easily understand.
+
+At the heart of any relational database are three fundamental structural components: tables, records, and fields. A table, also called a relation, is a collection of related data organized into rows and columns. Each row in a table is known as a record or tuple and represents a single instance of the entity being modelled. Each column, known as a field or attribute, represents a specific characteristic or property of that entity.
+
+Two of the most important concepts in relational database design are the primary key and the foreign key. A primary key is a field, or a combination of fields, that uniquely identifies each record in a table. No two records can share the same primary key value, and a primary key cannot be empty or NULL.
+
+The real power of relational databases emerges from the relationships that can be defined between tables. There are three fundamental types of relationships. A one-to-one relationship exists when a record in one table is associated with exactly one record in another table; for instance, each student might have exactly one medical record.
+
+Relational databases offer significant advantages over the older flat-file approach to data management. In a flat-file system, data is stored in a single table or file, leading to considerable data redundancy when the same information must be repeated for multiple records.
+
+Check Your Understanding: Consider a school library database that tracks books, students, and borrowing records. What tables would you need? What would be the primary keys for each table? What relationships exist between the tables? Identify one example each of a one-to-one, one-to-many, and many-to-many relationship in this system.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🇧🇪 Ethiopian Context The Ethiopia Commodity Exchange (ECX), established in 2008 in Addis Ababa, operates a large-scale relational database system that tracks every transaction involving coffee, sesame, beans, maize, and other agricultural commodities traded on the exchange. The ECX database manages data about traders, warehouse receipt systems, quality grades, prices, and settlement information across dozens of regional collection centres. When a farmer delivers coffee to an ECX warehouse in Yirgacheffe or Sidama, that transaction is recorded in the database, and the information flows through the system to ensure transparent pricing and secure payment settlement. This real-world example demonstrates how relational database systems underpin critical economic infrastructure in Ethiopia, enabling efficient market operations that connect millions of smallholder farmers to global markets.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

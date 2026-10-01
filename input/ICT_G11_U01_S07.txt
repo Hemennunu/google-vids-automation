@@ -1,0 +1,27 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 7: 4. IT for Entrepreneurship
+Unit: Unit 01 - Information Systems
+Section: 4 IT for Entrepreneurship
+
+Key idea: The diagram shows how digital tools help an idea become a platform, reach customers, and grow.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+IT has fundamentally changed entrepreneurship in two important ways: it has dramatically lowered the barriers to starting a business, and it has created entirely new categories of business that did not previously exist.
+
+Digital entrepreneurship specifically refers to ventures founded on digital technologies — mobile applications, software-as-a-service (SaaS) platforms, e-commerce marketplaces, digital content creation, online education platforms, and fintech solutions. Ethiopia's startup ecosystem has grown substantially.
+
+The Ethiopian government has created supportive structures including the Ethiopia ICT — Information and Communication Technology Park in Addis Ababa and tax incentives for technology startups. It has also launched programmes to connect Ethiopian entrepreneurs with regional and global investors.
+
+For an aspiring digital entrepreneur, the most important skills to develop are technical competence, business acumen, and communication ability. Technical competence means using digital tools and understanding how technology works. Business acumen means identifying problems worth solving and designing sustainable business models. Communication ability means explaining your solution clearly to customers, investors, and partners.
+
+An information system (IS) is an integrated set of components for collecting, storing, processing, and communicating data and information. Information systems are the technological infrastructure through which organisations acquire, process, and deploy information to support decision-making, coordination, control, analysis, and the creation of new products and services.
+
+The DIKW Hierarchy provides a conceptual framework for understanding information and its value. Data consists of raw, unprocessed facts and figures: temperature readings, transaction amounts, student scores. Information is data that has been processed and organised to be meaningful and useful: a student's grade report, an average temperature for a season.
+
+Information systems can be classified by function and level of use. Transaction Processing Systems (TPS) handle routine operational transactions such as bank ATM networks and point-of-sale systems. Management Information Systems (MIS) aggregate transaction data and present structured reports to middle managers. Decision Support Systems (DSS) support analytical and ad hoc decisions by providing data, models, and analytical tools.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

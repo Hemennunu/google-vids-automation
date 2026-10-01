@@ -1,0 +1,18 @@
+# Section 9: Assessment
+
+
+
+## Definition
+
+The inheritance diagram shows how Car and SUV reuse Vehicle attributes and methods while adding specialised fields and overriding details.
+
+
+
+## List items
+
+A base class **Vehicle** with attributes make, model, year, and daily_rate, and methods `get_details()` and `calculate_rental_cost(days)`.
+
+A subclass **Car** inheriting from Vehicle, adding a num_doors attribute and overriding `get_details()`.
+
+A subclass **SUV** inheriting from Vehicle, adding a four_wheel_drive (boolean) attribute and overriding `get_details()`.
+

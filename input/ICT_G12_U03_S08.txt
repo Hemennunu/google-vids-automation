@@ -1,0 +1,27 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 3.5: Cambridge AS Level Extension
+Unit: Unit 03 - Database Management Systems
+Section: 5 Cambridge AS Level Extension
+
+Key idea: The extension diagram connects advanced database design issues with more demanding SQL query techniques.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Cambridge International AS Level Information Technology (9626): This section extends the Ethiopian Grade 12 curriculum with additional depth aligned to the Cambridge AS Level syllabus, particularly focusing on advanced database concepts and SQL techniques that are assessed in the Cambridge examinations.
+
+The Cambridge AS Level Information Technology syllabus requires students to demonstrate a deeper understanding of database concepts than the standard Grade 12 curriculum.
+
+While the Ethiopian curriculum covers normalization through the first three normal forms, the Cambridge syllabus may also introduce the concept of Boyce-Codd Normal Form (BCNF), which is a stricter version of 3NF. A table is in BCNF if, for every functional dependency X → Y, X is a candidate key. In practice, any table that is in 3NF and has no overlapping candidate keys is also in BCNF.
+
+Cambridge AS Level candidates are expected to write SQL queries that go beyond basic SELECT statements. They must be proficient in multi-table joins using both INNER JOIN and LEFT JOIN syntax, correlated and non-correlated subqueries, the use of aliases to improve query readability, and the application of aggregate functions combined with the HAVING clause for filtering grouped data.
+
+In Cambridge AS Level examination papers on database topics, students are frequently asked to interpret given table structures and write SQL queries to answer specific questions. The examiners expect precise syntax: keywords such as SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY must appear in the correct sequence.
+
+Cambridge Practice Question: A school database contains two tables: Student (StudentID, FirstName, LastName, YearGroup) and SubjectResult (ResultID, StudentID, Subject, Score).
+
+Check Your Understanding: Why does the HAVING clause exist separately from the WHERE clause? What is the fundamental difference in when these two clauses are evaluated during query execution? Explain using an example where using WHERE instead of HAVING would produce incorrect results.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

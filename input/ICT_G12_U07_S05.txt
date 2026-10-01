@@ -1,0 +1,17 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5: Main Lesson Content
+Unit: Unit 07 - Software Development Lifecycle
+Section: Main Lesson Content
+
+Key idea: The comparison shows how Waterfall suits stable requirements, Agile supports feedback and change, and programming paradigms shape implementation.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+A programming paradigm is a fundamental style of programming — a way of thinking about and structuring software — that shapes how a developer approaches a problem. Different paradigms are genuinely suited to different types of problems, and the most effective software engineers are those who can recognise which paradigm (or combination of paradigms) is most appropriate for a given challenge.
+
+In Python, a class is defined using the class keyword, followed by the class name and a colon. By convention, class names in Python use PascalCase — each word begins with a capital letter, with no underscores between words (for example, BankAccount, StudentRecord, SchoolGradeManager).
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 3–4 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

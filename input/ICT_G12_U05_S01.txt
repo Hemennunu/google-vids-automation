@@ -1,0 +1,21 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 5: Maintenance and Troubleshooting — Unit Overview
+Unit: Unit 05 - Maintenance And Troubleshooting
+Section: Unit Overview
+
+Key idea: The unit map previews how installation, troubleshooting, optimization, and network maintenance work together to keep systems reliable.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Welcome to Unit 5 of your Grade 12 Information Technology course. This unit introduces you to the essential skills and knowledge required to maintain computer systems and troubleshoot common problems that arise in both software and network environments. Computer maintenance and troubleshooting are fundamental competencies for any ICT professional, as they help ensure that systems remain operational, secure, and efficient.
+
+The unit is structured around five major subtopics. First, you will learn about installing and uninstalling software, covering the various types of installations such as clean, upgrade, and silent installation, as well as proper methods for removing software from a system.
+
+Third, you will explore the tools available within operating systems to speed up computer performance. Tools such as Disk Defragmenter, Disk Cleanup, Windows Update, System Restore, and the Device Manager are explained with practical steps for their use.
+
+Throughout this unit, the Ethiopian context is considered, with references to the Ethiopian school computer laboratory environment, the Ministry of Innovation and Technology initiatives, and the ICT curriculum as implemented in Ethiopian secondary schools. By the end of this unit, you will have developed practical skills that will serve you in your academic journey, in the workplace, and in everyday use of technology.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1–2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

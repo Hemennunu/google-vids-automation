@@ -1,0 +1,23 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 4: 1. Data Management Approaches: File-Based vs DBMS
+Unit: Unit 03 - Database Management
+Section: 1 Data Management Approaches File-Based
+
+Key idea: The comparison shows how a DBMS centralises control and reduces the problems of scattered file-based data.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+A database is an organised collection of structured data stored electronically, designed to allow efficient retrieval, management, and manipulation of information. Databases are foundational to virtually every modern information system.
+
+The Relational Database Model organises data into tables (relations), where each table represents an entity type, each row (record or tuple) represents an instance, and each column (attribute or field) represents a characteristic. Relationships are established through keys: a Primary Key uniquely identifies each record; a Foreign Key in one table references the Primary Key of another, linking related data.
+
+Database design begins with an Entity-Relationship (ER) diagram showing entities (Student, Course, Teacher), their attributes, and the relationships between them. Cardinality specifies whether relationships are one-to-one, one-to-many, or many-to-many.
+
+Structured Query Language (SQL) is the standard language for managing relational databases. The SELECT statement retrieves data and can filter with WHERE, sort with ORDER BY, group with GROUP BY, and combine tables with JOIN operations. The INSERT, UPDATE, and DELETE statements modify data. The CREATE TABLE and ALTER TABLE statements define and modify database structure.
+
+Database Management Systems (DBMS) provide the software infrastructure for databases. Examples include MySQL (open-source, widely used for web applications), PostgreSQL (open-source, advanced features), Microsoft Access (desktop DBMS for small organisations), and Oracle Database (enterprise-grade).
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

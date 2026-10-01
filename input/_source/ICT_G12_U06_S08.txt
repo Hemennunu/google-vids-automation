@@ -1,0 +1,24 @@
+# Section 8: Worked Examples
+
+
+
+## Definition
+
+The trace diagram models how worked examples follow inputs, variable changes, branch choices, loop counts, and final output.
+
+
+
+## Lead
+
+The following worked examples demonstrate how the programming concepts covered in this unit come together to solve practical problems. Each example is presented as a step-by-step process, from analysing the problem through writing and testing the code. Work through each example carefully, and then attempt to solve the problems on your own before looking at the solutions.
+
+
+
+## Paragraphs
+
+This program converts a temperature from degrees Celsius to degrees Fahrenheit and provides a weather description based on the temperature range. It uses conditionals to classify the temperature and demonstrates the use of comments to document the code.
+
+This program calculates the average of five Ethiopian secondary school subjects (English, Mathematics, Physics, Chemistry, and Biology) and determines whether the student has passed or failed. It also identifies the student's highest and lowest subject marks. This example uses loops, conditionals, and variables.
+
+Both examples illustrate the practical application of the core concepts in this unit: input and output, conditional branching, loops, comments, and the use of built-in functions. By studying and modifying these examples, you will develop confidence in writing your own Python programs for a wide range of applications relevant to the Ethiopian context.
+

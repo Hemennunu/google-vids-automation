@@ -1,0 +1,25 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 2: Learning Objectives
+Unit: Unit 04 - Web Development
+Section: Learning Objectives
+
+Key idea: The path turns the objectives into a practical sequence from planning pages to publishing a school website.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+By the end of this unit, we will be able to explain the purpose and function of the World Wide Web, distinguish it from the Internet, and describe the client-server model and role of HTTP/HTTPS. We will interpret and construct URLs, explain how the DNS translates domain names into IP addresses, and apply established web design principles when evaluating or creating websites. We will also create wireframes for website layouts, write correctly structured HTML5 documents using core elements, design and implement HTML tables, implement ordered and unordered lists, create functional hyperlinks, and synthesise all these skills to design and build a complete multi-page website demonstrating sound design principles and correct HTML coding.
+
+The World Wide Web (WWW) is a global information system of hypertext documents accessible via the Internet using the Hypertext Transfer Protocol (HTTP). Invented by Tim Berners-Lee at CERN in 1989, the Web has transformed commerce, communication, education, and democracy worldwide.
+
+Web architecture follows the client-server model. A client (web browser) sends HTTP requests to a web server. The server processes the request and returns an HTTP response, typically an HTML document. et) into IP addresses.
+
+HyperText Markup Language (HTML) is the foundational language of web pages, using tags to structure content: headings (h1-h6), paragraphs (p), links (a), images (img), tables (table, tr, td), lists (ul, ol, li), forms (form, input, button), and layout divisions (div, span). HTML5 added semantic elements (header, nav, main, footer, article, section) improving accessibility and SEO.
+
+Cascading Style Sheets (CSS) control visual presentation. CSS rules select elements and apply property-value pairs: fonts, colours, spacing, layout. The CSS Box Model describes how elements occupy space: content, padding, border, and margin. CSS Flexbox and Grid provide powerful layout tools. Media queries enable responsive design, adapting layouts to different screen sizes and devices.
+
+JavaScript enables interactive and dynamic behaviour, responding to user events, manipulating the HTML Document Object Model (DOM), validating form data, and communicating with servers via AJAX. Good website design requires understanding visual design principles, usability, and accessibility. Web Content Accessibility Guidelines (WCAG) provide standards for making content accessible to users with disabilities.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

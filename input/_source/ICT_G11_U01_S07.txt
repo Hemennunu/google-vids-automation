@@ -1,0 +1,46 @@
+# Section 7: 4. IT for Entrepreneurship
+
+
+
+## Definition
+
+The diagram shows how digital tools help an idea become a platform, reach customers, and grow.
+
+
+
+## Lead
+
+IT has fundamentally changed entrepreneurship in two important ways: it has dramatically lowered the barriers to starting a business, and it has created entirely new categories of business that did not previously exist.
+
+
+
+## Paragraphs
+
+Digital entrepreneurship specifically refers to ventures founded on digital technologies — mobile applications, software-as-a-service (SaaS) platforms, e-commerce marketplaces, digital content creation, online education platforms, and fintech solutions. Ethiopia's startup ecosystem has grown substantially. Examples include 2F Capital (fintech), Eshi Express (logistics), Addis Cart (e-commerce), and Gebeya (freelance marketplace) — all Ethiopian digital startups that have attracted investment and created employment.
+
+The Ethiopian government has created supportive structures including the Ethiopia ICT — Information and Communication Technology Park in Addis Ababa and tax incentives for technology startups. It has also launched programmes to connect Ethiopian entrepreneurs with regional and global investors.
+
+For an aspiring digital entrepreneur, the most important skills to develop are technical competence, business acumen, and communication ability. Technical competence means using digital tools and understanding how technology works. Business acumen means identifying problems worth solving and designing sustainable business models. Communication ability means explaining your solution clearly to customers, investors, and partners.
+
+An information system (IS) is an integrated set of components for collecting, storing, processing, and communicating data and information. Information systems are the technological infrastructure through which organisations acquire, process, and deploy information to support decision-making, coordination, control, analysis, and the creation of new products and services.
+
+The DIKW Hierarchy provides a conceptual framework for understanding information and its value. Data consists of raw, unprocessed facts and figures: temperature readings, transaction amounts, student scores. Information is data that has been processed and organised to be meaningful and useful: a student's grade report, an average temperature for a season. Knowledge is information that has been contextualised and integrated with prior understanding to enable action. Wisdom is the ability to make sound judgements about what to do with knowledge, drawing on experience, values, and ethics.
+
+Information systems can be classified by function and level of use. Transaction Processing Systems (TPS) handle routine operational transactions such as bank ATM networks and point-of-sale systems. Management Information Systems (MIS) aggregate transaction data and present structured reports to middle managers. Decision Support Systems (DSS) support analytical and ad hoc decisions by providing data, models, and analytical tools. Executive Information Systems (EIS) present summarised, strategic information to senior management. Expert Systems apply encoded domain expertise to diagnose problems and recommend solutions.
+
+Components of an information system include hardware (physical devices), software (programs and operating systems), data (the raw material), people (users and IT staff), and procedures (rules and policies for system use). Networks connect individual information systems into larger infrastructures: a Local Area Network (LAN) connects devices within a single building; a Wide Area Network (WAN) spans geographic distances. Cloud computing delivers computing resources over the internet as a service.
+
+Data security is a critical concern. Threats include unauthorised access (hacking), malware (viruses, ransomware), phishing (social engineering to steal credentials), and insider threats. Controls include access controls (passwords, biometrics, multi-factor authentication), encryption (scrambling data to prevent unauthorised reading), firewalls (filtering network traffic), regular backups, and security audits. Organisations in Ethiopia — including the Commercial Bank of Ethiopia, Ethiopian Airlines, and government ministries — all rely on information systems and must maintain robust security practices.
+
+
+
+## List items
+
+Geography — A small-scale Ethiopian artisan can now reach customers in Europe, North America, or Asia through an online marketplace with no need for a physical storefront.
+
+Capital requirements — A software developer can launch a minimum viable product with minimal upfront investment.
+
+Distribution costs — Digital products (software, courses, content) can be distributed globally at near-zero marginal cost.
+
+Market access — Platforms like Upwork and Toptal allow Ethiopian freelance developers to earn foreign currency without leaving Ethiopia.
+

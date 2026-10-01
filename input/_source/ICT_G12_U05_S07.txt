@@ -1,0 +1,30 @@
+# Section 5.4: Network Troubleshooting
+
+
+
+## Definition
+
+The sequence works upward from physical connection checks to IP addressing, gateway access, DNS resolution, and service reachability.
+
+
+
+## Lead
+
+A computer network connects two or more computers together to share resources such as printers and scanners, exchange files, or enable electronic communications. When a network fails to function correctly, productivity suffers. Network troubleshooting is the collection of techniques and procedures used to locate, analyse, and resolve issues in a computer network.
+
+
+
+## Paragraphs
+
+Network problems can manifest in several ways. A complete loss of connectivity means that the computer cannot communicate with any other device on the network or the Internet. Slow network performance results in delays when accessing files or loading web pages. DNS failures prevent the computer from converting domain names such as www.google.com into IP addresses, making web browsing impossible even if the network connection itself is active. Other common issues include cable problems, where the physical cable connecting devices becomes faulty or damaged; connectivity problems where a port or interface is physically down; out-of-range issues with wireless networks; configuration errors; software compatibility problems; and traffic overload when network capacity is exceeded.
+
+The first step in network troubleshooting is identifying the problem. Gather information about the current state of the network using available tools, try to reproduce the problem on a test system, ask users about the errors they have encountered, and identify the symptoms. Next, develop a scenario that could explain the problem. Test your scenario using the tools at your disposal, then formulate a plan of action, implement the solution, verify that the issue has been resolved, and document the entire process for future reference.
+
+Windows operating systems include several command-line tools that are invaluable for network troubleshooting. These are accessed through the Command Prompt (cmd). The following commands provide specific information about network status:
+
+
+
+## Ethiopian context
+
+🇪🇩 Ethiopian ContextIn Ethiopian schools, Internet connectivity challenges are common due to infrastructure limitations and the cost of bandwidth provided by service providers such as Ethio Telecom. Students may experience slow connections or intermittent outages. Understanding network troubleshooting tools empowers students to diagnose whether a problem lies within the school's local network or with the external Internet service. This knowledge is valuable not only for ICT classes but also for everyday use of technology in Ethiopia's evolving digital landscape.
+

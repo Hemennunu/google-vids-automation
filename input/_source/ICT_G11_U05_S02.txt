@@ -1,0 +1,28 @@
+# Section 2: Learning Objectives
+
+
+
+## Definition
+
+The path turns the objectives into a safe troubleshooting routine from identifying faults to documenting repairs.
+
+
+
+## Lead
+
+By the end of this unit, we will be able to apply a systematic six-step troubleshooting methodology to hardware problems, diagnose and propose solutions for common hardware failure scenarios, and explain the Power-On Self-Test (POST) process and interpret beep codes as error indicators. We will also describe and implement physical cleaning procedures for computer interiors and peripherals, explain the importance of cable management and software maintenance activities, evaluate data backup strategies and design a backup plan for a given scenario, distinguish between UPS and surge protector functions, and demonstrate correct electrostatic discharge (ESD) precautions when handling computer components.
+
+
+
+## Paragraphs
+
+Hardware troubleshooting is the systematic process of diagnosing and resolving problems with computer hardware components. Effective troubleshooting requires understanding how components function, common failure modes, and the tools available for diagnosis and repair.
+
+The Central Processing Unit (CPU) is the computational engine, executing instructions and performing arithmetic and logical operations. CPU problems include overheating (caused by fan failure or blocked vents), physical damage, and incompatibility with the motherboard. Thermal paste between the CPU and heatsink improves heat transfer; a failed heatsink fan causes rapid temperature rise and thermal shutdown. Symptoms of CPU failure include random freezes, blue screens of death (BSOD), and failure to POST (Power-On Self-Test).
+
+Random Access Memory (RAM) provides fast, temporary storage for programs and data. Insufficient RAM causes slow performance and excessive paging to disk. Defective RAM causes random crashes, BSOD errors, and application failures. Windows Memory Diagnostic or MemTest86 can detect RAM errors. Solutions include reseating RAM modules, replacing faulty modules, or adding additional RAM. Storage devices include Hard Disk Drives (HDDs) with rotating magnetic platters and Solid State Drives (SSDs) using flash memory. HDD failure symptoms include clicking sounds, slow speeds, and corrupted files; S.M.A.R.T. data monitoring provides early warning of impending failure.
+
+The Power Supply Unit (PSU) converts mains AC power to the DC voltages required by components (12V, 5V, 3.3V). PSU failure causes random shutdowns, failure to power on, or component damage. Preventive maintenance includes cleaning dust from case interiors, checking and replacing thermal paste, updating firmware and drivers, and monitoring temperatures.
+
+The troubleshooting process follows a structured methodology: identify the problem, establish a theory of probable cause, test the theory, establish a plan of action, implement the solution, verify full system functionality, and document findings. In Ethiopia, where dust, heat, and voltage fluctuations are common, surge protectors and Uninterruptible Power Supplies (UPS) are essential investments for protecting computer hardware in schools, businesses, and homes.
+

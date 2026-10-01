@@ -1,0 +1,22 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 1: Unit Overview
+Unit: Unit 04 - Web Development
+Section: Unit Overview
+
+Key idea: The visual previews how HTML, CSS, links, browser rendering, and publishing work together in the unit.
+
+Key concepts:
+- Core TopicsHTML, CSS, website design principles, hyperlinks, forms, web publishing.
+- How to Use This UnitWork through the sections in order. Master the Key Vocabulary before the main content. Attempt each Worked Example independently before checking the solution. Complete the Interactive Tools and Assessment sections to consolidate your understanding.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This unit covers Web Development as part of the Grade 11 ICT curriculum, aligned with the Ethiopian MoE 2023 standard textbook.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- Ethiopian Curriculum ContextThis content is assessed in the Grade 11 national examinations. Ethiopian examples, data, and contexts are integrated throughout each section.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1–2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

@@ -1,0 +1,26 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 3: Database Management System
+Unit: Unit 03 - Database Management Systems
+Section: Learning Objectives
+
+Key idea: The path turns the objectives into a progression from explaining relational concepts to evaluating database integrity.
+
+Key concepts:
+- Learning Outcomes By the end of this unit, you should be able to: define and explain database management system concepts; create and manipulate database tables using SQL; write SQL queries to retrieve and analyse data; apply normalization principles to database design; and appreciate the role of database systems in Ethiopian organizational contexts.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Upon successful completion of this unit, students will be able to achieve the following learning objectives, which are aligned with the Ethiopian Ministry of Education's Grade 12 ICT curriculum standards and the Cambridge International AS Level syllabus where applicable.
+
+Students will be able to explain the fundamental concepts of database management systems, including the definition and purpose of a DBMS, the distinction between file-based and database approaches to data management, and the roles and responsibilities of database administrators and users.
+
+Students will develop practical skills in using Structured Query Language (SQL) to interact with relational databases.
+
+Students will be able to compare and contrast relational database systems with flat-file systems, evaluating the advantages and disadvantages of each approach for different scenarios. They will analyse the relationships between tables in a relational database and determine appropriate primary and foreign key assignments.
+
+These learning objectives directly support the Ethiopian General Education Framework's goal of producing digitally literate graduates who can contribute to the country's knowledge-based economy.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1 minute when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

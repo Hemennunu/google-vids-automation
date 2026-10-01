@@ -1,0 +1,46 @@
+# Section 4: Program Flow Controls – Conditionals
+
+
+
+## Definition
+
+The diagram shows how a Boolean condition controls selection: true values run the if block, false values run the alternative branch.
+
+
+
+## Lead
+
+Program flow control refers to the order in which the code of a program executes. In Python, the flow of a program is regulated by three fundamental constructs: sequential, conditional (branching), and iterative (looping) logic. The sequential flow control is the simplest form, consisting of a list of statements that are executed in the order they are written. Declaring variables, printing output, and reading input from the keyboard are all examples of sequential statements that you learnt in Grade 11. However, sequential execution alone is insufficient for solving most real-world problems, because programs often need to make decisions based on input data. This is where conditional flow controls become essential.
+
+
+
+## Paragraphs
+
+Conditionals are statements in a program that allow the program to decide at runtime whether some parts of the code should or should not be executed. The core idea is simple: evaluate a condition that is either true or false, and then choose a path of execution based on that evaluation. Python provides several versions of branching statements using the if keyword, each suited to different decision-making scenarios.
+
+Before writing conditional statements, it is important to understand conditional expressions. Conditional expressions use comparison operators to compare two values and return a Boolean result (True or False). Python supports the following comparison operators: == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), and >= (greater than or equal to). In addition, Python provides the logical operators and, or, and not for combining multiple conditions. For example, the expression age >= 18 and age <= 60 checks whether a person is within the working age range.
+
+The simplest form of a conditional statement is the if statement, which executes a block of code only when the condition is true. The condition must end with a colon, and the statements to be executed must be indented. Consider the following example that checks whether a person's age is valid:
+
+If the user enters a positive number, both print statements execute. If the user enters a negative number or zero, the condition is false and the indented block is skipped entirely.
+
+The if-else statement provides two alternatives: one block executes when the condition is true, and a different block executes when the condition is false. This creates a true binary branching structure. For example, a program that determines whether a number is even or odd can be written as follows:
+
+In this example, the expression num % 2 == 0 is evaluated first. If the remainder when dividing by 2 is zero, the number is even; otherwise, it is odd.
+
+For problems that have more than two possible outcomes, Python provides the if-elif-else construct. The elif keyword is short for "else if" and allows you to chain multiple conditions together. The interpreter evaluates each condition in order, and the first one that is true causes its corresponding block to execute. If none of the conditions are true, the else block executes as a fallback. A classic Ethiopian example is the grade classification system:
+
+This program reflects the Ethiopian grading system used in many secondary schools across the country. The conditions are evaluated from top to bottom: a mark of 85 triggers the first condition and prints "Excellent", without evaluating the remaining conditions.
+
+Conditionals can also be placed inside other conditionals, creating what is known as a nested if statement. This is useful when a decision depends on multiple layers of conditions. For example, a school may want to award a distinction grade only to students who have passed all subjects, and among those, only to students with an average above 90. Care must be taken with indentation when nesting conditionals, as incorrect indentation causes syntax errors.
+
+The logical and and or operators allow you to combine multiple conditions in a single if expression. The and operator returns True only if both conditions are true, while the or operator returns True if at least one condition is true. For instance, a program that checks whether a person should take an umbrella might use if is_raining and is_windy: to recommend a sturdy umbrella only when both conditions are met.
+
+Key Understanding: Conditional statements transform a program from a simple list of instructions into an intelligent system capable of making decisions based on input data. The Ethiopian grade classification example above demonstrates how a few lines of Python can automate a process that would otherwise require manual calculation for each student. As you practise writing conditionals, pay special attention to the colon at the end of each condition line and the consistent indentation of code blocks, as these are the most common sources of syntax errors for beginners.
+
+
+
+## Ethiopian context
+
+🌍 Ethiopian ContextThe grade classification system used in this example is directly applicable to Ethiopian secondary schools, where students receive letter grades based on their average marks. Understanding how to implement such systems in Python prepares you for developing educational management software, student record systems, and other applications that are in high demand in Ethiopia's growing education technology sector.
+

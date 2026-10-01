@@ -1,0 +1,27 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 5: 2. Introduction to Information Systems
+Unit: Unit 01 - Information Systems
+Section: 2 Introduction to Information Systems
+
+Key idea: The central system depends on people, procedures, data, software, and hardware working together.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+An information system (IS) is a formally defined arrangement of people, hardware, software, data, and procedures that work together to collect, process, store, manage, and distribute information. Its purpose is to support decision-making, coordination, and control within an organisation. An IS is not merely a computer or piece of software — it is an integrated socio-technical system that combines technological components with human roles and organisational procedures.
+
+Hardware refers to all the physical devices that make up the system: computers, servers, storage devices, network equipment, input devices (keyboards, scanners), and output devices (printers, monitors). In many parts of Ethiopia, hardware constraints — unreliable power supply, limited internet bandwidth, and the cost of equipment — remain a significant challenge to IS implementation.
+
+Software encompasses all the programs, applications, and operating systems that direct the hardware to perform specific tasks. System software (operating systems like Windows or Linux) provides the platform on which application software runs. Many Ethiopian government organisations have moved to open-source software to reduce licensing costs.
+
+Data is the raw material that the information system processes. Well-designed IS ensure that data is accurate, complete, consistent, timely, and relevant — qualities collectively referred to as data quality. Poor data quality is one of the most common causes of IS failure. If a hospital IS contains incorrect patient records, the decisions made using that information will be flawed regardless of how sophisticated the technology is.
+
+People are perhaps the most important component of any IS, yet frequently underestimated. People play multiple roles: as users who interact with the system daily (cashiers, teachers, nurses), as administrators who maintain the system, and as analysts who design and improve it. They also serve as decision-makers who interpret its outputs.
+
+Procedures are the rules, policies, and step-by-step instructions that govern how the IS is used. Without clear procedures, even an excellent IS will be used inconsistently, producing unreliable outputs. Many cybersecurity breaches occur not because of technical vulnerabilities, but because procedures were not followed.
+
+Ethiopia in Focus: The Human Resource Information System (HRIS) used by the Ethiopian Civil Service Commission manages personnel data for hundreds of thousands of federal civil servants.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

@@ -1,0 +1,26 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 11: Unit Summary
+Unit: Unit 02 - Emerging Technologies
+Section: 8 Unit Summary
+
+Key idea: The summary web reviews how Big Data, cloud, fog, and IoT support practical applications in Ethiopia and beyond.
+
+Key concepts:
+- Integrated Understanding. The most important insight from this unit is that Big Data, Cloud Computing, Fog Computing, and the Internet of Things are not independent technologies but rather interconnected components of a unified digital ecosystem. IoT sensors generate data that is processed locally by fog nodes for real-time response, aggregated in the cloud for comprehensive analysis, and analysed using Big Data techniques to extract insights that inform decision-making. Students who understand this integrated ecosystem will be well prepared both for their Cambridge examinations and for meaningful participation in Ethiopia's ongoing digital transformation.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This unit has provided a comprehensive introduction to four of the most significant emerging technologies shaping the contemporary digital landscape: Big Data, Cloud Computing, Fog Computing, and the Internet of Things. These technologies are not merely academic concepts but are actively transforming industries, governments, and societies worldwide, including in Ethiopia where digital transformation is gaining momentum under the Digital Ethiopia 2025 strategy.
+
+Big Data was introduced through the lens of the four Vs: volume, velocity, variety, and veracity. Students learned that the value of Big Data lies not merely in its size but in the insights that can be extracted through advanced analytics.
+
+Cloud Computing was examined as the enabling infrastructure that makes Big Data processing economically feasible. The three primary service models IaaS, PaaS, and SaaS were explained, along with the benefits of scalability, cost efficiency, reliability, and security. The limitations, including internet dependency, data sovereignty concerns, and vendor lock-in, were also discussed.
+
+Fog Computing was introduced as an intermediate layer that addresses the limitations of cloud-only architectures for latency-sensitive and bandwidth-constrained applications. Students learned how fog computing brings processing closer to the data source, enabling real-time decision-making that is essential for applications such as industrial automation, autonomous vehicles, and smart agriculture.
+
+The Internet of Things was explored as the sensing and actuation layer that connects the physical and digital worlds. Students learned about the layered architecture of IoT systems and examined applications in Ethiopian agriculture, healthcare, and smart city development.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

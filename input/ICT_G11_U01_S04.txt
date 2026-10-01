@@ -1,0 +1,25 @@
+Create a short educational video for Grade 11 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 4: 1. Data, Information, Knowledge, and Wisdom — The DIKW Hierarchy
+Unit: Unit 01 - Information Systems
+Section: 1 Data Information Knowledge and Wisdom
+
+Key idea: The pyramid shows how raw data gains context, meaning, understanding, and judgement.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+At the heart of all information technology is a deceptively simple question: what is information? The DIKW hierarchy organises four related but distinct concepts in a hierarchical structure. Each level is built upon and enriched from the level below it.
+
+Data — the foundation — consists of raw, unprocessed facts and figures that have no inherent meaning on their own. The number "37" is data. A list of numbers such as "250, 100, 375, 200" is data. Data can take many forms: numbers, text, images, audio recordings, sensor readings. Without context, data is meaningless. Ethiopia's mobile network operators generate millions of call detail records every day — each record is a piece of data.
+
+Information is created when data is processed, organised, and given context so that it becomes meaningful and useful. " A bank statement is information: it takes raw transaction data and presents it in an organised way that shows a financial position. The process of converting data into information typically involves sorting, classifying, calculating, summarising, and formatting.
+
+Knowledge represents the third level and is considerably richer than information alone. Knowledge emerges when a person combines information with experience, understanding, and reasoning to build a deeper comprehension of how things work. " A meteorologist who has studied climate patterns for many years possesses knowledge that allows them to interpret new information and make reliable predictions.
+
+Wisdom, at the apex, is the capacity to use knowledge, experience, and good judgement to make the best possible decisions — particularly in complex or uncertain situations. Wisdom involves knowing not just what can be done, but what should be done and why. It incorporates ethical considerations, long-term thinking, and awareness of unintended consequences.
+
+The DIKW hierarchy was first formally described by information scientist Russell Ackoff in 1989. In Ethiopia, Ethio Telecom processes over 40 million transactions per month. Converting this raw data into actionable information and knowledge is one of the country's greatest ICT — Information and Communication Technology challenges.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

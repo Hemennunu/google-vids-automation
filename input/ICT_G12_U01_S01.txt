@@ -1,0 +1,26 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Unit 1: Information Systems and Their Applications
+Unit: Unit 01 - Information Systems And Their Applications
+Section: Unit Overview
+
+Key idea: The visual previews how responsible ICT use connects ethics, intellectual property, identity, collaboration, and digital citizenship.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Welcome to Unit 1 of your Grade 12 Information Technology course. Information systems have had an impact far beyond the world of business. New technologies create new situations that we have never dealt with before, and the introduction of new technology can have a profound effect on human behaviour. New technologies also give us capabilities that we did not have before, which in turn create environments and situations that have not been specifically addressed in ethical terms. Users should also be aware of the consequences and implications of information systems use and access on the one hand and maintaining the rights of creators and innovators on the other.
+
+This unit deals with the fundamentals of ethical, legal, social, environmental and health issues related to information systems, intellectual property rights, digital identity management, the role of digital technologies in collaboration, and how citizens can engage meaningfully through digital platforms.
+
+The unit begins by exploring the ethical, legal, social, environmental and health issues that arise from the use of information systems. It then examines intellectual property rights, including copyrights, patents, trademarks and trade secrets, and how these apply in the Ethiopian context under the Ethiopian Intellectual Property Office.
+
+In today’s interconnected world, every individual who uses digital devices and the Internet must understand the rights, responsibilities and risks that come with technology use.
+
+As you progress through this unit, you will develop the knowledge and skills needed to become a responsible digital citizen who can navigate a knowledge-based and technology-led economy while upholding ethical standards and contributing positively to society.
+
+Ethiopian context to feature (use these specific places, species and initiatives, not generic African imagery):
+- 🌐 Ethiopian Context Ethiopia has made significant strides in expanding access to information and communication technologies in recent years. The Ministry of Innovation and Technology (MinT) oversees the country’s digital transformation agenda through the Digital Ethiopia 2025 strategy. Understanding the ethical and legal dimensions of information systems is not merely an academic exercise; it is essential for Ethiopian students who will join a workforce increasingly shaped by digital technologies in sectors such as banking, agriculture, health, education and public service. The Ethiopian government has also established the Information Network Security Agency (INSA) to protect the country’s information infrastructure, making cybersecurity awareness a national priority.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 1–2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

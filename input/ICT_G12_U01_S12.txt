@@ -1,0 +1,25 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 9: Unit Summary
+Unit: Unit 01 - Information Systems And Their Applications
+Section: 9 Unit Summary
+
+Key idea: The review web consolidates the unit around ethics, intellectual property, digital identity, collaboration, citizenship, and law.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+This unit has explored the ethical, legal, social, and environmental issues surrounding the use of information systems, providing Grade 12 students with a comprehensive understanding of responsible technology use in the Ethiopian context and beyond.
+
+In Topic 1 on ethical and legal issues, we examined the core ethical principles that should guide the use of information technology, including honesty, integrity, respect for privacy, and accountability. We explored how Ethiopian law addresses computer misuse through the Computer Crime Proclamation and discussed the importance of acceptable use policies in schools and workplaces.
+
+Topic 2 covered intellectual property, introducing students to the concepts of copyright, patents, trademarks, and Creative Commons licensing. We discussed the importance of respecting others' creative work and the legal consequences of copyright infringement in Ethiopia, including penalties under the Copyright and Neighbouring Rights Protection Proclamation.
+
+Topic 3 addressed digital identity management, explaining what a digital identity is, how it is created through online activities, and why it matters for personal and professional life. We discussed the risks of identity theft, phishing, and social engineering, as well as practical strategies for protecting one's digital identity, including strong passwords, two-factor authentication, and careful management of privacy settings.
+
+Topic 4 examined collaboration through digital technologies, exploring how tools such as cloud computing, shared documents, video conferencing, and project management platforms enable effective teamwork. We discussed the benefits of digital collaboration, including increased productivity and access to diverse perspectives, alongside challenges such as coordination difficulties, digital distractions, and unequal access to technology.
+
+Topic 5 focused on engaging in citizenship through digital technologies, covering the concept of digital citizenship and its nine elements as defined by Ribble and Bailey. We explored how Ethiopian youth can participate in civic life through social media, online petitions, and digital advocacy while practising respectful online communication.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

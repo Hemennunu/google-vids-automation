@@ -1,0 +1,32 @@
+# Unit 4: Web Authoring
+
+
+
+## Definition
+
+The path turns the objectives into a sequence from creating well-formed XML to comparing languages and publishing a website.
+
+
+
+## Lead
+
+Upon successful completion of this unit, students will be able to achieve the following learning objectives, which are aligned with the Ethiopian Ministry of Education's Grade 12 ICT curriculum standards.
+
+
+
+## Paragraphs
+
+Students will be able to explain the purpose and structure of XML documents, including the role of elements, attributes, the XML declaration, and the rules for creating well-formed XML. They will describe the fundamental differences between HTML and XML, understanding that HTML is designed for displaying web content while XML is designed for representing and transporting data. Students will also understand the process of publishing a website, including the roles of domain names, web hosting servers, and file transfer protocols, and will be familiar with the Ethiopian domain name registry (.et) and local web hosting options.
+
+Students will develop the ability to create well-formed XML documents that correctly use elements, attributes, and proper nesting. They will be able to write XML declarations and structure data logically for various purposes, such as representing student records, product catalogues, or configuration settings. Students will also learn to distinguish between valid and invalid XML documents and to debug common XML syntax errors. In the area of web publishing, students will acquire practical skills in using FTP clients to upload files to a web server and configuring basic web server settings.
+
+Students will be able to compare and contrast HTML and XML, evaluating the appropriate use of each language in different scenarios. They will assess the advantages and disadvantages of XML as a data interchange format and evaluate the suitability of different web hosting options for various types of websites and organizations. Students will also analyse the structure of web addresses (URLs) and understand how domain names, top-level domains, and subdomains relate to the Domain Name System (DNS).
+
+These learning objectives directly support the Ethiopian General Education Framework's goal of producing graduates who are proficient in the use of information and communication technologies. As Ethiopia continues to expand its digital infrastructure under the Digital Ethiopia 2025 strategy, the ability to create and publish web content becomes increasingly valuable for students pursuing careers in technology, government service, education, and business.
+
+
+
+## Key concepts
+
+Learning Outcomes By the end of this unit, you should be able to: create well-formed XML documents with proper structure and syntax; explain the differences between HTML and XML; describe the process of registering a domain name and publishing a website; identify appropriate web hosting solutions for different needs; and appreciate the role of web technologies in Ethiopia's digital development.
+

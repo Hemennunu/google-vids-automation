@@ -1,0 +1,33 @@
+Create a short educational video for Grade 12 ICT students in Ethiopia (MyMarian learning platform).
+
+Topic: Section 7: Practical Investigation
+Unit: Unit 07 - Software Development Lifecycle
+Section: Practical Investigation
+
+Key idea: The class hierarchy turns the practical brief into a design: shared personal data, student details, scholarship specialization, subjects, grades, and reports.
+
+Lesson content (authoritative — stay accurate and do not add facts beyond it):
+Our school — Addis Ababa Preparatory School — has asked us to build a simple command-line grade management system in Python. The system must manage information about two types of students: regular students and scholarship students (who have an additional scholarship_type attribute). The system must record subjects and grades, calculate averages, determine pass/fail status, and display formatted reports. A minimum pass mark of 50% applies to all students.
+
+Before writing any code, produce a UML class diagram. Our hierarchy should include: a base Person class (name, age), a Student class inheriting from Person (student_id, grade level), and a ScholarshipStudent class inheriting from Student (scholarship_type). Consider what attributes and methods belong at each level of the hierarchy.
+
+Create the Person class — Attributes: name (str), age (int). Methods: str(), get_details().
+
+Create the Student class — Inherits Person. New attributes: student_id (str), grade_level (int), subjects (dict mapping subject name to grade). Methods: add_grade(subject, grade) — validate 0–100; get_average() — mean of all grades; get_status() — "Pass" if average >= 50 else "Fail"; get_report() — formatted string showing all subjects and grades.
+
+Encapsulate grades — Store the subjects dictionary as a protected attribute _subjects. Provide add_grade() and get_average() as the only external interface to grade data.
+
+Test Student — Create at least three Student objects with Ethiopian names and realistic grades for subjects: Mathematics, English, Biology, Chemistry, Physics.
+
+Create a ScholarshipStudent class that inherits from Student and adds a scholarship_type attribute (for example: "Ministry of Education", "Gebeya Foundation", "iCog Labs STEM Award"). Override the get_report() method to include the scholarship type in the output, demonstrating method overriding and polymorphism.
+
+Create a Classroom class (not inheriting from Student) that holds a list of Student objects (which may include ScholarshipStudent objects, because ScholarshipStudent is-a Student). The Classroom class should have methods: add_student(student), get_class_average(), get_top_student() (returns the Student with the highest grade average), and print_class_report() (calls get_report() on each student — this is polymorphism in action).
+
+Valid grade entry — add_grade() accepts grades 0–100.
+
+Invalid grade entry — add_grade() raises ValueError for grades below 0 or above 100.
+
+Tone: Clear, warm and encouraging, suitable for secondary-school students. Use simple language.
+Target length: About 2–3 minutes when narrated.
+
+Do not include quiz questions; focus on explaining the ideas above.

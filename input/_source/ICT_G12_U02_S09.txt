@@ -1,0 +1,22 @@
+# Section 9: Practical Investigation
+
+
+
+## Definition
+
+The flow shows how raw sensor readings become charts, interpretations, and evidence-based conclusions.
+
+
+
+## Lead
+
+In this practical investigation, you will work with a simulated IoT sensor dataset representing environmental data collected from a smart agriculture deployment in Ethiopia. The objective is to apply your understanding of Big Data analysis concepts, cloud-based data processing, and IoT data interpretation to extract meaningful insights. This activity can be completed using spreadsheet software such as Microsoft Excel or Google Sheets, or using a programming language such as Python if available.
+
+
+
+## Paragraphs
+
+The dataset, which you will create based on the specifications below, contains readings from IoT sensors deployed across three farm sites in the Oromia, SNNP, and Amhara regions over a period of thirty days. Each record includes the following fields: date, farm site identifier, soil moisture percentage, air temperature in degrees Celsius, humidity percentage, rainfall in millimetres, and sunlight hours. You will generate a dataset of approximately 90 records, with each farm site contributing one daily reading for thirty days. The data should reflect realistic seasonal conditions for the respective regions, with the Oromia site representing highland coffee-growing areas, the SNNP site representing lowland agricultural zones, and the Amhara site representing the northern highlands.
+
+Your investigation will be assessed on the quality of your dataset design, the appropriateness of your data cleaning methods, the accuracy and clarity of your descriptive analysis, the depth of insight in your pattern identification, the practicality of your recommendations, and the professionalism of your written report. Consider how the technologies studied in this unit Big Data analytics, cloud computing for scalable storage and processing, fog computing for local real-time analysis, and IoT for data collection would each contribute to a comprehensive smart farming solution for Ethiopia.
+

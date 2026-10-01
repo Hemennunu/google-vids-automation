@@ -1,0 +1,38 @@
+# Section 6: 3. Variables and Data Types
+
+
+
+## Definition
+
+The diagram shows how named variables store values and how Python classifies values into useful data types.
+
+
+
+## Lead
+
+Python is a high-level, interpreted, general-purpose programming language designed for readability and simplicity. Created by Guido van Rossum and first released in 1991, Python has become one of the most widely used programming languages, particularly in data science, artificial intelligence, web development, and automation.
+
+
+
+## Paragraphs
+
+Python programs are executed line by line by the Python interpreter. This interpreted nature makes Python highly interactive: students can test code snippets immediately in the Python shell (REPL: Read-Evaluate-Print Loop) without the compile-link-run cycle required by languages like C++. Variables in Python are dynamically typed: their type is determined at runtime and can change. Fundamental data types include int (whole numbers: 5, -100), float (decimal numbers: 3.14), str (strings: "Hello"), and bool (True or False). Variables are assigned using the = operator: age = 16; name = "Abebe"; gpa = 3.75.
+
+Arithmetic operators perform calculations: + (addition), - (subtraction), * (multiplication), / (division, always returns float), // (integer division), % (modulo/remainder), ** (exponentiation). Comparison operators return boolean values: == (equal), != (not equal), < > <= >=. Logical operators combine boolean expressions: and, or, not.
+
+Control flow structures determine execution order. The if-elif-else statement executes different code blocks based on conditions. Indentation (4 spaces) is mandatory in Python and defines code blocks. For loops iterate over sequences: for i in range(10): print(i) prints 0 through 9. While loops repeat while a condition is true. Functions are defined with def: def calculate_area(length, width): return length * width. Functions promote code reuse and modularity.
+
+Lists are ordered, mutable sequences: fruits = ["mango", "banana", "avocado"]. Items are accessed by zero-based index: fruits[0] returns "mango". Dictionaries store key-value pairs: student = {"name": "Tigist", "grade": 11, "score": 85}. Python is the primary language for data science, with NumPy for array operations, Pandas for tabular data, Matplotlib and Seaborn for visualisation, and Scikit-learn for machine learning — libraries used by data professionals worldwide.
+
+Python supports several built-in data types that determine what kind of data a variable can store and what operations can be performed on it. The integer data type (int) represents whole numbers without a fractional part, such as 5, -12, or 1024. Integers in Python can be arbitrarily large, limited only by the available memory, which distinguishes Python from many other programming languages where integers have fixed size limits. The float data type (float) represents numbers with a decimal point, such as 3.14, -0.5, or 2.0. Floats can also be written in scientific notation, such as 1.5e4 representing 15000. When performing arithmetic operations that involve a float and an integer, Python automatically converts the result to a float, a process known as implicit type conversion.
+
+The string data type (str) represents sequences of characters enclosed in either single quotes, double quotes, or triple quotes for multi-line strings. Strings support numerous operations including concatenation using the + operator, repetition using the * operator, and indexing using square brackets to access individual characters. Python strings are immutable, meaning that once a string is created, its characters cannot be changed; any operation that appears to modify a string actually creates a new string object. The Boolean data type (bool) represents one of two values: True or False. Booleans are the result of comparison operations such as ==, >, <, and are used extensively in conditional statements and loops to control program flow.
+
+Type conversion, also known as type casting, allows programmers to explicitly convert a value from one data type to another using built-in functions such as int(), float(), str(), and bool(). For example, converting the string "25" to an integer using int("25") produces the integer 25, enabling arithmetic operations on what was previously text. Converting a float to an integer using int(3.9) truncates the decimal part and returns 3, discarding the fractional portion without rounding. Converting a number to a string using str(42) produces the string "42", allowing it to be concatenated with other strings. Python variable naming rules require that names start with a letter or underscore, contain only letters, digits, and underscores, and are case-sensitive, meaning that Score and score are different variables. Reserved keywords such as if, else, while, for, and class cannot be used as variable names. Following the convention of using lowercase letters with underscores between words, such as student_name or total_marks, makes code more readable and maintainable.
+
+
+
+## Examples
+
+Example: Variables and Data Types in Python # Integer variable student_count = 45 print(type(student_count)) # Output: <class 'int'> # Float variable average_score = 78.5 print(type(average_score)) # Output: <class 'float'> # String variable school_name = "Addis Ababa School" print(type(school_name)) # Output: <class 'str'> # Boolean variable is_passed = True print(type(is_passed)) # Output: <class 'bool'> # Type conversion examples age_string = "16" age_integer = int(age_string) print(age_integer + 5) # Output: 21 marks_float = 85.7 marks_integer = int(marks_float) print(marks_integer) # Output: 85 (truncated, not rounded)
+
