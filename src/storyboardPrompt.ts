@@ -87,14 +87,57 @@ If two concepts require separate explanations, keep them as separate scenes or c
 
 The final lesson should remain coherent and appropriate for the target grade level.`;
 
-export const DEFAULT_STORYBOARD_INSTRUCTION = COVERAGE_FIRST_STORYBOARD_INSTRUCTION;
+export const ICT_TEACHING_STORYBOARD_INSTRUCTION = `Create a detailed educational teaching video from the attached ICT Master Teaching Document.
+
+The document contains the authoritative course content from the LMS, relevant textbook material, and explicitly identified curriculum gaps.
+
+This must be a TEACHING VIDEO, not a summary video.
+
+Teach the student the concepts progressively.
+
+Start with the necessary context and definitions, then explain the concepts in a logical order.
+
+For every major concept, provide sufficient explanation for a student encountering the concept for the first time.
+
+Where the source provides a mechanism, process, comparison, procedure, example, application, or relationship between concepts, explain it rather than merely naming it.
+
+Use concrete ICT examples to make abstract concepts understandable.
+
+Preserve important technical terminology and explain it in student-friendly language.
+
+Cover every item under MUST-TEACH CONCEPTS.
+
+Cover every learning objective.
+
+Cover all required [ADDED GAP] content.
+
+Do not collapse multiple distinct concepts into one sentence merely to reduce scene count.
+
+Do not convert the lesson into a high-level summary.
+
+Use multiple scenes when necessary to properly teach a concept.
+
+A scene should have a clear teaching purpose.
+
+Prefer this instructional pattern when appropriate:
+
+introduce → explain → demonstrate/example → clarify → connect to next concept.
+
+Use the available video duration to teach the material adequately.
+
+Do not artificially shorten the lesson.
+
+The goal is student understanding and complete teaching coverage, not brevity.`;
+
+export const DEFAULT_STORYBOARD_INSTRUCTION = ICT_TEACHING_STORYBOARD_INSTRUCTION;
 
 /**
  * Returns the active Storyboard prompt instruction, allowing override via environment variable.
  */
-export function getStoryboardInstruction(overrideType?: "coverage-first" | "legacy" | string): string {
+export function getStoryboardInstruction(overrideType?: "ict-teaching" | "coverage-first" | "legacy" | string): string {
   if (overrideType === "legacy") return LEGACY_STORYBOARD_INSTRUCTION;
   if (overrideType === "coverage-first") return COVERAGE_FIRST_STORYBOARD_INSTRUCTION;
+  if (overrideType === "ict-teaching") return ICT_TEACHING_STORYBOARD_INSTRUCTION;
 
   const envPrompt = process.env.STORYBOARD_INSTRUCTION?.trim();
   if (envPrompt && envPrompt.length > 20) {

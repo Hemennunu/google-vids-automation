@@ -2,17 +2,24 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import type { SceneOutlineItem } from "./outlineCapture.js";
 
+export type CoverageStatus = "taught" | "under_explained" | "missing";
+
 export interface CoverageItemResult {
   concept: string;
   covered: boolean;
-  statusSymbol: string;
+  status: CoverageStatus;
+  statusSymbol: "✓" | "⚠" | "✗";
   matchedScenes: number[];
   matchedSnippet?: string;
+  explanationDepth?: string;
 }
 
 export interface CoverageReport {
   timestamp: string;
   totalMustCover: number;
+  taughtCount: number;
+  underExplainedCount: number;
+  missingCount: number;
   coveredCount: number;
   coveragePercentage: number;
   items: CoverageItemResult[];
@@ -34,36 +41,53 @@ function normalizeForMatch(str: string): string {
 }
 
 /**
- * Checks whether an item's keywords or key phrases appear in candidate text.
+ * Evaluates whether an item is thoroughly taught, briefly mentioned, or missing.
  */
-function checkItemMatch(item: string, text: string): { matched: boolean; snippet?: string } {
-  const normText = normalizeForMatch(text);
+function evaluateConceptTeachingDepth(
+  item: string,
+  matchingText: string,
+): { status: CoverageStatus; snippet: string } {
+  const normText = normalizeForMatch(matchingText);
   const cleanItem = item.replace(/^\[.*?\]\s*/, "").trim();
   const normItem = normalizeForMatch(cleanItem);
 
-  // Exact phrase match
-  if (normText.includes(normItem)) {
-    return { matched: true, snippet: `Direct match: "${cleanItem}"` };
-  }
+  const tokens = normItem
+    .split(/\s+/)
+    .filter((t) => t.length > 3 && !/^(with|from|that|this|these|those|into|about|role|definition|study)$/i.test(t));
 
-  // Token matching: extract non-trivial keywords
-  const tokens = normItem.split(/\s+/).filter((t) => t.length > 3 && !/^(with|from|that|this|these|those|into|about|role|definition|study)$/i.test(t));
   if (tokens.length === 0) {
-    const isPresent = normText.includes(normItem);
-    return { matched: isPresent };
+    if (normText.includes(normItem)) {
+      return { status: "taught", snippet: `Direct match: "${cleanItem}"` };
+    }
+    return { status: "missing", snippet: "Concept not found" };
   }
 
   const matchedTokens = tokens.filter((t) => normText.includes(t));
-  // If at least 60% of significant tokens appear, count as referenced
   const matchRatio = matchedTokens.length / tokens.length;
-  if (matchRatio >= 0.5) {
+
+  if (matchRatio < 0.4) {
+    return { status: "missing", snippet: "No significant keywords found" };
+  }
+
+  // Check explanatory depth indicators (explanation words, process, examples, definitions)
+  const explanatorySignals = [
+    "because", "works by", "such as", "for example", "process", "difference",
+    "defined as", "consists of", "steps", "translates", "converts", "mechanism",
+    "architecture", "hierarchy", "normalization", "protocol", "algorithm"
+  ];
+  const hasExplanatoryDetail = explanatorySignals.some((signal) => normText.includes(signal)) || matchingText.length > 120;
+
+  if (matchRatio >= 0.7 && hasExplanatoryDetail) {
     return {
-      matched: true,
-      snippet: `Keywords referenced: ${matchedTokens.join(", ")} (${Math.round(matchRatio * 100)}%)`,
+      status: "taught",
+      snippet: `Substantively taught (${Math.round(matchRatio * 100)}% keyword match with explanatory detail)`,
     };
   }
 
-  return { matched: false };
+  return {
+    status: "under_explained",
+    snippet: `Mentioned but under-explained (${Math.round(matchRatio * 100)}% keyword match; brief summary only)`,
+  };
 }
 
 /**
@@ -82,58 +106,72 @@ export async function checkContentCoverage(
 
   const ts = existingTimestamp || timestampString();
   const results: CoverageItemResult[] = [];
-  let coveredCount = 0;
+  let taughtCount = 0;
+  let underExplainedCount = 0;
+  let missingCount = 0;
 
   for (const item of mustCoverItems) {
     const matchedScenes: number[] = [];
-    let bestSnippet: string | undefined;
+    let combinedMatchingText = "";
 
     // Check individual scenes
     for (const sc of scenes) {
-      const match = checkItemMatch(item, `${sc.title} ${sc.text}`);
-      if (match.matched) {
+      const sceneCombined = `${sc.title} ${sc.text}`;
+      const evalResult = evaluateConceptTeachingDepth(item, sceneCombined);
+      if (evalResult.status !== "missing") {
         matchedScenes.push(sc.index);
-        if (!bestSnippet && match.snippet) {
-          bestSnippet = `Scene ${sc.index}: ${match.snippet}`;
-        }
+        combinedMatchingText += " " + sceneCombined;
       }
     }
 
-    // Check overall outline text if not matched in specific scenes
-    let covered = matchedScenes.length > 0;
-    if (!covered) {
-      const overallMatch = checkItemMatch(item, outlineText);
-      if (overallMatch.matched) {
-        covered = true;
-        bestSnippet = overallMatch.snippet || "Referenced in overall outline";
-      }
+    if (matchedScenes.length === 0 && outlineText) {
+      combinedMatchingText = outlineText;
     }
 
-    if (covered) coveredCount++;
+    const evaluation = evaluateConceptTeachingDepth(item, combinedMatchingText);
+    let statusSymbol: "✓" | "⚠" | "✗" = "✗";
+
+    if (evaluation.status === "taught") {
+      taughtCount++;
+      statusSymbol = "✓";
+    } else if (evaluation.status === "under_explained") {
+      underExplainedCount++;
+      statusSymbol = "⚠";
+    } else {
+      missingCount++;
+      statusSymbol = "✗";
+    }
+
+    const isCovered = evaluation.status !== "missing";
 
     results.push({
       concept: item,
-      covered,
-      statusSymbol: covered ? "✓" : "⚠",
+      covered: isCovered,
+      status: evaluation.status,
+      statusSymbol,
       matchedScenes,
-      matchedSnippet: bestSnippet,
+      matchedSnippet: evaluation.snippet,
+      explanationDepth: evaluation.status === "taught" ? "In-depth teaching" : evaluation.status === "under_explained" ? "High-level mention" : "Omitted",
     });
   }
 
   const total = mustCoverItems.length;
-  const percentage = total > 0 ? Math.round((coveredCount / total) * 100) : 100;
+  const coveredCount = taughtCount + underExplainedCount;
+  const percentage = total > 0 ? Math.round((taughtCount / total) * 100) : 100;
 
   // Build human-readable diagnostic report
   const lines: string[] = [];
-  lines.push("MUST-COVER CONTENT COVERAGE DIAGNOSTIC REPORT");
-  lines.push("=============================================");
-  lines.push(`Total Must-Cover Concepts: ${total}`);
-  lines.push(`Covered in Outline: ${coveredCount} / ${total} (${percentage}%)`);
+  lines.push("ICT MUST-TEACH CONTENT COVERAGE DIAGNOSTIC REPORT");
+  lines.push("=================================================");
+  lines.push(`Total Must-Teach Concepts: ${total}`);
+  lines.push(`✓ Substantively Taught: ${taughtCount} / ${total} (${percentage}%)`);
+  lines.push(`⚠ Mentioned but Under-Explained: ${underExplainedCount} / ${total}`);
+  lines.push(`✗ Missing / Omitted: ${missingCount} / ${total}`);
   lines.push("");
-  lines.push("Concept Status:");
+  lines.push("Concept Status Detail:");
   for (const res of results) {
     const sceneInfo = res.matchedScenes.length > 0 ? ` [Scenes: ${res.matchedScenes.join(", ")}]` : "";
-    lines.push(`${res.statusSymbol} ${res.concept}${sceneInfo}`);
+    lines.push(`${res.statusSymbol} [${res.status.toUpperCase()}] ${res.concept}${sceneInfo}`);
   }
   lines.push("");
   lines.push("Note: This is an educational diagnostic check, not a formal completeness guarantee.");
@@ -145,6 +183,9 @@ export async function checkContentCoverage(
   const report: CoverageReport = {
     timestamp: ts,
     totalMustCover: total,
+    taughtCount,
+    underExplainedCount,
+    missingCount,
     coveredCount,
     coveragePercentage: percentage,
     items: results,
