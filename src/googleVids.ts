@@ -1346,8 +1346,29 @@ export async function waitForDraftReady(page: Page): Promise<void> {
 
   const deadline = Date.now() + GENERATION_TIMEOUT_MS;
   let autoRetries = 0;
+  let lastProgress = "";
 
   while (Date.now() < deadline) {
+    // 0. Gemini's generation dialog ("Setting the scene…", "Polishing the frames…"
+    //    with a Cancel button) sits over an editor whose Play control is already
+    //    present — so wait for it to close before trusting any ready signal.
+    const progress = await page
+      .getByRole("dialog")
+      .filter({ has: page.getByRole("button", { name: /^cancel$/i }) })
+      .filter({ hasText: /…|\.\.\.|setting the scene|polishing|generating|writing|creating|adding|finding/i })
+      .first()
+      .textContent({ timeout: 500 })
+      .catch(() => null);
+    if (progress) {
+      const step = progress.replace(/\s+/g, " ").replace(/cancel/i, "").trim().slice(0, 60);
+      if (step !== lastProgress) {
+        log("info", `Gemini is still generating: "${step}"`);
+        lastProgress = step;
+      }
+      await page.waitForTimeout(2_000);
+      continue;
+    }
+
     // 1. Check for error banners / toasts / "Something went wrong"
     const errorElem = page
       .getByText(/something went wrong|unable to (generate|create)|couldn't (generate|create)|failed to create/i)
