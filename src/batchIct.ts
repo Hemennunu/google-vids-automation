@@ -174,6 +174,8 @@ async function main(): Promise<void> {
         videoFormat: "Landscape",
         scriptPath: doc.markdownPath,
         driveDocName: doc.driveName,
+        driveDocPath: doc.docxPath,
+        mustCoverItems: doc.mustCover.map((m) => m.item),
         storyboardInstruction: sectionStoryboardInstruction(s.grade, s.title),
         exporter,
         outputPath: videoPath,

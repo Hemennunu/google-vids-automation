@@ -8,6 +8,8 @@ import {
   chromium,
 } from "playwright";
 import { type VideoExporter, describeExportResult } from "./export/types.js";
+import { uploadToDrive } from "./drive/driveUpload.js";
+import { ensureOutlineCoverage } from "./verification/outlineCoverage.js";
 import {
   captureStoryboardOutline,
   type StoryboardOutlineData,
@@ -90,6 +92,8 @@ export type RunOptions = {
   storyboardInstruction?: string;
   /** Attach this Drive document (by name) with "@" instead of pasting the source text. */
   driveDocName?: string;
+  /** Local file of the Drive document; uploaded if the @ picker does not offer it. */
+  driveDocPath?: string;
 };
 
 export type FlowResult = {
@@ -782,7 +786,13 @@ async function fillPrompt(page: Page, script: string): Promise<void> {
  * added last and verified (a file chip in the prompt); nothing clears the prompt
  * afterwards. `driveName` must match the file name shown in the "@" picker.
  */
-export async function attachDriveDocument(page: Page, instruction: string, driveName: string): Promise<void> {
+export async function attachDriveDocument(
+  page: Page,
+  instruction: string,
+  driveName: string,
+  /** Called once if the picker does not offer the document (e.g. upload it to Drive). */
+  uploadIfMissing?: () => Promise<void>,
+): Promise<void> {
   await waitForStoryboardPromptSurface(page).catch(() => undefined);
   const input = await findPromptInput(page);
   await input.click();
@@ -799,17 +809,27 @@ export async function attachDriveDocument(page: Page, instruction: string, drive
     .filter({ hasText: new RegExp(escape(driveName.slice(0, 24)), "i") })
     .first();
   let offered = false;
+  let uploaded = false;
   for (let attempt = 1; attempt <= 8 && !offered; attempt++) {
     await input.click();
     await page.keyboard.press("Control+End");
-    await page.keyboard.type(` @${search}`, { delay: 40 });
-    offered = await option.waitFor({ state: "visible", timeout: 15_000 }).then(() => true, () => false);
+    // The picker only opens if "@" is typed on its own and given a moment;
+    // typing "@ICT_…" in one go never shows the suggestions.
+    await page.keyboard.type(" @");
+    await page.waitForTimeout(2_500);
+    await page.keyboard.type(search, { delay: 100 });
+    offered = await option.waitFor({ state: "visible", timeout: 12_000 }).then(() => true, () => false);
+    if (!offered && uploadIfMissing && !uploaded) {
+      log("info", `"${driveName}" is not offered by the @ picker — uploading it to Drive.`);
+      uploaded = true;
+      await uploadIfMissing();
+    }
     if (!offered) {
       log("info", `"${driveName}" not in the @ picker yet (attempt ${attempt}/8) — waiting for Drive to index it…`);
       // No Escape here: it closes the whole Gemini dialog, not just the suggestions.
       await input.click();
       await page.keyboard.press("Control+End");
-      for (let i = 0; i < search.length + 2; i++) await page.keyboard.press("Backspace");
+      for (let i = 0; i < search.length + 3; i++) await page.keyboard.press("Backspace");
       await page.waitForTimeout(20_000);
     }
   }
@@ -1081,11 +1101,11 @@ async function waitForDesignOrCreateStep(page: Page): Promise<void> {
 }
 
 function designTemplateIndexFromEnv(): number {
-  /** 1-based in env. Default 5 = center “three people / Your title bar” tile. */
+  /** 1-based in env. Default 1 = first tile in the design grid (project choice). */
   const raw = process.env.VIDS_DESIGN_INDEX?.trim();
-  const oneBased = raw ? Number.parseInt(raw, 10) : 5;
+  const oneBased = raw ? Number.parseInt(raw, 10) : 1;
   if (Number.isNaN(oneBased) || oneBased < 1) {
-    return 4;
+    return 0;
   }
   return oneBased - 1;
 }
@@ -1744,7 +1764,13 @@ export async function runGoogleVidsDraftFlow(
       const instruction = options.storyboardInstruction || getStoryboardInstruction();
 
       if (options.driveDocName) {
-        await attachDriveDocument(page, instruction, options.driveDocName);
+        const docPath = options.driveDocPath;
+        await attachDriveDocument(
+          page,
+          instruction,
+          options.driveDocName,
+          docPath ? () => uploadToDrive(page.context(), docPath) : undefined,
+        );
       } else {
         await attachDocumentAndInstruction(page, path.basename(docName), script, instruction);
       }
@@ -1754,16 +1780,30 @@ export async function runGoogleVidsDraftFlow(
       await waitForOutlineReady(page);
       await captureCheckpoint(page, "checkpoint-3-outline-generated");
 
-      // Capture outline
-      outlineData = await captureStoryboardOutline(
-        page,
-        path.basename(docName),
-        options.outputDir,
-      );
-      log("info", `Captured Storyboard outline with ${outlineData.scene_count} scenes.`);
+      if (options.driveDocName && options.mustCoverItems?.length) {
+        // Section-document route: make Gemini's outline cover every checklist
+        // item (missing ones get their own scene) before the draft is created.
+        const outline = await ensureOutlineCoverage(
+          page,
+          options.mustCoverItems,
+          path.parse(options.outputPath ?? options.driveDocName).name,
+        );
+        await captureCheckpoint(page, "checkpoint-3b-outline-completed");
+        if (outline.stillMissing.length) {
+          log("warn", `Outline still lacks: ${outline.stillMissing.join("; ")} — continuing; the final coverage report will show it.`);
+        }
+      } else {
+        // Capture outline
+        outlineData = await captureStoryboardOutline(
+          page,
+          path.basename(docName),
+          options.outputDir,
+        );
+        log("info", `Captured Storyboard outline with ${outlineData.scene_count} scenes.`);
+      }
 
-      // Check MUST-COVER CONTENT coverage
-      if (options.mustCoverItems && options.mustCoverItems.length > 0) {
+      // Check MUST-COVER CONTENT coverage (legacy outline diagnostic)
+      if (!options.driveDocName && outlineData && options.mustCoverItems && options.mustCoverItems.length > 0) {
         coverageReport = await checkContentCoverage(
           options.mustCoverItems,
           outlineData.raw_text,

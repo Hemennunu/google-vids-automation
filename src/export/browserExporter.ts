@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 import type { BrowserContext, Download, Locator, Page } from "playwright";
 import {
@@ -105,7 +106,7 @@ async function captureCdpDownload(page: Page, dir: string) {
       const deadline = Date.now() + timeoutMs;
       while (Date.now() < deadline) {
         const state = states.get(d.guid);
-        if (state === "completed") return path.join(dir, d.guid);
+        if (state === "completed") return locateDownloadedFile(dir, d.guid);
         if (state === "canceled") throw new Error("Chrome canceled the download.");
         await page.waitForTimeout(UI_POLL_MS);
       }
@@ -117,6 +118,28 @@ async function captureCdpDownload(page: Page, dir: string) {
       await cdp.detach().catch(() => undefined);
     },
   };
+}
+
+/**
+ * Chrome names the file by GUID in our folder — unless Playwright's own
+ * per-context download setting wins, in which case it lands in a
+ * "playwright-artifacts-…" folder under the system temp dir, named by the same
+ * GUID. Look in both (briefly, while it is renamed).
+ */
+async function locateDownloadedFile(dir: string, guid: string): Promise<string> {
+  const deadline = Date.now() + 30_000;
+  while (Date.now() < deadline) {
+    const candidates = [path.join(dir, guid)];
+    const tmp = os.tmpdir();
+    for (const entry of await fs.readdir(tmp).catch(() => [] as string[])) {
+      if (entry.startsWith("playwright-artifacts-")) candidates.push(path.join(tmp, entry, guid));
+    }
+    for (const file of candidates) {
+      if (await fs.access(file).then(() => true, () => false)) return file;
+    }
+    await new Promise((r) => setTimeout(r, 1_000));
+  }
+  throw new Error(`Download ${guid} completed but the file was not found in ${dir} or Playwright's temp folders.`);
 }
 
 /** Move a finished download into place via a .part name, then verify size. */

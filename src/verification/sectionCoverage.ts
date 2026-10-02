@@ -187,9 +187,9 @@ export async function readDraftContent(page: Page): Promise<{ scenes: string[]; 
 
 // ── Matching ─────────────────────────────────────────────────────
 
-const stem = (w: string) => w.replace(/(ing|ies|es|s)$/, "");
+export const stem = (w: string) => w.replace(/(ing|ies|es|s)$/, "");
 
-function isCovered(item: string, draftStems: Set<string>): { covered: boolean; matched: string[] } {
+export function isCovered(item: string, draftStems: Set<string>): { covered: boolean; matched: string[] } {
   const tokens = [...new Set(extractKeywords(item).map(stem))].filter((t) => t.length > 2);
   if (!tokens.length) return { covered: true, matched: [] };
   const matched = tokens.filter((t) => draftStems.has(t));

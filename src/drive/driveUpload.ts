@@ -19,7 +19,26 @@ export async function uploadToDrive(context: BrowserContext, filePath: string): 
     await (await chooserPromise).setFiles(filePath);
     const { size } = await fs.stat(filePath);
     log("info", `Uploading ${path.basename(filePath)} to Drive (${size} bytes)…`);
-    await page.getByText(/upload(s)? complete/i).first().waitFor({ timeout: 180_000 });
+
+    // Same name already in My Drive → Drive asks "Replace existing file / Keep both".
+    // Replace keeps one current copy per section (no stale duplicates in the @ picker).
+    const complete = page.getByText(/upload(s)? complete/i).first();
+    const replace = page.getByText(/replace existing file/i).first();
+    const deadline = Date.now() + 180_000;
+    let done = false;
+    while (Date.now() < deadline && !done) {
+      if (await complete.isVisible().catch(() => false)) {
+        done = true;
+        break;
+      }
+      if (await replace.isVisible().catch(() => false)) {
+        log("info", "File already in Drive — replacing it with the new version.");
+        await replace.click();
+        await page.getByRole("button", { name: /^upload$/i }).first().click();
+      }
+      await page.waitForTimeout(1_000);
+    }
+    if (!done) throw new Error(`Drive did not confirm the upload of ${path.basename(filePath)} within 3 minutes.`);
     log("info", "Drive confirmed the upload.");
   } finally {
     await page.close().catch(() => undefined);
