@@ -1,0 +1,122 @@
+{
+  "code": "ICT_G12_U02_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1f5fRW9aaafo-qX27o_3VeMXEsxK5LDHGuUDk81DzoqM/edit?scene=id.h7ef34dd251adec90_0_15#scene=id.h7ef34dd251adec90_0_15",
+  "subchapter": "Unit 2: 2.1, 2.2, 2.3, 2.4",
+  "scenes": 20,
+  "textbook": {
+    "covered": 3,
+    "total": 4
+  },
+  "lms": {
+    "covered": 5,
+    "total": 5
+  },
+  "coveragePercent": 89,
+  "missing": [
+    {
+      "item": "Introduction to Bigdata",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "introduction"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Introduction to Bigdata",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "introduction"
+      ]
+    },
+    {
+      "item": "Cloud Computing",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "cloud",
+        "comput"
+      ]
+    },
+    {
+      "item": "Fog Computing",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "fog",
+        "comput"
+      ]
+    },
+    {
+      "item": "Internet of Things (IoT)",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "internet",
+        "thing",
+        "iot"
+      ]
+    },
+    {
+      "item": "and the Internet of Things",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "internet",
+        "thing"
+      ]
+    },
+    {
+      "item": "Big Data",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "big",
+        "data"
+      ]
+    },
+    {
+      "item": "Service",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "service"
+      ]
+    },
+    {
+      "item": "unit",
+      "source": "lms",
+      "covered": true,
+      "matched": []
+    },
+    {
+      "item": "Fog Computing",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "fog",
+        "comput"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: abstract digital data visualization",
+      "Enormous network of computer folders and documents. Internet Cloud, Backup System (Provided by Getty Images)",
+      "query: cloud storage database",
+      "Technology Internet of things ( IOT )concept. (Provided by Getty Images)",
+      "query: edge network nodes",
+      "Graphs And Diagrams B (Provided by Getty Images)",
+      "query: abstract digital data visualization",
+      "Cloud computing Icon Moving Through Rack Servers in Data Center. (Provided by Getty Images)",
+      "query: cloud infrastructure icons",
+      "Cloud Computing and Cloud Services Distributed Network (Provided by Getty Images)",
+      "query: cloud computing network diagram"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "code": "ICT_G11_U03_S07",
+  "draftUrl": "https://docs.google.com/videos/d/1UCaNZ9PzoBK2XKbhlUhP0VB8-5WcrLSliZrwKm-vsV8/edit?scene=id.h296ac2761d8a20b2_0_16#scene=id.h296ac2761d8a20b2_0_16",
+  "subchapter": "3.3 Creating Relational Database in Microsoft Access",
+  "scenes": 23,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Creating Microsoft Access Database",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "microsoft",
+        "acces",
+        "database"
+      ]
+    },
+    {
+      "item": "Creating Table in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "table",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Creating Query in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "query",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Adding Criteria to Query Design",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "add",
+        "criteria",
+        "query",
+        "design"
+      ]
+    },
+    {
+      "item": "Selecting Data from Multiple Tables",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "select",
+        "data",
+        "multiple",
+        "tabl"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 15,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Quantum Computing is Revolutionizing Big Data Analytics (Provided by Getty Images)",
+      "query: normalized data structure",
+      "streaming numbers data and code background (Provided by Getty Images)",
+      "query: data error concept",
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: data structure diagram",
+      "SQL code loop background (Provided by Getty Images)",
+      "query: relational database design",
+      "Database developer using computer to write code on terminal window (Provided by Getty Images)",
+      "query: open database software on computer",
+      "Data center and security icon design, Video Animation (Provided by Getty Images)",
+      "query: data optimization chart"
+    ]
+  }
+}

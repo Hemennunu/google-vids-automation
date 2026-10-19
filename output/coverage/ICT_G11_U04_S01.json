@@ -1,0 +1,91 @@
+{
+  "code": "ICT_G11_U04_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1dPc0mK7GaWIxcr3wjjO_szY0Qfk1QJrPmyK80MhWd9o/edit?scene=id.h31d14dc56190c194_0_13#scene=id.h31d14dc56190c194_0_13",
+  "subchapter": "Unit 4: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6",
+  "scenes": 25,
+  "textbook": {
+    "covered": 6,
+    "total": 6
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "World Wide Web",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "world",
+        "wide",
+        "web"
+      ]
+    },
+    {
+      "item": "Website Design",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "website",
+        "design"
+      ]
+    },
+    {
+      "item": "HTML Basics",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "html",
+        "basic"
+      ]
+    },
+    {
+      "item": "HTML Links",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "html",
+        "link"
+      ]
+    },
+    {
+      "item": "HTML Tables",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "html",
+        "tabl"
+      ]
+    },
+    {
+      "item": "HTML Lists",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "html",
+        "list"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Technology Network Data Connection, Digital Data Network and Cyber Security Concept. Earth element furnished by Nasa. (Provided by Getty Images)",
+      "query: network diagram cloud",
+      "World network (Provided by Getty Images)",
+      "query: global network visualization",
+      "web development - UI UX designer working on new website wireframe (Provided by Getty Images)",
+      "query: website wireframe sketch",
+      "Information-technology-programming-language-text-- html (Provided by Getty Images)",
+      "query: text on screen Grade 11 ICT Web Development",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: html table code visualization",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: html5 code on dark screen"
+    ]
+  }
+}

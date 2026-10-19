@@ -1,0 +1,84 @@
+{
+  "code": "ICT_G11_U06_S01",
+  "draftUrl": "https://docs.google.com/videos/d/19O7UGV349I_xqPY7IR7CfThvRht0gU4VsoBWmdXdqpA/edit?scene=id.h105e8a5581fcb35f_0_13#scene=id.h105e8a5581fcb35f_0_13",
+  "subchapter": "Unit 6: 6.1, 6.2, 6.3, 6.4, 6.5",
+  "scenes": 19,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Types of Programming Languages",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "typ",
+        "programm",
+        "languag"
+      ]
+    },
+    {
+      "item": "Basics of Python",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "basic",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables and Data Types",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "data",
+        "typ"
+      ]
+    },
+    {
+      "item": "Statements and Expressions",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "statement",
+        "expression"
+      ]
+    },
+    {
+      "item": "Writing a Simple Program",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "writ",
+        "simple",
+        "program"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: computer programming languages",
+      "Code 2.2 Loging loading OS X system process (Provided by Getty Images)",
+      "query: computer interpreter process",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: computer screen showing python code",
+      "Students Learning In A Programming Class (Provided by Getty Images)",
+      "query: Ethiopian student studying computer science",
+      "4k Binary Data Flowing Through Program (White) (Provided by Getty Images)",
+      "query: coding syntax structure",
+      "Digital Hacker Program Coding Cyber Screen Futuristic Hacking Codes Loop Background (Provided by Getty Images)",
+      "query: text on screen Grade 11 ICT Fundamentals of Programming"
+    ]
+  }
+}

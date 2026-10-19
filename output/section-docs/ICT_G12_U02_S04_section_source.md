@@ -1,6 +1,7 @@
 # ICT_G12_U02_S04 — Big Data
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 2.1 Introduction to Bigdata.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Characteristics of Bigdata

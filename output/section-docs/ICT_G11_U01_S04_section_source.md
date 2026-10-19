@@ -1,6 +1,7 @@
 # ICT_G11_U01_S04 — Data, Information, Knowledge, and Wisdom — The DIKW Hierarchy
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 1.1 Data, Information, Knowledge, and Wisdom.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Data

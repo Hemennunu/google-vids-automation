@@ -83,10 +83,11 @@ export async function buildSectionDocument(code: string): Promise<SectionDocumen
   const textbookText = cleanTextbookText(side.text);
 
   const heading = `${code} — ${title}`;
+  const lessonArc = `Grade ${grade} ICT (Ethiopian curriculum). Textbook sub-chapter: ${side.label ?? "none matched"}.\nStructure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.`;
   const md = [
     `# ${heading}`,
     "",
-    `Grade ${grade} ICT (Ethiopian curriculum). Textbook sub-chapter: ${side.label ?? "none matched"}.`,
+    lessonArc,
     "",
     "## MUST-COVER CHECKLIST (teach every item)",
     ...mustCover.map((m) => `- ${m.item}`),
@@ -101,7 +102,7 @@ export async function buildSectionDocument(code: string): Promise<SectionDocumen
   const h = (text: string) => new Paragraph({ text, heading: HeadingLevel.HEADING_1, spacing: { before: 200, after: 100 } });
   const children: Paragraph[] = [
     new Paragraph({ text: heading, heading: HeadingLevel.TITLE }),
-    para(`Grade ${grade} ICT (Ethiopian curriculum). Textbook sub-chapter: ${side.label ?? "none matched"}.`),
+    para(lessonArc),
     h("MUST-COVER CHECKLIST (teach every item)"),
     ...mustCover.map((m) => para(`• ${m.item}`)),
     h("LMS LESSON (authoritative)"),

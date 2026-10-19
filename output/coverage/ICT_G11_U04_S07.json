@@ -1,0 +1,81 @@
+{
+  "code": "ICT_G11_U04_S07",
+  "draftUrl": "https://docs.google.com/videos/d/1D3Vt7fBmLHqtX75qLvqIHTpQpjWqlQU1kfCyk-bLv08/edit?scene=id.h214bd784a6f549a1_0_12#scene=id.h214bd784a6f549a1_0_12",
+  "subchapter": "4.4 HTML Links",
+  "scenes": 19,
+  "textbook": {
+    "covered": 2,
+    "total": 2
+  },
+  "lms": {
+    "covered": 3,
+    "total": 3
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Links to other Pages",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "link",
+        "pag"
+      ]
+    },
+    {
+      "item": "Links to Page Sections",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "link",
+        "page",
+        "section"
+      ]
+    },
+    {
+      "item": "Hyperlinks",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "hyperlink"
+      ]
+    },
+    {
+      "item": "Absolute paths",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "absolute",
+        "path"
+      ]
+    },
+    {
+      "item": "Relative paths",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relative",
+        "path"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Global communication - LOOPABLE (Provided by Getty Images)",
+      "query: global internet connectivity",
+      "SEO with digital technology concept (Provided by Getty Images)",
+      "query: link navigation to new page",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: HTML coding on a computer screen",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: HTML syntax code",
+      "Enormous network of computer folders and documents. Internet Cloud, Backup System (Provided by Getty Images)",
+      "query: folder structure file system",
+      "Monitor Screen of Dangerous Hacker Break into Government Data Servers and Infects Their System with a Virus (Provided by Getty Images)",
+      "query: computer directory"
+    ]
+  }
+}

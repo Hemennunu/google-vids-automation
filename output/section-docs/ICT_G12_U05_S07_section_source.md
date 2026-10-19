@@ -1,6 +1,7 @@
 # ICT_G12_U05_S07 — Network Troubleshooting
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 5.4 Network Troubleshooting.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Basic Network Problems

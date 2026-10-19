@@ -1,0 +1,192 @@
+{
+  "code": "ICT_G11_U01_S07",
+  "draftUrl": "https://docs.google.com/videos/d/1QlXgPhd6FGTKMSDn22UojmF4sbDfDc4PZVOQgpa5xTE/edit?scene=id.h3a77e8bd2f2cedd0_0_21#scene=id.h3a77e8bd2f2cedd0_0_21",
+  "subchapter": "1.4 IT for Entrepreneurship",
+  "scenes": 25,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 17,
+    "total": 17
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "a-service",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "a-service"
+      ]
+    },
+    {
+      "item": "Digital entrepreneurship specifically",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "digital",
+        "entrepreneurship",
+        "specifically"
+      ]
+    },
+    {
+      "item": "Technical competence",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "technical",
+        "competence"
+      ]
+    },
+    {
+      "item": "Business acumen",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "busines",
+        "acumen"
+      ]
+    },
+    {
+      "item": "Communication ability",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "communication",
+        "ability"
+      ]
+    },
+    {
+      "item": "information system",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Transaction Processing Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "transaction",
+        "process",
+        "system"
+      ]
+    },
+    {
+      "item": "Management Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "management",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Decision Support Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "decision",
+        "support",
+        "system"
+      ]
+    },
+    {
+      "item": "Executive Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "executive",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Local Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "local",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Wide Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wide",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Data security",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "security"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 20,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Creative digital development and start up business.group of ux developer and ui designer brainstorming about mobile app interface wireframe design on table with customer brief and color code at office. (Provided by Getty Images)",
+      "query: SaaS software interface diagram",
+      "Lesson in Robotics, Robot arm as a school science project. (Provided by Getty Images)",
+      "query: encouraging technology future",
+      "Internet Economy with digital technology concept (Provided by Getty Images)",
+      "query: digital economy technology",
+      "Business team of diverse people doing strategic planning work inside modern office - Entrepreneurship concept (Provided by Getty Images)",
+      "query: strategic growth chart",
+      "Weekly Business Planner Diagram with Graphs and Analytical Financial Infographics. White Interface with Blue and Yellow Charts. Mock-up Customer Management Service Template for Computer Displays. (Provided by Getty Images)",
+      "query: SaaS software interface diagram",
+      "Multiethnic Software Developers Writing Program Codes (Provided by Getty Images)",
+      "query: software developer writing code"
+    ]
+  }
+}

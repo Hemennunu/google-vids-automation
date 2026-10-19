@@ -1,0 +1,133 @@
+{
+  "code": "ICT_G11_U05_S05",
+  "draftUrl": "https://docs.google.com/videos/d/14PPpwgdEYLXwkYe_T7Yf8X97ItapVJh1TPwdxmq6mVc/edit?scene=id.h2a4a160e0947881b_0_15#scene=id.h2a4a160e0947881b_0_15",
+  "subchapter": "5.1 Hardware Troubleshooting",
+  "scenes": 18,
+  "textbook": {
+    "covered": 11,
+    "total": 11
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Hardware Troubleshooting Procedures",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "troubleshoot",
+        "procedur"
+      ]
+    },
+    {
+      "item": "Check POST",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "check",
+        "post"
+      ]
+    },
+    {
+      "item": "Beep Codes",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "beep",
+        "cod"
+      ]
+    },
+    {
+      "item": "BIOS Information",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "bio",
+        "information"
+      ]
+    },
+    {
+      "item": "CMOS Error",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "cmo",
+        "error"
+      ]
+    },
+    {
+      "item": "Event Viewer",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "event",
+        "viewer"
+      ]
+    },
+    {
+      "item": "Application",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application"
+      ]
+    },
+    {
+      "item": "System",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "system"
+      ]
+    },
+    {
+      "item": "Security",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "security"
+      ]
+    },
+    {
+      "item": "Hardware Problems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "problem"
+      ]
+    },
+    {
+      "item": "Diagnostic Tools",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "diagnostic",
+        "tool"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Electrician Works On Equipment (Provided by Getty Images)",
+      "query: hardware troubleshooting tools",
+      "Electrician technician at work on a residential electric system. Construction industry. (Provided by Getty Images)",
+      "query: technician replacing CMOS battery",
+      "Code 2.1 Loging loading OS X system process (Provided by Getty Images)",
+      "query: BIOS configuration screen",
+      "4k abstract music sound wave or audio wavefrom isolated on black background.Line digital minimalist voice and soundtrack wave equalizer.Shape line volume or speech symbol animated background. (Provided by Getty Images)",
+      "query: electronic beep sound visualization",
+      "Circuit board repair. Electronic hardware modern technology. Motherboard digital personal computer chip. Tech science background. Integrated communication processor. Information engineering component (Provided by Getty Images)",
+      "query: hardware troubleshooting tools",
+      "Repairman repairing computer in service center with the help of a Microscope. (Provided by Getty Images)",
+      "Circuit board repair. Electronic hardware modern technology. Motherboard digital personal computer chip. Tech science background. Integrated communication processor. Information engineering component (Provided by Getty Images)"
+    ]
+  }
+}

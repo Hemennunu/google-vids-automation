@@ -1,6 +1,7 @@
 # ICT_G11_U02_S05 — Augmented Reality and Virtual Reality
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 2.2 Augmented Reality and Virtual Reality.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Augmented Reality

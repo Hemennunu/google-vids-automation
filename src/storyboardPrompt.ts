@@ -93,9 +93,10 @@ The document contains the authoritative course content from the LMS, relevant te
 
 This must be a TEACHING VIDEO, not a summary video.
 
-Teach the student the concepts progressively.
-
-Start with the necessary context and definitions, then explain the concepts in a logical order.
+STRUCTURE REQUIREMENTS:
+1. START WITH A WELCOME: Scene 1 must warmly welcome the students to the section and introduce the section topic and key learning goals.
+2. CORE TEACHING: Teach the student the concepts progressively. Start with the necessary context and definitions, then explain the concepts in a logical order with clear examples.
+3. END WITH A CONCLUSION: The final scene must provide a clear, inspiring conclusion and summary for the section, reviewing key takeaways.
 
 For every major concept, provide sufficient explanation for a student encountering the concept for the first time.
 
@@ -136,8 +137,10 @@ The goal is student understanding and complete teaching coverage, not brevity.`;
 export const ICT_SECTION_STORYBOARD_INSTRUCTION = [
   "Create a complete teaching video for Grade {GRADE} ICT students in Ethiopia on \"{TITLE}\",",
   "using the attached source document as the complete and authoritative content.",
-  "Teach EVERY item in its MUST-COVER CHECKLIST, each with a clear explanation and an example;",
-  "use as many scenes as needed and do not merge or skip items to shorten the video.",
+  "Structure the video with a complete lesson arc: Scene 1 must warmly welcome students to the section and introduce the topic;",
+  "teach EVERY item in its MUST-COVER CHECKLIST, each with a clear explanation and an example in logical order;",
+  "and conclude the final scene with a clear summary and ending wrap-up for this section.",
+  "Use as many scenes as needed and do not merge or skip items to shorten the video.",
   "Follow the LMS lesson and the textbook content; do not invent facts.",
   "Visuals: choose each image or clip to show the concept the scene teaches (e.g. a database table,",
   "a network diagram, a robot arm, code on a screen); do not add people where the concept does not need them.",

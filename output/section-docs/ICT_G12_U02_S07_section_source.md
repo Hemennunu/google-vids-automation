@@ -1,6 +1,7 @@
 # ICT_G12_U02_S07 — Internet of Things (IoT)
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 2.4 Internet of Things (IoT).
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Major advantages of IoT

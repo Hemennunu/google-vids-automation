@@ -1,6 +1,7 @@
 # ICT_G12_U01_S12 — Unit Summary
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 1: 1.1, 1.2, 1.3, 1.4, 1.5.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Ethical, Legal, Social, Environmental and Health Issues in

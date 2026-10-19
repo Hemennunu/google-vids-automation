@@ -1,0 +1,113 @@
+{
+  "code": "ICT_G11_U06_S04",
+  "draftUrl": "https://docs.google.com/videos/d/15D46yy1_PZXtEQY2Fkmk3SMh_LlFR9XUh87k3f6nm6Q/edit?scene=id.h6638c9bf6b93e143_0_13#scene=id.h6638c9bf6b93e143_0_13",
+  "subchapter": "6.1 Types of Programming Languages",
+  "scenes": 24,
+  "textbook": {
+    "covered": 2,
+    "total": 2
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Types of Programming Languages",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "typ",
+        "programm",
+        "languag"
+      ]
+    },
+    {
+      "item": "Syntax and Semantics",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "syntax",
+        "semantic"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Python programs",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python",
+        "program"
+      ]
+    },
+    {
+      "item": "Variables in Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl"
+      ]
+    },
+    {
+      "item": "Functions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "function"
+      ]
+    },
+    {
+      "item": "Lists",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "list"
+      ]
+    },
+    {
+      "item": "Items",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "item"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Futuristic technology conception motion graphic (Provided by Getty Images)",
+      "query: abstract digital technology",
+      "software developer programming code, looped abstract animation. computer script big data concept. animated tech background. binary code, digits, numbers, virtual reality. Programming language typing (Provided by Getty Images)",
+      "query: computer science educational background",
+      "Programming source code abstract background (Provided by Getty Images)",
+      "query: abstract digital technology",
+      "Female Software Developer Coding on Desktop Computer (Provided by Getty Images)",
+      "query: software programmer working",
+      "agile management concept (Provided by Getty Images)",
+      "query: algorithm flow chart",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: data list array structure"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # ICT_G11_U04_S09 — HTML Lists
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 4.6 HTML Lists.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Ordered List

@@ -1,0 +1,191 @@
+{
+  "code": "ICT_G11_U01_S07",
+  "draftUrl": "https://docs.google.com/videos/d/1EjfDt9siL8RCMRPbD6PIX08GuUtVSHZLx57XW6fTqOo/edit?scene=id.h3f25615ff02aced5_0_15#scene=id.h3f25615ff02aced5_0_15",
+  "subchapter": "1.4 IT for Entrepreneurship",
+  "scenes": 18,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 17,
+    "total": 17
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "a-service",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "a-service"
+      ]
+    },
+    {
+      "item": "Digital entrepreneurship specifically",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "digital",
+        "entrepreneurship"
+      ]
+    },
+    {
+      "item": "Technical competence",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "technical",
+        "competence"
+      ]
+    },
+    {
+      "item": "Business acumen",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "busines",
+        "acumen"
+      ]
+    },
+    {
+      "item": "Communication ability",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "communication",
+        "ability"
+      ]
+    },
+    {
+      "item": "information system",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Transaction Processing Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "transaction",
+        "process",
+        "system"
+      ]
+    },
+    {
+      "item": "Management Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "management",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Decision Support Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "decision",
+        "support",
+        "system"
+      ]
+    },
+    {
+      "item": "Executive Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "executive",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Local Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "local",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Wide Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wide",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Data security",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "security"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 2,
+    "samples": [
+      "Digital cyberspace futuristic background, Digital Data Network with lines and dots connection, Technology network abstract background Concept. (Provided by Getty Images)",
+      "query: abstract digital technology icon",
+      "Startup, team and brainstorming for project, planning and modern office with employees, talking and documents. Company, staff and teamwork with collaboration, laptop and share ideas for sales growth (Provided by Getty Images)",
+      "query: successful young African professionals working together",
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: digital data network graphic",
+      "Cyber Security, Digital Data Network Protection, Future Technology Digital Data Network Connection Blue Background Concept. (Provided by Getty Images)",
+      "query: digital data network graphic",
+      "Deriving new ideas (Provided by Getty Images)",
+      "query: data information knowledge wisdom concept",
+      "Using Atm Machine (Provided by Getty Images)",
+      "query: bank ATM interface"
+    ]
+  }
+}

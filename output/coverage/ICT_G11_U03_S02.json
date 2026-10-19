@@ -1,0 +1,99 @@
+{
+  "code": "ICT_G11_U03_S02",
+  "draftUrl": "https://docs.google.com/videos/d/1oRNelgGCQuILS4xqMSg0suBOQ2v1uVt_wtb0J0DfdBc/edit?scene=id.h10294b3dda835a8e_0_12#scene=id.h10294b3dda835a8e_0_12",
+  "scenes": 19,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Databases",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "databas"
+      ]
+    },
+    {
+      "item": "Relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    },
+    {
+      "item": "begins with an Entity-Relationship",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "begin",
+        "entity-relationship"
+      ]
+    },
+    {
+      "item": "Cardinality specifies whether relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "cardinality",
+        "specif",
+        "relationship"
+      ]
+    },
+    {
+      "item": "Structured Query Language",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "structured",
+        "query",
+        "language"
+      ]
+    },
+    {
+      "item": "Database Management Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "management",
+        "system"
+      ]
+    },
+    {
+      "item": "Database administrators",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "administrator"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "4K Business Success Infographics. Symbolizing Economical Growth (Provided by Getty Images)",
+      "query: data integrity infographic",
+      "Multiethnic Software Developers Writing Program Codes (Provided by Getty Images)",
+      "query: SQL code on computer screen",
+      "Servers with digital technology hitech concept (Provided by Getty Images)",
+      "query: IT infrastructure management",
+      "Teacher Explains Lesson To His Computer Science Class. He uses Interactive Whiteboard. (Provided by Getty Images)",
+      "query: ER diagram student course teacher",
+      "Happy children learn programming using laptops on extracurricular classes.Young children smiling joyfully.Cute pupil using computer with teacher at the elementary school.Education, children, technology, science and people concept.Education Topics (Provided by Getty Images)",
+      "query: students using computers in Ethiopia",
+      "Business Data Audit Spreadsheet (Provided by Getty Images)",
+      "query: structured data in a spreadsheet"
+    ]
+  }
+}

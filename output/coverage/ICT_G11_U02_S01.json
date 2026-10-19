@@ -1,0 +1,64 @@
+{
+  "code": "ICT_G11_U02_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1APyHhGD0HoQz8Pu4Yl8P-K8-smiurVgjLzbrzAMchTg/edit?scene=id.h21dc4c5cd0cfd4f7_0_8#scene=id.h21dc4c5cd0cfd4f7_0_8",
+  "subchapter": "Unit 2: 2.1, 2.2, 2.3",
+  "scenes": 14,
+  "textbook": {
+    "covered": 3,
+    "total": 3
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Artificial Intelligence",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "artificial",
+        "intelligence"
+      ]
+    },
+    {
+      "item": "Augmented Reality and Virtual Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "augmented",
+        "reality",
+        "virtual"
+      ]
+    },
+    {
+      "item": "Data Science",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 7,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "5G/6G and AI technology, Global communication network concept. 6G Business graph. Global business. (Provided by Getty Images)",
+      "query: global technology competition concept",
+      "Artificial Intelligence creating. Abstract concept of cyber technology, machine learning, robot brain (Provided by Getty Images)",
+      "query: abstract AI brain concept",
+      "Artificial Intelligence Technology - 4K Resolution (Provided by Getty Images)",
+      "query: artificial intelligence processor chip",
+      "Futuristic Augmented Reality (AR) Technology Transforming Warehousing (Provided by Getty Images)",
+      "query: tablet interface showing AR",
+      "Interior Designer Using a VR Software to Design a Home, Try Different Colors, Move Furniture in Interactive Environment. Female Engineer Using Virtual Reality Headset and Controllers for Her Project. (Provided by Getty Images)",
+      "query: immersive 360 degree environment",
+      "Team of Computer Engineers Work on Machine Learning Neural Network Technology Development. (Provided by Getty Images)",
+      "query: data science analytics software"
+    ]
+  }
+}

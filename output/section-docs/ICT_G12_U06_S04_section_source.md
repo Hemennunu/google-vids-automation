@@ -1,6 +1,7 @@
 # ICT_G12_U06_S04 — Program Flow Controls – Conditionals
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.1 Program Flow Controls and Syntax in Python.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Conditionals Program Flow Controls

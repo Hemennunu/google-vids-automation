@@ -1,0 +1,146 @@
+{
+  "code": "ICT_G11_U06_S06",
+  "draftUrl": "https://docs.google.com/videos/d/1NIcHgpjcr_Pf2r7vINEDMuEFVsTZSptVKv0ntKBtisM/edit?scene=id.h64959f1f2facffde_0_23#scene=id.h64959f1f2facffde_0_23",
+  "subchapter": "6.3 Variables and Data Types",
+  "scenes": 27,
+  "textbook": {
+    "covered": 4,
+    "total": 4
+  },
+  "lms": {
+    "covered": 9,
+    "total": 9
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Variables",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "variabl"
+      ]
+    },
+    {
+      "item": "Identifier",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "identifier"
+      ]
+    },
+    {
+      "item": "Data Types",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "typ"
+      ]
+    },
+    {
+      "item": "Data Type Conversion",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "type",
+        "conversion"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Python programs",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python",
+        "program"
+      ]
+    },
+    {
+      "item": "Variables in Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl"
+      ]
+    },
+    {
+      "item": "Functions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "function"
+      ]
+    },
+    {
+      "item": "Lists",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "list"
+      ]
+    },
+    {
+      "item": "Items",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "item"
+      ]
+    },
+    {
+      "item": "Python strings",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python",
+        "string"
+      ]
+    },
+    {
+      "item": "Booleans",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "boolean"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 22,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Data Imports with digital technology concept (Provided by Getty Images)",
+      "query: immutable data concept",
+      "Big Data 2.1 Searching Process in Big Data Array (Provided by Getty Images)",
+      "query: programming text data",
+      "Code 2.2 Loging loading OS X system process (Provided by Getty Images)",
+      "query: explicit code command",
+      "Footage of Programming code abstract technology background for software developer and Computer script concept (Provided by Getty Images)",
+      "query: high level programming concept",
+      "Futuristic Hacker interface with HUD and infographic elements (Provided by Getty Images)",
+      "query: programming line by line",
+      "Software Engineering Visions: Creative higher-level of software architecture, design patterns, and software testing . She will embrace the essence of software architecture and expert design patterns. (Provided by Getty Images)",
+      "query: high level programming concept"
+    ]
+  }
+}

@@ -13,9 +13,25 @@ export async function uploadToDrive(context: BrowserContext, filePath: string): 
   try {
     await page.goto("https://drive.google.com/drive/my-drive", { waitUntil: "domcontentloaded" });
     if (/accounts\.google\.com/.test(page.url())) throw new Error("Not signed in to Google Drive.");
-    await page.getByRole("button", { name: /^new$/i }).first().click();
+    let newBtn = page.getByRole("button", { name: /^new$/i }).first();
+    const isVis = await newBtn.isVisible().catch(() => false);
+    if (!isVis) {
+      const fallback = page.locator('button[aria-label*="New" i], button[data-tooltip*="New" i], div[role="button"][aria-label*="New" i], [data-target="new-menu"]').first();
+      if (await fallback.isVisible({ timeout: 15_000 }).catch(() => false)) {
+        newBtn = fallback;
+      }
+    }
+    await newBtn.waitFor({ state: "visible", timeout: 30_000 });
+    for (let i = 0; i < 30; i++) {
+      const disabled = await newBtn.getAttribute("aria-disabled").catch(() => null);
+      if (disabled !== "true") break;
+      await page.waitForTimeout(500);
+    }
+    await newBtn.click();
     const chooserPromise = page.waitForEvent("filechooser", { timeout: 20_000 });
-    await page.getByRole("menuitem", { name: /file upload/i }).first().click();
+    const uploadItem = page.locator('[role="menuitem"]').filter({ hasText: /file upload/i }).first();
+    await uploadItem.waitFor({ state: "visible", timeout: 15_000 });
+    await uploadItem.click();
     await (await chooserPromise).setFiles(filePath);
     const { size } = await fs.stat(filePath);
     log("info", `Uploading ${path.basename(filePath)} to Drive (${size} bytes)…`);

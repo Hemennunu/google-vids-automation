@@ -1,0 +1,64 @@
+{
+  "code": "ICT_G11_U02_S10",
+  "draftUrl": "https://docs.google.com/videos/d/1Ola-OJV4PQfum1aHfPOAPsbbKvQAVprXFr8p8_b_urE/edit?scene=id.h144b77eea4a6fa06_0_12#scene=id.h144b77eea4a6fa06_0_12",
+  "scenes": 17,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 3,
+    "total": 3
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "HTML elements",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "html",
+        "element"
+      ]
+    },
+    {
+      "item": "HTML Code This",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "html",
+        "code"
+      ]
+    },
+    {
+      "item": "Examination SkillsFor extended essay questions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "examination",
+        "extended",
+        "essay",
+        "question"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "University / high school class with students (Provided by Getty Images)",
+      "query: classroom learning environment",
+      "Information-technology-programming-language-text-- html (Provided by Getty Images)",
+      "query: web development abstract",
+      "laptop computer screen, browsing the Internet.2d flat animation (Provided by Getty Images)",
+      "query: web design title screen",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: html tags syntax",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: computer screen showing programming documentation",
+      "4K Close up shot programming tag code on PC Monitor (Provided by Getty Images)",
+      "query: coding opening and closing tags"
+    ]
+  }
+}

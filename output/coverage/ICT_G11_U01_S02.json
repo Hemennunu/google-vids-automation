@@ -1,0 +1,270 @@
+{
+  "code": "ICT_G11_U01_S02",
+  "draftUrl": "https://docs.google.com/videos/d/1OPbtf25pKClt4Q_ydVvd7jbC0ViHkjzKwXzmVmyjrh8/edit?scene=id.h662e3f18ef1baa54_0_20#scene=id.h662e3f18ef1baa54_0_20",
+  "subchapter": "1.3 Applications of Information System",
+  "scenes": 29,
+  "textbook": {
+    "covered": 14,
+    "total": 14
+  },
+  "lms": {
+    "covered": 12,
+    "total": 12
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "E-Government",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "e-government"
+      ]
+    },
+    {
+      "item": "E-banking",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "e-bank"
+      ]
+    },
+    {
+      "item": "E-learning",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "e-learn"
+      ]
+    },
+    {
+      "item": "Flexibility in learning time",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "flexibility",
+        "learn",
+        "time"
+      ]
+    },
+    {
+      "item": "Rich multimedia learning resources",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "rich",
+        "multimedia",
+        "learn",
+        "resourc"
+      ]
+    },
+    {
+      "item": "Reduced educational costs",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "reduced",
+        "educational",
+        "cost"
+      ]
+    },
+    {
+      "item": "E-commerce",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "e-commerce"
+      ]
+    },
+    {
+      "item": "Avoiding intermediaries",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "avoid",
+        "intermediar"
+      ]
+    },
+    {
+      "item": "Convenience",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "convenience"
+      ]
+    },
+    {
+      "item": "Global reach",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "global",
+        "reach"
+      ]
+    },
+    {
+      "item": "Telemedicine",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "telemedicine"
+      ]
+    },
+    {
+      "item": "Teleconference",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "teleconference"
+      ]
+    },
+    {
+      "item": "Audio conference",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "audio",
+        "conference"
+      ]
+    },
+    {
+      "item": "Video conference",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "video",
+        "conference"
+      ]
+    },
+    {
+      "item": "information system",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Transaction Processing Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "transaction",
+        "process",
+        "system"
+      ]
+    },
+    {
+      "item": "Management Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "management",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Decision Support Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "decision",
+        "support",
+        "system"
+      ]
+    },
+    {
+      "item": "Executive Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "executive",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Local Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "local",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Wide Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wide",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Data security",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "security"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 19,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Business Data Audit Spreadsheet (Provided by Getty Images)",
+      "query: Raw data spreadsheet",
+      "Motion infographic HUD. Colorful infographics interface with alpha channel (Provided by Getty Images)",
+      "query: Infographic animation",
+      "Technology Network Background Concept. Digital, Communication And Technology Network Background. (Provided by Getty Images)",
+      "query: Technological connectivity abstract",
+      "Computer Operating System Design Interface with Working Terminal UI Showing Code and OS Safety and Stability. OS with Various System Icons, Email and Internet Browser (Provided by Getty Images)",
+      "query: Security firewall interface",
+      "Cybercriminal employees education (Provided by Getty Images)",
+      "query: E-government online portal",
+      "Child Girl Attending Online Class For School, Remote Education, e-learning Concept (Provided by Getty Images)",
+      "query: Multimedia online classroom"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # ICT_G11_U03_S13 — Unit Summary
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 3: 3.1, 3.2, 3.3.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Data Management Approaches

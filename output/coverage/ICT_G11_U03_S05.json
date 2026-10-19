@@ -1,0 +1,145 @@
+{
+  "code": "ICT_G11_U03_S05",
+  "draftUrl": "https://docs.google.com/videos/d/10VTvcsGp9qPlRM481xl9XbrSS2vOX7Lmk8UcjvarkjU/edit?scene=id.h5e38cc054b1e0cdd_0_25#scene=id.h5e38cc054b1e0cdd_0_25",
+  "subchapter": "3.2 Data Model",
+  "scenes": 33,
+  "textbook": {
+    "covered": 7,
+    "total": 7
+  },
+  "lms": {
+    "covered": 3,
+    "total": 4
+  },
+  "coveragePercent": 91,
+  "missing": [
+    {
+      "item": "Entity-Relationship Diagram",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "diagram"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Basic Concepts in Data Modelling",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "basic",
+        "concept",
+        "data",
+        "modell"
+      ]
+    },
+    {
+      "item": "One-to-one relationship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "one-to-one",
+        "relationship"
+      ]
+    },
+    {
+      "item": "One-to-many relation",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "one-to-many",
+        "relation"
+      ]
+    },
+    {
+      "item": "Many-to-many relationship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "many-to-many",
+        "relationship"
+      ]
+    },
+    {
+      "item": "Entity Relationship Diagram",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "entity",
+        "relationship",
+        "diagram"
+      ]
+    },
+    {
+      "item": "Relational Data Model",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "relational",
+        "data",
+        "model"
+      ]
+    },
+    {
+      "item": "Relational Database",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "relational",
+        "database"
+      ]
+    },
+    {
+      "item": "Entity-Relationship Diagram",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "diagram"
+      ]
+    },
+    {
+      "item": "Attributes",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "attribut"
+      ]
+    },
+    {
+      "item": "Foreign keys",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "foreign",
+        "key"
+      ]
+    },
+    {
+      "item": "Relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 24,
+    "ethiopiaOrAfrica": 3,
+    "samples": [
+      "High school students in school computer lab (Provided by Getty Images)",
+      "query: Ethiopian high school students in computer lab",
+      "Business Infographic Screen Presentation (Provided by Getty Images)",
+      "query: data management software UI",
+      "Data Strategy with digital technology concept (Provided by Getty Images)",
+      "query: data organization concept",
+      "Junior High School Students Learning to Computer Program (Provided by Getty Images)",
+      "query: Ethiopian high school students in computer lab",
+      "Elementary School Learning: Students Studying Together in Class. Kindergarte. Back to School. Education. Knowledge (Provided by Getty Images)",
+      "query: school registration database table",
+      "internet of things, background from the chaotically slow moving connected things (Provided by Getty Images)",
+      "query: diagram of data relationships"
+    ]
+  }
+}

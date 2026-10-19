@@ -1,6 +1,7 @@
 # ICT_G11_U04_S05 — Website Design Principles
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 4.2 Website Design.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 

@@ -1,6 +1,7 @@
 # ICT_G12_U07_S05 — Main Lesson Content
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: none matched.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Different paradigms

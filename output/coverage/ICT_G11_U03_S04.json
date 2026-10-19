@@ -1,0 +1,158 @@
+{
+  "code": "ICT_G11_U03_S04",
+  "draftUrl": "https://docs.google.com/videos/d/1iLJjMKrDMI0Inthcw3cw35iw_CCqMTE2I3fCtB9tyO8/edit?scene=id.h7dd819b9a21d667f_0_16#scene=id.h7dd819b9a21d667f_0_16",
+  "subchapter": "3.1 Data Management Approaches",
+  "scenes": 20,
+  "textbook": {
+    "covered": 6,
+    "total": 6
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "File based data management",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "file",
+        "data",
+        "management"
+      ]
+    },
+    {
+      "item": "Database approach to data management",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "database",
+        "approach",
+        "data",
+        "management"
+      ]
+    },
+    {
+      "item": "Data independence",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "independence"
+      ]
+    },
+    {
+      "item": "Data sharing",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "shar"
+      ]
+    },
+    {
+      "item": "Avoiding data redundancy",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "redundancy"
+      ]
+    },
+    {
+      "item": "Improved data security",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "improved",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "item": "Databases",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "databas"
+      ]
+    },
+    {
+      "item": "Relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    },
+    {
+      "item": "begins with an Entity-Relationship",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "begin",
+        "entity-relationship"
+      ]
+    },
+    {
+      "item": "Cardinality specifies whether relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "cardinality",
+        "specif",
+        "relationship"
+      ]
+    },
+    {
+      "item": "Structured Query Language",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "structured",
+        "query",
+        "language"
+      ]
+    },
+    {
+      "item": "Database Management Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "management",
+        "system"
+      ]
+    },
+    {
+      "item": "Database administrators",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "administrator"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 15,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "City network technology (Provided by Getty Images)",
+      "query: digital transformation abstract",
+      "Paying the Bills (Provided by Getty Images)",
+      "query: file folders on office desk",
+      "Monitor Screen of Dangerous Hacker Break into Government Data Servers and Infects Their System with a Virus (Provided by Getty Images)",
+      "query: separate data folders on computer screen",
+      "looking graphics with finance and the progress of the company (Provided by Getty Images)",
+      "query: summary checklist graphic",
+      "DATABASE (Provided by Getty Images)",
+      "query: digital presentation slide conclusion",
+      "Lock Icon Cyber Security, Digital Data Network Protection, Future Technology Network Background Concept. (Provided by Getty Images)",
+      "query: secure digital padlock icon"
+    ]
+  }
+}

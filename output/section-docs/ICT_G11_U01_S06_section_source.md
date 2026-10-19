@@ -1,6 +1,7 @@
 # ICT_G11_U01_S06 — Applications of Information Systems
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 1.3 Applications of Information System.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - E-Government

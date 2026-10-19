@@ -1,6 +1,7 @@
 # ICT_G11_U04_S08 — HTML Tables
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 4.5 HTML Tables.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Monday

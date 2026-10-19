@@ -1,6 +1,7 @@
 # ICT_G11_U06_S07 — Operators
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.5 Writing a Simple Program.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Interpreter

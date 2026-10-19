@@ -1,6 +1,7 @@
 # ICT_G12_U03_S04 — Overview of Relational Database Management Systems
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 3: 3.1, 3.2.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Overview of Relational Database Management System

@@ -1,0 +1,126 @@
+{
+  "code": "ICT_G11_U02_S05",
+  "draftUrl": "https://docs.google.com/videos/d/1rSqxnk21KZA0hoHBtpXaN27Lsta1tR8dEbXI_5WmulM/edit?scene=id.h3fd1bab0cee9c2b3_0_15#scene=id.h3fd1bab0cee9c2b3_0_15",
+  "subchapter": "2.2 Augmented Reality and Virtual Reality",
+  "scenes": 20,
+  "textbook": {
+    "covered": 6,
+    "total": 7
+  },
+  "lms": {
+    "covered": 3,
+    "total": 3
+  },
+  "coveragePercent": 90,
+  "missing": [
+    {
+      "item": "The Difference between VR and AR",
+      "source": "textbook",
+      "covered": false,
+      "matched": []
+    }
+  ],
+  "items": [
+    {
+      "item": "Augmented Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "augmented",
+        "reality"
+      ]
+    },
+    {
+      "item": "Virtual Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "virtual",
+        "reality"
+      ]
+    },
+    {
+      "item": "The Difference between VR and AR",
+      "source": "textbook",
+      "covered": false,
+      "matched": []
+    },
+    {
+      "item": "Application of VR and AR",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application"
+      ]
+    },
+    {
+      "item": "Education",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "education"
+      ]
+    },
+    {
+      "item": "Healthcare",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "healthcare"
+      ]
+    },
+    {
+      "item": "Entertainment",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "entertainment"
+      ]
+    },
+    {
+      "item": "Augmented Reality",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "augmented",
+        "reality"
+      ]
+    },
+    {
+      "item": "and Virtual Reality",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "virtual",
+        "reality"
+      ]
+    },
+    {
+      "item": "Mixed Reality",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "mixed",
+        "reality"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Technology Supertrends terms (Provided by Getty Images)",
+      "query: summary icons emerging tech",
+      "Augmented Reality and 3D Car Design (Provided by Getty Images)",
+      "query: augmented reality concept",
+      "Futuristic Augmented Reality (AR) Technology Transforming Warehousing (Provided by Getty Images)",
+      "query: museum artifact with digital information",
+      "Futuristic concept man interacting virtual reality goggles (Provided by Getty Images)",
+      "query: augmented reality concept",
+      "Woman Wearing Virtual Reality Simulator Headset On White Background (Provided by Getty Images)",
+      "query: AR and VR in education",
+      "Online to social media with VR mask (Provided by Getty Images)",
+      "query: virtual reality environment"
+    ]
+  }
+}

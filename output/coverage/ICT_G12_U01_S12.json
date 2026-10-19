@@ -1,0 +1,97 @@
+{
+  "code": "ICT_G12_U01_S12",
+  "draftUrl": "https://docs.google.com/videos/d/1AQ0QPrlBhZFC2zbnxPKC67pJXP6890SbqXhHFME5sYc/edit?scene=id.h5c70f606e0dfdfd_0_16#scene=id.h5c70f606e0dfdfd_0_16",
+  "subchapter": "Unit 1: 1.1, 1.2, 1.3, 1.4, 1.5",
+  "scenes": 23,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Ethical, Legal, Social, Environmental and Health Issues in",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "ethical",
+        "legal",
+        "social",
+        "environmental",
+        "health",
+        "issu"
+      ]
+    },
+    {
+      "item": "Intellectual Property",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "intellectual",
+        "property"
+      ]
+    },
+    {
+      "item": "Digital Identity Management",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "digital",
+        "identity",
+        "management"
+      ]
+    },
+    {
+      "item": "Collaboration Through Digital Technologies",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "collaboration",
+        "digital",
+        "technolog"
+      ]
+    },
+    {
+      "item": "Engaging in Citizenship through Digital Technologies",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "engag",
+        "citizenship",
+        "digital",
+        "technolog"
+      ]
+    },
+    {
+      "item": "relationship between what",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 15,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "4K Technologic Background - Loopable (Provided by Getty Images)",
+      "query: abstract technology background",
+      "Laptop, digital marketing or creative employees in a meeting planning SEO strategy, advertising or branding on website. Collaboration, team work or young people working on a startup or group project (Provided by Getty Images)",
+      "query: diverse group of people working",
+      "Cloud Computing and Cloud Services Distributed Network (Provided by Getty Images)",
+      "query: cloud computing diagram",
+      "Corporate business team discussing together in conference room, Teamwork meeting at office (Provided by Getty Images)",
+      "query: cloud computing diagram",
+      "Technology Patents Related Terms (Provided by Getty Images)",
+      "query: intellectual property concept",
+      "Marketing planning team in the quarter (Provided by Getty Images)",
+      "query: productivity graph"
+    ]
+  }
+}

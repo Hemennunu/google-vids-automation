@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-02T19:06:59.377Z",
+  "error": "page.waitForTimeout: Target page, context or browser has been closed",
+  "url": "https://docs.google.com/videos/d/1AkVui50xcL1Dy9zj4sFNIJJ4406_mWNtMpAAyzBGVII/edit?scene=id.h2a48fc39427e3300_0_13#scene=id.h2a48fc39427e3300_0_13",
+  "title": "",
+  "dialogs": [],
+  "alerts": [],
+  "menuItems": [],
+  "buttons": [],
+  "consoleErrors": []
+}

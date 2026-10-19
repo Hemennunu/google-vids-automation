@@ -1,0 +1,100 @@
+{
+  "code": "ICT_G11_U03_S11",
+  "draftUrl": "https://docs.google.com/videos/d/1hQc6H7d_uIraTsV4-hRdY0xxI4veCQT82VwY6vbrBLs/edit?scene=id.hc6d011e84ae89f6_0_24#scene=id.hc6d011e84ae89f6_0_24",
+  "scenes": 31,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Databases",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "databas"
+      ]
+    },
+    {
+      "item": "Relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    },
+    {
+      "item": "begins with an Entity-Relationship",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "begin",
+        "entity-relationship"
+      ]
+    },
+    {
+      "item": "Cardinality specifies whether relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "cardinality",
+        "specif",
+        "whether",
+        "relationship"
+      ]
+    },
+    {
+      "item": "Structured Query Language",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "structured",
+        "query",
+        "language"
+      ]
+    },
+    {
+      "item": "Database Management Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "management",
+        "system"
+      ]
+    },
+    {
+      "item": "Database administrators",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "administrator"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 23,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Animation of data processing and diagram over server room (Provided by Getty Images)",
+      "query: relational database diagram",
+      "Big data visualization concept. Machine learning algorithms. Analysis of information. Technology data and binary code network conveying connectivity. (Provided by Getty Images)",
+      "query: big data abstract visualization",
+      "World network (Provided by Getty Images)",
+      "query: data connection visualization",
+      "SQL code loop background (Provided by Getty Images)",
+      "query: relational database diagram",
+      "School Kids Learning Programming with Help of Male Teacher (Provided by Getty Images)",
+      "query: Grade 11 ICT classroom Ethiopia",
+      "Smart city and communication network concept. Digital transformation. IoT Internet of Things. ICT Information Communication Technology. (Provided by Getty Images)",
+      "query: key technology takeaways"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "code": "ICT_G11_U04_S06",
+  "draftUrl": "https://docs.google.com/videos/d/1x9osf-PEMEIL7AToQx-kCRJEs46AjxO2ZEATzCmXxKY/edit?scene=id.h2dfb2e69c2f74430_0_14#scene=id.h2dfb2e69c2f74430_0_14",
+  "subchapter": "4.3 HTML Basics",
+  "scenes": 21,
+  "textbook": {
+    "covered": 3,
+    "total": 3
+  },
+  "lms": {
+    "covered": 3,
+    "total": 3
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "HTML Tags and Elements",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "html",
+        "tag",
+        "element"
+      ]
+    },
+    {
+      "item": "Structure of HTML Documents",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "structure",
+        "html",
+        "document"
+      ]
+    },
+    {
+      "item": "HTML Attributes",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "html",
+        "attribut"
+      ]
+    },
+    {
+      "item": "Document Type Declaration",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "document",
+        "declaration"
+      ]
+    },
+    {
+      "item": "Paragraphs",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "paragraph"
+      ]
+    },
+    {
+      "item": "Images",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "imag"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 13,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Customizing Promo  - Web design Infographics (Provided by Getty Images)",
+      "query: html headings hierarchy",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: html document structure diagram",
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: html5 code snippet",
+      "Responsive website content (Provided by Getty Images)",
+      "query: website content layout",
+      "Simple HTML code animation, programming process. Blue screen background (Provided by Getty Images)",
+      "query: html closing tag example",
+      "Code Programming (Provided by Getty Images)",
+      "query: web development project success"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # ICT_G11_U06_S08 — Conditional Statements: if, elif, else
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.4 Statements and Expressions.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 

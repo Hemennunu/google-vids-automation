@@ -1,6 +1,7 @@
 # ICT_G11_U03_S06 — Entity-Relationship (ER) Diagrams
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 3.2 Data Model.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Basic Concepts in Data Modelling

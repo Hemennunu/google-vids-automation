@@ -1,0 +1,202 @@
+{
+  "code": "ICT_G11_U06_S09",
+  "draftUrl": "https://docs.google.com/videos/d/1VFbQwkpwW_FHBIT5W1GODiY2dLwdOCo87q5xuiPp15Y/edit?scene=id.h33f6f1e7293aaa2_0_14#scene=id.h33f6f1e7293aaa2_0_14",
+  "subchapter": "6.5 Writing a Simple Program",
+  "scenes": 23,
+  "textbook": {
+    "covered": 12,
+    "total": 12
+  },
+  "lms": {
+    "covered": 8,
+    "total": 8
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Interpreter",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "interpreter"
+      ]
+    },
+    {
+      "item": "Compiler",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "compiler"
+      ]
+    },
+    {
+      "item": "Machine Language",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "machine",
+        "language"
+      ]
+    },
+    {
+      "item": "Assembly Language",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "assembly",
+        "language"
+      ]
+    },
+    {
+      "item": "Statement",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "statement"
+      ]
+    },
+    {
+      "item": "Syntax",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "syntax"
+      ]
+    },
+    {
+      "item": "Operator",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "operator"
+      ]
+    },
+    {
+      "item": "Semantics",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "semantic"
+      ]
+    },
+    {
+      "item": "IDLE shell",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "idle",
+        "shell"
+      ]
+    },
+    {
+      "item": "The sum",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "sum"
+      ]
+    },
+    {
+      "item": "The product",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "product"
+      ]
+    },
+    {
+      "item": "The average value",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "average",
+        "value"
+      ]
+    },
+    {
+      "item": "Iteration",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "iteration"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Python programs",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python",
+        "program"
+      ]
+    },
+    {
+      "item": "Variables in Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl"
+      ]
+    },
+    {
+      "item": "Functions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "function"
+      ]
+    },
+    {
+      "item": "Lists",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "list"
+      ]
+    },
+    {
+      "item": "Items",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "item"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 13,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Teacher Explaining Scheme on Chalkboard to Kids (Provided by Getty Images)",
+      "query: programming language types diagram",
+      "Binary Keywords C++ White (Provided by Getty Images)",
+      "query: binary code 0 and 1",
+      "Teacher Speaking about Programming on Lecture in Computer Class (Provided by Getty Images)",
+      "query: text on computer screen saying mastering iteration and python",
+      "Coding Data Green (Provided by Getty Images)",
+      "query: clean code structure",
+      "Math equations flying and disappearing in distance (Provided by Getty Images)",
+      "query: mathematical operators in code",
+      "Developer type Python py programming code on laptop screen (Provided by Getty Images)",
+      "query: text on computer screen saying mastering iteration and python"
+    ]
+  }
+}

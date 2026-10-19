@@ -1,0 +1,43 @@
+{
+  "code": "ICT_G12_U02_S02",
+  "draftUrl": "https://docs.google.com/videos/d/156BA23-pxsuPZvjLnd1EClIDJ3wfLSSSa0SFu7U41hE/edit?scene=id.h75152c1eb69f415a_0_15#scene=id.h75152c1eb69f415a_0_15",
+  "scenes": 17,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Service",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "service"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 2,
+    "samples": [
+      "Students Learning In A Programing Class (Provided by Getty Images)",
+      "query: modern technology learning environment",
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: digital data streams visualization",
+      "Cyber Security, Digital Data Network Protection, Future Technology Digital Data Network Connection Blue Background Concept. (Provided by Getty Images)",
+      "query: futuristic digital technology background",
+      "Business Infographic Screen Presentation (Provided by Getty Images)",
+      "Digital Futuristic abstract background  Motion graphics digital design for Business technology and science (Provided by Getty Images)",
+      "query: big data analytics dashboard",
+      "query: abstract technology connection lines",
+      "Cloud Computing and Cloud Services Distributed Network (Provided by Getty Images)",
+      "query: cloud computing infrastructure diagram"
+    ]
+  }
+}

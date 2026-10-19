@@ -1,6 +1,7 @@
 # ICT_G12_U04_S06 — Publishing a Website
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 4.3 Publishing Website.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - What is the name of the website?

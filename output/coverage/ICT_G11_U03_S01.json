@@ -1,0 +1,67 @@
+{
+  "code": "ICT_G11_U03_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1SbdYJ-DgQ_OtMQAJZGIV81vFkWehRLrxVfKfyeF6C1Y/edit?scene=id.h730fdf396e6a2b11_0_13#scene=id.h730fdf396e6a2b11_0_13",
+  "subchapter": "Unit 3: 3.1, 3.2, 3.3",
+  "scenes": 18,
+  "textbook": {
+    "covered": 3,
+    "total": 3
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data Management Approaches",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "management",
+        "approach"
+      ]
+    },
+    {
+      "item": "Data Model",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "model"
+      ]
+    },
+    {
+      "item": "Creating Relational Database in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "relational",
+        "database",
+        "microsoft",
+        "acces"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Junior High School Students Learning to Computer Program (Provided by Getty Images)",
+      "query: computer science lecture notes",
+      "Enormous network of computer folders and documents. Internet Cloud, Backup System (Provided by Getty Images)",
+      "query: data management system",
+      "Electronic Publications (Provided by Getty Images)",
+      "query: Grade 11 ICT textbook cover",
+      "MachineLearning Network (Provided by Getty Images)",
+      "query: relationship lines between data entities",
+      "BIG DATA with digital technology concept (Provided by Getty Images)",
+      "query: structured data map",
+      "SQL with digital technology concept (Provided by Getty Images)",
+      "query: database table visualization"
+    ]
+  }
+}

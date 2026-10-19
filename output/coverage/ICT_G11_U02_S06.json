@@ -1,0 +1,188 @@
+{
+  "code": "ICT_G11_U02_S06",
+  "draftUrl": "https://docs.google.com/videos/d/1mkcy8jh2mX7blM32v--8w6TS72JARkf7tfWpEyv9ZdU/edit?scene=id.h4b184c73ff364d00_0_18#scene=id.h4b184c73ff364d00_0_18",
+  "subchapter": "2.3 Data Science",
+  "scenes": 26,
+  "textbook": {
+    "covered": 6,
+    "total": 7
+  },
+  "lms": {
+    "covered": 9,
+    "total": 9
+  },
+  "coveragePercent": 94,
+  "missing": [
+    {
+      "item": "Datata generalization",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "generalization"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Virtual Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "virtual",
+        "reality"
+      ]
+    },
+    {
+      "item": "Sentiment Analysis",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "sentiment",
+        "analysi"
+      ]
+    },
+    {
+      "item": "Augmented Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "augmented",
+        "reality"
+      ]
+    },
+    {
+      "item": "Datata generalization",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "generalization"
+      ]
+    },
+    {
+      "item": "Big data",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "big",
+        "data"
+      ]
+    },
+    {
+      "item": "Expert Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "expert",
+        "system"
+      ]
+    },
+    {
+      "item": "Data Science",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    },
+    {
+      "item": "Data science",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    },
+    {
+      "item": "Artificial intelligence",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "artificial",
+        "intelligence"
+      ]
+    },
+    {
+      "item": "Machine learning",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "machine",
+        "learn"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Internet of Things",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "internet",
+        "thing"
+      ]
+    },
+    {
+      "item": "Ethical considerations",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "ethical",
+        "consideration"
+      ]
+    },
+    {
+      "item": "Algorithmic bias",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "algorithmic",
+        "bia"
+      ]
+    },
+    {
+      "item": "Exploratory Data Analysis",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "exploratory",
+        "data",
+        "analysi"
+      ]
+    },
+    {
+      "item": "Big data",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "big",
+        "data"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 17,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Data Science. IT Administrator Activating Modern Data Center Server with Hologram. (Provided by Getty Images)",
+      "query: large dataset structure",
+      "Computer Brain Interface (Provided by Getty Images)",
+      "query: digital human expert interface",
+      "AI and Machine Learning background concept (Provided by Getty Images)",
+      "query: machine learning pattern recognition",
+      "Data Analysis with digital technology concept (Provided by Getty Images)",
+      "query: data science concept map",
+      "Graphs And Diagrams A (Provided by Getty Images)",
+      "query: grouping data categories visualization",
+      "BIG DATA with digital technology concept (Provided by Getty Images)",
+      "query: data velocity volume variety veracity concept"
+    ]
+  }
+}

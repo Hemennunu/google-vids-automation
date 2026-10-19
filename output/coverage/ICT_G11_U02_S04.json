@@ -1,47 +1,41 @@
 {
   "code": "ICT_G11_U02_S04",
-  "draftUrl": "https://docs.google.com/videos/d/1EUZFBPNxT5rNXH3imTOfs1_XUN2yycwvt4UVe0lqjQc/edit",
+  "draftUrl": "https://docs.google.com/videos/d/15w-Kss6fptJUHu0cnMU4qJ1en0sQqVt-rhK3VG8HAvY/edit?scene=id.h513232a2781c234d_0_15#scene=id.h513232a2781c234d_0_15",
   "subchapter": "2.1 Artificial Intelligence",
-  "scenes": 15,
+  "scenes": 16,
   "textbook": {
-    "covered": 20,
+    "covered": 23,
     "total": 23
   },
   "lms": {
-    "covered": 11,
+    "covered": 9,
     "total": 11
   },
-  "coveragePercent": 91,
+  "coveragePercent": 94,
   "missing": [
     {
-      "item": "Branches of AI",
-      "source": "textbook",
+      "item": "Ethical considerations",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "ethical"
+      ]
+    },
+    {
+      "item": "Robots",
+      "source": "lms",
       "covered": false,
       "matched": []
-    },
-    {
-      "item": "Text Summarization",
-      "source": "textbook",
-      "covered": false,
-      "matched": [
-        "text"
-      ]
-    },
-    {
-      "item": "Space Exploration",
-      "source": "textbook",
-      "covered": false,
-      "matched": [
-        "space"
-      ]
     }
   ],
   "items": [
     {
       "item": "Branches of AI",
       "source": "textbook",
-      "covered": false,
-      "matched": []
+      "covered": true,
+      "matched": [
+        "branch"
+      ]
     },
     {
       "item": "Machine Learning",
@@ -112,15 +106,17 @@
       "covered": true,
       "matched": [
         "fake",
-        "new"
+        "new",
+        "identification"
       ]
     },
     {
       "item": "Text Summarization",
       "source": "textbook",
-      "covered": false,
+      "covered": true,
       "matched": [
-        "text"
+        "text",
+        "summarization"
       ]
     },
     {
@@ -203,9 +199,10 @@
     {
       "item": "Space Exploration",
       "source": "textbook",
-      "covered": false,
+      "covered": true,
       "matched": [
-        "space"
+        "space",
+        "exploration"
       ]
     },
     {
@@ -281,10 +278,9 @@
     {
       "item": "Ethical considerations",
       "source": "lms",
-      "covered": true,
+      "covered": false,
       "matched": [
-        "ethical",
-        "consideration"
+        "ethical"
       ]
     },
     {
@@ -317,10 +313,8 @@
     {
       "item": "Robots",
       "source": "lms",
-      "covered": true,
-      "matched": [
-        "robot"
-      ]
+      "covered": false,
+      "matched": []
     },
     {
       "item": "Expert systems",
@@ -334,20 +328,20 @@
   ],
   "stock": {
     "total": 14,
-    "ethiopiaOrAfrica": 4,
+    "ethiopiaOrAfrica": 1,
     "samples": [
-      "Artificial Intelligence Quantum Computer Technology Concept (Provided by Getty Images)",
-      "query: diverse Ethiopian professionals using AI technology",
-      "Technology Internet of Things and Networking Concept (Provided by Getty Images)",
-      "query: Digital ethical considerations concept icons",
-      "Highly Detailed Neural Network / Artificial Intelligence (Blue) - Loop (Provided by Getty Images)",
-      "query: Machine learning visualization with neural network nodes",
-      "robot machine on artificial intelligence (Provided by Getty Images)",
-      "query: Industrial robotic arm in an assembly line setting",
-      "Chatbot with digital technology concept (Provided by Getty Images)",
-      "query: automated customer service chatbot interface on laptop",
-      "Big data Internet of Things animation viral videos, apps, social media profiles visualizations flying through space, seamless loop, concept of blockchain, IoT, Influencers network metaverse, AI, communities (Provided by Getty Images)",
-      "query: Social media digital icons and analytics dashboard"
+      "AI Learning and Artificial Intelligence Concept. Business, modern technology, internet and networking concept. (Provided by Getty Images)",
+      "query: technology innovation abstract glow",
+      "Busy Heavy Equipment Factory With Multiple Machines and Robotics (Provided by Getty Images)",
+      "query: robotic arm assembly line",
+      "Data Tech Flow Natural Language Processing (Provided by Getty Images)",
+      "query: natural language processing speech to text",
+      "Artificial intelligence head symbol abstract loopable (Provided by Getty Images)",
+      "query: digital data bias abstract representation",
+      "Autonomous driving system, sensors for object detection, and the vehicle in front,A self-driving car, futuristic style (Provided by Getty Images)",
+      "query: autonomous self driving car sensor view",
+      "Electronics Factory Digitalization: Automated Robot Arm Assembly Line Manufacturing Advanced Equipment. Managers Discussing Work while Futuristic AI Computer Vision Analyzing, Scanning Production Line (Provided by Getty Images)",
+      "query: robotic arm assembly line"
     ]
   }
 }

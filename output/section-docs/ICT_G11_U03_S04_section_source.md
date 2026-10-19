@@ -1,6 +1,7 @@
 # ICT_G11_U03_S04 — Data Management Approaches: File-Based vs DBMS
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 3.1 Data Management Approaches.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - File based data management

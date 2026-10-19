@@ -1,0 +1,155 @@
+{
+  "code": "ICT_G11_U03_S14",
+  "draftUrl": "https://docs.google.com/videos/d/1KuV7ixFzIdnI3rlTGLL1zh3-7dFvuTuHb4HCUYrWBFI/edit?scene=id.h33596302269ddfa_0_18#scene=id.h33596302269ddfa_0_18",
+  "subchapter": "Unit 3: 3.1, 3.2, 3.3",
+  "scenes": 23,
+  "textbook": {
+    "covered": 3,
+    "total": 3
+  },
+  "lms": {
+    "covered": 8,
+    "total": 9
+  },
+  "coveragePercent": 92,
+  "missing": [
+    {
+      "item": "begins with an Entity-Relationship",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "entity-relationship"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Data Management Approaches",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "management",
+        "approach"
+      ]
+    },
+    {
+      "item": "Data Model",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "model"
+      ]
+    },
+    {
+      "item": "Creating Relational Database in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "relational",
+        "database",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Databases",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "databas"
+      ]
+    },
+    {
+      "item": "Relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    },
+    {
+      "item": "begins with an Entity-Relationship",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "entity-relationship"
+      ]
+    },
+    {
+      "item": "Cardinality specifies whether relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "cardinality",
+        "specif",
+        "relationship"
+      ]
+    },
+    {
+      "item": "Structured Query Language",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "structured",
+        "query",
+        "language"
+      ]
+    },
+    {
+      "item": "Database Management Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "management",
+        "system"
+      ]
+    },
+    {
+      "item": "Database administrators",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "database",
+        "administrator"
+      ]
+    },
+    {
+      "item": "ER diagrams",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "diagram"
+      ]
+    },
+    {
+      "item": "Entities",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "entit"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 17,
+    "ethiopiaOrAfrica": 2,
+    "samples": [
+      "Big data with digital technology concept (Provided by Getty Images)",
+      "query: Data model architecture diagram",
+      "International Connection HD Video (Provided by Getty Images)",
+      "query: Entity relationship connector lines",
+      "Data center concept with workers (Provided by Getty Images)",
+      "query: Concept of structured data storage",
+      "SQL with digital technology concept (Provided by Getty Images)",
+      "query: Database management system software interface",
+      "Cyber attacks on a network (Provided by Getty Images)",
+      "query: Data points connecting digital network",
+      "People communication network and ICT (Provided by Getty Images)",
+      "query: Flowchart of relational data links"
+    ]
+  }
+}

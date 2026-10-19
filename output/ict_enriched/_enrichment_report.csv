@@ -1,3 +1,183 @@
 code,grade,unit,section,title,lms_words,textbook_words_added,gap_terms_count,gap_terms_sample,textbook_pages
-ICT_G11_U01_S01,11,01,01,Unit Overview,123,0,0,,None (Textbook not yet OCR-indexed)
-ICT_G11_U01_S02,11,01,02,Learning Objectives,503,0,0,,None (Textbook not yet OCR-indexed)
+ICT_G12_U01_S01,12,01,01,Unit 1: Information Systems and Their Applications,578,861,9,Program Flow Controls; Conditionals Program Flow Controls; Iteration Program Flow Controls; Python Interpreter; Debugging Programs,Pages 6–9
+ICT_G12_U01_S02,12,01,02,Unit 1: Learning Objectives,230,861,9,"Unit Six
+Fundamentals; Program Flow Controls; Conditionals Program Flow Controls; Iteration Program Flow Controls; Python Interpreter",Pages 6–9
+ICT_G12_U01_S06,12,01,06,Worked Examples,565,816,6,"Applications
+Review Questions
+Part; Write True; NOT; Enterprise Resource Planning System; Copyright
+Part",Pages 30–33
+ICT_G12_U01_S09,12,01,09,Worked Examples,565,816,6,"Applications
+Review Questions
+Part; Write True; NOT; Enterprise Resource Planning System; Copyright
+Part",Pages 30–33
+ICT_G12_U01_S12,12,01,12,Unit Summary,490,813,6,"Grand Ethiopian Renaissance
+Dam; GERD; Grand Ethiopian Renaissance Dam
+Activity; Write True; NOT",Pages 29–32
+ICT_G12_U01_S13,12,01,13,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U02_S01,12,02,01,Unit Overview,596,792,5,"Bigdata
+Brainstorming; See Figure; In 	Bigdata; Bigdata
+Figure; Bigdata
+Bigdata",Pages 34–37
+ICT_G12_U02_S02,12,02,02,Learning Objectives,436,1121,9,"See Figure; Cyber Bullying; Cyber Bulling; Gaming Addiction; Addiction
+Figure",Pages 12–15
+ICT_G12_U02_S04,12,02,04,Big Data,633,981,12,"Learning Outcomes
+At; Unit Overview
+Emerging Technology; Emerging Technologies; Bigdata
+Brainstorming; See Figure",Pages 35–38
+ICT_G12_U02_S05,12,02,05,Cloud Computing,600,1317,10,"Unit Summary
+In; NOT; User Interface; Robotics
+Part; Smart Cities",Pages 61–64
+ICT_G12_U02_S06,12,02,06,Fog Computing,615,1317,13,"Emerging Technologies
+Activity; Unit Summary
+In; Emerging Technologies
+Review Questions
+Part; NOT; User Interface",Pages 61–64
+ICT_G12_U02_S07,12,02,07,Internet of Things (IoT),695,1027,5,"Artificial Intelligence; See Figure; Links
+Refer; Google Home; Some Limitations",Pages 53–56
+ICT_G12_U02_S08,12,02,08,Worked Examples,677,1321,8,"Emerging Technologies
+Smart; Optional Individual Case Study; Use
+Industry; Emerging Technologies
+Activity; Unit Summary
+In",Pages 60–63
+ICT_G12_U02_S09,12,02,09,Practical Investigation,297,670,15,"NOT; User Interface; Windows Azure; Robotics
+Part; Smoke Detector",Pages 63–66
+ICT_G12_U02_S10,12,02,10,Cambridge AS Level Extension,623,1031,9,"Bigdata
+Bigdata; Links
+Unit; Textbook Introduction; Bigdata
+Brainstorming; Ethiopian Airlines",Pages 37–40
+ICT_G12_U02_S11,12,02,11,Unit Summary,515,1321,3,Application Areas; NOT; User Interface,Pages 60–63
+ICT_G12_U02_S12,12,02,12,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U03_S01,12,03,01,Unit 3: Database Management System,566,744,15,SELECT; COURSE; FROM; WHERE; AND,Pages 100–103
+ICT_G12_U03_S02,12,03,02,Unit 3: Database Management System,422,807,12,"Emerging Technologies
+Part; Case Study; Unit Overview
+In; In Grade; RDBMS",Pages 65–68
+ICT_G12_U03_S04,12,03,04,Section 3.1: Overview of Relational Database Management Systems,965,980,13,"Learning Outcomes
+At; DDL; DML; DQL; In Grade",Pages 66–69
+ICT_G12_U03_S05,12,03,05,Section 3.2: Database Manipulation Using SQL,823,744,15,COURSE; FROM; WHERE; AND; Grade 	Semester,Pages 100–103
+ICT_G12_U03_S06,12,03,06,Section 3.3: Worked Examples,649,1321,14,"Emerging Technologies
+Smart; Optional Individual Case Study; Use
+Industry; Area 	Use
+Home 	Control; Health 	Remote",Pages 60–63
+ICT_G12_U03_S07,12,03,07,Section 3.4: Practical Investigation,436,954,15,"Applications
+Collaborative; Digital Collaboration; Microsoft Teams; Google Meet; Cisco
+Webex",Pages 26–29
+ICT_G12_U03_S08,12,03,08,Section 3.5: Cambridge AS Level Extension,614,925,13,See Figure; HTML; CSS; Web Authoring; World Wide Web,Pages 131–134
+ICT_G12_U03_S09,12,03,09,Unit 3 Summary,580,773,9,The Course; COURSE; FROM; WHERE; Grade 	Semester,Pages 99–102
+ICT_G12_U03_S10,12,03,10,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U04_S01,12,04,01,Unit 4: Web Authoring,491,1347,10,DTD; Entity References; PCDATA; SSL; HTTPS,Pages 136–139
+ICT_G12_U04_S02,12,04,02,Unit 4: Web Authoring,447,1050,15,ERD; Entity Relationship Diagram; ALTER; INSERT; INTO,Pages 105–108
+ICT_G12_U04_S04,12,04,04,Introduction to XML,439,896,10,"Learning Outcomes
+At; Unit Overview; My Heading; RTF; PDF",Pages 106–109
+ICT_G12_U04_S05,12,04,05,HTML vs XML,456,1247,8,Type Declaration; DTD; Entity References; PCDATA; SSL,Pages 135–138
+ICT_G12_U04_S06,12,04,06,Publishing a Website,529,925,8,See Figure; HTML; CSS; URL; HTTPS,Pages 131–134
+ICT_G12_U04_S07,12,04,07,Worked Examples,314,996,13,"Emerging Technologies; Some Limitations; Emerging Technologies
+Complexity; Higher Cost; How Does",Pages 56–59
+ICT_G12_U04_S08,12,04,08,Practical Investigation,115,954,15,"Information Systems; Applications
+Collaborative; Digital Collaboration; Microsoft Teams; Google Meet",Pages 26–29
+ICT_G12_U04_S09,12,04,09,Cambridge AS Level Extension,382,925,8,See Figure; WWW; URL; HTTPS; HTTP,Pages 131–134
+ICT_G12_U04_S10,12,04,10,Unit Summary,499,1155,5,DTD; Entity References; PCDATA; SSL; HTTPS,Pages 134–137
+ICT_G12_U04_S11,12,04,11,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U05_S01,12,05,01,Unit 5: Maintenance and Troubleshooting — Unit Overview,322,837,15,"Web Authoring; XML; HTML; III; Code Writing
+Take",Pages 140–143
+ICT_G12_U05_S02,12,05,02,Unit 5: Learning Objectives,328,837,15,"Web Authoring; XML; HTML; III; Code Writing
+Take",Pages 140–143
+ICT_G12_U05_S04,12,05,04,Section 5.1: Install and Uninstall Software,592,1205,5,"Troubleshooting
+Multimeter; See Figure; Multimeter
+Unit Summary
+In; III; Case Study",Pages 166–169
+ICT_G12_U05_S05,12,05,05,Section 5.2: Software Troubleshooting,490,1020,7,"See Figure; Scenario
+Once; Action
+Come; Solution
+Now; TCP",Pages 160–163
+ICT_G12_U05_S06,12,05,06,Section 5.3: Tools to Speed Up a Computer,522,778,3,"Tip
+If; See Figure; Troubleshooting
+Figure",Pages 151–154
+ICT_G12_U05_S07,12,05,07,Section 5.4: Network Troubleshooting,390,806,2,"See
+Figure; LAN",Pages 156–159
+ICT_G12_U05_S08,12,05,08,Section 5.5: Network Maintenance Tools,487,837,10,"Troubleshooting
+The; Windows Transmission
+Control 	Protocol; Internet 	Protocol; TCP; Name System",Pages 163–166
+ICT_G12_U05_S09,12,05,09,Section 5.6: Worked Examples,84,994,10,"Information Systems; Information Systems
+Brainstorming; See Figure; Solar Panel; Electric
+Vehicles",Pages 16–19
+ICT_G12_U05_S10,12,05,10,Section 5.7: Practical Investigation,67,954,15,"Applications
+Collaborative; Digital Collaboration; Microsoft Teams; Google Meet; Cisco
+Webex",Pages 26–29
+ICT_G12_U05_S11,12,05,11,Section 5.8: Cambridge AS Level Extension,470,925,11,See Figure; HTML; CSS; Web Authoring; World Wide Web,Pages 131–134
+ICT_G12_U05_S12,12,05,12,Unit 5: Unit Summary,348,1231,3,See Figure; Punch Down Tool; UTP,Pages 165–168
+ICT_G12_U05_S13,12,05,13,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U06_S01,12,06,01,Unit Overview,627,943,8,"Troubleshooting
+Part; III; Case Study; IDE; In Grade",Pages 169–172
+ICT_G12_U06_S02,12,06,02,Learning Objectives,441,823,11,"Applications
+Key Terms
+Copyright; Applications
+Review Questions
+Part; NOT; Environmental Information; Health Information System",Pages 31–34
+ICT_G12_U06_S04,12,06,04,Program Flow Controls – Conditionals,877,1036,8,"Integrated 	Development
+Environment; IDE; Unit Overview; In Grade; AND",Pages 170–173
+ICT_G12_U06_S05,12,06,05,Loops and Iteration,764,979,7,In Figure; See Figure; Very Good; Name 	Description; IDLE,Pages 183–186
+ICT_G12_U06_S06,12,06,06,Comments and the Python Interpreter,787,759,1,While Loop,Pages 191–194
+ICT_G12_U06_S07,12,06,07,Testing and Debugging Programs,956,704,3,"PVM; Mode
+If; Press Go",Pages 196–199
+ICT_G12_U06_S08,12,06,08,Worked Examples,220,988,15,"Information Systems; Links
+See Cloud; Digital Collaboration
+People; COVID; Digital Collaboration",Pages 25–28
+ICT_G12_U06_S09,12,06,09,Practical Investigation,715,954,15,"Information Systems; Applications
+Collaborative; Digital Collaboration; Microsoft Teams; Google Meet",Pages 26–29
+ICT_G12_U06_S10,12,06,10,Cambridge AS Level Extension (ICT 9626),801,1121,15,"Information Systems; Applications
+Socializations Gaps
+Socializing; See Figure; Cyber Bullying; Cyber Bulling",Pages 12–15
+ICT_G12_U06_S11,12,06,11,Unit Summary,486,1016,1,DEBUG,Pages 200–203
+ICT_G12_U06_S12,12,06,12,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U07_S01,12,07,01,ABOUT THIS DOCUMENT,102,962,15,"Information Systems; Digital
+Ethiopia; Collaboration Through Digital Technologies
+Brainstorming; Applications
+Digital; Links
+See Cloud",Pages 24–27
+ICT_G12_U07_S02,12,07,02,Unit Overview,297,861,13,"Unit Six
+Fundamentals; Program Flow Controls; Conditionals Program Flow Controls; Iteration Program Flow Controls; Python Interpreter",Pages 6–9
+ICT_G12_U07_S03,12,07,03,Learning Objectives,269,1121,15,"Information Systems; Applications
+Socializations Gaps
+Socializing; See Figure; Cyber Bullying; Cyber Bulling",Pages 12–15
+ICT_G12_U07_S05,12,07,05,Main Lesson Content,135,1060,15,"Emerging Technologies
+Securing Data; Cloud Computing
+Brainstorming; Cloud Computing
+Cloud; Cloud Computing Basics; Emerging Technologies
+Peoples",Pages 43–46
+ICT_G12_U07_S07,12,07,07,Practical Investigation,454,954,15,"Applications
+Collaborative; Digital Collaboration; Microsoft Teams; Google Meet; Cisco
+Webex",Pages 26–29
+ICT_G12_U07_S08,12,07,08,Cambridge A Level Extension,120,925,14,"Web Authoring
+Also; See Figure; HTML; CSS; Web Authoring",Pages 131–134
+ICT_G12_U07_S09,12,07,09,Assessment,72,853,15,Database Management System; ALTER; TABLE; COURSE; ADD,Pages 81–84
+ICT_G12_U07_S10,12,07,10,Unit Summary,376,1231,14,"Troubleshooting
+Wire Crimpers; See Figure; Cable Testers; Punch Down Tool; Tone Generator",Pages 165–168
+ICT_G12_U07_S11,12,07,11,Interactive Tools,35,816,12,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Write True; NOT",Pages 30–33
+ICT_G12_U08_S01,12,08,01,SECTION A: MULTIPLE CHOICE QUESTIONS [30 Marks],408,947,4,"Emerging Technologies
+Activity; Emerging Technologies; See Figure; Emerging Technologies
+Figure",Pages 47–50
+ICT_G12_U08_S02,12,08,02,SECTION B: SHORT ANSWER QUESTIONS [30 Marks — 5 marks each],89,869,13,"Troubleshooting
+Part; III; Case Study; Learning Outcomes
+At; Appreciate 	Python",Pages 168–171
+ICT_G12_U08_S03,12,08,03,SECTION C: STRUCTURED / DATA RESPONSE [25 Marks],131,1031,10,"Emerging Technologies; Bigdata
+Bigdata; See Figure; Textbook Introduction; Bigdata
+Brainstorming",Pages 37–40
+ICT_G12_U08_S04,12,08,04,SECTION D: EXTENDED RESPONSE / ESSAY [15 Marks],341,816,9,"Information Systems; Applications
+Unit Summary
+In; Information Technology; Applications
+Review Questions
+Part; NOT",Pages 30–33

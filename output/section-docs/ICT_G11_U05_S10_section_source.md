@@ -1,0 +1,56 @@
+# ICT_G11_U05_S10 — 7 Unit Summary
+
+Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 5: 5.1, 5.2.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
+
+## MUST-COVER CHECKLIST (teach every item)
+- Hardware Troubleshooting
+- Basics of Preventive Maintenance
+- Central Processing Unit
+- blue screens of death
+- Random Access Memory
+- platters and Solid State Drives
+- Power Supply Unit
+- protectors and Uninterruptible Power Supplies
+
+## LMS LESSON (authoritative)
+LEAD
+
+MyMarian Platform | Addis Ababa | ICT Grade 11 Lecture Notes
+
+PARAGRAPHS
+
+Hardware troubleshooting is the systematic process of diagnosing and resolving problems with computer hardware components. Effective troubleshooting requires understanding how components function, common failure modes, and the tools available for diagnosis and repair.
+
+The Central Processing Unit (CPU) is the computational engine, executing instructions and performing arithmetic and logical operations. CPU problems include overheating (caused by fan failure or blocked vents), physical damage, and incompatibility with the motherboard. Thermal paste between the CPU and heatsink improves heat transfer; a failed heatsink fan causes rapid temperature rise and thermal shutdown. Symptoms of CPU failure include random freezes, blue screens of death (BSOD), and failure to POST (Power-On Self-Test).
+
+Random Access Memory (RAM) provides fast, temporary storage for programs and data. Insufficient RAM causes slow performance and excessive paging to disk. Defective RAM causes random crashes, BSOD errors, and application failures. Windows Memory Diagnostic or MemTest86 can detect RAM errors. Solutions include reseating RAM modules, replacing faulty modules, or adding additional RAM. Storage devices include Hard Disk Drives (HDDs) with rotating magnetic platters and Solid State Drives (SSDs) using flash memory. HDD failure symptoms include clicking sounds, slow speeds, and corrupted files; S.M.A.R.T. data monitoring provides early warning of impending failure.
+
+The Power Supply Unit (PSU) converts mains AC power to the DC voltages required by components (12V, 5V, 3.3V). PSU failure causes random shutdowns, failure to power on, or component damage. Preventive maintenance includes cleaning dust from case interiors, checking and replacing thermal paste, updating firmware and drivers, and monitoring temperatures.
+
+The troubleshooting process follows a structured methodology: identify the problem, establish a theory of probable cause, test the theory, establish a plan of action, implement the solution, verify full system functionality, and document findings. In Ethiopia, where dust, heat, and voltage fluctuations are common, surge protectors and Uninterruptible Power Supplies (UPS) are essential investments for protecting computer hardware in schools, businesses, and homes.
+
+LIST ITEMS
+
+Effective hardware troubleshooting follows a six-step systematic methodology: identify the problem → establish theories → test theories → plan and implement solution → verify → document.
+
+Most common hardware problems have recognisable symptom patterns: no power, no display, slow performance, overheating, no sound, no network connectivity — each with a systematic diagnostic approach.
+
+POST (Power-On Self-Test) runs at startup and communicates failures through beep codes. Beep code interpretation requires knowing the specific BIOS manufacturer.
+
+Preventive maintenance prevents failures before they occur. Physical cleaning (compressed air), cable management, software updates, disk cleanup, and defragmentation (HDDs only) are the core maintenance activities.
+
+The 3-2-1 backup rule: 3 copies, on 2 different media, with 1 off-site. Full, incremental, and differential backups offer different trade-offs between storage space and restoration speed.
+
+Ethiopian schools face specific hardware challenges: power fluctuations (requiring UPS — Uninterruptible Power Supply), high dust levels (requiring more frequent cleaning), and high ambient temperatures (requiring careful cooling maintenance).
+
+UPS — Uninterruptible Power Supply protects against power outages AND voltage spikes; surge protectors protect only against voltage spikes. In Ethiopia, a UPS — Uninterruptible Power Supply is strongly recommended.
+
+ESD — Electrostatic Discharge can permanently destroy semiconductor components from charges too small to feel. Anti-static wrist straps, mats, and bags are essential when handling internal components.
+
+## TEXTBOOK CONTENT (authoritative)
+5.1 Hardware Troubleshooting
+Brainstorming 5.1  What do you know about computer hardware troubleshooting and maintenance? Hardware troubleshooting is a systematic approach to locating the cause of a fault in a computer system and solving technical problems. It starts with general issues and then gets more specific. 5
+
+5.2 Basics of Preventive Maintenance
+Brainstorming 5.2  Reflect on any preventive maintenance methods you are aware of. Preventive maintenance is the practice of routinely taking measures in hardware administration that reduces the risk of hardware failures. It also improves the likelihood of quick recovery in the event that a failure does occur. Maintenance activities include performing diagnoses on different hardware components such as circuit boards and memory and replacing any components that show signs of

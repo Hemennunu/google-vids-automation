@@ -1,0 +1,44 @@
+{
+  "code": "ICT_G12_U01_S06",
+  "draftUrl": "https://docs.google.com/videos/d/1M89uEg3hJGfH7bpcnh_0sJmZ81iMmVEdBbLAaQqjhPQ/edit?scene=id.h49758bf7739ca36e_0_10#scene=id.h49758bf7739ca36e_0_10",
+  "scenes": 17,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "first step",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "first",
+        "step"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 9,
+    "ethiopiaOrAfrica": 3,
+    "samples": [
+      "Ethiopia network map (Provided by Getty Images)",
+      "query: digital map of Ethiopia",
+      "High school students in school computer lab (Provided by Getty Images)",
+      "query: Ethiopian students in computer lab",
+      "Shield Icon and Secure Network Communication, Technology network and cyber security concept, Protection for worldwide connections (Provided by Getty Images)",
+      "query: cyber security shield",
+      "Friends looking for best online investment sites (Provided by Getty Images)",
+      "query: collaborative project online",
+      "Young Male Teacher Helping Students In A Programing Class (Provided by Getty Images)",
+      "query: teaching a complex concept",
+      "Ethiopia map (Provided by Getty Images)",
+      "query: digital map of Ethiopia"
+    ]
+  }
+}

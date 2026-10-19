@@ -1,6 +1,7 @@
 # ICT_G12_U04_S01 — Unit 4: Web Authoring
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 4: 4.1, 4.2, 4.3.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Introduction to XML

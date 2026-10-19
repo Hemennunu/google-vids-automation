@@ -1,0 +1,145 @@
+{
+  "code": "ICT_G11_U03_S06",
+  "draftUrl": "https://docs.google.com/videos/d/1rX5XuLR6BjAIP4DbD-z-P5uBnf1dNX1TQWRWEpGo2aE/edit?scene=id.h570adb7b59faaf44_0_15#scene=id.h570adb7b59faaf44_0_15",
+  "subchapter": "3.2 Data Model",
+  "scenes": 24,
+  "textbook": {
+    "covered": 7,
+    "total": 7
+  },
+  "lms": {
+    "covered": 5,
+    "total": 5
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Basic Concepts in Data Modelling",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "basic",
+        "concept",
+        "data",
+        "modell"
+      ]
+    },
+    {
+      "item": "One-to-one relationship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "one-to-one",
+        "relationship"
+      ]
+    },
+    {
+      "item": "One-to-many relation",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "one-to-many",
+        "relation"
+      ]
+    },
+    {
+      "item": "Many-to-many relationship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "many-to-many",
+        "relationship"
+      ]
+    },
+    {
+      "item": "Entity Relationship Diagram",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "entity",
+        "relationship",
+        "diagram"
+      ]
+    },
+    {
+      "item": "Relational Data Model",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "relational",
+        "data",
+        "model"
+      ]
+    },
+    {
+      "item": "Relational Database",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "relational",
+        "database"
+      ]
+    },
+    {
+      "item": "Entity-Relationship",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "entity-relationship"
+      ]
+    },
+    {
+      "item": "Entity-Relationship Diagram",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "entity-relationship",
+        "diagram"
+      ]
+    },
+    {
+      "item": "Entities",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "entit"
+      ]
+    },
+    {
+      "item": "next step",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "next",
+        "step"
+      ]
+    },
+    {
+      "item": "Relationships",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "relationship"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 14,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Document, Data, Technology, Computer File, Sharing,Document, Organization, Technology, Contract, Digital Display (Provided by Getty Images)",
+      "query: organized database structure",
+      "Technology Network Background Concept. Digital, Communication And Technology Network Background. (Provided by Getty Images)",
+      "query: connecting dots network",
+      "Developer type Java Programming Code on Notebook screen (Provided by Getty Images)",
+      "query: object oriented programming abstract",
+      "People communication network and ICT (Provided by Getty Images)",
+      "query: relational database link",
+      "Ethiopia network map (Provided by Getty Images)",
+      "query: map of Ethiopia",
+      "Accountant Using Online Spreadsheet (Provided by Getty Images)",
+      "query: spreadsheets and columns"
+    ]
+  }
+}

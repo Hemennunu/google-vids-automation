@@ -1,6 +1,7 @@
 # ICT_G11_U05_S05 — Preventive Maintenance
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 5.1 Hardware Troubleshooting.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Hardware Troubleshooting Procedures

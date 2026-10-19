@@ -1,0 +1,112 @@
+{
+  "code": "ICT_G11_U01_S11",
+  "draftUrl": "https://docs.google.com/videos/d/124h_bthXMEL4k1IjPwQEpcJD6a3hwN4PUG1Be_22kM8/edit?scene=id.h1e9f83990f1f2ed1_0_11#scene=id.h1e9f83990f1f2ed1_0_11",
+  "subchapter": "1.2 Introduction to Information Systems",
+  "scenes": 15,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 3,
+    "total": 3
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Information systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Components of IS",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "component"
+      ]
+    },
+    {
+      "item": "Time and attendance software",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "time",
+        "attendance",
+        "software"
+      ]
+    },
+    {
+      "item": "Performance management software",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "performance",
+        "management",
+        "software"
+      ]
+    },
+    {
+      "item": "Training and development software",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "train",
+        "development",
+        "software"
+      ]
+    },
+    {
+      "item": "HTML elements",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "html",
+        "element"
+      ]
+    },
+    {
+      "item": "HTML Code This",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "html",
+        "code"
+      ]
+    },
+    {
+      "item": "Examination SkillsFor extended essay questions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "examination",
+        "extended",
+        "essay",
+        "question"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 10,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: abstract information system diagram",
+      "Futuristic Data Center Server Room (Provided by Getty Images)",
+      "query: computer server room",
+      "HR Management with digital technology concept (Provided by Getty Images)",
+      "query: HR management dashboard on screen",
+      "Unlock the secrets of effective performance management! This video explores the key strategies and best practices for optimizing employee performance and driving organizational success. Learn how to set clear goals, provide constructive feedback, and create a culture of high achievement.  Boost your team\\\\\\u0027s productivity and achieve remarkable results with our expert insights on performance management. (Provided by Getty Images)",
+      "query: employee feedback rating screen",
+      "Enhance your workforce with our comprehensive training and development programs! This captivating video highlights the importance of investing in your employees\\\\\\u0027 growth. Discover how our tailored solutions can empower your team with the skills and knowledge they need to excel.  Unlock their full potential and drive organizational success. Watch now and transform your workforce! (Provided by Getty Images)",
+      "query: employee feedback rating screen",
+      "Dive into the world of web development with this captivating visual representation of HTML code. Watch as the iconic \\\\\\u0027\\u003chtml\\u003e\\\\\\u0027 tag illuminates the screen, symbolizing the foundation of every website you\\\\\\u0027ve ever visited. Whether you\\\\\\u0027re a coding novice or a seasoned developer, this video offers a mesmerizing glimpse into the language that powers the internet. (Provided by Getty Images)",
+      "query: HTML tag syntax diagram"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "code": "ICT_G11_U01_S05",
+  "draftUrl": "https://docs.google.com/videos/d/1pjnyqCLkdGR8OVGWCevoebKo5pHhYwq5GPoRFET8uYw/edit?scene=id.h475b54f9cf71b6b8_0_17#scene=id.h475b54f9cf71b6b8_0_17",
+  "subchapter": "Unit 1: 1.1, 1.2, 1.3, 1.4",
+  "scenes": 16,
+  "textbook": {
+    "covered": 4,
+    "total": 4
+  },
+  "lms": {
+    "covered": 14,
+    "total": 16
+  },
+  "coveragePercent": 90,
+  "missing": [
+    {
+      "item": "Human Resource Information System",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "whether to seek organic certification",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "organic",
+        "certification"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Data, Information, Knowledge, and Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "information",
+        "knowledge",
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Introduction to Information Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Applications of Information System",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "IT for Entrepreneurship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "entrepreneurship"
+      ]
+    },
+    {
+      "item": "information system",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Its purpose",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "purpose"
+      ]
+    },
+    {
+      "item": "Hardware",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "hardware"
+      ]
+    },
+    {
+      "item": "Data",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data"
+      ]
+    },
+    {
+      "item": "Poor data quality",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "poor",
+        "data",
+        "quality"
+      ]
+    },
+    {
+      "item": "People",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "people"
+      ]
+    },
+    {
+      "item": "Procedures",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "procedur"
+      ]
+    },
+    {
+      "item": "Human Resource Information System",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "of coffee purchases from farmers",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "coffee",
+        "farmer"
+      ]
+    },
+    {
+      "item": "of export volumes and prices",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "export",
+        "volum",
+        "pric"
+      ]
+    },
+    {
+      "item": "whether to seek organic certification",
+      "source": "lms",
+      "covered": false,
+      "matched": [
+        "organic",
+        "certification"
+      ]
+    },
+    {
+      "item": "term planning for market expansion",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "plann",
+        "market",
+        "expansion"
+      ]
+    },
+    {
+      "item": "Transaction Processing Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "transaction",
+        "process",
+        "system"
+      ]
+    },
+    {
+      "item": "Management Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "management",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Decision Support Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "decision",
+        "support",
+        "system"
+      ]
+    },
+    {
+      "item": "Executive Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "executive",
+        "information",
+        "system"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 15,
+    "ethiopiaOrAfrica": 15,
+    "samples": [
+      "Corporate Business Presentation In Office (Provided by Getty Images)",
+      "query: digital dashboard monitoring business trends",
+      "Business People Meeting and Brainstorming in Office (Provided by Getty Images)",
+      "query: corporate policy and procedure meeting",
+      "African American QA Engineer Finds and Fixes Bugs in a Product or Program Before the Launch, Collaborating and Talking with Colleague. Young Black Specialist Working in Advanced Technology Industry (Provided by Getty Images)",
+      "query: African IT professional training staff",
+      "Students Working at Control and Automation Laboratory (Provided by Getty Images)",
+      "query: Ethiopian classroom technology",
+      "African Businessman Using Analytics Data KPI Dashboard (Provided by Getty Images)",
+      "query: African business person looking at data charts",
+      "Project manager discussing update with team (Provided by Getty Images)",
+      "query: African office team collaborating"
+    ]
+  }
+}

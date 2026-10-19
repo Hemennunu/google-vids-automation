@@ -1,0 +1,87 @@
+{
+  "code": "ICT_G11_U01_S04",
+  "draftUrl": "https://docs.google.com/videos/d/1umO15Erpn2vlJ_DoigUDUuFEOm3ZFjYnQFLIMqIQxhY/edit?scene=id.h14e86551c91a430f_0_32#scene=id.h14e86551c91a430f_0_32",
+  "subchapter": "1.1 Data, Information, Knowledge, and Wisdom",
+  "scenes": 31,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "The Difference between Data, Information, Knowledge, and Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "information",
+        "knowledge",
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 30,
+    "ethiopiaOrAfrica": 33,
+    "samples": [
+      "Working on a Creative Design Project (Provided by Getty Images)",
+      "query: Ethiopian students collaborating on pyramid model",
+      "Education - Back to School - Word Clouds (Provided by Getty Images)",
+      "query: Ethiopian technology educational chart",
+      "Document, Data, Technology, Computer File, Sharing,Document, Organization, Technology, Contract, Digital Display (Provided by Getty Images)",
+      "query: Ethiopian person organizing documents",
+      "Team discuss work in office (Provided by Getty Images)",
+      "query: Ethiopian team analyzing patterns",
+      "Data Center computer server room (Provided by Getty Images)",
+      "query: Ethiopian IT office server room",
+      "Big Data 2.1 Searching Process in Big Data Array (Provided by Getty Images)",
+      "query: Ethiopian digital system interface"
+    ]
+  }
+}

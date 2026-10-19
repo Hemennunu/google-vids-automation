@@ -1,6 +1,7 @@
 # ICT_G11_U06_S05 — Python Basics: Getting Started
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.2 Basics of Python.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Using the Interactive Interpreter

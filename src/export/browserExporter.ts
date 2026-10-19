@@ -182,15 +182,26 @@ async function triggerDownloadFromMenu(page: Page): Promise<void> {
   while (Date.now() < deadline) {
     await openFileMenu(page);
 
-    const downloadItem = await firstVisible(
-      page,
-      "File → Download menu item",
-      [
-        (p) => p.getByRole("menuitem", { name: /^download/i }),
-        (p) => p.getByRole("menuitem", { name: /download/i }),
-      ],
-      15_000,
-    );
+    let downloadItem: Locator;
+    try {
+      downloadItem = await firstVisible(
+        page,
+        "File → Download menu item",
+        [
+          (p) => p.getByRole("menuitem", { name: /^download/i }),
+          (p) => p.getByRole("menuitem", { name: /download/i }),
+        ],
+        8_000,
+      );
+    } catch {
+      if (Date.now() - lastLog > 15_000) {
+        log("info", "File → Download menu item not visible yet — retrying…");
+        lastLog = Date.now();
+      }
+      await closeMenus(page);
+      await page.waitForTimeout(3_000);
+      continue;
+    }
 
     if (await isDisabled(downloadItem)) {
       if (Date.now() - lastLog > 15_000) {
@@ -233,7 +244,11 @@ async function triggerDownloadFromMenu(page: Page): Promise<void> {
       continue;
     }
 
-    await mp4Item.click();
+    try {
+      await mp4Item.click({ timeout: 5_000 });
+    } catch {
+      await mp4Item.evaluate((el: HTMLElement) => el.click()).catch(() => mp4Item.click({ force: true }));
+    }
     log("info", "Clicked File → Download → MP4.");
     return;
   }

@@ -1,0 +1,87 @@
+{
+  "code": "ICT_G11_U01_S04",
+  "draftUrl": "https://docs.google.com/videos/d/1heVgK-vUPN10kyqfVBVYdn485j30A0srCKsss4fT6_w/edit?scene=id.h2e895f0bab6bd02c_0_13#scene=id.h2e895f0bab6bd02c_0_13",
+  "subchapter": "1.1 Data, Information, Knowledge, and Wisdom",
+  "scenes": 17,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "The Difference between Data, Information, Knowledge, and Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "information",
+        "knowledge",
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Data Icon. Gear, data, workflow, option, settings logo. Motion design. Animated icon. (Provided by Getty Images)",
+      "query: transformation animation",
+      "Mobile data center in container (Provided by Getty Images)",
+      "query: data center infrastructure",
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: raw digital data visualization",
+      "Business graph growing success. Business growth presentation with grid line. Video presentation for business growth. (Provided by Getty Images)",
+      "query: business data line graph",
+      "Artificial intelligence brain and neural network (Provided by Getty Images)",
+      "query: human brain logic symbol",
+      "News anchor commenting weather forecast (Provided by Getty Images)",
+      "query: meteorologist working with data maps"
+    ]
+  }
+}

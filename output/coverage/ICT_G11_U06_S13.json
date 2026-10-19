@@ -1,0 +1,93 @@
+{
+  "code": "ICT_G11_U06_S13",
+  "draftUrl": "https://docs.google.com/videos/d/1d7A8_7YdxSag27L_vVtxrGlSnFI-CrCIQuVBL09SvRo/edit?scene=id.h3e7b3de448af6abc_0_10#scene=id.h3e7b3de448af6abc_0_10",
+  "scenes": 20,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Python programs",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python",
+        "program"
+      ]
+    },
+    {
+      "item": "Variables in Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl"
+      ]
+    },
+    {
+      "item": "Functions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "function"
+      ]
+    },
+    {
+      "item": "Lists",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "list"
+      ]
+    },
+    {
+      "item": "Items",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "item"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 9,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Lesson in Robotics, Robot arm as a school science project. (Provided by Getty Images)",
+      "query: diverse students learning programming in Africa",
+      "Program code and chip. Technology background (Provided by Getty Images)",
+      "query: software development background",
+      "Deploying software on a server (Provided by Getty Images)",
+      "query: command line interface terminal",
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: python interactive shell REPL",
+      "4K : Code Programming (Provided by Getty Images)",
+      "query: code variable assignment",
+      "Middle-Aged Teacher Speaking In Classroom With School Students, Coding and Computer Science Classes (Provided by Getty Images)",
+      "query: programming lesson introduction"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # ICT_G12_U06_S06 — Comments and the Python Interpreter
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.2 Comments in Python.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Comments

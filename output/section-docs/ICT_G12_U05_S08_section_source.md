@@ -1,6 +1,7 @@
 # ICT_G12_U05_S08 — Network Maintenance Tools
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 5.5 Network Maintenance Tools.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Wire crimpers

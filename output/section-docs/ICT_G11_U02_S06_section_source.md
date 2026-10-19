@@ -1,6 +1,7 @@
 # ICT_G11_U02_S06 — Data Science
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 2.3 Data Science.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Virtual Reality

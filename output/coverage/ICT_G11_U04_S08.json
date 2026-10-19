@@ -1,0 +1,52 @@
+{
+  "code": "ICT_G11_U04_S08",
+  "draftUrl": "https://docs.google.com/videos/d/1Ep5QWHy66GQa2XbEfOycscM028jeddZqxZOScpu2SZ8/edit?scene=id.h4b3ed721834da1b5_0_17#scene=id.h4b3ed721834da1b5_0_17",
+  "subchapter": "4.5 HTML Tables",
+  "scenes": 29,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 2,
+    "total": 2
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Monday",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "monday"
+      ]
+    },
+    {
+      "item": "Tuesday",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "tuesday"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 16,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Technical college student conversing with teacher (Provided by Getty Images)",
+      "query: biology classroom setting",
+      "Template financial business diagram charts colorful business no text (Provided by Getty Images)",
+      "query: data grid visualization",
+      "Business Data Audit Spreadsheet (Provided by Getty Images)",
+      "query: spreadsheet merging cells",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: HTML code on screen",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: computer monitor showing web code",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: color coded web blocks"
+    ]
+  }
+}

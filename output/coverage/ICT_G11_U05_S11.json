@@ -1,0 +1,133 @@
+{
+  "code": "ICT_G11_U05_S11",
+  "draftUrl": "https://docs.google.com/videos/d/1aZohQeAu5Lx5yr2CAgODDCUKYxxt_9keeIHz5XaiCk0/edit?scene=id.h7dbf8569474c491d_0_24#scene=id.h7dbf8569474c491d_0_24",
+  "subchapter": "5.1 Hardware Troubleshooting",
+  "scenes": 35,
+  "textbook": {
+    "covered": 11,
+    "total": 11
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Hardware Troubleshooting Procedures",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "troubleshoot",
+        "procedur"
+      ]
+    },
+    {
+      "item": "Check POST",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "check",
+        "post"
+      ]
+    },
+    {
+      "item": "Beep Codes",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "beep",
+        "cod"
+      ]
+    },
+    {
+      "item": "BIOS Information",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "bio",
+        "information"
+      ]
+    },
+    {
+      "item": "CMOS Error",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "cmo",
+        "error"
+      ]
+    },
+    {
+      "item": "Event Viewer",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "event",
+        "viewer"
+      ]
+    },
+    {
+      "item": "Application",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application"
+      ]
+    },
+    {
+      "item": "System",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "system"
+      ]
+    },
+    {
+      "item": "Security",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "security"
+      ]
+    },
+    {
+      "item": "Hardware Problems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "problem"
+      ]
+    },
+    {
+      "item": "Diagnostic Tools",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "diagnostic",
+        "tool"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 23,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Data technology Big data visualization Flow data Information code Matrix Flow background Cyberpunk, cybersecurity. (Provided by Getty Images)",
+      "query: Data flow connectivity diagram",
+      "streaming numbers data and code background (Provided by Getty Images)",
+      "query: BIOS screen",
+      "Electrician Works On Equipment (Provided by Getty Images)",
+      "query: Title screen Grade 11 ICT Hardware Troubleshooting",
+      "Tuition on Precision Measurement Instruments (Provided by Getty Images)",
+      "query: Technical manual pages",
+      "Code 2.1 Loging loading OS X system process (Provided by Getty Images)",
+      "query: BIOS screen",
+      "Glitch TV Static Noise Distorted Signal Problems Error Video Damage Retro Style 80s (Provided by Getty Images)",
+      "query: System error message on screen"
+    ]
+  }
+}

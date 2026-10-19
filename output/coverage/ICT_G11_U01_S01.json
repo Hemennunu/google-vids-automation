@@ -1,0 +1,75 @@
+{
+  "code": "ICT_G11_U01_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1G8uSnov53Cf4dih2v0LLe1gHLTeEOdHP9jHMoKzDNfQ/edit?scene=id.h2f564b6a734c9071_0_19#scene=id.h2f564b6a734c9071_0_19",
+  "subchapter": "Unit 1: 1.1, 1.2, 1.3, 1.4",
+  "scenes": 18,
+  "textbook": {
+    "covered": 4,
+    "total": 4
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data, Information, Knowledge, and Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "information",
+        "knowledge",
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Introduction to Information Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "introduction",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Applications of Information System",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "IT for Entrepreneurship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "entrepreneurship"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 17,
+    "ethiopiaOrAfrica": 15,
+    "samples": [
+      "Ethiopia map (Provided by Getty Images)",
+      "query: Ethiopian classroom",
+      "African american businessman consulting giving presentation to caucasian clients, answers different questions colleagues, presenting financial statistics report with rising graphs (Provided by Getty Images)",
+      "query: African market data",
+      "Teamwork, collaboration and busy business people working together on table with laptop, tablet or paper. Planning, strategy and book writing documents on computer or tech at corporate company office (Provided by Getty Images)",
+      "query: Ethiopian professionals working on computers",
+      "Team of Three Talented Young Software Engineers Use Computer to Discuss a Technological Project in Modern Industrial Office. Group of Male and Female Scientists Work in Research and Development Center (Provided by Getty Images)",
+      "query: database management",
+      "Female software engineer works in modern monitoring control room (Provided by Getty Images)",
+      "query: information technology office",
+      "Multi-Ethnic Team of Computer Scientists Create Neural Network at Their Workstation. Office is Full of Displays Showing 3D Representations of Neural Networks. (Provided by Getty Images)",
+      "query: Ethiopian professionals working on computers"
+    ]
+  }
+}

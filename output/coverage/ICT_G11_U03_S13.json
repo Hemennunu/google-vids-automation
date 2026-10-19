@@ -1,0 +1,67 @@
+{
+  "code": "ICT_G11_U03_S13",
+  "draftUrl": "https://docs.google.com/videos/d/1BY8j1_x0mxoPOloNXLm5t2vuj2Yt1qcMnx9_YSVLEa0/edit?scene=id.h7769d7fdafd26fe5_0_16#scene=id.h7769d7fdafd26fe5_0_16",
+  "subchapter": "Unit 3: 3.1, 3.2, 3.3",
+  "scenes": 34,
+  "textbook": {
+    "covered": 3,
+    "total": 3
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data Management Approaches",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "management",
+        "approach"
+      ]
+    },
+    {
+      "item": "Data Model",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "model"
+      ]
+    },
+    {
+      "item": "Creating Relational Database in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "relational",
+        "database",
+        "microsoft",
+        "acces"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 15,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Big data with digital technology concept (Provided by Getty Images)",
+      "query: data modeling concept",
+      "Manager, data analytics documents or business people in meeting for our vision, planning or research Teamwork, black woman or female CEO reading sales report for financial growth with goals in office (Provided by Getty Images)",
+      "query: data model to table diagram",
+      "Explore risk management, financial intelligence, and strategic planning in this captivating collection, empowering businesses to thrive. (Provided by Getty Images)",
+      "query: high volume data analysis",
+      "Multi-Ethnic Team of Computer Scientists Create Neural Network at Their Workstation. Office is Full of Displays Showing 3D Representations of Neural Networks. (Provided by Getty Images)",
+      "query: digital data processing",
+      "Team of Computer Engineers Work on Machine Learning Neural Network Technology Development. (Provided by Getty Images)",
+      "query: selective data processing",
+      "3D optical data storage with digital technology concept (Provided by Getty Images)",
+      "query: computerized data storage"
+    ]
+  }
+}

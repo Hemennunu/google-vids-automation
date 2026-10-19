@@ -1,0 +1,92 @@
+{
+  "code": "ICT_G11_U06_S14",
+  "draftUrl": "https://docs.google.com/videos/d/1VJOzGOqi0JwzaT7aKzVmakvAQC4tH7KBK2cM77iyb-w/edit?scene=id.h2c51909d85f28d01_0_19#scene=id.h2c51909d85f28d01_0_19",
+  "subchapter": "Unit 6: 6.1, 6.2, 6.3, 6.4, 6.5",
+  "scenes": 26,
+  "textbook": {
+    "covered": 4,
+    "total": 5
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 80,
+  "missing": [
+    {
+      "item": "Statements and Expressions",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "statement"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Types of Programming Languages",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "typ",
+        "programm",
+        "languag"
+      ]
+    },
+    {
+      "item": "Basics of Python",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "basic",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables and Data Types",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "data",
+        "typ"
+      ]
+    },
+    {
+      "item": "Statements and Expressions",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "statement"
+      ]
+    },
+    {
+      "item": "Writing a Simple Program",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "writ",
+        "simple",
+        "program"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 18,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: python coding environment",
+      "Programmer Teenager girl e-learning coding Mobile app class with teacher at home. (Provided by Getty Images)",
+      "query: coding tutorial for beginners",
+      "High school students in school computer lab (Provided by Getty Images)",
+      "query: digital classroom lecture",
+      "Agile Pair Programming And Extreme Coding (Provided by Getty Images)",
+      "query: software development process",
+      "Coding Data Green (Provided by Getty Images)",
+      "query: computer science education abstract",
+      "Computer Programming Code (Provided by Getty Images)",
+      "query: introduction to programming concept"
+    ]
+  }
+}

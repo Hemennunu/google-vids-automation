@@ -1,6 +1,7 @@
 # ICT_G11_U01_S09 — Practical Investigation: Designing an IS for a School Library
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: none matched.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 

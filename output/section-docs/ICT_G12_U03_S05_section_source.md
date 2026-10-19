@@ -1,6 +1,7 @@
 # ICT_G12_U03_S05 — Database Manipulation Using SQL
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 3.2 Database Manipulation Using SQL.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Data Definition Language (DDL)

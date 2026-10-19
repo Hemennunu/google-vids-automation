@@ -1,0 +1,100 @@
+{
+  "code": "ICT_G11_U03_S08",
+  "draftUrl": "https://docs.google.com/videos/d/1y3EGcN1CsuMYx6oxY-6O0TRTY1Y8k5FTCXM3e5DWu9U/edit?scene=id.h62aac31175290bbd_0_12#scene=id.h62aac31175290bbd_0_12",
+  "subchapter": "3.3 Creating Relational Database in Microsoft Access",
+  "scenes": 18,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Creating Microsoft Access Database",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "microsoft",
+        "acces",
+        "database"
+      ]
+    },
+    {
+      "item": "Creating Table in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "table",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Creating Query in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "query",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Adding Criteria to Query Design",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "add",
+        "criteria",
+        "query",
+        "design"
+      ]
+    },
+    {
+      "item": "Selecting Data from Multiple Tables",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "select",
+        "data",
+        "multiple",
+        "tabl"
+      ]
+    },
+    {
+      "item": "Microsoft Access",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "microsoft",
+        "acces"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "DATABASE (Provided by Getty Images)",
+      "query: database software workspace",
+      "SQL with digital technology concept (Provided by Getty Images)",
+      "query: structured data organization",
+      "Developer Software Code Mock-up with Generic Programming Language. Dark Interface with Multiple Windows. Night Mode Template for Computer Displays and Laptop Screens. (Provided by Getty Images)",
+      "query: relational database software interface",
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: database object overview",
+      "Enormous network of computer folders and documents. Internet Cloud, Backup System (Provided by Getty Images)",
+      "query: saving new database file",
+      "Female software engineer works in modern monitoring control room (Provided by Getty Images)",
+      "query: modern organizational data systems"
+    ]
+  }
+}

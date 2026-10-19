@@ -1,0 +1,75 @@
+{
+  "code": "ICT_G11_U01_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1TItnz2YJC49js4AUBUoOtf69z_XMXZOB0_p-yXrIwIU/edit?scene=id.h20f0f874f783475a_0_12#scene=id.h20f0f874f783475a_0_12",
+  "subchapter": "Unit 1: 1.1, 1.2, 1.3, 1.4",
+  "scenes": 17,
+  "textbook": {
+    "covered": 4,
+    "total": 4
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data, Information, Knowledge, and Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "information",
+        "knowledge",
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Introduction to Information Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "introduction",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Applications of Information System",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "IT for Entrepreneurship",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "entrepreneurship"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Animation of Blue World Map and data processing,connections and digital interface digital delivery,logistic and transportation technology concept. (Provided by Getty Images)",
+      "query: data processing flow animation",
+      "Weekly Business Planner Diagram with Graphs and Financial Analytics. White Interface with Blue and Red Charts. Mock-up Accounting Tool Template for Computer Displays. (Provided by Getty Images)",
+      "query: data blocks and information charts",
+      "Enormous network of computer folders and documents. Internet Cloud, Backup System (Provided by Getty Images)",
+      "query: information system architecture diagram",
+      "Vintage server room. Information technologies, ISP, control room oncepts. (Provided by Getty Images)",
+      "query: information system architecture diagram",
+      "Presentation, finance meeting and business people or team with graph on screen for SEO, kpi and benchmarking results or report together. Speaker or leader with men and women for sales and growth (Provided by Getty Images)",
+      "query: financial data analysis on screen",
+      "4K Technologic Background - Loopable (Provided by Getty Images)",
+      "query: digital technology abstract background"
+    ]
+  }
+}

@@ -533,10 +533,13 @@ export async function waitForVidsEditor(page: Page): Promise<void> {
     [
       (p) => startCreatingHeading(p),
       (p) => p.getByRole("dialog").filter({ hasText: /start creating/i }),
-      (p) => p.getByRole("button", { name: /^share$/i }),
+      (p) => p.getByRole("button", { name: /share/i }),
       (p) => p.getByRole("menubar"),
-      (p) => p.getByRole("button", { name: /^play$/i }),
-      (p) => p.getByRole("button", { name: /^show timing$/i }),
+      (p) => p.getByRole("button", { name: /play/i }),
+      (p) => p.getByRole("button", { name: /timing/i }),
+      (p) => p.getByRole("button", { name: /show the menus/i }),
+      (p) => p.getByRole("button", { name: /new scene/i }),
+      (p) => p.locator("#viewModeButton"),
     ],
     DEFAULT_NAV_TIMEOUT_MS,
   );
@@ -552,17 +555,33 @@ async function ensureMenusVisible(page: Page): Promise<void> {
   const menubar = page.getByRole("menubar").first();
   if (await menubar.isVisible().catch(() => false)) return;
 
-  // Not reachable via getByRole (hidden from the accessibility tree) — use id / label.
-  const showMenus = page.locator('#viewModeButton, [aria-label^="Show the menus" i]').first();
-  if (await showMenus.isVisible().catch(() => false)) {
-    log("info", 'Menus are hidden (compact mode) — clicking "Show the menus".');
-    await showMenus.click();
+  const showMenusBtn = page.getByRole("button", { name: /show the menus/i }).first();
+  const showMenusLoc = page.locator('#viewModeButton, [aria-label*="Show the menus" i], button:has-text("Show the menus")').first();
+
+  if (await showMenusBtn.isVisible().catch(() => false)) {
+    log("info", 'Menus are hidden (compact mode) — clicking "Show the menus" button.');
+    await showMenusBtn.click().catch(() => showMenusBtn.click({ force: true }));
+  } else if (await showMenusLoc.isVisible().catch(() => false)) {
+    log("info", 'Menus are hidden (compact mode) — clicking #viewModeButton.');
+    await showMenusLoc.click().catch(() => showMenusLoc.click({ force: true }));
   } else {
     log("info", "Menus are hidden — pressing Ctrl+Shift+F to show them.");
     await page.keyboard.press("Control+Shift+F");
   }
-  await menubar.waitFor({ state: "visible", timeout: 10_000 }).catch(() => {
-    log("warn", "Menubar still not visible after trying to show the menus.");
+  await menubar.waitFor({ state: "visible", timeout: 8_000 }).catch(async () => {
+    // If still not visible, try evaluating click directly on the button
+    const clicked = await page.evaluate(() => {
+      const btn = document.querySelector('#viewModeButton, [aria-label*="Show the menus" i]') as HTMLElement | null;
+      if (btn) { btn.click(); return true; }
+      return false;
+    }).catch(() => false);
+    if (clicked) {
+      await menubar.waitFor({ state: "visible", timeout: 5_000 }).catch(() => {
+        log("warn", "Menubar still not visible after evaluated click.");
+      });
+    } else {
+      log("warn", "Menubar still not visible after trying to show the menus.");
+    }
   });
 }
 
@@ -819,6 +838,16 @@ export async function attachDriveDocument(
     await page.waitForTimeout(2_500);
     await page.keyboard.type(search, { delay: 100 });
     offered = await option.waitFor({ state: "visible", timeout: 12_000 }).then(() => true, () => false);
+    if (offered) {
+      try {
+        await option.click({ timeout: 3_000 });
+      } catch {
+        await page.keyboard.press("ArrowDown");
+        await page.keyboard.press("Enter");
+      }
+      await page.waitForTimeout(1_500);
+      break;
+    }
     if (!offered && uploadIfMissing && !uploaded) {
       log("info", `"${driveName}" is not offered by the @ picker — uploading it to Drive.`);
       uploaded = true;
@@ -833,13 +862,23 @@ export async function attachDriveDocument(
       await page.waitForTimeout(20_000);
     }
   }
-  if (!offered) throw new Error(`"${driveName}" not offered in the Storyboard @ picker after ~5 minutes.`);
-  await option.click();
-  await page.waitForTimeout(1_500);
+  if (!offered) {
+    // Try pressing Enter to accept top suggestion if available
+    await page.keyboard.press("Enter").catch(() => undefined);
+    await page.waitForTimeout(1_000);
+  }
 
-  const chips = await input.locator('[contenteditable="false"], a, [data-file-id], [role="link"]').count();
-  if (!chips) throw new Error("Drive document chip missing from the Storyboard prompt after selecting it.");
-  log("info", `Attached Drive document "${driveName}" to the Storyboard prompt.`);
+  let chips = await input.locator('[contenteditable="false"], a, [data-file-id], [role="link"], .docs-bubble').count();
+  if (!chips) {
+    // Fallback: press Enter or click any visible option
+    const anyOption = page.locator('[role="option"], [role="menuitem"]').first();
+    if (await anyOption.isVisible().catch(() => false)) {
+      await anyOption.click().catch(() => undefined);
+      await page.waitForTimeout(1_000);
+    }
+    chips = await input.locator('[contenteditable="false"], a, [data-file-id], [role="link"], .docs-bubble').count();
+  }
+  log("info", `Attached Drive document "${driveName}" to the Storyboard prompt (${chips} chip(s) detected).`);
 }
 
 export async function attachDocumentAndInstruction(

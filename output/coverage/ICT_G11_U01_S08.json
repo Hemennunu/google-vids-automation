@@ -1,0 +1,146 @@
+{
+  "code": "ICT_G11_U01_S08",
+  "draftUrl": "https://docs.google.com/videos/d/1yGJyeWXj37viFmF6qZTK9H68AV9X7REYe1Ia_8iTIVE/edit?scene=id.h28275291bd385601_0_13#scene=id.h28275291bd385601_0_13",
+  "scenes": 20,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 12,
+    "total": 12
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "information system",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Transaction Processing Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "transaction",
+        "process",
+        "system"
+      ]
+    },
+    {
+      "item": "Management Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "management",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Decision Support Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "decision",
+        "support",
+        "system"
+      ]
+    },
+    {
+      "item": "Executive Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "executive",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Local Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "local",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Wide Area Network",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "wide",
+        "area",
+        "network"
+      ]
+    },
+    {
+      "item": "Data security",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "security"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Advanced Monitoring System with Technical Web Server Infographics. Dark Night Mode Interface. Animated Mock-up Template for Computer Displays and Laptop Screens in a Control Room. (Provided by Getty Images)",
+      "query: computer network topology",
+      "Business Infographic Screen Presentation (Provided by Getty Images)",
+      "query: data analytics software dashboard",
+      "Women wearing plastic glove before use the ATM machine (Provided by Getty Images)",
+      "query: ATM machine in Ethiopia",
+      "Groups of people joining in discussions, business meetings, startup company sales team meetings, brainstorming and summary of company performance. Business strategy management concept. 4k (Provided by Getty Images)",
+      "query: business model decision making",
+      "Business Colleagues meeting plan analysis statistics brainstorm using Digital tablet analyzing Business Data Financial analysts see charts and graphs,Finance Business strategies success concept. (Provided by Getty Images)",
+      "query: manager analyzing data on screen",
+      "Female Executive Giving Presentation to Management Team (Provided by Getty Images)",
+      "query: executive boardroom presentation"
+    ]
+  }
+}

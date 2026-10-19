@@ -1,6 +1,7 @@
 # ICT_G11_U04_S01 — Unit Overview
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 4: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - World Wide Web

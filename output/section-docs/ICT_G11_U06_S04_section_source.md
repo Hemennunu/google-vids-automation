@@ -1,6 +1,7 @@
 # ICT_G11_U06_S04 — Types of Programming Languages
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.1 Types of Programming Languages.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Types of Programming Languages

@@ -1,0 +1,63 @@
+{
+  "code": "ICT_G11_U02_S11",
+  "draftUrl": "https://docs.google.com/videos/d/1rMtpusKFOPH7_EqWCfwtxku5EMz2ei1FcIqT-co9KKQ/edit?scene=id.h592bc71378e21007_0_9#scene=id.h592bc71378e21007_0_9",
+  "subchapter": "Unit 2: 2.1, 2.2, 2.3",
+  "scenes": 18,
+  "textbook": {
+    "covered": 3,
+    "total": 3
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Artificial Intelligence",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "artificial",
+        "intelligence"
+      ]
+    },
+    {
+      "item": "Augmented Reality and Virtual Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "augmented",
+        "reality"
+      ]
+    },
+    {
+      "item": "Data Science",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 8,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Artificial intelligence is intelligence demonstrated by machines (Provided by Getty Images)",
+      "query: artificial intelligence network graphic",
+      "Artificial Intelligence creating. Abstract concept of cyber technology, machine learning, robot brain (Provided by Getty Images)",
+      "query: abstract AI neural network",
+      "AI Text with Binary Code Data Random, AI, Cloud Computing (Provided by Getty Images)",
+      "query: machine learning code syntax",
+      "Big data visualization concept. Machine learning algorithms. Analysis of information. Technology data and binary code network conveying connectivity. (Provided by Getty Images)",
+      "query: machine learning algorithm visualization",
+      "Streets of Luanda from above. Slum and social issues concepts (Provided by Getty Images)",
+      "query: Addis Ababa street scene",
+      "Digital smart transport technology abstract (Provided by Getty Images)",
+      "query: digital technology abstract background"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "code": "ICT_G11_U05_S09",
+  "draftUrl": "https://docs.google.com/videos/d/1o9hSkODoc0OxCC01NRWstRFw8B3YLxjWMHFmQB_XUD8/edit?scene=id.h5f7631abd7dff0ec_0_12#scene=id.h5f7631abd7dff0ec_0_12",
+  "subchapter": "Unit 5: 5.1, 5.2",
+  "scenes": 16,
+  "textbook": {
+    "covered": 2,
+    "total": 2
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Hardware Troubleshooting",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "troubleshoot"
+      ]
+    },
+    {
+      "item": "Basics of Preventive Maintenance",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "preventive",
+        "maintenance"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Electronic Engineer Repairs Circuit Board (Provided by Getty Images)",
+      "query: electronic circuit diagnosis",
+      "Electronic circuit boards production and installation of SMD components. Needle automatic equipment diagnose and test chips and processors. Manufacture of electronic chips. High-tech, close-up (Provided by Getty Images)",
+      "query: electronic circuit diagnosis",
+      "Happy children learn programming using laptops on extracurricular classes.Young children smiling joyfully.Cute pupil using computer with teacher at the elementary school.Education, children, technology, science and people concept.Education Topics (Provided by Getty Images)",
+      "query: ICT education",
+      "The wizard removes CPU cooling for diagnostics. Repair and maintenance of computer boards and the latest processors. Replacement of chip thermal paste. In Modern Electronic Manufacturing Factory Design Engineer Holds Microchip .New Generation chip (Provided by Getty Images)",
+      "query: computer internal cleaning",
+      "Electronic computer hardware technology. Integrated communication processor (Provided by Getty Images)",
+      "query: hardware diagnostic check",
+      "IT specialist computer engineer cleaning and repairing computer (Provided by Getty Images)",
+      "query: computer internal cleaning"
+    ]
+  }
+}

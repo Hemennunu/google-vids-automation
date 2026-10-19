@@ -1,6 +1,7 @@
 # ICT_G12_U04_S05 — HTML vs XML
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 4.2 HTML vs. XML.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Advantages and Disadvantages of XML

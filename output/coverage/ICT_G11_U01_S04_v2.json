@@ -1,0 +1,87 @@
+{
+  "code": "ICT_G11_U01_S04",
+  "draftUrl": "https://docs.google.com/videos/d/1mRUAYIviGenVY9_Tfa0eOVZekZduJN2kLOKZYJyMsyI/edit?scene=id.h4c752a75e091a14b_0_28#scene=id.h4c752a75e091a14b_0_28",
+  "subchapter": "1.1 Data, Information, Knowledge, and Wisdom",
+  "scenes": 27,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Data",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    },
+    {
+      "item": "Knowledge",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "knowledge"
+      ]
+    },
+    {
+      "item": "Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "wisdom"
+      ]
+    },
+    {
+      "item": "The Difference between Data, Information, Knowledge, and Wisdom",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "information",
+        "knowledge",
+        "wisdom"
+      ]
+    },
+    {
+      "item": "Information",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 26,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Digital Binary Code Flowing. Scientific Technology Data. (Provided by Getty Images)",
+      "query: binary code stream",
+      "Digital Futuristic abstract background of decentralized finance and blockchain concept (Provided by Getty Images)",
+      "query: digital information structure",
+      "Marketing research icons animation (Provided by Getty Images)",
+      "query: DIKW hierarchy diagram",
+      "Financial data (Provided by Getty Images)",
+      "query: DIKW definition table interface",
+      "Data and report statistics, animation with graph diagrams. (Provided by Getty Images)",
+      "query: big data analytics report",
+      "Binary Code Numbers Background, Loop (Provided by Getty Images)",
+      "query: binary code stream"
+    ]
+  }
+}

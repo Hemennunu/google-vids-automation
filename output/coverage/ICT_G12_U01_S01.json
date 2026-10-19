@@ -1,0 +1,88 @@
+{
+  "code": "ICT_G12_U01_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1fWVd1JRuDV6wYPY8Bl-7HcPOXsP-UZ0RFUUUr_nF_Xw/edit?scene=id.h74787934224a09b9_0_12#scene=id.h74787934224a09b9_0_12",
+  "subchapter": "Unit 1: 1.1, 1.2, 1.3, 1.4, 1.5",
+  "scenes": 15,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Ethical, Legal, Social, Environmental and Health Issues in",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "ethical",
+        "legal",
+        "social",
+        "environmental",
+        "health",
+        "issu"
+      ]
+    },
+    {
+      "item": "Intellectual Property",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "intellectual",
+        "property"
+      ]
+    },
+    {
+      "item": "Digital Identity Management",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "digital",
+        "identity",
+        "management"
+      ]
+    },
+    {
+      "item": "Collaboration Through Digital Technologies",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "collaboration",
+        "digital",
+        "technolog"
+      ]
+    },
+    {
+      "item": "Engaging in Citizenship through Digital Technologies",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "citizenship",
+        "digital",
+        "technolog"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Accountability with digital technology concept (Provided by Getty Images)",
+      "query: digital ethics concept",
+      "Encryption with digital technology concept (Provided by Getty Images)",
+      "query: secure online database access",
+      "Internet of things and smart home (Provided by Getty Images)",
+      "query: technology changing human behavior",
+      "Technology Patents Related Terms (Provided by Getty Images)",
+      "query: intellectual property patent document",
+      "Access granted, man\\u0027s ID check successful, identity verified, facial biometrics (Provided by Getty Images)",
+      "query: digital biometric identity",
+      "Person Activate Id in Fingerprint Scanning on Tech Device Panel Close-up. Human Turn on Neural Network Visualization Hologram. Concept of Digital Start Identification Sensor Screen in Industry Four 4k (Provided by Getty Images)",
+      "Animation of fingerprint scan on a screen, cyber security check (Provided by Getty Images)"
+    ]
+  }
+}

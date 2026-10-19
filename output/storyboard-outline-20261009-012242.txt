@@ -1,0 +1,13 @@
+STORYBOARD OUTLINE
+Source Document: ICT_G11_U04_S05_section_source.md
+Generated At: 2026-10-08T22:22:42.417Z
+Scene Count: 1
+================================================
+
+--- SCENE 1: must warmly welcome students to the section and introduce the topic; teach EVERY ---
+must warmly welcome students to the section and introduce the topic; teach EVERY item in its MUST-COVER CHECKLIST, each with a clear explanation and an example in logical order; and conclude the final scene with a clear summary and ending wrap-up for this section. Use as many scenes as needed and do not merge or skip items to shorten the video. Follow the LMS lesson and the textbook content; do not invent facts. Visuals: choose each image or clip to show the concept the scene teaches (e.g. a database table, a network diagram, a robot arm, code on a screen); do not add people where the concept does not need them. Only when a scene shows people or places, make them Ethiopian or African (e.g. "Ethiopian students in a computer lab", "African farmer using a smartphone"). Do not mention textbook figure or page numbers. Source document: 
+ICT_G11_U04_S05_section_source.docx
+ 
+Try again
+Edit the outline
+Rate this suggestion:

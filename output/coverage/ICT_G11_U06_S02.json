@@ -1,0 +1,93 @@
+{
+  "code": "ICT_G11_U06_S02",
+  "draftUrl": "https://docs.google.com/videos/d/1SU96K9i9Qf_EPEKU_pBNsntAAti-O08-u3xGoO2VlVY/edit?scene=id.h6713cb178370a7e1_0_13#scene=id.h6713cb178370a7e1_0_13",
+  "scenes": 31,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Python programs",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python",
+        "program"
+      ]
+    },
+    {
+      "item": "Variables in Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl",
+        "python"
+      ]
+    },
+    {
+      "item": "Variables",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "variabl"
+      ]
+    },
+    {
+      "item": "Functions",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "function"
+      ]
+    },
+    {
+      "item": "Lists",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "list"
+      ]
+    },
+    {
+      "item": "Items",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "item"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 12,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: Python programming language logo",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: Text editing Python script",
+      "4k Binary Data Flowing Through Program (White) (Provided by Getty Images)",
+      "query: Computer science history concept",
+      "SQL code loop background (Provided by Getty Images)",
+      "query: Programming syntax data types table",
+      "Background from mathematical formulas (Provided by Getty Images)",
+      "query: Mathematical equation code snippet",
+      "Coding Data Green (Provided by Getty Images)",
+      "query: Dynamic data types programming code"
+    ]
+  }
+}

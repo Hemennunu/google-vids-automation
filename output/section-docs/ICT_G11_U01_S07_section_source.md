@@ -1,6 +1,7 @@
 # ICT_G11_U01_S07 — IT for Entrepreneurship
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 1.4 IT for Entrepreneurship.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - a-service

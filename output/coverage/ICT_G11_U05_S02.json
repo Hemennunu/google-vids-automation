@@ -1,0 +1,123 @@
+{
+  "code": "ICT_G11_U05_S02",
+  "draftUrl": "https://docs.google.com/videos/d/1h_wBk4Rs8ipoiaeRuqOyvvbsEQaX1hKVLERIY9gFBE0/edit?scene=id.h25e2097522f73069_0_14#scene=id.h25e2097522f73069_0_14",
+  "scenes": 19,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 9,
+    "total": 9
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Power-On Self-Test",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "power-on",
+        "self-test"
+      ]
+    },
+    {
+      "item": "and demonstrate correct electrostatic discharge",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "correct",
+        "electrostatic",
+        "discharge"
+      ]
+    },
+    {
+      "item": "Hardware troubleshooting",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "troubleshoot"
+      ]
+    },
+    {
+      "item": "Central Processing Unit",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "central",
+        "process"
+      ]
+    },
+    {
+      "item": "blue screens of death",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "blue",
+        "screen",
+        "death"
+      ]
+    },
+    {
+      "item": "Random Access Memory",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "random",
+        "acces",
+        "memory"
+      ]
+    },
+    {
+      "item": "platters and Solid State Drives",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "platter",
+        "solid",
+        "state",
+        "driv"
+      ]
+    },
+    {
+      "item": "Power Supply Unit",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "power",
+        "supply"
+      ]
+    },
+    {
+      "item": "protectors and Uninterruptible Power Supplies",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "protector",
+        "uninterruptible",
+        "power",
+        "suppl"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 13,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Electrician Works On Equipment (Provided by Getty Images)",
+      "query: computer technician tools",
+      "Code 2.1 Loging loading OS X system process (Provided by Getty Images)",
+      "query: computer BIOS screen",
+      "The wizard removes CPU cooling for diagnostics. Repair and maintenance of computer boards and the latest processors. Replacement of chip thermal paste. In Modern Electronic Manufacturing Factory Design Engineer Holds Microchip .New Generation chip (Provided by Getty Images)",
+      "query: computer diagnostic flowchart",
+      "Computer circuit board. Dolly shot of computer motherboard with resistors (Provided by Getty Images)",
+      "query: laptop computer hardware",
+      "Asian young boy learning  electronic board in the classroom.  Engineering electronic education in colleges. (Provided by Getty Images)",
+      "query: installing RAM modules",
+      "Top view to the hard drive disk with recovery data after hacker attack (Provided by Getty Images)",
+      "Electronics, hard disk storage information. Binary code. Computer techologies. Detail of a close-up. Spindle with a head, disassembled hdd. Cloud storage, data arrays. Server racks with hard disks (Provided by Getty Images)"
+    ]
+  }
+}

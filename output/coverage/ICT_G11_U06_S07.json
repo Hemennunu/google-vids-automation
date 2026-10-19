@@ -1,0 +1,136 @@
+{
+  "code": "ICT_G11_U06_S07",
+  "draftUrl": "https://docs.google.com/videos/d/1Pen8fy8PDSr4ZW5PyOhc5PwTg5peSTPXIlWCiIZJ490/edit?scene=id.h1cd1dfd1d032ca38_0_11#scene=id.h1cd1dfd1d032ca38_0_11",
+  "subchapter": "6.5 Writing a Simple Program",
+  "scenes": 16,
+  "textbook": {
+    "covered": 12,
+    "total": 12
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Interpreter",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "interpreter"
+      ]
+    },
+    {
+      "item": "Compiler",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "compiler"
+      ]
+    },
+    {
+      "item": "Machine Language",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "machine",
+        "language"
+      ]
+    },
+    {
+      "item": "Assembly Language",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "assembly",
+        "language"
+      ]
+    },
+    {
+      "item": "Statement",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "statement"
+      ]
+    },
+    {
+      "item": "Syntax",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "syntax"
+      ]
+    },
+    {
+      "item": "Operator",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "operator"
+      ]
+    },
+    {
+      "item": "Semantics",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "semantic"
+      ]
+    },
+    {
+      "item": "IDLE shell",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "idle",
+        "shell"
+      ]
+    },
+    {
+      "item": "The sum",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "sum"
+      ]
+    },
+    {
+      "item": "The product",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "product"
+      ]
+    },
+    {
+      "item": "The average value",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "average",
+        "value"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 10,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Education Text Scrolling LED Wall Pannel Display Sign Board (Provided by Getty Images)",
+      "query: assignment operator equal sign",
+      "Animated binary code with zero and one numbers background (Provided by Getty Images)",
+      "query: binary code background 1s and 0s",
+      "Binary data code with tech background in style of black and white color. Abstract background of technology, science and cyberspace. Motion graphic (Provided by Getty Images)",
+      "query: abstract technology background code",
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: Python programming logo",
+      "Computer Technology Network Codes (Provided by Getty Images)",
+      "query: python multiplication code",
+      "Coding Data Green (Provided by Getty Images)",
+      "query: abstract technology background code"
+    ]
+  }
+}

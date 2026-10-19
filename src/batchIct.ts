@@ -34,13 +34,17 @@ const MAX_CONSECUTIVE_FAILURES = 3;
 const STOP_PATTERN =
   /sign-in|signin|session (may have )?expired|reached (your|the) (daily )?limit|usage limit|quota (exceeded|reached)|too many requests|try again tomorrow|not signed in/i;
 
-/** Section kinds that get no video. */
+/** Section kinds that get no video (learning objectives retained by user request). */
 const SKIP_TITLES =
-  /learning objectives|interactive tools|heading links|semester exam|worked examples|key vocabulary|cambridge|\bmarks?\b|short answer|multiple choice|extended response|data response|true\s*\/\s*false|answer key|about this document|^assessment$/i;
+  /interactive tools|heading links|semester exam|worked examples|key vocabulary|cambridge|\bmarks?\b|short answer|multiple choice|extended response|data response|true\s*\/\s*false|answer key|about this document|^assessment$/i;
 
 type Section = { code: string; grade: string; unit: number; title: string };
 
-async function listSections(grade: string | "all", unit?: number): Promise<Section[]> {
+async function listSections(
+  grade: string | "all",
+  unit?: number,
+  options?: { skipNonTeaching?: boolean; deduplicate?: boolean },
+): Promise<Section[]> {
   const files = (await fs.readdir(SOURCE_DIR)).filter((f) => /^ICT_G1[12]_U\d+_S\d+\.txt$/.test(f));
   const sections: Section[] = [];
   const seenTitles = new Set<string>();
@@ -50,11 +54,12 @@ async function listSections(grade: string | "all", unit?: number): Promise<Secti
     if (unit !== undefined && Number(u) !== unit) continue;
     const firstLine = (await fs.readFile(path.join(SOURCE_DIR, file), "utf8")).split(/\r?\n/).find((l) => l.startsWith("# ")) ?? "";
     const title = firstLine.replace(/^#\s*(Section\s*[\d.]+:\s*)?(\d+\.?\s*)?/i, "").trim();
-    if (SKIP_TITLES.test(title)) continue;
-    // Some units have the same section twice ("Section 11: 8. Unit Summary" / "8 Unit Summary").
-    const key = `${g}/${u}/${title.toLowerCase().replace(/[^a-z]+/g, " ").trim()}`;
-    if (seenTitles.has(key)) continue;
-    seenTitles.add(key);
+    if (options?.skipNonTeaching && SKIP_TITLES.test(title)) continue;
+    if (options?.deduplicate) {
+      const key = `${g}/${u}/${title.toLowerCase().replace(/[^a-z]+/g, " ").trim()}`;
+      if (seenTitles.has(key)) continue;
+      seenTitles.add(key);
+    }
     sections.push({ code: file.replace(/\.txt$/, ""), grade: g!, unit: Number(u), title });
   }
   return sections;
@@ -124,12 +129,40 @@ async function ensureUploaded(docxPath: string): Promise<boolean> {
   return true;
 }
 
+function matchesSection(s: Section, pattern: string): boolean {
+  const p = pattern.trim().toLowerCase();
+  const c = s.code.toLowerCase();
+  if (c === p || c.replace(/_/g, "-") === p.replace(/_/g, "-")) return true;
+  const sMatch = /_s(\d+)$/i.exec(c);
+  if (sMatch) {
+    const secNum = sMatch[1]!;
+    const secNumInt = Number.parseInt(secNum, 10).toString();
+    if (p === secNum || p === secNumInt) return true;
+    if (p === `s${secNum}` || p === `s${secNumInt}`) return true;
+  }
+  const title = s.title.toLowerCase();
+  const pClean = p.replace(/[-_]/g, " ");
+  if (title.includes(pClean) || title.includes(p)) return true;
+  return false;
+}
+
+function parseList(raw: string | undefined): string[] {
+  if (!raw) return [];
+  if (raw.includes(",")) return raw.split(",").map((s) => s.trim()).filter(Boolean);
+  if (/^(\s*(s?\d+|ict_\S+)\s*)+$/i.test(raw)) return raw.split(/\s+/).map((s) => s.trim()).filter(Boolean);
+  return [raw.trim()];
+}
+
 async function main(): Promise<void> {
   const argv = process.argv.slice(2);
   const grade = (cliValue(argv, "grade") ?? "all").replace(/^0/, "");
   const unitRaw = cliValue(argv, "unit");
   const limitRaw = cliValue(argv, "limit") ?? "1";
-  const only = cliValue(argv, "sections")?.split(",").map((s) => s.trim());
+  const onlyRaw = cliValue(argv, "sections");
+  const only = parseList(onlyRaw);
+  const excludeRaw = cliValue(argv, "exclude") ?? cliValue(argv, "skip-sections") ?? cliValue(argv, "skip");
+  const exclude = parseList(excludeRaw);
+  const missingOnly = cliFlag(argv, "missing") || cliFlag(argv, "missing-only");
   const dryRun = cliFlag(argv, "dry-run");
   // --redo: generate again even if done (new files get _v2, _v3… so earlier versions are kept).
   const redo = cliFlag(argv, "redo") || process.env.ICT_REDO === "1";
@@ -137,10 +170,27 @@ async function main(): Promise<void> {
   const limit = limitRaw === "all" ? Number.POSITIVE_INFINITY : Math.max(1, Number.parseInt(limitRaw, 10) || 1);
   if (!["11", "12", "all"].includes(grade)) throw new Error("--grade must be 11, 12 or all");
 
-  let sections = await listSections(grade as "11" | "12" | "all", unitRaw ? Number(unitRaw) : undefined);
-  if (only) sections = sections.filter((s) => only.includes(s.code));
+  const dedupe = cliFlag(argv, "dedupe") || cliFlag(argv, "deduplicate");
+  const skipNonTeaching = cliFlag(argv, "skip-non-teaching") || cliFlag(argv, "omit-non-teaching");
+  let sections = await listSections(grade as "11" | "12" | "all", unitRaw ? Number(unitRaw) : undefined, {
+    deduplicate: dedupe,
+    skipNonTeaching,
+  });
+  if (only.length > 0) sections = sections.filter((s) => only.some((pat) => matchesSection(s, pat)));
+  if (exclude.length > 0) sections = sections.filter((s) => !exclude.some((pat) => matchesSection(s, pat)));
   const done = await doneCodes();
-  const queue = sections.filter((s) => redo || !done.has(s.code)).slice(0, limit);
+  let candidateQueue = sections.filter((s) => redo || !done.has(s.code));
+  if (missingOnly) {
+    const fileExists = (p: string) => fs.access(p).then(() => true, () => false);
+    const checks = await Promise.all(
+      candidateQueue.map(async (s) => {
+        const mp4Path = path.join(OUTPUT_DIR, "ICT", `G${s.grade}`, `U${String(s.unit).padStart(2, "0")}`, `${s.code}.mp4`);
+        return { section: s, exists: await fileExists(mp4Path) };
+      }),
+    );
+    candidateQueue = checks.filter((c) => !c.exists).map((c) => c.section);
+  }
+  const queue = candidateQueue.slice(0, limit);
   log("info", `ICT sections selected: ${sections.length} (${done.size} already done) — this run: ${queue.length}.`);
 
   if (dryRun) {
@@ -152,63 +202,83 @@ async function main(): Promise<void> {
     return;
   }
 
+  const maxFailures = Number.parseInt(cliValue(argv, "max-failures") ?? "4", 10);
   const exporter = createExporter(parseExportMode(argv));
   let failures = 0;
   for (const [i, s] of queue.entries()) {
     log("info", `════ [${i + 1}/${queue.length}] ${s.code} — ${s.title} ════`);
     const started = Date.now();
     const row: Record<string, unknown> = { code: s.code, title: s.title };
-    try {
-      const doc = await buildSectionDocument(s.code);
-      log("info", `Section document: ${doc.mustCover.length} must-cover items (sub-chapter: ${doc.subchapter ?? "none"}).`);
-      if (await ensureUploaded(doc.docxPath)) await new Promise((r) => setTimeout(r, 15_000)); // let Drive index it for "@"
+    const MAX_SECTION_ATTEMPTS = 2;
 
-      const videoPath = await nextVersionPath(
-        path.join(OUTPUT_DIR, "ICT", `G${s.grade}`, `U${String(s.unit).padStart(2, "0")}`, `${s.code}.mp4`),
-      );
-      const result = await runGoogleVidsDraftFlow({
-        headless: false,
-        useCdp: true,
-        pauseAtEnd: false,
-        slowMoMs: 0,
-        videoFormat: "Landscape",
-        scriptPath: doc.markdownPath,
-        driveDocName: doc.driveName,
-        driveDocPath: doc.docxPath,
-        mustCoverItems: doc.mustCover.map((m) => m.item),
-        storyboardInstruction: sectionStoryboardInstruction(s.grade, s.title),
-        exporter,
-        outputPath: videoPath,
-      });
-      row.editor_url = result.editorUrl;
-      row.result = result.outputPath;
-      if (!result.success) throw Object.assign(new Error(result.error ?? "Video flow failed"), { editorUrl: result.editorUrl });
-
-      if (result.editorUrl) {
-        const launch = await launchBrowserViaCdp(undefined, { newPage: true });
-        try {
-          const cov = await checkSectionCoverage(launch.page, s.code, result.editorUrl, path.parse(videoPath).name);
-          Object.assign(row, {
-            coverage_pct: cov.coveragePercent,
-            textbook_items: `${cov.textbook.covered}/${cov.textbook.total}`,
-            lms_items: `${cov.lms.covered}/${cov.lms.total}`,
-            ethiopian_stock: `${cov.stock.ethiopiaOrAfrica}/${cov.stock.total}`,
-          });
-          log("info", `Coverage ${cov.coveragePercent}% (textbook ${row.textbook_items}, LMS ${row.lms_items}); Ethiopian/African stock ${row.ethiopian_stock}.`);
-        } finally {
-          await launch.page.close().catch(() => undefined);
-          await closeLaunchResult(launch);
+    for (let attempt = 1; attempt <= MAX_SECTION_ATTEMPTS; attempt++) {
+      try {
+        if (attempt > 1) {
+          log("info", `Repeating section ${s.code} (attempt ${attempt}/${MAX_SECTION_ATTEMPTS})…`);
+          await new Promise((r) => setTimeout(r, 8_000));
         }
+
+        const doc = await buildSectionDocument(s.code);
+        log("info", `Section document: ${doc.mustCover.length} must-cover items (sub-chapter: ${doc.subchapter ?? "none"}).`);
+        if (await ensureUploaded(doc.docxPath)) await new Promise((r) => setTimeout(r, 15_000)); // let Drive index it for "@"
+
+        const videoPath = await nextVersionPath(
+          path.join(OUTPUT_DIR, "ICT", `G${s.grade}`, `U${String(s.unit).padStart(2, "0")}`, `${s.code}.mp4`),
+        );
+        // If a previous attempt already generated a complete draft (has scenes) and failed only on export, reuse it
+        const reuseDraft = attempt > 1 && row.editor_url && !String(row.editor_url).includes("scene=id.p");
+        const result = await runGoogleVidsDraftFlow({
+          headless: false,
+          useCdp: true,
+          pauseAtEnd: false,
+          slowMoMs: 0,
+          videoFormat: "Landscape",
+          scriptPath: doc.markdownPath,
+          driveDocName: doc.driveName,
+          driveDocPath: doc.docxPath,
+          mustCoverItems: doc.mustCover.map((m) => m.item),
+          storyboardInstruction: sectionStoryboardInstruction(s.grade, s.title),
+          exporter,
+          outputPath: videoPath,
+          existingDraftUrl: reuseDraft ? String(row.editor_url) : undefined,
+        });
+        row.editor_url = result.editorUrl;
+        row.result = result.outputPath;
+        if (!result.success) throw Object.assign(new Error(result.error ?? "Video flow failed"), { editorUrl: result.editorUrl });
+
+        if (result.editorUrl) {
+          const launch = await launchBrowserViaCdp(undefined, { newPage: true });
+          try {
+            const cov = await checkSectionCoverage(launch.page, s.code, result.editorUrl, path.parse(videoPath).name);
+            Object.assign(row, {
+              coverage_pct: cov.coveragePercent,
+              textbook_items: `${cov.textbook.covered}/${cov.textbook.total}`,
+              lms_items: `${cov.lms.covered}/${cov.lms.total}`,
+              ethiopian_stock: `${cov.stock.ethiopiaOrAfrica}/${cov.stock.total}`,
+            });
+            log("info", `Coverage ${cov.coveragePercent}% (textbook ${row.textbook_items}, LMS ${row.lms_items}); Ethiopian/African stock ${row.ethiopian_stock}.`);
+          } finally {
+            await launch.page.close().catch(() => undefined);
+            await closeLaunchResult(launch);
+          }
+        }
+        row.status = "done";
+        row.error = "";
+        failures = 0;
+        break; // Succeeded!
+      } catch (err) {
+        row.error = err instanceof Error ? err.message : String(err);
+        row.editor_url ??= (err as { editorUrl?: string }).editorUrl;
+        if (attempt < MAX_SECTION_ATTEMPTS && !STOP_PATTERN.test(String(row.error))) {
+          log("warn", `${s.code} failed attempt ${attempt} (${row.error}) — repeating the process…`);
+          continue;
+        }
+        row.status = "failed";
+        failures++;
+        log("error", `${s.code} failed: ${row.error}`);
       }
-      row.status = "done";
-      failures = 0;
-    } catch (err) {
-      row.status = "failed";
-      row.error = err instanceof Error ? err.message : String(err);
-      row.editor_url ??= (err as { editorUrl?: string }).editorUrl;
-      failures++;
-      log("error", `${s.code} failed: ${row.error}`);
     }
+
     row.timestamp = new Date().toISOString();
     row.seconds = Math.round((Date.now() - started) / 1000);
     await appendLog(row);
@@ -217,7 +287,7 @@ async function main(): Promise<void> {
       log("error", "Stopping: sign-in or usage-limit problem. Re-run the same command later to resume.");
       break;
     }
-    if (failures >= MAX_CONSECUTIVE_FAILURES) {
+    if (failures >= maxFailures) {
       log("error", `Stopping: ${failures} failures in a row. See ${LOG_PATH} and screenshots/.`);
       break;
     }

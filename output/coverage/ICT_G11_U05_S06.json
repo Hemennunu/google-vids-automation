@@ -1,0 +1,43 @@
+{
+  "code": "ICT_G11_U05_S06",
+  "draftUrl": "https://docs.google.com/videos/d/1gtli9kC9ojVjX85Xre6yzTncLrgJdrH0UCQU_LKuk6c/edit?scene=id.h445632e659b31fa6_0_11#scene=id.h445632e659b31fa6_0_11",
+  "scenes": 28,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 1,
+    "total": 1
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Marks",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "mark"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 10,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Coding experts solving problems (Provided by Getty Images)",
+      "query: failed hardware connection error",
+      "Business Plan (Provided by Getty Images)",
+      "query: logic path flow diagram",
+      "Hardware project for school (Provided by Getty Images)",
+      "query: technical troubleshooting guide",
+      "Coding experts solving problems (Provided by Getty Images)",
+      "query: troubleshooting algorithm",
+      "Software Engineer Man Planning and Analysis for AI Development (Provided by Getty Images)",
+      "query: logic path flow diagram",
+      "streaming numbers data and code background (Provided by Getty Images)",
+      "query: data input fields on screen"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # ICT_G12_U06_S07 — Testing and Debugging Programs
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 6.4 Testing and Debugging Programs.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - first type

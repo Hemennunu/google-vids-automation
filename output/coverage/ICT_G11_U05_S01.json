@@ -1,0 +1,55 @@
+{
+  "code": "ICT_G11_U05_S01",
+  "draftUrl": "https://docs.google.com/videos/d/1hOzKgr9OV9h4xi30qKJzjPi6HfKci93xHBy3rk_cvx8/edit?scene=id.h451d747bacd8fc1_0_10#scene=id.h451d747bacd8fc1_0_10",
+  "subchapter": "Unit 5: 5.1, 5.2",
+  "scenes": 16,
+  "textbook": {
+    "covered": 2,
+    "total": 2
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Hardware Troubleshooting",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "hardware",
+        "troubleshoot"
+      ]
+    },
+    {
+      "item": "Basics of Preventive Maintenance",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "basic",
+        "preventive",
+        "maintenance"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 9,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Servers with digital technology hitech concept (Provided by Getty Images)",
+      "query: Tech infrastructure resilience",
+      "Coding experts solving problems (Provided by Getty Images)",
+      "query: Computer repair technical analysis",
+      "Electrician Works On Equipment (Provided by Getty Images)",
+      "query: Computer system maintenance",
+      "IT woman consultant checking circuit board.Education,Technology,Science and people concept.Education Topics.Industry 4.0,Women in STEM (Provided by Getty Images)",
+      "query: Computer repair technical analysis",
+      "IT specialist computer engineer cleaning and repairing computer (Provided by Getty Images)",
+      "query: Preventive maintenance computer",
+      "Data Archiving with digital technology concept (Provided by Getty Images)",
+      "query: Data recovery backup icon"
+    ]
+  }
+}

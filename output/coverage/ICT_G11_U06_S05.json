@@ -1,0 +1,80 @@
+{
+  "code": "ICT_G11_U06_S05",
+  "draftUrl": "https://docs.google.com/videos/d/1n3OpdTRauvmi_ro9pjciGP2zXMIYfsThqmEWNKkonMc/edit?scene=id.h665be7726f5b490e_0_11#scene=id.h665be7726f5b490e_0_11",
+  "subchapter": "6.2 Basics of Python",
+  "scenes": 19,
+  "textbook": {
+    "covered": 2,
+    "total": 2
+  },
+  "lms": {
+    "covered": 3,
+    "total": 3
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Using the Interactive Interpreter",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "interactive",
+        "interpreter"
+      ]
+    },
+    {
+      "item": "Using the Text Editor",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "text",
+        "editor"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Interactive mode",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "interactive",
+        "mode"
+      ]
+    },
+    {
+      "item": "Script mode",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "script",
+        "mode"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 10,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: Python programming language logo",
+      "Program Code | 4K (Provided by Getty Images)",
+      "query: IDLE shell interface",
+      "Code 2.7 Scrolling Python Code By Developer on Notebook screen (Provided by Getty Images)",
+      "query: debugging computer code",
+      "Software development process concept in a cyberspace. programming code (Provided by Getty Images)",
+      "query: Python IDLE interactive interpreter",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: Python programming language logo",
+      "Deploying software on a server (Provided by Getty Images)",
+      "query: Python command line prompt"
+    ]
+  }
+}

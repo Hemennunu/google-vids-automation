@@ -1,6 +1,7 @@
 # ICT_G12_U06_S01 — Unit Overview
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 6: 6.1, 6.2, 6.3, 6.4.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Program Flow Controls and Syntax in Python

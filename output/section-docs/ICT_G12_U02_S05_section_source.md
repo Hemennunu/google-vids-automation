@@ -1,6 +1,7 @@
 # ICT_G12_U02_S05 — Cloud Computing
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 2.2 Cloud Computing.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Introduction to Cloud Computing

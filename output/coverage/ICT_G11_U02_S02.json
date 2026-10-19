@@ -1,0 +1,311 @@
+{
+  "code": "ICT_G11_U02_S02",
+  "draftUrl": "https://docs.google.com/videos/d/1naZt8icLdkcRWOedlmGIUIxBEJUh35vYVrWOU1FfqCs/edit?scene=id.h3068dfa545861edf_0_20#scene=id.h3068dfa545861edf_0_20",
+  "subchapter": "2.1 Artificial Intelligence",
+  "scenes": 24,
+  "textbook": {
+    "covered": 21,
+    "total": 23
+  },
+  "lms": {
+    "covered": 7,
+    "total": 7
+  },
+  "coveragePercent": 93,
+  "missing": [
+    {
+      "item": "Customer Service",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "customer"
+      ]
+    },
+    {
+      "item": "Healthcare",
+      "source": "textbook",
+      "covered": false,
+      "matched": []
+    }
+  ],
+  "items": [
+    {
+      "item": "Branches of AI",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "branch"
+      ]
+    },
+    {
+      "item": "Machine Learning",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "machine",
+        "learn"
+      ]
+    },
+    {
+      "item": "Robotics",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "robotic"
+      ]
+    },
+    {
+      "item": "Natural Language Processing",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "natural",
+        "language",
+        "process"
+      ]
+    },
+    {
+      "item": "Spam Detection",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "spam",
+        "detection"
+      ]
+    },
+    {
+      "item": "Machine Translation",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "machine",
+        "translation"
+      ]
+    },
+    {
+      "item": "Virtual Assistant",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "virtual",
+        "assistant"
+      ]
+    },
+    {
+      "item": "Sentiment Analysis",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "sentiment",
+        "analysi"
+      ]
+    },
+    {
+      "item": "Fake News Identification",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "fake",
+        "new"
+      ]
+    },
+    {
+      "item": "Text Summarization",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "text",
+        "summarization"
+      ]
+    },
+    {
+      "item": "Expert Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "expert",
+        "system"
+      ]
+    },
+    {
+      "item": "Application of AI",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "application"
+      ]
+    },
+    {
+      "item": "Online Shopping",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "online",
+        "shopp"
+      ]
+    },
+    {
+      "item": "Autonomous Cars",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "autonomou",
+        "car"
+      ]
+    },
+    {
+      "item": "Social Media",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "social",
+        "media"
+      ]
+    },
+    {
+      "item": "Surveillance",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "surveillance"
+      ]
+    },
+    {
+      "item": "Agriculture",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "agriculture"
+      ]
+    },
+    {
+      "item": "Customer Service",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "customer"
+      ]
+    },
+    {
+      "item": "Healthcare",
+      "source": "textbook",
+      "covered": false,
+      "matched": []
+    },
+    {
+      "item": "Space Exploration",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "space",
+        "exploration"
+      ]
+    },
+    {
+      "item": "Smart Homes",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "smart",
+        "hom"
+      ]
+    },
+    {
+      "item": "Banks",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "bank"
+      ]
+    },
+    {
+      "item": "Search Engine",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "search",
+        "engine"
+      ]
+    },
+    {
+      "item": "Artificial intelligence",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "artificial",
+        "intelligence"
+      ]
+    },
+    {
+      "item": "Machine learning",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "machine",
+        "learn"
+      ]
+    },
+    {
+      "item": "Data science",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    },
+    {
+      "item": "Python",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "python"
+      ]
+    },
+    {
+      "item": "Internet of Things",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "internet",
+        "thing"
+      ]
+    },
+    {
+      "item": "Ethical considerations",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "ethical",
+        "consideration"
+      ]
+    },
+    {
+      "item": "Algorithmic bias",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "algorithmic",
+        "bia"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 19,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "AI Learning and Artificial Intelligence Concept. Business, modern technology, internet and networking concept. (Provided by Getty Images)",
+      "query: artificial intelligence branches concept diagram",
+      "Deep Learning Machine with Digital Network Intelligence Looping (Provided by Getty Images)",
+      "query: machine learning neural network nodes",
+      "Team of Computer Engineers Work on Machine Learning Neural Network Technology Development. (Provided by Getty Images)",
+      "query: abstract ethics and technology balance scale",
+      "Machine Learning background concept (Provided by Getty Images)",
+      "query: machine learning neural network nodes",
+      "Engineers Maintenance Robot Arm at Lab. he are in a High Tech Research Laboratory with Modern Equipment. Technology and Innovation .. (Provided by Getty Images)",
+      "query: robotic arm in automated factory",
+      "Modern Robot Technology Analyzing Hud Data Circuit Background (Provided by Getty Images)",
+      "query: tech icons icons robotics machine learning NLP"
+    ]
+  }
+}

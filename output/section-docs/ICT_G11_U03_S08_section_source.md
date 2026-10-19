@@ -1,6 +1,7 @@
 # ICT_G11_U03_S08 — Creating a Relational Database in Microsoft Access
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 3.3 Creating Relational Database in Microsoft Access.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Creating Microsoft Access Database

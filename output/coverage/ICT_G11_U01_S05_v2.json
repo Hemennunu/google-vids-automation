@@ -1,0 +1,239 @@
+{
+  "code": "ICT_G11_U01_S05",
+  "draftUrl": "https://docs.google.com/videos/d/1lpOjrFE--oYu-tWp_FrXxVS2hI7Rx5two9mSQ3RdtTY/edit?scene=id.h185b71f14198271a_0_17#scene=id.h185b71f14198271a_0_17",
+  "subchapter": "1.2 Introduction to Information Systems",
+  "scenes": 18,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 15,
+    "total": 16
+  },
+  "coveragePercent": 95,
+  "missing": [
+    {
+      "item": "Its purpose",
+      "source": "lms",
+      "covered": false,
+      "matched": []
+    }
+  ],
+  "items": [
+    {
+      "item": "Information systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Components of IS",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "component"
+      ]
+    },
+    {
+      "item": "Time and attendance software",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "time",
+        "attendance",
+        "software"
+      ]
+    },
+    {
+      "item": "Performance management software",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "performance",
+        "management",
+        "software"
+      ]
+    },
+    {
+      "item": "Training and development software",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "train",
+        "development",
+        "software"
+      ]
+    },
+    {
+      "item": "information system",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Its purpose",
+      "source": "lms",
+      "covered": false,
+      "matched": []
+    },
+    {
+      "item": "Hardware",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "hardware"
+      ]
+    },
+    {
+      "item": "Data",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "data"
+      ]
+    },
+    {
+      "item": "Poor data quality",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "poor",
+        "data",
+        "quality"
+      ]
+    },
+    {
+      "item": "People",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "people"
+      ]
+    },
+    {
+      "item": "Procedures",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "procedur"
+      ]
+    },
+    {
+      "item": "Human Resource Information System",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "human",
+        "resource",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "of coffee purchases from farmers",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "coffee",
+        "purchas",
+        "farmer"
+      ]
+    },
+    {
+      "item": "of export volumes and prices",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "export",
+        "volum",
+        "pric"
+      ]
+    },
+    {
+      "item": "whether to seek organic certification",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "whether",
+        "seek",
+        "organic",
+        "certification"
+      ]
+    },
+    {
+      "item": "term planning for market expansion",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "plann",
+        "market",
+        "expansion"
+      ]
+    },
+    {
+      "item": "Transaction Processing Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "transaction",
+        "process",
+        "system"
+      ]
+    },
+    {
+      "item": "Management Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "management",
+        "information",
+        "system"
+      ]
+    },
+    {
+      "item": "Decision Support Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "decision",
+        "support",
+        "system"
+      ]
+    },
+    {
+      "item": "Executive Information Systems",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "executive",
+        "information",
+        "system"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 16,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Computer Programming Code (Provided by Getty Images)",
+      "query: database record error concept",
+      "Storage with digital technology hitech concept (Provided by Getty Images)",
+      "query: online training management system",
+      "Business Data Audit Spreadsheet (Provided by Getty Images)",
+      "query: business data decision making concept",
+      "Use POS machine to swipe card for consumption in the office (Provided by Getty Images)",
+      "query: supermarket point of sale system",
+      "Weekly Business Planner Diagram with Graphs and Financial Analytics. White Interface with Blue and Red Charts. Mock-up Accounting Tool Template for Computer Displays. (Provided by Getty Images)",
+      "query: business performance report charts",
+      "African entrepreneur checking financial project working from home (Provided by Getty Images)",
+      "query: data analysis simulation model"
+    ]
+  }
+}

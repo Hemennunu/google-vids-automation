@@ -1,0 +1,107 @@
+{
+  "code": "ICT_G11_U02_S08",
+  "draftUrl": "https://docs.google.com/videos/d/1ggZcHLBgtYk43_uKYWF-3fs_linOD1JSado883lLoBM/edit?scene=id.h43b60590fa36d21_0_16#scene=id.h43b60590fa36d21_0_16",
+  "subchapter": "2.3 Data Science",
+  "scenes": 19,
+  "textbook": {
+    "covered": 6,
+    "total": 7
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 86,
+  "missing": [
+    {
+      "item": "Datata generalization",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "generalization"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item": "Virtual Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "virtual",
+        "reality"
+      ]
+    },
+    {
+      "item": "Sentiment Analysis",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "sentiment",
+        "analysi"
+      ]
+    },
+    {
+      "item": "Augmented Reality",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "augmented",
+        "reality"
+      ]
+    },
+    {
+      "item": "Datata generalization",
+      "source": "textbook",
+      "covered": false,
+      "matched": [
+        "generalization"
+      ]
+    },
+    {
+      "item": "Big data",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "big",
+        "data"
+      ]
+    },
+    {
+      "item": "Expert Systems",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "expert",
+        "system"
+      ]
+    },
+    {
+      "item": "Data Science",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "data",
+        "science"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 15,
+    "ethiopiaOrAfrica": 1,
+    "samples": [
+      "Ethiopia network map (Provided by Getty Images)",
+      "query: map of Ethiopia with regional data zones",
+      "Technology Network Data Connection, Digital Data Network, and Cyber Security, Futuristic Technology Social Network and Global Network Background Concept, 4K (Provided by Getty Images)",
+      "query: digital connectivity concept",
+      "AI and Machine Learning background concept (Provided by Getty Images)",
+      "query: machine learning code patterns",
+      "Economic Analysis (Provided by Getty Images)",
+      "query: data visualization of sentiment analysis",
+      "Big Data 2.1 Searching Process in Big Data Array (Provided by Getty Images)",
+      "query: digital algorithm lines on screen",
+      "Smart city and communication network concept. Digital transformation. IoT Internet of Things. ICT Information Communication Technology. (Provided by Getty Images)",
+      "query: digital connectivity concept"
+    ]
+  }
+}

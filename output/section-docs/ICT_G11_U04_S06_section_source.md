@@ -1,6 +1,7 @@
 # ICT_G11_U04_S06 — HTML Fundamentals
 
 Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: 4.3 HTML Basics.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - HTML Tags and Elements

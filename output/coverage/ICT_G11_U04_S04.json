@@ -1,0 +1,123 @@
+{
+  "code": "ICT_G11_U04_S04",
+  "draftUrl": "https://docs.google.com/videos/d/1VPhxxC-duaao8yLVZ8Kvb0qzeVeWDypJj_sNJmgOrdc/edit?scene=id.habbb4402a3c8203_0_12#scene=id.habbb4402a3c8203_0_12",
+  "subchapter": "4.1 World Wide Web",
+  "scenes": 18,
+  "textbook": {
+    "covered": 0,
+    "total": 0
+  },
+  "lms": {
+    "covered": 9,
+    "total": 9
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "World Wide Web",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "world",
+        "wide",
+        "web"
+      ]
+    },
+    {
+      "item": "using the Hypertext Transfer Protocol",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "hypertext",
+        "transfer",
+        "protocol"
+      ]
+    },
+    {
+      "item": "Domain Name System",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "domain",
+        "name",
+        "system"
+      ]
+    },
+    {
+      "item": "Markup Language",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "markup",
+        "language"
+      ]
+    },
+    {
+      "item": "Cascading Style Sheets",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "cascad",
+        "style",
+        "sheet"
+      ]
+    },
+    {
+      "item": "CSS Box Model",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "box",
+        "model"
+      ]
+    },
+    {
+      "item": "Document Object Model",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "document",
+        "object",
+        "model"
+      ]
+    },
+    {
+      "item": "Web Content Accessibility Guidelines",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "web",
+        "content",
+        "accessibility",
+        "guidelin"
+      ]
+    },
+    {
+      "item": "JavaScript",
+      "source": "lms",
+      "covered": true,
+      "matched": [
+        "javascript"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Internet era the world map as a web of global news and information. Journalism unveiled the connected lines and dots of the world map media network (Provided by Getty Images)",
+      "query: internet server digital map",
+      "Technology dictionary          TE CO (Provided by Getty Images)",
+      "query: vintage 1989 computer technology",
+      "Vintage server room. Information technologies, ISP, control room oncepts. (Provided by Getty Images)",
+      "query: old school server room hardware",
+      "Dot world globe (Provided by Getty Images)",
+      "query: abstract digital connection globe",
+      "4K Animation of Source code data scrolling . Program code hacking process. hacker display (Provided by Getty Images)",
+      "query: HTML source code displayed on monitor",
+      "CSS development with digital technology concept (Provided by Getty Images)",
+      "query: CSS box model diagram"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # ICT_G12_U05_S06 — Tools to Speed Up a Computer
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: 5.3 Tools to speedup computer system.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Disk Defragmenter

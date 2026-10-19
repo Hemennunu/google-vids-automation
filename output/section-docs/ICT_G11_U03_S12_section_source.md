@@ -1,0 +1,22 @@
+# ICT_G11_U03_S12 — Heading Links Visit the following webpage for the list of all html tags: https://www.w3schools.com/tags/default.asp HTML elements are components of an HTML document and normally have a followed by content and an . HTML elements are the building blocks of a webpage. Figure 4.3 shows some examples of HTML elements and their outputs on the browser. HTML Code This is a heading
+
+Grade 11 ICT (Ethiopian curriculum). Textbook sub-chapter: none matched.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
+
+## MUST-COVER CHECKLIST (teach every item)
+- HTML elements
+- HTML Code This
+- Examination SkillsFor extended essay questions
+
+## LMS LESSON (authoritative)
+LEAD
+
+This section extends the MoE Grade 11 content for Database Management to Cambridge International standard.
+
+PARAGRAPHS
+
+Cambridge examinations require precise subject-specific terminology, structured evidence-based arguments, quantitative analysis with correct units, and synoptic connections between topics. Ethiopian examples — GERD, ETRSS-1, Addis Ababa LRT, Ethiopian biodiversity, NBE — are equally valid as international case study evidence.
+
+KEY CONCEPTS
+
+Examination SkillsFor extended essay questions: define key terms; demonstrate awareness of scale; use specific named examples with statistics; consider multiple perspectives; reach a clear, evidence-based conclusion.

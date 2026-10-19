@@ -1,0 +1,91 @@
+{
+  "code": "ICT_G11_U03_S10",
+  "draftUrl": "https://docs.google.com/videos/d/151QDKMA4sYh6zkQCK_YYvsPMGwpURt0uW9Y6h2nqBN0/edit?scene=id.h14502e72faf4fe59_0_12#scene=id.h14502e72faf4fe59_0_12",
+  "subchapter": "3.3 Creating Relational Database in Microsoft Access",
+  "scenes": 20,
+  "textbook": {
+    "covered": 5,
+    "total": 5
+  },
+  "lms": {
+    "covered": 0,
+    "total": 0
+  },
+  "coveragePercent": 100,
+  "missing": [],
+  "items": [
+    {
+      "item": "Creating Microsoft Access Database",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "microsoft",
+        "acces",
+        "database"
+      ]
+    },
+    {
+      "item": "Creating Table in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "table",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Creating Query in Microsoft Access",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "creat",
+        "query",
+        "microsoft",
+        "acces"
+      ]
+    },
+    {
+      "item": "Adding Criteria to Query Design",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "add",
+        "criteria",
+        "query",
+        "design"
+      ]
+    },
+    {
+      "item": "Selecting Data from Multiple Tables",
+      "source": "textbook",
+      "covered": true,
+      "matched": [
+        "select",
+        "data",
+        "multiple",
+        "tabl"
+      ]
+    }
+  ],
+  "stock": {
+    "total": 11,
+    "ethiopiaOrAfrica": 0,
+    "samples": [
+      "Network wave and data flowing (Provided by Getty Images)",
+      "query: abstract glowing network",
+      "User searching web pages on a search engine (Provided by Getty Images)",
+      "query: digital search icon",
+      "Document, Data, Technology, Computer File, Sharing,Document, Organization, Technology, Contract, Digital Display (Provided by Getty Images)",
+      "query: file save dialog box",
+      "Financial data (Provided by Getty Images)",
+      "query: data table rows and columns",
+      "developer software source code on monitor screen. writing script of software developer. program coding. programmer editing code background. Technology background close up shot. (Provided by Getty Images)",
+      "query: software database tools",
+      "Enormous network of computer folders and documents. Internet Cloud, Backup System (Provided by Getty Images)",
+      "query: file save dialog box"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-import type { Page } from "playwright";
+import type { Locator, Page } from "playwright";
 import { captureFailure, firstVisible, log, openFileMenu } from "../googleVids.js";
 import {
   ExportFailure,
@@ -31,15 +31,26 @@ async function clickExportToDrive(page: Page): Promise<void> {
   while (Date.now() < deadline) {
     await openFileMenu(page);
 
-    const item = await firstVisible(
-      page,
-      "File → Export to Drive menu item",
-      [
-        (p) => p.getByRole("menuitem", { name: /^export to drive/i }),
-        (p) => p.getByRole("menuitem", { name: /export to drive/i }),
-      ],
-      15_000,
-    );
+    let item: Locator;
+    try {
+      item = await firstVisible(
+        page,
+        "File → Export to Drive menu item",
+        [
+          (p) => p.getByRole("menuitem", { name: /^export to drive/i }),
+          (p) => p.getByRole("menuitem", { name: /export to drive/i }),
+        ],
+        8_000,
+      );
+    } catch {
+      if (Date.now() - lastLog > 15_000) {
+        log("info", "File → Export to Drive menu item not visible yet — retrying…");
+        lastLog = Date.now();
+      }
+      await closeMenus(page);
+      await page.waitForTimeout(3_000);
+      continue;
+    }
 
     if (await isDisabled(item)) {
       if (Date.now() - lastLog > 15_000) {
@@ -51,7 +62,11 @@ async function clickExportToDrive(page: Page): Promise<void> {
       continue;
     }
 
-    await item.click();
+    try {
+      await item.click({ timeout: 5_000 });
+    } catch {
+      await item.evaluate((el: HTMLElement) => el.click()).catch(() => item.click({ force: true }));
+    }
     log("info", "Clicked File → Export to Drive.");
     return;
   }

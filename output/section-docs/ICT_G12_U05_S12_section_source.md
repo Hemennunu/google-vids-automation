@@ -1,6 +1,7 @@
 # ICT_G12_U05_S12 — Unit 5: Unit Summary
 
 Grade 12 ICT (Ethiopian curriculum). Textbook sub-chapter: Unit 5: 5.1, 5.2, 5.3, 5.4, 5.5.
+Structure: 1. Welcome & Introduction to the section • 2. Core concept teaching & examples • 3. Summary & section conclusion.
 
 ## MUST-COVER CHECKLIST (teach every item)
 - Install and uninstall software

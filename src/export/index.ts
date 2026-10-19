@@ -17,6 +17,7 @@ export type ExportMode = "both" | "drive" | "download" | "none";
 
 export function parseExportMode(argv: string[]): ExportMode {
   if (cliFlag(argv, "skip-export")) return "none";
+  if (cliFlag(argv, "no-drive") || process.env.npm_config_drive === "false") return "download";
   const raw = cliValue(argv, "export");
   return raw === "drive" || raw === "download" || raw === "none" ? raw : "both";
 }
